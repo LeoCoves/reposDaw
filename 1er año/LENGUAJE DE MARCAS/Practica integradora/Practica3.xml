@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Practica3.xsl" type="text/xsl"?>
+<!DOCTYPE CONCESIONARIO SYSTEM "Practica3.dtd">
+
+<CONCESIONARIO>
+    <informacion_concesionario>
+        <nombre>Concesionario Practica Integradora</nombre>
+        <direccion>Calle Principal, 123</direccion>
+        <telefono>676453342</telefono>
+        <email><![CDATA[info@concesionario.com]]></email>
+        <sitio_web>www.concesionario.com</sitio_web>
+    </informacion_concesionario>
+
+    <VEHICULOS>
+        <vehiculo tipo="Turismo" estado="Usado">
+            <nombre>
+                <marca>Audi</marca>
+                <modelo>A4</modelo>
+            </nombre>
+            <año>2018</año>
+            <kilometraje unidades="km">45000</kilometraje>
+            <precio moneda="EUR">25000</precio>
+            <color>Blanco</color>
+            <transmision>Automática</transmision>
+            <combustible>Gasolina</combustible>
+            <carroceria>Sedán</carroceria>
+            <detalles>
+                <motor>turbo</motor>
+                <cilindrada>2.0</cilindrada>
+                <traccion>Delantera</traccion>
+                <num_puertas>5</num_puertas>
+                <num_asientos>5</num_asientos>
+                <aire_acondicionado>true</aire_acondicionado>
+                <bluetooth>false</bluetooth>
+                <gps>false</gps>
+            </detalles>
+        </vehiculo>
+
+        <vehiculo tipo="Turismo" estado="Usado">
+            <nombre>
+                <marca>BMW</marca>
+                <modelo>Serie 3</modelo>
+            </nombre>
+            <año>2017</año>
+            <kilometraje unidades="km">52000</kilometraje>
+            <precio moneda="EUR">23000</precio>
+            <color>Negro</color>
+            <transmision>Automática</transmision>
+            <combustible>Diésel</combustible>
+            <carroceria>Deportivo</carroceria>
+            <detalles>
+                <motor>turbo</motor>
+                <cilindrada>2.0</cilindrada>
+                <traccion>Trasera</traccion>
+                <num_puertas>5</num_puertas>
+                <num_asientos>5</num_asientos>
+                <aire_acondicionado>true</aire_acondicionado>
+                <bluetooth>true</bluetooth>
+                <gps>false</gps>
+            </detalles>
+        </vehiculo>
+
+        <vehiculo tipo="Motocicleta" estado="Semi-Nuevo">
+            <nombre>
+                <marca>Kawasaki</marca>
+                <modelo>Ninja 650</modelo>
+            </nombre>
+            <año>2019</año>
+            <kilometraje unidades="km">2000</kilometraje>
+            <precio moneda="EUR">9000</precio>
+            <color>Negro</color>
+            <transmision>Manual</transmision>
+            <combustible>Gasolina</combustible>
+            <carroceria>Deportiva</carroceria>
+            <detalles>
+                <motor>Bicilíndrico en paralelo</motor>
+                <cilindrada>649 cc</cilindrada>
+                <num_puertas>0</num_puertas>
+                <num_asientos>1</num_asientos>
+                <abs>true</abs>
+                <control_traccion>false</control_traccion>
+                <suspension_ajustable>false</suspension_ajustable>
+            </detalles>
+        </vehiculo>
+        <vehiculo tipo="Turismo" estado="Usado">
+            <nombre>
+                <marca>Ford</marca>
+                <modelo>Focus</modelo>
+            </nombre>
+            <año>2016</año>
+            <kilometraje unidades="km">38000</kilometraje>
+            <precio moneda="EUR">15000</precio>
+            <color>Azul</color>
+            <transmision>Manual</transmision>
+            <combustible>Gasolina</combustible>
+            <carroceria>Hatchback</carroceria>
+            <detalles>
+                <motor>inyección directa</motor>
+                <cilindrada>1.5</cilindrada>
+                <traccion>Delantera</traccion>
+                <num_puertas>5</num_puertas>
+                <num_asientos>5</num_asientos>
+                <aire_acondicionado>true</aire_acondicionado>
+                <bluetooth>false</bluetooth>
+                <gps>false</gps>
+            </detalles>
+        </vehiculo>
+
+        <vehiculo tipo="Turismo" estado="Usado">
+            <nombre>
+                <marca>Toyota</marca>
+                <modelo>Corolla</modelo>
+            </nombre>
+            <año>2019</año>
+            <kilometraje unidades="km">30000</kilometraje>
+            <precio moneda="EUR">18000</precio>
+            <color>Rojo</color>
+            <transmision>Automática</transmision>
+            <combustible>Híbrido</combustible>
+            <carroceria>Sedán</carroceria>
+            <detalles>
+                <motor>híbrido</motor>
+                <cilindrada>1.8</cilindrada>
+                <traccion>Delantera</traccion>
+                <num_puertas>3</num_puertas>
+                <num_asientos>5</num_asientos>
+                <aire_acondicionado>true</aire_acondicionado>
+                <bluetooth>true</bluetooth>
+                <gps>true</gps>
+            </detalles>
+        </vehiculo>
+
+        <vehiculo tipo="Motocicleta" estado="Nuevo">
+            <nombre>
+                <marca>Yamaha</marca>
+                <modelo>YZF-R6</modelo>
+            </nombre>
+            <año>2020</año>
+            <kilometraje unidades="km">100</kilometraje>
+            <precio moneda="EUR">12000</precio>
+            <color>Azul</color>
+            <transmision>Manual</transmision>
+            <combustible>Gasolina</combustible>
+            <carroceria>Deportiva</carroceria>
+            <detalles>
+                <motor>4 cilindros en línea</motor>
+                <cilindrada>599 cc</cilindrada>
+                <num_puertas>0</num_puertas>
+                <num_asientos>1</num_asientos>
+                <abs>true</abs>
+                <control_traccion>true</control_traccion>
+                <suspension_ajustable>true</suspension_ajustable>
+            </detalles>
+        </vehiculo>
+
+        <vehiculo tipo="Turismo" estado="Usado">
+            <nombre>
+                <marca>Mercedes-Benz</marca>
+                <modelo>Clase C</modelo>
+            </nombre>
+            <año>2015</año>
+            <kilometraje unidades="km">60000</kilometraje>
+            <precio moneda="EUR">22000</precio>
+            <color>Plateado</color>
+            <transmision>Automática</transmision>
+            <combustible>Diésel</combustible>
+            <carroceria>Coupé</carroceria>
+            <detalles>
+                <motor>turbo</motor>
+                <cilindrada>2.1</cilindrada>
+                <traccion>Trasera</traccion>
+                <num_puertas>2</num_puertas>
+                <num_asientos>4</num_asientos>
+                <aire_acondicionado>true</aire_acondicionado>
+                <bluetooth>true</bluetooth>
+                <gps>true</gps>
+            </detalles>
+        </vehiculo>
+
+        
+        <vehiculo tipo="Usado" estado="Usado">
+            <nombre>
+                <marca>Audi</marca>
+                <modelo>Q5</modelo>
+            </nombre>
+            <año>2017</año>
+            <kilometraje unidades="km">70000</kilometraje>
+            <precio moneda="EUR">28000</precio>
+            <color>Blanco</color>
+            <transmision>Automática</transmision>
+            <combustible>Diésel</combustible>
+            <carroceria>SUV</carroceria>
+            <detalles>
+                <motor>turbo</motor>
+                <cilindrada>2.0</cilindrada>
+                <traccion>Quattro</traccion>
+                <num_puertas>5</num_puertas>
+                <num_asientos>5</num_asientos>
+                <aire_acondicionado>true</aire_acondicionado>
+                <bluetooth>true</bluetooth>
+                <gps>true</gps>
+            </detalles>
+        </vehiculo>
+        <vehiculo tipo="Turismo" estado="Nuevo">
+            <nombre>
+                <marca>Tesla</marca>
+                <modelo>Model 3</modelo>
+            </nombre>
+            <año>2024</año>
+            <kilometraje unidades="km">0</kilometraje>
+            <precio moneda="EUR">45000</precio>
+            <color>Rojo</color>
+            <transmision>Automática</transmision>
+            <combustible>Eléctrico</combustible>
+            <carroceria>Sedán</carroceria>
+            <detalles>
+                <motor>Eléctrico</motor>
+                <cilindrada>0</cilindrada>
+                <traccion>Trasera</traccion>
+                <num_puertas>4</num_puertas>
+                <num_asientos>5</num_asientos>
+                <aire_acondicionado>true</aire_acondicionado>
+                <bluetooth>true</bluetooth>
+                <gps>true</gps>
+            </detalles>
+        </vehiculo>
+        <vehiculo tipo="Turismo" estado="Usado">
+            <nombre>
+                <marca>Volkswagen</marca>
+                <modelo>Golf</modelo>
+            </nombre>
+            <año>2016</año>
+            <kilometraje unidades="km">80000</kilometraje>
+            <precio moneda="EUR">15000</precio>
+            <color>Azul</color>
+            <transmision>Automática</transmision>
+            <combustible>Gasolina</combustible>
+            <carroceria>Hatchback</carroceria>
+            <detalles>
+                <motor>turbo</motor>
+                <cilindrada>1.4</cilindrada>
+                <traccion>Delantera</traccion>
+                <num_puertas>5</num_puertas>
+                <num_asientos>5</num_asientos>
+                <aire_acondicionado>true</aire_acondicionado>
+                <bluetooth>true</bluetooth>
+                <gps>true</gps>
+            </detalles>
+        </vehiculo>
+        <vehiculo tipo="Turismo" estado="Usado">
+            <nombre>
+                <marca>Ford</marca>
+                <modelo>Focus</modelo>
+            </nombre>
+            <año>2019</año>
+            <kilometraje unidades="km">50000</kilometraje>
+            <precio moneda="EUR">18000</precio>
+            <color>Gris</color>
+            <transmision>Manual</transmision>
+            <combustible>Gasolina</combustible>
+            <carroceria>Sedán</carroceria>
+            <detalles>
+                <motor>atmosférico</motor>
+                <cilindrada>1.5</cilindrada>
+                <traccion>Delantera</traccion>
+                <num_puertas>4</num_puertas>
+                <num_asientos>5</num_asientos>
+                <aire_acondicionado>true</aire_acondicionado>
+                <bluetooth>true</bluetooth>
+                <gps>true</gps>
+            </detalles>
+        </vehiculo>
+
+        <vehiculo tipo="Turismo" estado="Usado">
+            <nombre>
+                <marca>Hyundai</marca>
+                <modelo>Elantra</modelo>
+            </nombre>
+            <año>2017</año>
+            <kilometraje unidades="km">40000</kilometraje>
+            <precio moneda="EUR">14000</precio>
+            <color>Blanco</color>
+            <transmision>Automática</transmision>
+            <combustible>Gasolina</combustible>
+            <carroceria>Sedán</carroceria>
+            <detalles>
+                <motor>atmosférico</motor>
+                <cilindrada>1.6</cilindrada>
+                <traccion>Delantera</traccion>
+                <num_puertas>4</num_puertas>
+                <num_asientos>5</num_asientos>
+                <aire_acondicionado>true</aire_acondicionado>
+                <bluetooth>true</bluetooth>
+                <gps>true</gps>
+            </detalles>
+        </vehiculo>
+
+        <vehiculo tipo="Motocicleta" estado="Nuevo">
+        <nombre>
+            <marca>Honda</marca>
+            <modelo>CBR600RR</modelo>
+        </nombre>
+        <año>2021</año>
+        <kilometraje unidades="km">50</kilometraje>
+        <precio moneda="EUR">14000</precio>
+        <color>Rojo</color>
+        <transmision>Manual</transmision>
+        <combustible>Gasolina</combustible>
+        <carroceria>Deportiva</carroceria>
+        <detalles>
+            <motor>4 cilindros en línea</motor>
+            <cilindrada>599 cc</cilindrada>
+            <num_puertas>0</num_puertas>
+            <num_asientos>1</num_asientos>
+            <abs>true</abs>
+            <control_traccion>true</control_traccion>
+            <suspension_ajustable>true</suspension_ajustable>
+        </detalles>
+    </vehiculo>
+    <vehiculo tipo="Motocicleta" estado="Nuevo">
+        <nombre>
+            <marca>Kawasaki</marca>
+            <modelo>Ninja ZX-6R</modelo>
+        </nombre>
+        <año>2022</año>
+        <kilometraje unidades="km">0</kilometraje>
+        <precio moneda="EUR">12500</precio>
+        <color>Verde</color>
+        <transmision>Manual</transmision>
+        <combustible>Gasolina</combustible>
+        <carroceria>Deportiva</carroceria>
+        <detalles>
+            <motor>4 cilindros en línea</motor>
+            <cilindrada>636 cc</cilindrada>
+            <num_puertas>0</num_puertas>
+            <num_asientos>1</num_asientos>
+            <abs>true</abs>
+            <control_traccion>true</control_traccion>
+            <suspension_ajustable>true</suspension_ajustable>
+        </detalles>
+    </vehiculo>
+
+    <vehiculo tipo="Motocicleta" estado="Nuevo">
+        <nombre>
+            <marca>BMW</marca>
+            <modelo>S1000RR</modelo>
+        </nombre>
+        <año>2023</año>
+        <kilometraje unidades="km">10</kilometraje>
+        <precio moneda="EUR">18000</precio>
+        <color>Negro</color>
+        <transmision>Manual</transmision>
+        <combustible>Gasolina</combustible>
+        <carroceria>Deportiva</carroceria>
+        <detalles>
+            <motor>4 cilindros en línea</motor>
+            <cilindrada>999 cc</cilindrada>
+            <num_puertas>0</num_puertas>
+            <num_asientos>1</num_asientos>
+            <abs>true</abs>
+            <control_traccion>true</control_traccion>
+            <suspension_ajustable>true</suspension_ajustable>
+        </detalles>
+    </vehiculo>
+
+    <vehiculo tipo="Motocicleta" estado="Nuevo">
+        <nombre>
+            <marca>Ducati</marca>
+            <modelo>Panigale V4</modelo>
+        </nombre>
+        <año>2024</año>
+        <kilometraje unidades="km">0</kilometraje>
+        <precio moneda="EUR">25000</precio>
+        <color>Rojo</color>
+        <transmision>Manual</transmision>
+        <combustible>Gasolina</combustible>
+        <carroceria>Deportiva</carroceria>
+        <detalles>
+            <motor>V4</motor>
+            <cilindrada>1103 cc</cilindrada>
+            <num_puertas>0</num_puertas>
+            <num_asientos>1</num_asientos>
+            <abs>true</abs>
+            <control_traccion>true</control_traccion>
+            <suspension_ajustable>true</suspension_ajustable>
+        </detalles>
+    </vehiculo>
+
+    <vehiculo tipo="Turismo" estado="Usado">
+            <nombre>
+                <marca>Chevrolet</marca>
+                <modelo>Equinox</modelo>
+            </nombre>
+            <año>2016</año>
+            <kilometraje unidades="km">85000</kilometraje>
+            <precio moneda="EUR">16000</precio>
+            <color>Gris</color>
+            <transmision>Automática</transmision>
+            <combustible>Gasolina</combustible>
+            <carroceria>SUV</carroceria>
+            <detalles>
+                <motor>turbo</motor>
+                <cilindrada>1.5</cilindrada>
+                <traccion>Delantera</traccion>
+                <num_puertas>5</num_puertas>
+                <num_asientos>5</num_asientos>
+                <aire_acondicionado>true</aire_acondicionado>
+                <bluetooth>true</bluetooth>
+                <gps>true</gps>
+            </detalles>
+    </vehiculo>
+
+
+    </VEHICULOS>
+
+
+    <financiamiento>
+        <opcion id="1">
+            <tasa_interes>3.5%</tasa_interes>
+            <entrada>40%</entrada>
+            <plazo unidad="meses">48</plazo>
+            <requesitos>
+                <documento>Documento Nacional de Identificacion</documento>
+                <documento>Comprobante de domicilio</documento>
+                <documento>Comprobante de ingresos</documento>
+            </requesitos>
+        </opcion>
+
+        <opcion id="2">
+            <tasa_interes>6.5%</tasa_interes>
+            <entrada>10%</entrada>
+            <plazo unidad="meses">96</plazo>
+            <requesitos>
+                <documento>Documento Nacional de Identificacion</documento>
+                <documento>Comprobante de domicilio</documento>
+
+            </requesitos>
+        </opcion>
+    </financiamiento>
+
+</CONCESIONARIO>

@@ -1,0 +1,22 @@
+            try
+            {
+                double prod1, prod2, prod3;
+                double res;
+                double resIVA;
+
+                prod1 = double.Parse(tCuadrotexto1.Text);
+                prod2 = double.Parse(tCuadroTexto2.Text);
+                prod3 = double.Parse(tCuadroTexto3.Text);
+
+                res = prod1 + prod2 + prod3;
+
+                resIVA = res + (IVA * (prod1 + prod2 + prod3));
+
+                tCuadroTexto4.Text = res.ToString();
+                tCuadroTexto5.Text = resIVA.ToString();
+            }
+
+            catch (FormatException fEx)
+            {
+                MessageBox.Show("Se ha producido un error:" +  fEx.Message);
+            }

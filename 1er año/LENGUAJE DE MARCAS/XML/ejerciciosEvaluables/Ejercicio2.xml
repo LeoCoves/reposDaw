@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECETA>
+    <Nombre></Nombre>
+    <CantidadPersonas></CantidadPersonas>
+    <Ingredientes>
+        <Ingrediente1>
+            <nombre>Cebolla</nombre>
+            <cantidad>
+                <numero>1</numero>
+                <unidad>Kilogramos</unidad>
+            </cantidad>
+        </Ingrediente1>
+        <Ingrediente2>
+            <nombre>Caldo de carne</nombre>
+            <cantidad>
+                <numero>2</numero>
+                <unidad>Litros</unidad>
+            </cantidad>
+        </Ingrediente2>
+        <Ingrediente3>
+            <nombre>Mantequilla</nombre>
+            <cantidad>
+                <numero>100</numero>
+                <unidad>gramos</unidad>
+            </cantidad>
+        </Ingrediente3>
+        <Ingrediente4>
+            <nombre>Harina</nombre>
+            <cantidad>
+                <numero>1</numero>
+                <unidad>Cucharada</unidad>
+            </cantidad>
+        </Ingrediente4>
+        <Ingrediente5>
+            <nombre>Queso enmental o gruyere rallado</nombre>
+            <cantidad>
+                <numero>100</numero>
+                <unidad>gramos</unidad>
+            </cantidad>
+        </Ingrediente5>
+        <Ingrediente6>
+            <nombre>Rebanada Pan Tostado</nombre>
+            <cantidad>
+                <numero>Al gusto</numero>
+                <unidad>-</unidad>
+            </cantidad>
+        </Ingrediente6>
+        <Ingrediente7>
+            <nombre>Tomillo</nombre>
+            <cantidad>
+                <numero>Al gusto</numero>
+                <unidad>-</unidad>
+            </cantidad>
+        </Ingrediente7>
+        <Ingrediente8>
+            <nombre>Hoja de laurel</nombre>
+            <cantidad>
+                <numero>1</numero>
+                <unidad>-</unidad>
+            </cantidad>
+        </Ingrediente8>
+        <Ingrediente9>
+            <nombre>Pimienta</nombre>
+            <cantidad>
+                <numero>Al gusto</numero>
+                <unidad>-</unidad>
+            </cantidad>
+        </Ingrediente9>
+    </Ingredientes>
+    <Proceso>
+        <paso1>Pelar y partir las cebollas en rodajas finas.</paso1>
+        <paso2>Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén transparentes sin dorarse.</paso2>
+        <paso3>Añadir la harina sin dejar de remover. </paso3>
+        <paso4>Ponerlo en una cazuela con el caldo, el tomillo y el laurel. </paso4>
+        <paso5>Dejar cocer a fuego lento durante unos 15 minutos.</paso5>
+        <paso6>Poner las rebanadas de pan encima, espolvorear el queso y gratinar al horno.</paso6>
+    </Proceso>
+</RECETA>

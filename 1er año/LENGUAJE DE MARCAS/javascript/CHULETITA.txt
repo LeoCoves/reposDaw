@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista Dinámica</title>
+</head>
+<body>
+
+  <h2>Lista Dinámica</h2>
+
+  <!-- Lista desordenada (ul) vacía -->
+  <ul id="miLista"></ul>
+
+  <!-- Botón para agregar elemento -->
+  <button onclick="agregarElemento()">Agregar Elemento</button>
+
+  <!-- Botón para eliminar el último elemento -->
+  <button onclick="eliminarUltimoElemento()">Eliminar Último Elemento</button>
+
+  <script>
+    // Función para agregar elemento a la lista
+    function agregarElemento() {
+      // Crear un nuevo elemento de lista (li)
+      var nuevoElemento = document.createElement("li");
+      
+      // Texto del nuevo elemento (puedes personalizarlo)
+      var textoElemento = document.createTextNode("Nuevo Elemento");
+      
+      // Agregar el texto al elemento de lista
+      nuevoElemento.appendChild(textoElemento);
+      
+      // Obtener la lista desordenada (ul)
+      var lista = document.getElementById("miLista");
+      
+      // Agregar el nuevo elemento a la lista
+      lista.appendChild(nuevoElemento);
+    }
+
+    // Función para eliminar el último elemento de la lista
+    function eliminarUltimoElemento() {
+      // Obtener la lista desordenada (ul)
+      var lista = document.getElementById("miLista");
+      
+      // Obtener la cantidad de elementos en la lista
+      var cantidadElementos = lista.children.length;
+
+      // Verificar si hay al menos un elemento antes de intentar eliminar
+      if (cantidadElementos > 0) {
+        // Obtener el último elemento de la lista
+        var ultimoElemento = lista.children[cantidadElementos - 1];
+        
+        // Eliminar el último elemento de la lista
+        lista.removeChild(ultimoElemento);
+      } else {
+        alert("La lista está vacía. No hay elementos para eliminar.");
+      }
+    }
+  </script>
+
+</body>
+</html>

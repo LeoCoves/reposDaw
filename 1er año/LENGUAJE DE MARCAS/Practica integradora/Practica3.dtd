@@ -1,0 +1,31 @@
+ <!ELEMENT CONCESIONARIO (informacion_concesionario, VEHICULOS, financiamiento)>
+ <!ELEMENT informacion_concesionario (nombre, direccion, telefono, email, sitio_web)>
+ <!ELEMENT nombre (#PCDATA)>
+ <!ELEMENT direccion (#PCDATA)>
+ <!ELEMENT telefono (#PCDATA)>
+ <!ELEMENT email (#PCDATA)>
+ <!ELEMENT sitio_web (#PCDATA)>
+ <!ELEMENT VEHICULOS (vehiculo+)>
+ <!ELEMENT vehiculo (nombre, año, kilometraje, precio, color, transmision, combustible, carroceria, detalles)>
+ <!ELEMENT nombre (marca, modelo)>
+ <!ELEMENT marca (#PCDATA)>
+ <!ELEMENT modelo (#PCDATA)>
+ <!ELEMENT año (#PCDATA)>
+ <!ELEMENT kilometraje (#PCDATA)>
+ <!ELEMENT precio (#PCDATA)>
+ <!ELEMENT color (#PCDATA)>
+ <!ELEMENT transmision (#PCDATA)>
+<!ELEMENT combustible (#PCDATA)>
+ <!ELEMENT carroceria (#PCDATA)>
+ <!ELEMENT detalles (motor, cilindrada, traccion?, num_puertas, num_asientos, aire_acondicionado?, bluetooth?, gps?, abs?, control_traccion?, suspension_ajustable?)>
+ <!ELEMENT transmision (#PCDATA)>
+ <!ELEMENT transmision (#PCDATA)>
+ <!ELEMENT transmision (#PCDATA)>
+ <!ELEMENT transmision (#PCDATA)>
+ <!ELEMENT transmision (#PCDATA)>
+ <!ELEMENT transmision (#PCDATA)>
+ <!ELEMENT transmision (#PCDATA)>
+ <!ELEMENT duracion (minutos, segundos)>
+ <!ELEMENT minutos (#PCDATA)>
+ <!ELEMENT segundos (#PCDATA)>
+ <!ATTLIST cancion pista CDATA #REQUIRED>

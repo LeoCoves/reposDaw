@@ -1,0 +1,51 @@
+.divtop{
+    background-color: rgb(161, 35, 35);
+    border: 1pt solid black;
+    width: 100%;
+    float: inline-start;
+}
+
+.divtop h1{
+    color: white;
+}
+
+.divleft{
+    border: 1pt solid black;
+    float: left;
+    width: 19%;
+    height: 700px;
+}
+
+.divleft p{
+    font-size: 13pt;
+    padding: 20px;
+}
+
+.divright{
+    border-right: 1pt solid black;
+    float: right;
+    width: 80%;
+    height: 700px;
+}
+
+.divright h3{
+    padding: 20px;
+}
+
+.divright p{
+    font-size: 13pt;
+    padding: 20px;
+}
+
+.divbottom{
+    border: 1pt solid black;
+    background-color: rgb(53, 49, 49);
+    clear: left;
+    font-size: 15pt;
+    padding: 10px;
+    text-align: center;
+}
+
+.divbottom p{
+    color: white;
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Ejercicio12-6.xsl"?>
+<novedadesXML>
+  <titulo>Novedades XML</titulo>
+  <libreria>
+    <nombre>Casa del libro</nombre>
+    <url>www.casadellibro.com</url>
+    <libros>
+      <libro>
+        <titulo>DESARROLLO DE APLICACIONES WEB DINAMICAS XML Y JAVA</titulo>
+        <autor>PARSONS, DAVID</autor>
+        <editorial>ANAYA</editorial>
+        <año>2009</año>
+        <nivel>intermedio</nivel>
+        <isbn>ISBN9788441526924</isbn>
+        <precio moneda="Euro">52.70</precio>
+      </libro>
+      <libro>
+        <titulo>LIBROS: XML PRACTICO: BASES ESENCIALES, CONCEPTOS Y CASOS PRACTICOS</titulo>
+        <autor>BOULANGER, THIERRY</autor>
+        <editorial>ENI</editorial>
+        <año>2009</año>
+        <nivel>avanzado</nivel>
+        <isbn>ISBN9782746045691</isbn>
+        <precio moneda="Euro">26.95</precio>
+      </libro>
+      <libro>
+        <titulo>SERIE DESARROLLADORES: APLICACIONES XML CON XML SUITE</titulo>
+        <autor>varios autores</autor>
+        <editorial>DANYSOFT 2006</editorial>
+        <año>2006</año>
+        <nivel>avanzado</nivel>
+        <isbn>ISBN9788433229704</isbn>
+        <precio moneda="Euro">90.56</precio>
+      </libro>
+      <libro>
+        <titulo>SERIE DESARROLLADORES: APLICACIONES XML CON XML SUITE</titulo>
+        <autor>PARSONS, DAVID</autor>
+        <editorial>ANAYA</editorial>
+        <año>2008</año>
+        <nivel>avanzado</nivel>
+        <isbn>ISBN9788441524255</isbn>
+        <precio moneda="Euro">25.60</precio>
+      </libro>
+    </libros>
+  </libreria>
+  <libreria>
+    <nombre>Amazon</nombre>
+    <url>www.amazon.com</url>
+    <libros>
+      <libro>
+        <titulo>Beginning XML, 4th Edition</titulo>
+        <autor>David Hunter, Jeff Rafter, Joe Fawcett, Eric van der Vlist, Danny Ayers, Jon Duckett, Andrew Watt, Linda McKinnon</autor>
+        <editorial>Wiley Publishing</editorial>
+        <año>2007</año>
+        <nivel>avanzado</nivel>
+        <isbn>ISBN9780470114872</isbn>
+        <precio moneda="Dolar">26.39</precio>
+      </libro>
+      <libro>
+        <titulo>Learning XML, Second Edition</titulo>
+        <autor>Erik T. Ray</autor>
+        <editorial>O'Reilly</editorial>
+        <año>2003</año>
+        <nivel>avanzado</nivel>
+        <isbn>ISBN9780596004200</isbn>
+        <precio moneda="Dolar">21.05</precio>
+      </libro>
+      <libro>
+        <titulo>XML: Visual QuickStart Guide (2nd Edition)</titulo>
+        <autor>Kevin Howard Goldberg</autor>
+        <editorial>PEACHPIT PRESS</editorial>
+        <año>2008</año>
+        <nivel>avanzado</nivel>
+        <isbn>ISBN9780321559678</isbn>
+        <precio moneda="Dolar">23.95</precio>
+      </libro>
+    </libros>
+  </libreria>
+</novedadesXML>

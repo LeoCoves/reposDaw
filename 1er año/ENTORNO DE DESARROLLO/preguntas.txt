@@ -1,0 +1,32 @@
+¿Que instrucción NO se usa para la captura de excepciones?
+
+Se usan todas
+
+¿Qué componente del IDE es básico en la realización de pruebas?
+
+Depurador.
+
+¿En qué momento se suelen realizar las pruebas unitarias?
+
+Antes de las pruebas de integración.
+
+Qué módulo podemos usar en Visual Studio para realizar pruebas unitarias?
+
+NUnit
+
+La regresión es
+
+un proceso que se realiza cuando se produce un cambio en el código.
+
+¿En qué momento se suelen realizar las pruebas Beta Test?
+
+En el mismo entorno productivo de la aplicación, una vez instalada.
+
+En la planificación de pruebas.
+
+Se diseñan los tipos de prueba y los casos de prueba.
+
+¿Qué componente del IDE es básico en la realización de pruebas?
+
+Depurador.
+

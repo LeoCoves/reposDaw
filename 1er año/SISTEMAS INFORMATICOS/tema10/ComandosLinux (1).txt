@@ -1,0 +1,77 @@
+man -> Muestra ayuda de un comando
+shutdown -> Apagar el equipo
+uname -> Muestra informacion del Kernel
+hostname -> Muestra configuracion del host
+whoami -> Nombre de usuario
+clear -> Limpiar la pantalla
+date -> Muestra la fecha
+cal -> Muestra calendario
+history -> Historial de comandos utilizados
+echo -> Impresión de un texto en pantalla
+env -> Muestra variables que hay en el sistema
+uptime -> Muestra cuánto tiempo ha estado funcionando el sistema.
+nano -> Modificar archivo
+ls -l -> Mostrar archivos del directorio
+ls -h -> Muestra el tamaño de los archivos
+cd -> Entrar o Salir a directorios
+(Altgr+4) -> /home/ivan
+pwd -> Mostrar ruta en la que estoy
+mkdir -> Crear carpeta
+rmdir -> Borrar carpeta
+cp -> Copiar ficheros
+cp -r -> Copiar arbol entero = xcopy
+mv -> Mover ficheros
+rm -> Borrar fichero
+sudo rm -rf / -> Borrar todo desde la carpeta C:
+cat -> Muestra el contenido del fichero de texto
+more -> Mostrar de forma que se vea, pulsar enter para seguir (NO UTILIZAR CASI NUNCA)
+less -> Entrar en el archivo y pulsar Q para salir
+cat -n -> Muestra por lineas el contenido del archivo
+file -> Muestra el tipo de archivo
+touch X -> Si X no existe crea el archivo
+touch X -> Si X existe actualiza el archivo
+wc -> Nos dice el numero de lineas, palabras y que tiene un fichero
+wc -l -> Nos dice las lineas
+wc -w -> Nos dice las palabras
+diff -> Comparar 2 ficheros
+diff -y -> Compara en columnas
+diff -q -> Nos dice si son diferentes o no los archivos
+find -> Encuentra desde donde estas los archivos que quieras
+find /home/ivan -name "X*" -> Busca desde la carpeta ivan los archivos que empiezan por X
+find /home/ivan -iname "X*" -> Busca desde la carpeta ivan los archivos que empiezan por X o x
+find /home/ivan -iname "X*" -type d -> Busca desde la carpeta ivan los directorios que empiezan por X o x
+find /home/ivan -iname "X*" -type f -> Busca desde la carpeta ivan los ficheros que empiezan por X o x
+find /home/ivan -iname "X*" -type d -empty -> Busca los directorios vacios a partir de la ruta
+find /home/ivan -iname "*.mkv" -size +10G -> Busca peliculas que ocupen mas de 10GB
+find /home/ivan -iname "*.pdf" -size -1M -> Busca PDF's que ocupen menos de 1M
+find ~ -empty -exec rm {} \; -> Busca los archivos vacios para borrarlos
+
+------------------------------------------------------------------------------------------------
+
+IN <		-> 
+OUT > || >>	-> Uno sobreescribe, Dos se añade abajo del anterior.
+ERR 2> || 2>>	-> Uno sobreescribe error, Dos se añade abajo del anterior.
+
+------------------------------------------------------------------------------------------------
+
+head -n				-> Muestra desde el inicio hasta el numero indicado.
+tail -n				-> 
+tail -n+4			-> 
+sort -k3 -t: datos		-> Ordena la 3º columna de datos A-Z.
+sort -k3 -t: -r datos		-> Ordena la 3º columna de datos Z-A.
+sort -k4 -t: -n datos		-> Ordena la 4º columna de datos de menor a mayor las notas.
+sort -k4 -t: -n -r datos	-> Ordena la 4º columna de datos de mayor a menor las notas.
+cut -f1,4 -d: datos		-> Muestra los campos de las columnas 1 y 4.
+grep 'que' -i saludo*		-> Muestra en el fichero las palabras que esten entre comillas.
+sed '5d' datos			-> Borra la linea 5 del fichero datos.
+sed '2,4d' datos		-> Borra las lineas 2, 3, 4 del fichero datos.
+sed '3,$d' datos		-> Borra desde la linea 3 hasta el final del fichero datos.
+sed 's/I/KK/' datos		-> Sustituir la letra I por KK del fichero datos(solo cambia 1 por linea).
+sed 's/u/KK/g' datos		-> Sustituir la letra u por KK del fichero datos (todas las u que hayan en la linea).
+
+------------------------------------------------------------------------------------------------
+
+head -n3 datos | cut -f1 -d: | tail -n1		-> Muestra las 3 primeras lineas de datos, a continuacion muestra solo la primera columna y por ultimo muestra BD ya que es
+						   la ultima linea.
+sort -k2 -t: -nr datos | cut -f3 -d: | head -n1	-> Muestra ordenado de mayor a menor el segundo campo, una vez ordenado nos quedamos con el dato de la 3º columna, y mostrarmos
+						   el valor indicado.

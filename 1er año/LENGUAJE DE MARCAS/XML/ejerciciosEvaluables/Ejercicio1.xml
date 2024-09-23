@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EMPRESA>
+    <FACTURA>
+        <codigo>101-01</codigo>
+        <formaPago tipo="Cargo en cuenta">****************4583</formaPago>
+        <fechaHoraEmision>
+            <fecha>2023-04-09</fecha>
+            <hora>17</hora>
+            <minutos>22</minutos>
+            <segundos>14</segundos>
+        </fechaHoraEmision>
+        <datosCliente>
+            <dni>11111111A</dni>
+            <nombreCompleto>
+                <nombre>Leo</nombre>
+                <apellido1>Coves</apellido1>
+                <apellido2>Guzman</apellido2>
+            </nombreCompleto>
+            <direccion>
+                <codPostal>03130</codPostal>
+                <poblacion>Santa Pola</poblacion>
+                <provincia>Alicante</provincia>
+                <calle>Juan</calle>
+                <numero>23</numero>
+                <piso>-</piso>
+            </direccion>
+        <telefono>674744254</telefono>
+        </datosCliente>
+        <listaProductos>
+            <producto>
+                <denominacion>Biberon increible</denominacion>
+                <cantidad>3</cantidad>
+                <precioUnidad>
+                    <euros>2</euros>
+                    <centimos>99</centimos>
+                </precioUnidad>
+                <IVA>21</IVA>
+            </producto>
+        </listaProductos>
+        <importe>
+            <precioTotal>
+                <euros>5</euros>
+                <centimos>98</centimos>
+            </precioTotal>
+            <descuento>-</descuento>
+        </importe>
+    </FACTURA>
+
+        <FACTURA>
+        <codigo>101-02</codigo>
+        <formaPago tipo="efectivo"></formaPago>
+        <fechaHoraEmision>
+            <fecha>2024-01-02</fecha>
+            <hora>22</hora>
+            <minutos>01</minutos>
+            <segundos>54</segundos>
+        </fechaHoraEmision>
+        <datosCliente>
+            <dni>22222222B</dni>
+            <nombreCompleto>
+                <nombre>Ivam</nombre>
+                <apellido1>Rumbeu</apellido1>
+                <apellido2>Justicia</apellido2>
+            </nombreCompleto>
+            <direccion>
+                <codPostal>03322</codPostal>
+                <poblacion>Alicante</poblacion>
+                <provincia>Alicante</provincia>
+                <calle>Libertad</calle>
+                <numero>44</numero>
+                <piso>3A</piso>
+            </direccion>
+            <telefono>634235765</telefono>
+        </datosCliente>
+        <listaProductos>
+            <producto>
+                <denominacion>Chicles Menta</denominacion>
+                <cantidad>5</cantidad>
+                <precioUnidad>
+                    <euros>0</euros>
+                    <centimos>20</centimos>
+                </precioUnidad>
+                <IVA>21</IVA>
+            </producto>
+            <producto>
+                <denominacion>Chupachups</denominacion>
+                <cantidad>1</cantidad>
+                <precioUnidad>
+                    <euros>0</euros>
+                    <centimos>50</centimos>
+                </precioUnidad>
+                <IVA>21</IVA>
+            </producto>
+        </listaProductos>
+        <importe>
+            <precioTotal>
+                <euros>1</euros>
+                <centimos>50</centimos>
+            </precioTotal>
+            <descuento>-</descuento>
+        </importe>
+    </FACTURA>
+
+        <FACTURA>
+        <codigo>101-03</codigo>
+        <formaPago tipo="efectivo"></formaPago>
+        <fechaHoraEmision>
+            <fecha>2023-08-11</fecha>
+            <hora>13</hora>
+            <minutos>44</minutos>
+            <segundos>12</segundos>
+        </fechaHoraEmision>
+        <datosCliente>
+            <dni>33333333C</dni>
+            <nombreCompleto>
+                <nombre>Karim</nombre>
+                <apellido1>Abbou</apellido1>
+                <apellido2>-</apellido2>
+            </nombreCompleto>
+            <direccion>
+                <codPostal>04324</codPostal>
+                <poblacion>San Vicente</poblacion>
+                <provincia>Alicante</provincia>
+                <calle>Sanchez Pijuan</calle>
+                <numero>33</numero>
+                <piso>-</piso>
+            </direccion>
+            <telefono>635826837</telefono>
+        </datosCliente>
+        <listaProductos>
+            <producto>
+                <denominacion>Microondas Power</denominacion>
+                <cantidad>1</cantidad>
+                <precioUnidad>
+                    <euros>89</euros>
+                    <centimos>99</centimos>
+                </precioUnidad>
+                <IVA>21</IVA>
+            </producto>
+        </listaProductos>
+        <importe>
+            <precioTotal>
+                <euros>81</euros>
+                <centimos>0</centimos>
+            </precioTotal>
+            <descuento>10%</descuento>
+        </importe>
+    </FACTURA>
+
+</EMPRESA>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ALBUMES>
+    <ALBUM>
+        <nombre></nombre>
+        <cantante></cantante>
+        <fecha></fecha>
+        <canciones>
+            <cancion1 genero="Son-Afro">
+                <titulo>Salutació a Chango</titulo>
+                <autor>Armando Dulfo</autor>
+                <duracion>
+                    <minutos>5</minutos>
+                    <segundos>46</segundos>
+                </duracion>
+            </cancion1>
+
+            <cancion2 genero="Bolero-son">
+                <titulo>Amor Gegant</titulo>
+                <autor>Francisco Repilado</autor>
+                <duracion>
+                    <minutos>2</minutos>
+                    <segundos>52</segundos>
+                </duracion>
+            </cancion2>
+
+            <cancion3 genero="Bolero-son">
+                <titulo>Rosa de França</titulo>
+                <autor>Rodrigo Prats </autor>
+                <duracion>
+                    <minutos>5</minutos>
+                    <segundos>20</segundos>
+                </duracion>
+            </cancion3>
+
+            <cancion4 genero="Merengue">
+                <titulo>Maria a la Platja </titulo>
+                <autor>Francisco Repilado </autor>
+                <duracion>
+                    <minutos>2</minutos>
+                    <segundos>49</segundos>
+                </duracion>
+            </cancion4>
+
+            <cancion5 genero="Bolero-son">
+                <titulo>Versos per a Ti </titulo>
+                <autor>n Francisco Repilado</autor>
+                <duracion>
+                    <minutos>3</minutos>
+                    <segundos>56</segundos>
+                </duracion>
+            </cancion5>
+
+            <cancion6 genero="Bolero-son">
+                <titulo>L' Enganyadora </titulo>
+                <autor>Enrique Jorrín</autor>
+                <duracion>
+                    <minutos>4</minutos>
+                    <segundos>20</segundos>
+                </duracion>
+            </cancion6>
+
+            <cancion7 genero="Són">
+                <titulo>Vells sons de Santiago</titulo>
+                <autor>Popular </autor>
+                <duracion>
+                    <minutos>4</minutos>
+                    <segundos>21</segundos>
+                </duracion>
+            </cancion7>
+
+            <cancion8 genero="Bolero">
+                <titulo>El Dia que em Vulguis </titulo>
+                <autor>Carlos Gardél </autor>
+                <duracion>
+                    <minutos>4</minutos>
+                    <segundos>03</segundos>
+                </duracion>
+            </cancion8>
+
+            <cancion9 genero="Sabres">
+                <titulo>Es va perdre la Flauta</titulo>
+                <autor>Compay Segundo</autor>
+                <duracion>
+                    <minutos>4</minutos>
+                    <segundos>52</segundos>
+                </duracion>
+            </cancion9>
+
+            <cancion10 genero="Bolero">
+                <titulo>Morir d'Amor</titulo>
+                <autor>Charles Aznavour </autor>
+                <duracion>
+                    <minutos>3</minutos>
+                    <segundos>29</segundos>
+                </duracion>
+            </cancion10>
+
+            <cancion11 genero="Són">
+                <titulo>Llàgrimes Negres</titulo>
+                <autor>Miguel Matamoros</autor>
+                <duracion>
+                    <minutos>3</minutos>
+                    <segundos>49</segundos>
+                </duracion>
+            </cancion11>
+
+            <cancion12 genero="Són">
+                <titulo>Balcó de Santiago </titulo>
+                <autor>Francisco Repilado</autor>
+                <duracion>
+                    <minutos>5</minutos>
+                    <segundos>40</segundos>
+                </duracion>
+            </cancion12>
+
+            <cancion13 genero="Són">
+                <titulo>Chan Chan</titulo>
+                <autor>Francisco Repilado</autor>
+                <duracion>
+                    <minutos>5</minutos>
+                    <segundos>30</segundos>
+                </duracion>
+            </cancion13>
+
+        </canciones>
+    </ALBUM>
+</ALBUMES>

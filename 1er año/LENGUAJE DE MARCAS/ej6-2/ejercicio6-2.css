@@ -1,0 +1,57 @@
+
+.menu{
+    background-color:rgb(11, 11, 122);
+    width: 100%;
+    display: flex;
+    
+}
+
+.submenu{
+    background-color: rgb(22, 22, 185);
+    
+    border-radius: 5px;
+    width: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.submenu p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.divleft{
+    float: left;
+    margin-left: 2%;
+    margin-top: 3%;
+    width: 75%;
+}
+
+.tityellow{
+    background-color: orange;
+    padding: 4px;
+}
+
+.enlaces{
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+}
+
+.enlacesfloat{
+    float: left;
+    border: 1pt solid black;
+    width: 100%;
+    text-align: center;
+}
+
+.divright{
+    float: right;
+    width: 23%;
+    height: 100%;
+    background-color: rgb(146, 211, 219);
+}

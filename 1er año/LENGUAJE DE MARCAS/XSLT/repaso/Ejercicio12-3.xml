@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<?xml-stylesheet href="Ejercicio12-3.xsl" type="text/xsl"?> 
+ <Ventas>     
+ <fecha>2 de marzo de 2017</fecha>     
+ <libro>          
+    <titulo>El lenguaje de programación C. Segunda edición</titulo>          
+    <autor>Brian W. Kernighan</autor>          
+    <autor>Dennis M. Richie</autor>   
+    <editorial>Prentice Hall</editorial>         
+    <direccion>33588.htm</direccion>      
+ </libro>       
+ <disco genero="rock">   
+    <titulo>The Wall</titulo>   
+    <interprete>Pink Floyd</interprete>   
+    <direccion>2516b.html</direccion>     
+ </disco>     
+ <libro>          
+    <titulo>XML a través de ejemplos</titulo>          
+    <autor>Abraham Gutiérrez</autor>          
+    <autor>Raúl Martinez</autor>    
+    <editorial>Rama</editorial>         
+    <direccion>22434.htm</direccion>      
+ </libro>      
+ <disco genero="pop">          
+    <titulo>Calle Salud</titulo>          
+    <interprete>Compay Segundo</interprete>          
+    <direccion>48130.htm</direccion>      
+ </disco>     
+ <disco genero="flamenco">          
+    <titulo>Canala pa'bien</titulo>          
+    <interprete>Clara Montes</interprete>          
+    <direccion>18120.htm</direccion>      
+ </disco> 
+ </Ventas> 

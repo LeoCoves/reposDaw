@@ -1,0 +1,136 @@
+--REFUERZO
+--CREACION DE TABLAS
+
+CREATE DATABASE CONCESIONARIO
+GO
+USE CONCESIONARIO
+
+DROP DATABASE CONCESIONARIO
+
+CREATE TABLE DUENYO(
+DNI				CHAR(10),
+Nombre			VARCHAR(100) NOT NULL,
+Dirección		VARCHAR(100) NOT NULL
+
+CONSTRAINT PK_DUENYO PRIMARY KEY (DNI)
+)
+
+CREATE TABLE COCHE(
+numBastidor		CHAR(10),
+marca			VARCHAR(100) NOT NULL,
+modelo			VARCHAR(100) NOT NULL,
+DNI				CHAR(10) NOT NULL
+
+CONSTRAINT PK_COCHE PRIMARY KEY (numBastidor),
+CONSTRAINT FK_COCHE_DUENYO FOREIGN KEY (DNI) REFERENCES DUENYO (DNI)
+)
+
+-----------------------------------------------------------------------
+--DISTRIBUIDOR
+CREATE DATABASE DISTRIBUIDOR
+GO
+USE DISTRIBUIDOR
+
+DROP DATABASE DISTRIBUIDOR
+
+CREATE TABLE PROVEEDOR(
+codProveedor		INT,
+nombre				VARCHAR(100) NOT NULL,
+direccion			VARCHAR(100) NOT NULL
+
+CONSTRAINT PK_PROVEEDOR PRIMARY KEY (codProveedor)
+)
+
+CREATE TABLE ARTICULO(
+codArticulo			INT,
+descripcion			VARCHAR(150) NOT NULL,
+precio				DECIMAL(5,2) NOT NULL,
+existencias			DECIMAL(5,0) NOT NULL
+
+CONSTRAINT PK_ARTICULO PRIMARY KEY (codArticulo)
+)
+
+CREATE TABLE SUMINISTRO(
+codProveedor		INT,
+codArticulo			INT
+
+CONSTRAINT PK_SUMINISTRO PRIMARY KEY (codProveedor, codArticulo),
+CONSTRAINT FK_SUMINISTRO_PROVEEDOR FOREIGN KEY (codProveedor) REFERENCES PROVEEDOR (codProveedor),
+CONSTRAINT FK_SUMINISTRO_ARTICULO FOREIGN KEY (codArticulo) REFERENCES ARTICULO (codArticulo)
+)
+
+------------------------------------------------------------
+--BIBLIOTECA
+
+CREATE DATABASE BIBLIOTECA
+GO
+USE BIBLIOTECA
+
+CREATE TABLE LIBROS(
+ISBN			INT,
+titulo			VARCHAR(100) NOT NULL,
+precio			DECIMAL(4,2)
+
+CONSTRAINT PK_LIBROS PRIMARY KEY (ISBN),
+CONSTRAINT CK_LIBROS CHECK (precio <= 59)
+)
+
+CREATE TABLE SOCIOS(
+DNI				CHAR(9),
+nombre			VARCHAR(100) NOT NULL,
+ciudad			VARCHAR(100) DEFAULT ('Alicante')
+
+CONSTRAINT PK_SOCIOS PRIMARY KEY (DNI)
+)
+
+
+CREATE TABLE PRESTAMOS(
+idPrestamo		INT IDENTITY,
+ISBN			INT NOT NULL,
+DNI				CHAR(9) NOT NULL,
+fechaPrestamo	DATE NOT NULL,
+fechaDevol		DATE NOT NULL
+
+CONSTRAINT PK_PRESTAMOS PRIMARY KEY (idPrestamo),
+CONSTRAINT FK_PRESTAMOS_LIBROS FOREIGN KEY (ISBN) REFERENCES LIBROS (ISBN)
+)
+
+ALTER TABLE PRESTAMOS
+ADD CONSTRAINT FK_PRESTAMOS_SOCIOS FOREIGN KEY (DNI) REFERENCES SOCIOS (DNI)
+
+----------------------------------------------------------------
+--USANDO CONCESIONARIO
+
+USE CONCESIONARIO
+
+--1) Inserta un nuevo Dueño con los datos que tú quieras.
+--Ejemplo. ‘123456789Q’, ‘Pedro Pérez’, ‘Calle En algún sitio’.
+INSERT INTO DUENYO
+	VALUES	('111111111A', 'Pedro Perez', 'Avenida San Miguel')
+
+SELECT *
+	FROM COCHE
+--2) Inserta un nuevo Coche con los datos que tú quieras. Ejemplo. 123456789, ‘Ford’,
+--‘Escort’, ‘123456789Q’
+INSERT INTO COCHE
+	VALUES	('123456789', 'Ford', 'Raptor', '111111111A')
+
+--3) Modifica el Dueño que has creado y cambia su nombre a ‘Alvaro Perez’.
+UPDATE DUENYO
+SET Nombre = 'Alvaro Perez'
+WHERE Nombre = 'Pedro Perez'
+
+
+--4) Modifica el Coche que has creado y cambia su marca a ‘Citroen’ y su modelo a ‘C4’.
+UPDATE COCHE
+SET marca = 'Citroen',
+	modelo = 'C4'
+WHERE marca = 'Ford'
+
+--5) Borra el Coche que tenga numbastidor = 123456789
+DELETE FROM COCHE
+WHERE numBastidor = '123456789'
+
+--6) Borra el Dueño que tiene DNI = 123456789Q
+DELETE FROM DUENYO 
+WHERE DNI = '111111111A'

@@ -1,0 +1,56 @@
+-- CREACION DE BASE DE DATOS
+-- USE PRUEBA
+
+/* Modificar tabla para ponerle clave primaria
+
+ALTER TABLE LIBROS
+ALTER COLUMN ISBN CHAR(13) NOT NULL
+
+--Debe ser en instrucciones separadas
+
+ALTER TABLE LIBROS
+ADD CONSTRAINT PK_LIBROS PRIMARY KEY (ISBN)
+
+Modificar para borrarla
+
+ALTER TABLE LIBROS
+DROP CONSTRAINT PK_LIBROS
+*/
+
+
+
+CREATE TABLE SOCIOS (
+	codSocio	INT IDENTITY(1,1), --Empieza por el 1 y va de uno en uno(identity hace que se incremente solo)
+	Nombre		VARCHAR(150) NOT NULL,
+	Apellidos	VARCHAR(200) NOT NULL,
+	direccion	VARCHAR(200) NOT NULL,
+	codPostal	CHAR(5) NOT NULL
+
+	CONSTRAINT PK_SOCIOS PRIMARY KEY  (codSocio) --Para mover y poner las PK en las tablas
+)
+
+
+
+CREATE TABLE LIBROS (
+	ISBN		CHAR(13),
+	titulo		VARCHAR(150) NOT NULL,
+	autor		VARCHAR(150) NOT NULL,
+	editorial	VARCHAR(50) NOT NULL,
+	descripcion	VARCHAR(1000) DEFAULT 'Sin descripción'
+
+	CONSTRAINT PK_LIBRO PRIMARY KEY (ISBN)
+)
+
+CREATE TABLE PRESTAMOS(
+	codSocio		INT,
+	ISBN			CHAR(13),
+	fechaPrestamo	SMALLDATETIME,
+	fechaDevolucion	SMALLDATETIME
+
+	CONSTRAINT PK_PRESTAMOS PRIMARY KEY (codSocio, ISBN, fechaPrestamo),
+	CONSTRAINT FK_PRESTAMOS_SOCIOS FOREIGN KEY (codSocio) REFERENCES SOCIOS (codSocio),
+	CONSTRAINT FK_PRESTAMOS_LIBROS FOREIGN KEY (ISBN) REFERENCES LIBROS (ISBN),
+	CONSTRAINT CK_FECHAS CHECK (fechaDevolucion >= fechaPrestamo)
+)
+
+DROP TABLE PRESTAMOS

@@ -1,0 +1,21 @@
+USE JARDINERIA
+GO
+CREATE OR ALTER TRIGGER TX_CLIENTES ON CLIENTES
+INSTEAD OF INSERT
+AS
+BEGIN
+	INSERT INTO CLIENTES
+		SELECT *
+			FROM inserted
+END
+
+SELECT MAX(codCliente) + 1
+	FROM CLIENTES
+
+INSERT INTO CLIENTES
+	VALUES(39, 'Carlos Trigger', 'Nom cont','Ape cont',
+			'123456789', 'carlos@gmail.com', 'Aula 11',
+			NULL, 'Alicante', 'España', '03130', NULL, 1000000)
+			 
+SELECT *
+	FROM inserted
