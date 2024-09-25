@@ -1,0 +1,39 @@
+﻿.container{
+    text-align: center;
+}
+.titEmp{
+    text-align:center;
+}
+
+.btn{
+    text-align: center;
+
+}
+.links{
+    margin: 10px;
+}
+
+.cuerpo {
+    display: table;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 80%;
+}
+
+.linea {
+    display: table-row;
+    height: 25px;
+}
+
+.textos {
+    display: table-cell;
+    text-align: right;
+    width: 40%;
+    padding-right: 10px;
+}
+
+.controles {
+    display: table-cell;
+    text-align: left;
+    width: 80%;
+}
