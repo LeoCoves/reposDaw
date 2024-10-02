@@ -105,22 +105,22 @@ namespace GesPresta
         protected global::System.Web.UI.WebControls.TextBox txtPorPre;
 
         /// <summary>
-        /// Control lblDepPre.
+        /// Control lblTipPre.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDepPre;
+        protected global::System.Web.UI.WebControls.Label lblTipPre;
 
         /// <summary>
-        /// Control ddlDepPre.
+        /// Control ddlTipPre.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlDepPre;
+        protected global::System.Web.UI.WebControls.DropDownList ddlTipPre;
 
         /// <summary>
         /// Control cmdEnviar.

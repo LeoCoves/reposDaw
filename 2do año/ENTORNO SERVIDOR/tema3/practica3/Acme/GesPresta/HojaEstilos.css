@@ -47,3 +47,40 @@
     background-color: #66FFFF;
     text-align: center;
 }
+
+.tabla{
+    display:flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fBirthday{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.fIngreso{
+    display: flex;
+}
+
+.boxBirthday{
+    text-align: right;
+    padding:5px;
+}
+
+.boxIngresos{
+    text-align: right;
+    padding: 5px;
+}
+
+.boxAntigüedad {
+    display: table;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.antRow{
+    display: table-row
+}
+

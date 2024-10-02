@@ -55,10 +55,10 @@
 
                 <div class="linea">
                     <div class="textos">
-                        <asp:Label ID="lblDepPre" Text="Text" runat="server">Tipo de Prestación:</asp:Label> 
+                        <asp:Label ID="lblTipPre" Text="Text" runat="server">Tipo de Prestación:</asp:Label> 
                     </div>
                     <div class="controles">
-                        <asp:DropDownList ID="ddlDepPre" runat="server">
+                        <asp:DropDownList ID="ddlTipPre" runat="server">
                         <asp:ListItem Value="Dentaria">Dentaria</asp:ListItem>
                         <asp:ListItem Value="Familiar">Familiar</asp:ListItem>
                         <asp:ListItem Value="Ocular">Ocular</asp:ListItem>

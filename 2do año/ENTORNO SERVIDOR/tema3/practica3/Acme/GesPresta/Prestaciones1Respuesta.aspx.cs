@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace GesPresta
 {
-    public partial class WebForm2 : System.Web.UI.Page
+    public partial class Prestaciones1Respuesta : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -15,6 +15,10 @@ namespace GesPresta
             cadena += "Codigo: " + Request.Form["txtCodPre"] + "<br/>";
             cadena += "Descripción: " + Request.Form["txtDespre"] + "<br/>";
             cadena += "Importe: " + Request.Form["txtImpPre"] + "<br/>";
+            cadena += "Porcentaje: " + Request.Form["txtPorPre"] + "<br/>";
+            cadena += "Tipo de Prestación: " + Request.Form["ddlTipPre"] + "<br/>";
+            lblValores.Text = cadena;
+            lblValores.Visible = true;
         }
     }
 }

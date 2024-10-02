@@ -11,7 +11,7 @@ namespace GesPresta
 {
 
 
-    public partial class WebForm2
+    public partial class Prestaciones1Respuesta
     {
 
         /// <summary>
