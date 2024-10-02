@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema3\\practica3\\Acme\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema3\\practica3\\Acme\\gespresta\\empleadoscalendar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema3\\practica3\\acme\\gespresta\\empleadoscalendar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\empleadoscalendar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema3\\practica3\\acme\\gespresta\\empleadoscalendar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema3\\practica3\\Acme\\gespresta\\empleadoscalendar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\empleadoscalendar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -47,8 +47,7 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-09-25T17:19:48.715Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -58,7 +57,7 @@
               "RelativeDocumentMoniker": "GesPresta\\EmpleadosCalendar.aspx.cs",
               "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema3\\practica3\\Acme\\GesPresta\\EmpleadosCalendar.aspx.cs",
               "RelativeToolTip": "GesPresta\\EmpleadosCalendar.aspx.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAkwF0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAADgv1QAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T17:35:52.976Z",
               "IsPinned": true,

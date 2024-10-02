@@ -53,7 +53,6 @@ namespace GesPresta
             calendar2 = Calendar2.SelectedDate;
             dateHoy = System.DateTime.Now;
             bool error = false;
-            string cadena = "";
             
             if (calendar2 != DateTime.MinValue)
             {

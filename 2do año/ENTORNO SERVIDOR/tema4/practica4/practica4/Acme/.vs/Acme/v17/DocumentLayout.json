@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema4\\practica4\\practica4\\acme\\gespresta\\empleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\empleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema4\\practica4\\practica4\\acme\\gespresta\\prestaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema4\\practica4\\practica4\\acme\\gespresta\\empleados.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\empleados.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Prestaciones.aspx",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Prestaciones.aspx",
+              "RelativeDocumentMoniker": "GesPresta\\Prestaciones.aspx",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Prestaciones.aspx",
+              "RelativeToolTip": "GesPresta\\Prestaciones.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-02T18:36:00.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Empleados.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Empleados.aspx.cs",
+              "RelativeDocumentMoniker": "GesPresta\\Empleados.aspx.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Empleados.aspx.cs",
+              "RelativeToolTip": "GesPresta\\Empleados.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T17:31:28.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Empleados.aspx",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Empleados.aspx",
+              "RelativeDocumentMoniker": "GesPresta\\Empleados.aspx",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Empleados.aspx",
+              "RelativeToolTip": "GesPresta\\Empleados.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-02T17:31:13.096Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
