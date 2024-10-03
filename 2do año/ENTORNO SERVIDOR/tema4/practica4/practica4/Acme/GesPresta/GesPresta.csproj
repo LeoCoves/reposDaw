@@ -72,8 +72,10 @@
     <Content Include="Empleados1.aspx" />
     <Content Include="Empleados.aspx" />
     <Content Include="HojaEstilos.css" />
+    <Content Include="Prestaciones2.aspx" />
     <Content Include="Prestaciones1.aspx" />
     <Content Include="Prestaciones.aspx" />
+    <Content Include="prestacionesBuscar.ascx" />
     <Content Include="Web.config" />
     <Content Include="Default.aspx" />
     <Content Include="Prestaciones1Respuesta.aspx" />
@@ -107,6 +109,13 @@
     <Compile Include="Empleados.aspx.designer.cs">
       <DependentUpon>Empleados.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Prestaciones2.aspx.cs">
+      <DependentUpon>Prestaciones2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Prestaciones2.aspx.designer.cs">
+      <DependentUpon>Prestaciones2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Prestaciones1.aspx.cs">
       <DependentUpon>Prestaciones1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -120,6 +129,13 @@
     </Compile>
     <Compile Include="Prestaciones.aspx.designer.cs">
       <DependentUpon>Prestaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="prestacionesBuscar.ascx.cs">
+      <DependentUpon>prestacionesBuscar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="prestacionesBuscar.ascx.designer.cs">
+      <DependentUpon>prestacionesBuscar.ascx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Default.aspx.cs">

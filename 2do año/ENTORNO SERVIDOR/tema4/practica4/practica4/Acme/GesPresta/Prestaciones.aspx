@@ -23,7 +23,8 @@
                     </div>
                     <div class="controles">
                         <asp:TextBox ID="txtCodPre" runat="server" Width="154px"></asp:TextBox> 
-                        <asp:RequiredFieldValidator ID="rqdTxtCodPre"  ControlToValidate="txtcodEmp" runat="server" ErrorMessage="El Codigo Empleado es obligatorio" ForeColor="Red"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="rqdTxtCodPre"  ControlToValidate="txtCodPre" runat="server" ErrorMessage="El Codigo Empleado es obligatorio" ForeColor="Red"></asp:RequiredFieldValidator>
+                        <asp:RegularExpressionValidator ID="regTxtCodPre" ControlToValidate="txtCodPre" runat="server" ValidationExpression="\d{3}-\d{3}-\d{3}" ErrorMessage="El formato de los datos a introducir debe ser: 3digitos, guion, 3 digitos, guion y 3 digitos" ForeColor="Green"></asp:RegularExpressionValidator>
                         <br />
                     </div>
                 </div>
@@ -43,7 +44,8 @@
                     </div>
                     <div class="controles">
                         <asp:TextBox ID="txtImpPre" runat="server"></asp:TextBox>
-                        <asp:RequiredFieldValidator ID="rqdTxtImpPre"  ControlToValidate="txtcodEmp" runat="server" ErrorMessage="El Codigo Empleado es obligatorio" ForeColor="Red"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="rqdTxtImpPre"  ControlToValidate="txtImpPre" runat="server" ErrorMessage="El Importe es obligatorio" ForeColor="Red"></asp:RequiredFieldValidator>
+                        <asp:RangeValidator ID="rngTxtImpPre" runat="server" ControlToValidate="txtImpPre" Type="Double" MinimumValue="0,00" MaximumValue="500,00" ErrorMessage="El importe debe estar comprendido entre 0 y 500" ForeColor="Red"></asp:RangeValidator>
                         <br />
                     </div>
                 </div>
@@ -54,7 +56,8 @@
                     </div>
                     <div class="controles">
                         <asp:TextBox ID="txtPorPre" runat="server"></asp:TextBox> 
-                        <asp:RequiredFieldValidator ID="rqdTxtPorPre"  ControlToValidate="txtcodEmp" runat="server" ErrorMessage="El Codigo Empleado es obligatorio" ForeColor="Red"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="rqdTxtPorPre"  ControlToValidate="txtPorPre" runat="server" ErrorMessage="El Porcentaje del Importe es obligatorio" ForeColor="Red"></asp:RequiredFieldValidator>
+                        <asp:RangeValidator ID="rngTxtPorPre" runat="server" ControlToValidate="txtPorPre" Type="Double" MinimumValue="0,00" MaximumValue="15,00" ErrorMessage="El Porcentaje del Importe debe estar comprendido entre el 0% y 15%" ForeColor="Red"></asp:RangeValidator>
                         <br />
                     </div>
                 </div>

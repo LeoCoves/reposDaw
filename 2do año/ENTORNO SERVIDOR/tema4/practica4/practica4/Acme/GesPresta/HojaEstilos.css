@@ -23,6 +23,7 @@
 .linea {
     display: table-row;
     height: 25px;
+    width: 1234px;
 }
 
 .textos {

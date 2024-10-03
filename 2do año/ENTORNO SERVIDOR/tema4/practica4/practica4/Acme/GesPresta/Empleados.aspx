@@ -24,7 +24,8 @@
                     </div>
                     <div class="controles">
                         <asp:TextBox ID="txtcodEmp" runat="server"></asp:TextBox> 
-                        <asp:RequiredFieldValidator ID="rqdTxtCodEmp"  ControlToValidate="txtcodEmp" runat="server" ErrorMessage="El Codigo Empleado es obligatorio" ForeColor="Red"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="rqdTxtCodEmp"  Text="*" ControlToValidate="txtcodEmp" runat="server" ErrorMessage="El Codigo Empleado es obligatorio" ForeColor="Red"></asp:RequiredFieldValidator>
+                        <asp:RegularExpressionValidator ID="regTxtCodEmp" Text="*" ControlToValidate="txtcodEmp" runat="server" ValidationExpression="\w\d{5}" ErrorMessage="El formato de los datos a introducir debe ser: 1 letra y 5 digitos" ForeColor="Green"></asp:RegularExpressionValidator>
                         <br />
                     </div>
                 </div>
@@ -35,7 +36,8 @@
                     </div>
                     <div class="controles">
                         <asp:TextBox ID="txtNifEmp" runat="server"></asp:TextBox> 
-                        <asp:RequiredFieldValidator ID="rqdTxtNifEmp" ControlToValidate="txtNifEmp" runat="server" ErrorMessage="El NIF es obligatorio" ForeColor="Red"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="rqdTxtNifEmp" Text="*" ControlToValidate="txtNifEmp" runat="server" ErrorMessage="El NIF es obligatorio" ForeColor="Red"></asp:RequiredFieldValidator>
+                        <asp:RegularExpressionValidator ID="regTxtNifEmp" Text="*" ControlToValidate="txtNifEmp" runat="server" ValidationExpression="\d{8}-\w" ErrorMessage="El formato de los datos a introducir debe ser: 8 digitos, guion y 1 letra" ForeColor="Green"></asp:RegularExpressionValidator>
                         <br />
                     </div>
                 </div>
@@ -46,7 +48,7 @@
                     </div>
                     <div class="controles">
                         <asp:TextBox ID="txtNomEmp" runat="server" Width="493px"></asp:TextBox> 
-                        <asp:RequiredFieldValidator ID="rqdTxtNomEmp" ControlToValidate="txtNomEmp" runat="server" ErrorMessage="El Nombre y los Apellidos son obligatorios" ForeColor="Red"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="rqdTxtNomEmp" Text="*" ControlToValidate="txtNomEmp" runat="server" ErrorMessage="El Nombre y los Apellidos son obligatorios" ForeColor="Red"></asp:RequiredFieldValidator>
                         <br />
                     </div>
                 </div>
@@ -75,7 +77,7 @@
                     </div>
                     <div class="controles">
                         <asp:TextBox ID="txtTelEmp" runat="server" Width="380px"></asp:TextBox> 
-                        <asp:RequiredFieldValidator ID="rqdTxtTelEmp" ControlToValidate="txtTelEmp" runat="server" ErrorMessage="El telefono es obligatorio" ForeColor="Red"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="rqdTxtTelEmp" Text="*" ControlToValidate="txtTelEmp" runat="server" ErrorMessage="El telefono es obligatorio" ForeColor="Red"></asp:RequiredFieldValidator>
                         <br />
                     </div>
                 </div>
@@ -86,7 +88,9 @@
                     </div>
                     <div class="controles">
                         <asp:TextBox ID="txtFnaEmp" runat="server"></asp:TextBox> 
-                        <asp:RequiredFieldValidator ID="rqdTxtFnaEmp" ControlToValidate="txtFnaEmp" runat="server" ErrorMessage="La fecha de Nacimiento es obligatoria" ForeColor="Red"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="rqdTxtFnaEmp" Text="*" ControlToValidate="txtFnaEmp" runat="server" ErrorMessage="La fecha de Nacimiento es obligatoria" ForeColor="Red"></asp:RequiredFieldValidator>
+                        <asp:CompareValidator ID="cmpTxtFnaEmp" Text="*" ControlToValidate="txtFnaEmp" ControlToCompare="txtFinEmp" Type="Date" Operator="LessThan" runat="server" ErrorMessage="La fecha de Ingreso debe ser mayor que la de Nacimiento" ForeColor="Red"></asp:CompareValidator>
+                        <asp:RegularExpressionValidator ID="regTxtFnaEmp" Text="*" ControlToValidate="txtFnaEmp" runat="server" ValidationExpression="\d\d\/\d\d\/\d\d\d\d" ErrorMessage="El formato de los datos debe ser: dd/mm/yyyy" ForeColor="Green"></asp:RegularExpressionValidator>
                         <br />
                     </div>
                 </div>
@@ -97,7 +101,8 @@
                     </div>
                     <div class="controles">
                         <asp:TextBox ID="txtFinEmp" runat="server"></asp:TextBox> 
-                        <asp:RequiredFieldValidator ID="rqdTxtFinEmp" ControlToValidate="txtFinEmp" runat="server" ErrorMessage="La fecha de Ingreso es obligatoria" ForeColor="Red"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="rqdTxtFinEmp" Text="*" ControlToValidate="txtFinEmp" runat="server" ErrorMessage="La fecha de Ingreso es obligatoria" ForeColor="Red"></asp:RequiredFieldValidator>
+                        <asp:RegularExpressionValidator ID="regTxtFinEmp" Text="*" ControlToValidate="txtFinEmp" runat="server" ValidationExpression="\d\d\/\d\d\/\d\d\d\d" ErrorMessage="El formato de los datos debe ser: dd/mm/yyyy" ForeColor="Green"></asp:RegularExpressionValidator>
                         <br />
                     </div>
                 </div>
@@ -133,8 +138,13 @@
 
             <div class="btn">
                 <asp:Button ID="cmdEnviar" Text="Enviar" runat="server" />
+                <br />
+                <asp:ValidationSummary ID="ValidationSummary1" DisplayMode="List" runat="server" ForeColor="Red"/>
             </div>
+
+            
         </div>
+        
     </form>
 </body>
 </html>

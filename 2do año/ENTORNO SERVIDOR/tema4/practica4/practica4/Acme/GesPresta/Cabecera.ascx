@@ -2,9 +2,9 @@
 <link rel="stylesheet" href="HojaEstilos.css">
 <div class="container">
  
-        <asp:LinkButton class="links" id="lblInicio" PostBackURL="Default.aspx" runat="server">Inicio</asp:LinkButton>
-        <asp:LinkButton class="links" id="lblEmpleados" PostBackURL="Empleados.aspx" runat="server">Empleados</asp:LinkButton>
-        <asp:LinkButton class="links" id="lblPresentaciones" PostBackURL="Prestaciones.aspx" runat="server">Presentaciones</asp:LinkButton>
+        <asp:LinkButton class="links" id="lblInicio" PostBackURL="Default.aspx" CausesValidation="false" runat="server">Inicio</asp:LinkButton>
+        <asp:LinkButton class="links" id="lblEmpleados" PostBackURL="Empleados.aspx" CausesValidation="false" runat="server">Empleados</asp:LinkButton>
+        <asp:LinkButton class="links" id="lblPresentaciones" PostBackURL="Prestaciones.aspx" CausesValidation="false" runat="server">Presentaciones</asp:LinkButton>
 
 
     <div class="titulos">
