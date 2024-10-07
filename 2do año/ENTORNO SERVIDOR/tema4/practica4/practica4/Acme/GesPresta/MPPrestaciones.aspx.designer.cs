@@ -11,26 +11,8 @@ namespace GesPresta
 {
 
 
-    public partial class Prestaciones2
+    public partial class MPPrestaciones
     {
-
-        /// <summary>
-        /// Control form1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
-        /// Control Cabecera1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::GesPresta.Cabecera Cabecera1;
 
         /// <summary>
         /// Control lblCodPre.
@@ -49,51 +31,6 @@ namespace GesPresta
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtCodPre;
-
-        /// <summary>
-        /// Control btnVerPrestaciones.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnVerPrestaciones;
-
-        /// <summary>
-        /// Control rqdTxtCodPre.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rqdTxtCodPre;
-
-        /// <summary>
-        /// Control regTxtCodPre.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator regTxtCodPre;
-
-        /// <summary>
-        /// Control prestacionesBuscar1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::GesPresta.prestacionesBuscar prestacionesBuscar1;
-
-        /// <summary>
-        /// Control btnSeleccionar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSeleccionar;
 
         /// <summary>
         /// Control lblDesPre.
@@ -132,24 +69,6 @@ namespace GesPresta
         protected global::System.Web.UI.WebControls.TextBox txtImpPre;
 
         /// <summary>
-        /// Control rqdTxtImpPre.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rqdTxtImpPre;
-
-        /// <summary>
-        /// Control rngTxtImpPre.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator rngTxtImpPre;
-
-        /// <summary>
         /// Control lblPorPre.
         /// </summary>
         /// <remarks>
@@ -166,24 +85,6 @@ namespace GesPresta
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtPorPre;
-
-        /// <summary>
-        /// Control rqdTxtPorPre.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rqdTxtPorPre;
-
-        /// <summary>
-        /// Control rngTxtPorPre.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator rngTxtPorPre;
 
         /// <summary>
         /// Control lblTipPre.

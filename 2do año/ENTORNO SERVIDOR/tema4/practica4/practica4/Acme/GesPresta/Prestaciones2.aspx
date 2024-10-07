@@ -30,6 +30,11 @@
                         <asp:RegularExpressionValidator ID="regTxtCodPre" ControlToValidate="txtCodPre" runat="server" ValidationExpression="\d{3}-\d{3}-\d{3}" ErrorMessage="El formato de los datos a introducir debe ser: 3digitos, guion, 3 digitos, guion y 3 digitos" ForeColor="Green"></asp:RegularExpressionValidator>
                         <br />
                     </div>
+                    <div class="options">
+                            <uc2:prestacionesBuscar Visible="false" ID="prestacionesBuscar1" runat="server" />
+                            <br />
+                            <asp:Button style="margin-top: 5px" ID="btnSeleccionar" CausesValidation="False" Visible="false" Text="Seleccionar" runat="server" OnClick="btnSeleccionar_Click" />
+                    </div>
                 </div>
 
                 
@@ -40,8 +45,6 @@
                     </div>
                     <div class="controles">
                         <asp:TextBox ID="txtDesPre" runat="server" Width="496px"></asp:TextBox> <br />
-                        <uc2:prestacionesBuscar Visible="false" ID="prestacionesBuscar1" runat="server" />
-                        <asp:Button ID="btnSeleccionar" CausesValidation="False" Text="Seleccionar" runat="server" OnClick="btnSeleccionar_Click" />
                     </div>
                 </div>
 

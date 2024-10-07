@@ -17,7 +17,7 @@
     display: table;
     padding-top: 15px;
     padding-bottom: 10px;
-    width: 80%;
+    width: 90%;
 }
 
 .linea {
@@ -85,3 +85,9 @@
     display: table-row
 }
 
+.options {
+    text-align: left;
+    display: table-cell;
+    position: fixed;
+    margin-left: -2%;
+}
