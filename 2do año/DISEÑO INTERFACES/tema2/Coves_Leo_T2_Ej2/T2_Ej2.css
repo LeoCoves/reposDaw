@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+
+
+}
+    
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+header{
+    width: 100%;
+    background-color: red;
+    border-radius: 5px;
+}
+
+main:nth-child(1){
+    width: 70%;
+    height: 500px;
+    background-color: blue;
+    float: left;
+}
+
+main:nth-child(2){
+    background-color: red;
+    display: flex;
+    
+}
+
+
+article{
+    background-color: green;
+    border-radius: 5px;
+}
+
+section{
+    background-color: rgb(124, 190, 124);
+    border-radius: 5px;
+}
+
+nav{
+    background-color: yellow;
+    border-radius: 5px;
+    height: 10%;
+    width: 100%;
+}    
+
+aside{
+    background-color: aqua;
+    border-radius: 5px;
+
+}
+
+footer{
+    background-color: rgb(154, 105, 200);
+    border-radius: 5px;
+    float: left;
+    width: 100%;
+}

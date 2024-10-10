@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;  
+    font-family: Arial; 
+    
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 1%
+}
+
+nav{
+    background-color: mediumorchid;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1%;
+    border-radius: 20px;
+}
+
+main{
+    display: flex;
+}
+
+article{
+    float: left;
+    width: 70%;
+}
+
+
+header{
+    background-color: rgb(109, 207, 109);
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 2%
+}
+
+section{
+    background-color: mediumpurple;
+    text-align: center;
+    height: 260px;
+    width: calc(100% - 55%);
+    border-radius: 20px;
+    float: left;
+    margin: 2%;
+
+}
+
+aside{
+    background-color: pink;
+    text-align: center;
+    border-radius: 20px;
+    width: 25%;
+    float: right;
+    /* float: right; */
+    
+}
+
+footer{
+    background-color: tan;
+    text-align: center;
+    width: 100%;
+    border-radius: 20px;
+    float: inline-end;
+}
+
+h2{
+    padding: 15px;
+}
