@@ -1,0 +1,26 @@
+00:00:03.651847 VirtualBox VM 7.0.20 r163906 win.amd64 (Jul 10 2024 14:54:08) release log
+00:00:03.651850 Log opened 2024-10-14T14:49:27.284193600Z
+00:00:03.651851 Build Type: release
+00:00:03.651854 OS Product: Windows 11
+00:00:03.651856 OS Release: 10.0.22631
+00:00:03.651857 OS Service Pack: 
+00:00:03.740869 DMI Product Name: 82R4
+00:00:03.745865 DMI Product Version: IdeaPad 1 15ALC7
+00:00:03.745889 Firmware type: UEFI
+00:00:03.746655 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:03.746673 Host RAM: 14181MB (13.8GB) total, 2976MB (2.9GB) available
+00:00:03.746675 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBoxVM.exe
+00:00:03.746676 Process ID: 29504
+00:00:03.746676 Package type: WINDOWS_64BITS_GENERIC
+00:00:03.747691 Installed Extension Packs:
+00:00:03.747710   None installed!
+00:00:03.748560 Console: Machine state changed to 'Starting'
+00:00:03.748924 Qt version: 5.15.2
+00:00:03.750086 Console: Machine state changed to 'PoweredOff'
+00:00:03.753128 Power up failed (vrc=VINF_SUCCESS, hrc=E_FAIL (0X80004005))
+00:00:04.256106 GUI: UIMachineViewNormal::resendSizeHint: Restoring guest size-hint for screen 0 to 800x600
+00:00:04.256171 ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={4680b2de-8690-11e9-b83d-5719e53cf1de} aComponent={DisplayWrap} aText={The console is not powered up (Display::setVideoModeHint)}, preserve=false aResultDetail=0
+00:00:04.256479 GUI: Aborting startup due to power up progress issue detected...
+00:00:04.257055 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:04.288332 GUI: UICommon: Handling aboutToQuit request..
+00:00:05.144511 GUI: UICommon: aboutToQuit request handled!
