@@ -1,0 +1,115 @@
+section{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 1%;
+    border-radius: 25px;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    border: none;
+    font-weight: bold;
+}
+
+button:nth-child(1){
+    background-color: blue;
+    color: white;
+}
+
+button:nth-child(1) > span{
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+button:nth-child(2){
+    background-color: gray;
+    color: white;
+}
+
+button:nth-child(2) > span{
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+button:nth-child(3){
+    background-color: green;
+    color: white;
+}
+
+button:nth-child(3) > span{
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+button:nth-child(4){
+    background-color: rgb(238, 92, 92);
+    color: white;
+}
+
+button:nth-child(4) > span{
+    background-color: green;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+button:nth-child(5){
+    background-color: yellow ;
+}
+
+button:nth-child(5) > span{
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+button:nth-child(6){
+    background-color: cyan ;
+}
+
+button:nth-child(6) > span{
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+button:nth-child(7){
+    background-color: rgba(220, 220, 220, 0.300);
+}
+
+button:nth-child(7) > span{
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+button:nth-child(8){
+    background-color: black;
+    color: white;
+}
+
+button:nth-child(8) > span{
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 25px;
+}
