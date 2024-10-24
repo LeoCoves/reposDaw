@@ -31,4 +31,4 @@ adress: str = "Mi direccion"
 adress = 25
 print(type(adress)) #Cambia a int automaticamente
 adress_float = float(adress)
-print(type(adress_float))
+print(type(adress_float)) 

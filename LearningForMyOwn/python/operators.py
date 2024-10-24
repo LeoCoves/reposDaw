@@ -12,6 +12,7 @@ print("------")
 print(len("Hola") > len("Zola"))
 print("----")
 #Operadores Logicos
-print(3 > 4 and "Hola" > "Python")
+print(3 > 4 and "Hola" > "Python") 
 print(3 < 4 or "Hola" > "Python")
 # print(print(3 > 4) not "Hola" > "Python")
+

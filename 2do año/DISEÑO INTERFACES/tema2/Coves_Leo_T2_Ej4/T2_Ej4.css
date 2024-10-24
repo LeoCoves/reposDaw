@@ -63,6 +63,7 @@ button:nth-child(4) > span{
     padding: 4px 8px;
     text-align: center;
     border-radius: 25px;
+    visibility: hidden; /*Apartado b */
 }
 
 button:nth-child(5){
@@ -112,4 +113,12 @@ button:nth-child(8) > span{
     padding: 4px 8px;
     text-align: center;
     border-radius: 25px;
+}
+
+/* Pregunta c) */
+/* Si podemos aplicar un pseudoelemento, en este caso
+he usado <span> para colocar el 4 de todos los botones */
+
+button span::after {
+    content: "4"; /* Este número aparecerá en el badge */
 }
