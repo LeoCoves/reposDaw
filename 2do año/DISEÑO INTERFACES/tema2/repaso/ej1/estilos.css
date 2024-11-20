@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    border-radius: 5px;
+    font-family: 'ARIAL';
+}
+
+header{
+    background-color: rgb(216, 129, 129);
+    margin: 1%;
+    padding: 5%;
+}
+
+section{
+    display: flex;
+    margin: 1%;
+
+    main:nth-child(1){
+        background-color: rgb(103, 153, 214);
+        margin: 1%;
+        padding: 1%;
+        width: 70%;
+        
+        article:nth-child(1){
+            background-color: rgb(142, 231, 142);
+            margin: 1%;
+            padding: 1%;
+
+            section{
+                background-color: rgb(33, 127, 33);
+                padding: 2%;
+                margin: 1%;
+            }
+        }
+
+        article:nth-child(2){
+            background-color: rgb(142, 231, 142);
+            margin: 1%;
+            padding: 1%;
+            height: 100px;
+        }
+
+        footer{
+            padding: 2%;
+        }
+    }
+
+    main:nth-child(2){
+        display: flex;
+        margin-right: 2%;
+        width: 30%;
+        flex-direction: column;
+        
+
+        nav{
+            background-color: yellow;
+            margin: 2%;
+            height: 50px;
+            width: 100%;
+        }
+
+        aside{
+            background-color:rgb(135, 135, 236) ;
+            margin: 2%;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+footer{
+    background-color: rgb(216, 92, 216);
+    margin: 1%;
+    padding: 4%;
+}

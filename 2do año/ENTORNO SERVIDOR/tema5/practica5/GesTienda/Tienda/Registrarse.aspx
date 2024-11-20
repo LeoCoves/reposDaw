@@ -124,7 +124,7 @@
                 <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/Default.aspx">Ir al Inicio</asp:LinkButton>
         </div>
 
-        <asp:Label ID="lblMensajes" ForeColor="red" runat="server"></asp:Label>
+        <asp:Label ID="lblMensajes" ForeColor="Red" runat="server" style="text-align:center" Width="100%"></asp:Label>
 
  
          <div id="pie">

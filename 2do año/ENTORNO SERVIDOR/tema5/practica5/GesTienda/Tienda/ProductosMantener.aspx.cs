@@ -207,6 +207,7 @@ namespace Tienda
             btnCancelar.Visible = true;
             txtPrePro.Text = Convert.ToString(txtPrePro.Text);
             FnHabilitarControles();
+            txtIdProducto.Enabled = false;
             txtIdProducto.Focus();
         }
 
@@ -286,7 +287,7 @@ namespace Tienda
             strIdUnidad = ddlIdUnidad.SelectedItem.Value;
             strIdTipo = ddlIdTipo.SelectedItem.Value;
 
-            strPrecio = txtPrePro.Text.Replace("€", "").Replace(".", ",").Trim();
+            strPrecio = txtPrePro.Text.Replace("€", "").Trim();
             dcPrecio = Convert.ToDecimal(strPrecio);
 
             string StrCadenaConexion = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
@@ -303,11 +304,11 @@ namespace Tienda
 
                     if (inRegistrosAfectados == 1)
                     {
-                        lblMensajes.Text = "";
+                        lblMensajes.Text = "Registro Eliminado Correctamente";
                     }
                     else
                     {
-                        lblMensajes.Text = "";
+                        lblMensajes.Text = "Error al eliminar un registro";
                     }
 
                     btnNuevo.Visible = true;
@@ -327,6 +328,11 @@ namespace Tienda
                 }
                 grdProductos.DataBind();
                 grdProductos.SelectedIndex = -1;
+                txtIdProducto.Text = "";
+                txtDesPro.Text = "";
+                txtPrePro.Text = Convert.ToString(0);
+                ddlIdUnidad.DataBind();
+                ddlIdTipo.DataBind();
                 FnDeshabilitarControles();
             }
             
@@ -343,7 +349,7 @@ namespace Tienda
             btnBorrar.Visible = true;
             btnCancelar.Visible = true;
             grdProductos.SelectedIndex = -1;
-            FnHabilitarControles();
+            FnDeshabilitarControles();
             txtIdProducto.Focus();
         }
     }

@@ -78,7 +78,7 @@
             <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/Registrarse.aspx">Registrarse</asp:LinkButton>
         </div>
 
-        <asp:Label ID="lblMensajes" ForeColor="red" runat="server"></asp:Label>
+        <asp:Label ID="lblMensajes" ForeColor="Red" runat="server" Width="100%" style="text-align: center"></asp:Label>
 
 
        <div id="pie">

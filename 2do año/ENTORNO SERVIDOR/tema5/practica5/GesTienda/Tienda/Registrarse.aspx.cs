@@ -79,6 +79,7 @@ namespace Tienda
                 finally
                 {
                     conexion.Close();
+                    
                 }
             }
             else

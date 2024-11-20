@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\gespresta\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\gespresta\\empleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\empleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema4\\practica4\\practica4\\acme\\gespresta\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\gespresta\\mpdefault.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\mpdefault.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\gespresta\\prestaciones2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestaciones2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\gespresta\\prestacionesbuscar.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestacionesbuscar.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\gespresta\\cabecera.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\cabecera.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema4\\practica4\\practica4\\acme\\gespresta\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\gespresta\\mpempleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -13,18 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\gespresta\\mpprestaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\mpprestaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema4\\practica4\\practica4\\acme\\gespresta\\mpdefault.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\mpdefault.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\gespresta\\prestaciones2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestaciones2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema4\\practica4\\practica4\\acme\\gespresta\\empleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\empleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\gespresta\\empleados1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -39,16 +51,8 @@
       "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestaciones2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\gespresta\\cabecera.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
-      "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\cabecera.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\gespresta\\prestacionesbuscar.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestacionesbuscar.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\gespresta\\prestacionesbuscar.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
-      "RelativeMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestacionesbuscar.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A03EFD65-77CC-4C6C-B282-C62182001A6D}|GesPresta\\GesPresta.csproj|C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\gespresta\\empleados.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,50 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Empleados.aspx",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Empleados.aspx",
-              "RelativeDocumentMoniker": "GesPresta\\Empleados.aspx",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Empleados.aspx",
-              "RelativeToolTip": "GesPresta\\Empleados.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-08T16:41:29.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MPPrestaciones.aspx",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\MPPrestaciones.aspx",
-              "RelativeDocumentMoniker": "GesPresta\\MPPrestaciones.aspx",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\MPPrestaciones.aspx",
-              "RelativeToolTip": "GesPresta\\MPPrestaciones.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-07T15:26:48.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MPEmpleados.aspx",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\MPEmpleados.aspx",
-              "RelativeDocumentMoniker": "GesPresta\\MPEmpleados.aspx",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\MPEmpleados.aspx",
-              "RelativeToolTip": "GesPresta\\MPEmpleados.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-07T15:18:49.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "MPDefault.aspx",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\MPDefault.aspx",
               "RelativeDocumentMoniker": "GesPresta\\MPDefault.aspx",
@@ -118,19 +83,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Cabecera.ascx",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Cabecera.ascx",
-              "RelativeDocumentMoniker": "GesPresta\\Cabecera.ascx",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Cabecera.ascx",
-              "RelativeToolTip": "GesPresta\\Cabecera.ascx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "DocumentIndex": 4,
+              "Title": "prestacionesBuscar.ascx",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\prestacionesBuscar.ascx",
+              "RelativeDocumentMoniker": "GesPresta\\prestacionesBuscar.ascx",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\prestacionesBuscar.ascx",
+              "RelativeToolTip": "GesPresta\\prestacionesBuscar.ascx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
-              "WhenOpened": "2024-10-07T15:08:48.139Z"
+              "WhenOpened": "2024-10-03T14:17:25.651Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Prestaciones2.aspx",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Prestaciones2.aspx",
+              "RelativeDocumentMoniker": "GesPresta\\Prestaciones2.aspx",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Prestaciones2.aspx",
+              "RelativeToolTip": "GesPresta\\Prestaciones2.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-03T14:31:39.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MasterPage.Master",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\MasterPage.Master",
               "RelativeDocumentMoniker": "GesPresta\\MasterPage.Master",
@@ -143,7 +122,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Empleados.aspx",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Empleados.aspx",
+              "RelativeDocumentMoniker": "GesPresta\\Empleados.aspx",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Empleados.aspx",
+              "RelativeToolTip": "GesPresta\\Empleados.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-08T16:41:29.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cabecera.ascx",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Cabecera.ascx",
+              "RelativeDocumentMoniker": "GesPresta\\Cabecera.ascx",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Cabecera.ascx",
+              "RelativeToolTip": "GesPresta\\Cabecera.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-10-07T15:08:48.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Default.aspx",
+              "RelativeDocumentMoniker": "GesPresta\\Default.aspx",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Default.aspx",
+              "RelativeToolTip": "GesPresta\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-12T18:32:31.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MPEmpleados.aspx",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\MPEmpleados.aspx",
+              "RelativeDocumentMoniker": "GesPresta\\MPEmpleados.aspx",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\MPEmpleados.aspx",
+              "RelativeToolTip": "GesPresta\\MPEmpleados.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-07T15:18:49.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MPPrestaciones.aspx",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\MPPrestaciones.aspx",
+              "RelativeDocumentMoniker": "GesPresta\\MPPrestaciones.aspx",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\MPPrestaciones.aspx",
+              "RelativeToolTip": "GesPresta\\MPPrestaciones.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-07T15:26:48.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Empleados1.aspx",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Empleados1.aspx",
               "RelativeDocumentMoniker": "GesPresta\\Empleados1.aspx",
@@ -156,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Prestaciones2.aspx.cs",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Prestaciones2.aspx.cs",
               "RelativeDocumentMoniker": "GesPresta\\Prestaciones2.aspx.cs",
@@ -164,24 +208,12 @@
               "RelativeToolTip": "GesPresta\\Prestaciones2.aspx.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAYwCIAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T14:35:29.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Prestaciones2.aspx",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Prestaciones2.aspx",
-              "RelativeDocumentMoniker": "GesPresta\\Prestaciones2.aspx",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Prestaciones2.aspx",
-              "RelativeToolTip": "GesPresta\\Prestaciones2.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-03T14:31:39.116Z",
+              "WhenOpened": "2024-10-03T14:35:29.056Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "prestacionesBuscar.ascx.cs",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\prestacionesBuscar.ascx.cs",
               "RelativeDocumentMoniker": "GesPresta\\prestacionesBuscar.ascx.cs",
@@ -189,23 +221,12 @@
               "RelativeToolTip": "GesPresta\\prestacionesBuscar.ascx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T14:27:22.921Z"
+              "WhenOpened": "2024-10-03T14:27:22.921Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "prestacionesBuscar.ascx",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\prestacionesBuscar.ascx",
-              "RelativeDocumentMoniker": "GesPresta\\prestacionesBuscar.ascx",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\prestacionesBuscar.ascx",
-              "RelativeToolTip": "GesPresta\\prestacionesBuscar.ascx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
-              "WhenOpened": "2024-10-03T14:17:25.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "HojaEstilos.css",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\HojaEstilos.css",
               "RelativeDocumentMoniker": "GesPresta\\HojaEstilos.css",
@@ -213,11 +234,12 @@
               "RelativeToolTip": "GesPresta\\HojaEstilos.css",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-03T13:30:24.198Z"
+              "WhenOpened": "2024-10-03T13:30:24.198Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Empleados.aspx.cs",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema4\\practica4\\practica4\\Acme\\GesPresta\\Empleados.aspx.cs",
               "RelativeDocumentMoniker": "GesPresta\\Empleados.aspx.cs",
@@ -225,7 +247,8 @@
               "RelativeToolTip": "GesPresta\\Empleados.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T17:31:28.341Z"
+              "WhenOpened": "2024-10-02T17:31:28.341Z",
+              "EditorCaption": ""
             }
           ]
         }

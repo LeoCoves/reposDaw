@@ -22,7 +22,7 @@
         <asp:GridView ID="grdTipos" runat="server" AllowPaging="True" AutoGenerateColumns="False" DataKeyNames="IdTipo" DataSourceID="SqlDataSource1" HorizontalAlign="Center" PageSize="5" Width="50%" CellPadding="4" ForeColor="#333333" GridLines="None">
             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
             <Columns>
-                <asp:CommandField ShowSelectButton="True" />
+                <asp:CommandField ShowSelectButton="True" ButtonType="Button" />
                 <asp:BoundField DataField="IdTipo" HeaderText="Código" ReadOnly="True" SortExpression="IdTipo" />
                 <asp:BoundField DataField="DesTip" HeaderText="Descripción" SortExpression="DesTip" />
             </Columns>
@@ -58,8 +58,12 @@
             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
             <Columns>
                 <asp:BoundField DataField="IdProducto" HeaderText="Id Producto" ReadOnly="True" SortExpression="IdProducto" />
-                <asp:BoundField DataField="DesPro" HeaderText="Descripción" SortExpression="DesPro" />
-                <asp:BoundField DataField="PrePro" HeaderText="Precio" SortExpression="PrePro" />
+                <asp:BoundField DataField="DesPro" HeaderText="Descripción" SortExpression="DesPro" >
+                <ItemStyle HorizontalAlign="Left" />
+                </asp:BoundField>
+                <asp:BoundField DataField="PrePro" HeaderText="Precio" SortExpression="PrePro" DataFormatString="{0:C}" >
+                <ItemStyle HorizontalAlign="Right" />
+                </asp:BoundField>
                 <asp:BoundField DataField="IdUnidad" HeaderText="Unidad" SortExpression="IdUnidad" />
                 <asp:BoundField DataField="DesTip" HeaderText="Tipo" SortExpression="DesTip" />
             </Columns>

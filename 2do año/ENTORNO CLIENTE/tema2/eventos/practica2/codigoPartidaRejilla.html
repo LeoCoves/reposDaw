@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="UTF-8">
+	<title>Unidad 3 - Ponte a Prueba</title>
+	<style>
+	 #rejilla {
+	     width: 50vw;
+	     height: 50vh;
+	     margin: auto;
+	     display: grid;
+	     grid-template-columns: 1fr 1fr 1fr 1fr;
+	     gap: 1em;
+	     justify-content: stretch;
+	 }
+
+	 .celda {
+	     cursor: pointer;
+	     padding: 1em;
+	     background-color: #c2d9ed;
+	     display: flex;
+	     align-items: center;
+	     justify-content: center;
+	 }
+
+	 .activa {
+	     background-color: #6ea8db;
+	 }
+	</style>
+    </head>
+    <body>
+	<div id="rejilla">
+	    <div class="celda">celda</div>
+	    <div class="celda">celda</div>
+	    <div class="celda activa">celda</div>
+	    <div class="celda">celda</div>
+	    <div class="celda">celda</div>
+	    <div class="celda">celda</div>
+	    <div class="celda">celda</div>
+	    <div class="celda">celda</div>
+	    <div class="celda">celda</div>
+	    <div class="celda">celda</div>
+	    <div class="celda">celda</div>
+	    <div class="celda">celda</div>
+	</div>
+    </body>
+
+    <script>
+	let divRejilla = document.getElementById("rejilla");
+
+	function modificarCelda(evento){
+		let celda = evento.target;
+
+		if(celda.id !== "rejilla"){
+			if(celda.className === "celda")
+			celda.className = "celda activa";
+			else
+			celda.className = "celda";
+		}	
+	}
+
+     divRejilla.addEventListener("click", modificarCelda);
+
+
+	 let boton = document.createElement('button');
+	 boton.textContent = "Cambiar Fondo";
+	 
+
+	 function colorAleatorio() {
+    let x = Math.floor(Math.random() * 256);
+    let y = Math.floor(Math.random() * 256);
+    let z = Math.floor(Math.random() * 256);
+    let bgColor = "rgb(" + x + "," + y + "," + z + ")";
+		return(bgColor);
+	}
+
+	function ManejaBoton(){
+			this.handleEvent = function(event)
+			{
+				document.body.style.backgroundColor=colorAleatorio();				
+			}
+		}
+
+	let objManejaBoton = new ManejaBoton();
+	boton.addEventListener("click", objManejaBoton)
+	document.body.appendChild(boton);
+    </script>
+</html>
