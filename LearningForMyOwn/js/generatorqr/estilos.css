@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: #111729;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ralewey';
+}
+
+
+    .header{
+        text-align: center;
+        img{
+        
+            width: 30%;
+            margin-top: 20%
+        }
+    }
+
+    .generate{
+        padding: 5px;
+        margin-top: 4%;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.345);
+        border-radius: 15px;
+        margin-right: 10%;
+        margin-left: 10%;
+        border: 1pt solid blue;
+
+        input{
+            background: none;
+            border: none;
+            font-size: larger;
+            width: 75%;
+            padding: 2%;
+            color: white;
+        }
+
+        
+    }
+
+    button{
+        border-radius: 15px;
+        width: 20%;
+        position: absolute;
+        padding: 2%;
+        background-color: #3662E3;
+        border: none;
+        font-size: larger;
+        cursor: pointer;
+        color: white;
+    }

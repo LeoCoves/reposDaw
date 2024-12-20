@@ -17,7 +17,7 @@ namespace MvcAgenda.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.8")
+                .HasAnnotation("ProductVersion", "8.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -53,11 +53,17 @@ namespace MvcAgenda.Migrations
                     b.Property<string>("DepartamentoId")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("FechaNacimiento")
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("FechaNacimiento")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Nombre")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Telefono")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

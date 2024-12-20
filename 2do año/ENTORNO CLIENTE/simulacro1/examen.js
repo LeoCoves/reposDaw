@@ -1,28 +1,27 @@
 let ordenadores = [];
 
 function Ordenador(marca, modelo, ram=16, disco=256, pulgadas=15.6, fecha, ...accesorios){
-    
+
     this.marca = String(marca);
-    if(this.marca === undefined){
+    if(this.marca === undefined)
         this.marca = "No definida";
-    }
 
     this.modelo = String(modelo);
-    if(this.modelo === undefined){
-        this.modelo = "No definida";
-    }
+    if(this.modelo === undefined)
+        this.modelo = "No definido"
 
-    if(typeof ram !== "Number")
+
+    if(typeof ram !== "number")
         this.ram = 16;
     else
         this.ram = ram;
 
-    if(typeof disco !== "Number")
+    if(typeof disco !== "number")
         this.disco = 256;
     else
         this.disco = disco;
 
-    if(typeof pulgadas !== "Number")
+    if(typeof pulgadas !== "number")
         this.pulgadas = 15.6;
     else
         this.pulgadas = pulgadas;
@@ -31,24 +30,26 @@ function Ordenador(marca, modelo, ram=16, disco=256, pulgadas=15.6, fecha, ...ac
     if(isNaN(this.fecha))
         this.fecha = Date.now();
 
-    this.accesorios = [...accesorios];
     if(accesorios.length === 0)
         this.accesorios = [];
+    else
+        this.accesorios = [...accesorios]
 
-    //Metodos
+    //Metodo
     this.mostrarOrdenador = function(){
+        let fecha = new Date(this.fecha).toISOString();
         return  "ORDENADOR: " + this.marca + " " + this.modelo +
                 "\nRAM: " + this.ram +
                 "\nDISCO: " + this.disco +
-                "\nPULGADAS: " + this.pulgadas + 
-                "\nACCESORIOS: " + this.listarAccesorios();
-        return texto;
+                "\nPULGADAS: " + this.pulgadas +
+                "\nALTA: " + fecha +
+                "\nACCESORIOS: " + this.mostrarAccesorios();
     }
 
-    this.listarAccesorios = function(){
+    this.mostrarAccesorios = function(){
         let texto = "";
-        accesorios.forEach(accesorio => {
-            texto += "\n-" + accesorio;
+        accesorios.forEach(acc => {
+            texto += "\n- " + acc;
         });
         return texto;
     }
@@ -59,14 +60,17 @@ function Ordenador(marca, modelo, ram=16, disco=256, pulgadas=15.6, fecha, ...ac
     }
 
     this.actualizarRamDiscoPulgadas = function(ram, disco, pulgadas){
-        if(typeof ram === "Number")
+        if(typeof ram === "number")
             this.ram = ram;
-
-        if(typeof disco === "Number")
+        if(typeof disco === "number")
             this.disco = disco;
-
-        if(typeof pulgadas === "Number")
+        if(typeof pulgadas === "number")
             this.pulgadas = pulgadas;
+    }
+
+    this.actualizarFecha = function(fecha){
+        if(!isNaN(Date.parse(fecha)))
+            this.fecha = Date.parse(fecha)
     }
 
     this.anyadirAccesorios = function(...accesorios){
@@ -77,7 +81,7 @@ function Ordenador(marca, modelo, ram=16, disco=256, pulgadas=15.6, fecha, ...ac
         });
     }
 
-    this.borrarAccesorios = function(...accesorios){
+    this.borrarAccesorio = function(...accesorios){
         accesorios.forEach(accesorioBorrar => {
             let pos = this.accesorios.indexOf(accesorioBorrar);
             if(pos !== -1){
@@ -93,15 +97,13 @@ function anyadirOrdenador(pc){
 
 function mostrarFechaAlta(){
     return ordenadores.reduce((acc, ordenador) => {
-        let agroup = new Date(ordenador.fecha).toISOString();
+        let agroup = new Date(ordenador.fecha).toLocaleDateString();
 
-        if(!acc[agroup]){
+        if(!acc[agroup])
             acc[agroup] = 0;
-        }
         acc[agroup] += 1;
         return acc;
-    }, {})
-    
+    }, {});
 }
 
 
@@ -115,12 +117,13 @@ anyadirOrdenador(pc2);
 anyadirOrdenador(pc3);
 anyadirOrdenador(pc4);
 
-console.log(pc1.mostrarOrdenador())
-console.log(pc2.mostrarOrdenador())
-console.log(pc3.mostrarOrdenador())
-console.log(pc4.mostrarOrdenador())
-
-
+console.log(pc1.mostrarOrdenador());
+console.log(pc2.mostrarOrdenador());
+console.log(pc3.mostrarOrdenador());
+console.log(pc4.mostrarOrdenador());
 
 let res = mostrarFechaAlta();
 console.log(res);
+
+
+

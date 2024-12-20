@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+   <main>
+        <div class="header">
+            <img src="img/logo-qr-generator.svg" alt="Logo">
+        </div>
+        <div id="qrCode">
+            
+        </div>
+        <div class="generate">
+            <input name="generar" id="inputurl" type="text" placeholder="Enter a URL">
+            <button  id="btnGenerate">QR code</button>
+        </div>
+   </main>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    console.log("Hola")
+        const url = document.generar.value;
+        let btnGenerar = document.getElementById("btnGenerate");
+
+        btnGenerar.addEventListener("click", function(){
+            let QRCodeContainer = document.getElementById("qrCode");
+            console.log(url)
+
+            new QRCode(QRCodeContainer, {
+                text: url,           // El texto o URL que se convertirá en QR
+                width: 200,          // Ancho del QR
+                height: 200,         // Alto del QR
+                colorDark: "#000",   // Color oscuro del QR
+                colorLight: "#fff",  // Color claro del QR (fondo)
+                correctLevel: QRCode.CorrectLevel.H // Nivel de corrección de errores
+            })
+        });
+   </script>
+</body>
+</html>

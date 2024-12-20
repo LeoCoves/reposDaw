@@ -1,0 +1,141 @@
+/* Navegador */
+.nav{
+    display: flex;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    img{
+        margin: 10px;
+        width: 110px;
+        margin: 0;
+    }
+
+    .menu{
+        display: flex;
+        list-style-type: none;
+        justify-content: flex-end;
+        
+        margin:auto;
+        margin-left: 0;
+        
+        li{
+            margin: 5px;
+            a{
+                text-decoration: none;
+                color: black;
+                padding: 10px;
+            }
+
+            a:hover{
+                color: var(--color-btn);
+                transition: 1s;
+            }
+        }    
+    } 
+    /* Botones */
+    .button-start1{
+        background-color: var(--color-btn);
+        margin: 5px;
+        margin-right: 5px;
+        padding: 5px;
+        color:white;
+        border: none;
+        width: 140px;
+    }
+
+    .button-start1:hover{
+        background-color: rgba(56, 198, 56, 0.449);
+        transition: 0.6s;
+        cursor: pointer;
+    }
+
+    .button-login{
+        margin: 5px;
+        margin-right: 5px;
+        background-color: transparent;
+        border: 2pt solid var(--color-btn);
+        color: var(--color-btn);
+        width: 180px;
+    }
+
+    .button-login:hover{
+        background-color: rgba(56, 198, 56, 0.479);
+        transition: 1s;
+        cursor: pointer;
+    }    
+}
+
+footer{
+    background-color: var(--color-btn);
+    display: flex;
+    margin-top: 10%;
+    padding: 3%;
+    justify-content: center;
+
+    p{
+        font-weight: 500;
+        color: white;
+        width: 12%;
+        margin-right: 3%;
+    }
+
+    img{
+        margin: 1%;
+        width: 8%;
+        height: 5%;
+        align-self: center;
+    }
+}
+
+@media all and (max-width: 800px){
+    .nav{
+        display: block;
+        text-align: center;
+
+        .menu{
+            margin-bottom: 5%;
+            margin-left: -5%;
+            justify-content: center;
+        }
+
+        img{
+            width: 30%;
+        }
+
+        
+        button{
+            width: 150px;
+            height: 50px;
+        }
+    }
+    
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+
+        p{
+            width: 100%;
+        }
+    }
+}
+
+
+@media all and (max-width: 550px){
+
+    .nav{
+        display: block;
+        text-align: center;
+
+        .menu{
+            display: block;
+            margin-left: -10%;
+            justify-content: center;
+
+            li{
+                padding: 2%;
+            }
+        }
+    }
+}

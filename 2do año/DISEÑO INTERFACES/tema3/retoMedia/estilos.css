@@ -29,6 +29,7 @@ main {
         background-color: brown;
         grid-column: span 2;
         grid-row: 2/3;
+
     }
     .repe{
         background-color: aqua;
@@ -39,7 +40,30 @@ main {
    
 }
 @media (max-width: 30em){
-   /* cada soy en una fila */
+
+    .soy1{
+        grid-column: span 3 !important;
+        grid-row: 1/2 !important;
+    }
+    
+    .soy2{
+        grid-column: span 3;
+        grid-row: 2/3; 
+    }
+
+    .soy3{
+        grid-column: span 3;
+        grid-row: 3/4;
+    }
+    
+   .soy4{
+        grid-column: span 3;
+        grid-row: 4/ 5 !important;
+   }
    
+   /* main{
+    display: flex;
+    flex-wrap: wrap;
+   } */
 
 }

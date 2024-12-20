@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema8\\Factura\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0FF1C4-B445-400C-8136-7C1A7B019677}|GesFactura\\GesFactura.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema8\\factura\\gesfactura\\lineasfactura.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0FF1C4-B445-400C-8136-7C1A7B019677}|GesFactura\\GesFactura.csproj|solutionrelative:gesfactura\\lineasfactura.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4FBDDAB-6BB1-445C-BA5A-24D96A90380E}|FacturaWS\\FacturaWS.csproj|C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema8\\Factura\\facturaws\\calculosfacturasws.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4FBDDAB-6BB1-445C-BA5A-24D96A90380E}|FacturaWS\\FacturaWS.csproj|solutionrelative:facturaws\\calculosfacturasws.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0FF1C4-B445-400C-8136-7C1A7B019677}|GesFactura\\GesFactura.csproj|C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema8\\Factura\\gesfactura\\lineasfactura.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EE0FF1C4-B445-400C-8136-7C1A7B019677}|GesFactura\\GesFactura.csproj|solutionrelative:gesfactura\\lineasfactura.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0FF1C4-B445-400C-8136-7C1A7B019677}|GesFactura\\GesFactura.csproj|C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema8\\Factura\\gesfactura\\hojaestilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EE0FF1C4-B445-400C-8136-7C1A7B019677}|GesFactura\\GesFactura.csproj|solutionrelative:gesfactura\\hojaestilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LineasFactura.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema8\\Factura\\GesFactura\\LineasFactura.aspx.cs",
+              "RelativeDocumentMoniker": "GesFactura\\LineasFactura.aspx.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema8\\Factura\\GesFactura\\LineasFactura.aspx.cs",
+              "RelativeToolTip": "GesFactura\\LineasFactura.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:35:08.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HojaEstilos.css",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema8\\Factura\\GesFactura\\HojaEstilos.css",
+              "RelativeDocumentMoniker": "GesFactura\\HojaEstilos.css",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema8\\Factura\\GesFactura\\HojaEstilos.css",
+              "RelativeToolTip": "GesFactura\\HojaEstilos.css",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-11T19:02:22.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LineasFactura.aspx",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema8\\Factura\\GesFactura\\LineasFactura.aspx",
+              "RelativeDocumentMoniker": "GesFactura\\LineasFactura.aspx",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema8\\Factura\\GesFactura\\LineasFactura.aspx",
+              "RelativeToolTip": "GesFactura\\LineasFactura.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-11T18:34:03.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalculosFacturasWS.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema8\\Factura\\FacturaWS\\CalculosFacturasWS.asmx.cs",
+              "RelativeDocumentMoniker": "FacturaWS\\CalculosFacturasWS.asmx.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema8\\Factura\\FacturaWS\\CalculosFacturasWS.asmx.cs",
+              "RelativeToolTip": "FacturaWS\\CalculosFacturasWS.asmx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:26:33.972Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
