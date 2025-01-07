@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WmC019Wemw0=",
+  "dgSpecHash": "EHlaFz31brA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema8\\ApiContactos\\ApiContactos\\ApiContactos.csproj",
+  "projectFilePath": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema8\\ApiContactos\\ApiContactos\\ApiContactos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lcove\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\lcove\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

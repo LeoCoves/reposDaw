@@ -8053,11 +8053,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema8\\ApiContactos\\ApiContactos\\ApiContactos.csproj",
+      "projectUniqueName": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema8\\ApiContactos\\ApiContactos\\ApiContactos.csproj",
       "projectName": "ApiContactos",
-      "projectPath": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema8\\ApiContactos\\ApiContactos\\ApiContactos.csproj",
+      "projectPath": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema8\\ApiContactos\\ApiContactos\\ApiContactos.csproj",
       "packagesPath": "C:\\Users\\lcove\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema8\\ApiContactos\\ApiContactos\\obj\\",
+      "outputPath": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema8\\ApiContactos\\ApiContactos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lcove\\AppData\\Roaming\\NuGet\\NuGet.Config",
