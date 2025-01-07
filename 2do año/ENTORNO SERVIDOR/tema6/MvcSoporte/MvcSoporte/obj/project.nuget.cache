@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vWQBU7MH9SE=",
+  "dgSpecHash": "03tV6R+gPJc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj",
+  "projectFilePath": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lcove\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\lcove\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

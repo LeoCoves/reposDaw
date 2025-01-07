@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lcove\\Desktop\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj": {}
+    "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lcove\\Desktop\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj": {
+    "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj",
+        "projectUniqueName": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj",
         "projectName": "MvcSoporte",
-        "projectPath": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj",
+        "projectPath": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj",
         "packagesPath": "C:\\Users\\lcove\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\obj\\",
+        "outputPath": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lcove\\AppData\\Roaming\\NuGet\\NuGet.Config",

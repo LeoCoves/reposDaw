@@ -1,85 +1,85 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\",
+  "WorkspaceRootPath": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\misdatos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\misdatos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\misdatos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\misdatos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\misdatos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\misdatos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\misavisos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\misavisos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\misavisos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\misavisos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\misavisos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\misavisos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\misavisos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\misavisos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\misavisos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\misavisos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\misavisos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\misavisos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\misavisos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\misavisos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\misavisos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\models\\viewusuarioconrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\models\\viewusuarioconrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\models\\viewusuarioconrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\controllers\\misavisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\controllers\\misavisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\controllers\\misavisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\controllers\\misdatoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\controllers\\misdatoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\controllers\\misdatoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\controllers\\avisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\controllers\\avisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\controllers\\avisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\controllers\\equiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\controllers\\equiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\controllers\\equiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\controllers\\localizacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\controllers\\localizacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\controllers\\localizacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\controllers\\tipoaveriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\controllers\\tipoaveriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\controllers\\tipoaveriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -89,119 +89,119 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQL15/aspnet_MvcSoporte_9ed01e15_7a98_448e_9ff5_b24e17c761bd/True/SqlTable/dbo.AspNetRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\equipos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\equipos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\equipos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\localizaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\localizaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\localizaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\empleados\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\empleados\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\empleados\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\tipoaverias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\tipoaverias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\tipoaverias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\equipos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\equipos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\equipos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\avisos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\avisos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\avisos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\equipos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\equipos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\equipos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\equipos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\equipos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\equipos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\equipos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\views\\equipos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\equipos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\data\\mvcsoportecontexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\data\\mvcsoportecontexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\data\\mvcsoportecontexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\models\\aviso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\models\\aviso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\models\\aviso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\models\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\models\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\models\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\models\\localizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\models\\localizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\models\\localizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\models\\tipoaveria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\models\\tipoaveria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\models\\tipoaveria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\migrations\\20241128225624_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\tema6\\mvcsoporte\\mvcsoporte\\migrations\\20241128225624_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5288F-26D7-47BA-928C-68DDDE5ABDA6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\migrations\\20241128225624_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -218,35 +218,37 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Create.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\MisAvisos\\Create.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Create.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\MisAvisos\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T19:26:05.507Z"
+              "WhenOpened": "2024-12-02T19:26:05.507Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisDatos\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisDatos\\Edit.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\MisDatos\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisDatos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisDatos\\Edit.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\MisDatos\\Edit.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T18:42:48.057Z"
+              "WhenOpened": "2024-12-02T18:42:48.057Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisDatos\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisDatos\\Create.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\MisDatos\\Create.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisDatos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisDatos\\Create.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\MisDatos\\Create.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-02T18:29:24.404Z",
               "EditorCaption": ""
@@ -255,212 +257,229 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Delete.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\MisAvisos\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Delete.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\MisAvisos\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T17:31:11.947Z"
+              "WhenOpened": "2024-12-03T17:31:11.947Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Details.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\MisAvisos\\Details.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Details.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\MisAvisos\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T17:31:06.731Z"
+              "WhenOpened": "2024-12-03T17:31:06.731Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Usuarios\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Usuarios\\Index.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\Usuarios\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Usuarios\\Index.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\Usuarios\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T16:39:22.106Z"
+              "WhenOpened": "2024-12-03T16:39:22.106Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAACsAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T23:24:45.938Z"
+              "WhenOpened": "2024-11-28T23:24:45.938Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Index.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\MisAvisos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Index.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\MisAvisos\\Index.cshtml",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T19:36:22.471Z"
+              "WhenOpened": "2024-12-02T19:36:22.471Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Edit.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\MisAvisos\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\MisAvisos\\Edit.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\MisAvisos\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T19:28:49.266Z"
+              "WhenOpened": "2024-12-02T19:28:49.266Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "MvcSoporte\\Controllers\\UsuariosController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwCQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T16:30:43.92Z"
+              "WhenOpened": "2024-12-03T16:30:43.92Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Usuarios\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Usuarios\\Create.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\Usuarios\\Create.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Usuarios\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Usuarios\\Create.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\Usuarios\\Create.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T17:25:23.636Z"
+              "WhenOpened": "2024-12-03T17:25:23.636Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "ViewUsuarioConRol.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\ViewUsuarioConRol.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\ViewUsuarioConRol.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\Models\\ViewUsuarioConRol.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\ViewUsuarioConRol.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\ViewUsuarioConRol.cs",
               "RelativeToolTip": "MvcSoporte\\Models\\ViewUsuarioConRol.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T16:25:15.398Z"
+              "WhenOpened": "2024-12-03T16:25:15.398Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "MisAvisosController.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\MisAvisosController.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\MisAvisosController.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\Controllers\\MisAvisosController.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\MisAvisosController.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\MisAvisosController.cs",
               "RelativeToolTip": "MvcSoporte\\Controllers\\MisAvisosController.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAA9wEMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T19:03:26.25Z"
+              "WhenOpened": "2024-12-02T19:03:26.25Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\HomeController.cs",
               "RelativeToolTip": "MvcSoporte\\Controllers\\HomeController.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAowB0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T23:32:36.202Z"
+              "WhenOpened": "2024-11-28T23:32:36.202Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "MisDatosController.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\MisDatosController.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\MisDatosController.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\Controllers\\MisDatosController.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\MisDatosController.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\MisDatosController.cs",
               "RelativeToolTip": "MvcSoporte\\Controllers\\MisDatosController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAgwCwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T18:16:23.144Z"
+              "WhenOpened": "2024-12-02T18:16:23.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "EmpleadosController.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\EmpleadosController.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\EmpleadosController.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\Controllers\\EmpleadosController.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\EmpleadosController.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\EmpleadosController.cs",
               "RelativeToolTip": "MvcSoporte\\Controllers\\EmpleadosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T23:01:04.987Z"
+              "WhenOpened": "2024-11-28T23:01:04.987Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "AvisosController.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\AvisosController.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\AvisosController.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\Controllers\\AvisosController.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\AvisosController.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\AvisosController.cs",
               "RelativeToolTip": "MvcSoporte\\Controllers\\AvisosController.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAcwA4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T23:04:29.389Z"
+              "WhenOpened": "2024-11-28T23:04:29.389Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "EquiposController.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\EquiposController.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\EquiposController.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\Controllers\\EquiposController.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\EquiposController.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\EquiposController.cs",
               "RelativeToolTip": "MvcSoporte\\Controllers\\EquiposController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T23:03:39.524Z"
+              "WhenOpened": "2024-11-28T23:03:39.524Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "LocalizacionesController.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\LocalizacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\LocalizacionesController.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\Controllers\\LocalizacionesController.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\LocalizacionesController.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\LocalizacionesController.cs",
               "RelativeToolTip": "MvcSoporte\\Controllers\\LocalizacionesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T23:02:43.825Z"
+              "WhenOpened": "2024-11-28T23:02:43.825Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "TipoAveriasController.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\TipoAveriasController.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\TipoAveriasController.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\Controllers\\TipoAveriasController.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\TipoAveriasController.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Controllers\\TipoAveriasController.cs",
               "RelativeToolTip": "MvcSoporte\\Controllers\\TipoAveriasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T23:02:03.074Z"
+              "WhenOpened": "2024-11-28T23:02:03.074Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "dbo.AspNetUsers.sql",
+              "Title": "dbo.AspNetUsers [Datos]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQL15/aspnet_MvcSoporte_9ed01e15_7a98_448e_9ff5_b24e17c761bd/True/SqlTable/dbo.AspNetUsers.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQL15/aspnet_MvcSoporte_9ed01e15_7a98_448e_9ff5_b24e17c761bd/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Datos]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-12-02T17:33:06.846Z"
             },
@@ -477,349 +496,378 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "MvcSoporte\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AgIAAGkAAAAAAAAAAAAIwHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T17:26:11.512Z"
+              "WhenOpened": "2024-12-02T17:26:11.512Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Program.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\Program.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Program.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Program.cs",
               "RelativeToolTip": "MvcSoporte\\Program.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T22:53:01.212Z"
+              "WhenOpened": "2024-11-28T22:53:01.212Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\SeedData.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\SeedData.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\SeedData.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\SeedData.cs",
               "RelativeToolTip": "MvcSoporte\\SeedData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T16:38:26.652Z"
+              "WhenOpened": "2024-12-02T16:38:26.652Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "MvcSoporte\\ScaffoldingReadMe.txt",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\ScaffoldingReadMe.txt",
               "RelativeToolTip": "MvcSoporte\\ScaffoldingReadMe.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-02T16:30:32.596Z"
+              "WhenOpened": "2024-12-02T16:30:32.596Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Details.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\Equipos\\Details.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Details.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\Equipos\\Details.cshtml",
               "ViewState": "AgIAAGgAAAAAAAAAAAAAAIQAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T23:11:30.476Z"
+              "WhenOpened": "2024-11-28T23:11:30.476Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Empleados\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Empleados\\Details.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\Empleados\\Details.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Empleados\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Empleados\\Details.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\Empleados\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T15:14:27.327Z"
+              "WhenOpened": "2024-12-02T15:14:27.327Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 36,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Avisos\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Avisos\\Index.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\Avisos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Avisos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Avisos\\Index.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\Avisos\\Index.cshtml",
               "ViewState": "AgIAAGUAAAAAAAAAAAAYwHEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T23:29:23.412Z"
+              "WhenOpened": "2024-11-28T23:29:23.412Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 38,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T23:31:11.007Z"
+              "WhenOpened": "2024-11-28T23:31:11.007Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Empleados\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Empleados\\Index.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\Empleados\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Empleados\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Empleados\\Index.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\Empleados\\Index.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAADYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T23:29:40.638Z"
+              "WhenOpened": "2024-11-28T23:29:40.638Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeToolTip": "MvcSoporte\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T15:15:46.861Z"
+              "WhenOpened": "2024-12-02T15:15:46.861Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "MvcSoporte\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\wwwroot\\css\\site.css",
               "RelativeToolTip": "MvcSoporte\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-02T15:15:51.358Z"
+              "WhenOpened": "2024-12-02T15:15:51.358Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T15:15:34.262Z"
+              "WhenOpened": "2024-12-02T15:15:34.262Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T15:15:35.438Z"
+              "WhenOpened": "2024-12-02T15:15:35.438Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\TipoAverias\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\TipoAverias\\Index.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\TipoAverias\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\TipoAverias\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\TipoAverias\\Index.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\TipoAverias\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T23:30:49.502Z"
+              "WhenOpened": "2024-11-28T23:30:49.502Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 37,
               "Title": "PaginatedList.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\PaginatedList.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\PaginatedList.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\PaginatedList.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\PaginatedList.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\PaginatedList.cs",
               "RelativeToolTip": "MvcSoporte\\PaginatedList.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAkwAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T23:51:20.889Z"
+              "WhenOpened": "2024-11-28T23:51:20.889Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Localizaciones\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Localizaciones\\Index.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\Localizaciones\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Localizaciones\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Localizaciones\\Index.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\Localizaciones\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T23:30:31.203Z"
+              "WhenOpened": "2024-11-28T23:30:31.203Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Index.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\Equipos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Index.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\Equipos\\Index.cshtml",
               "ViewState": "AgIAAD8AAAAAAAAAAAAAAFMAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T23:09:57.681Z"
+              "WhenOpened": "2024-11-28T23:09:57.681Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 39,
               "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Home\\Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T23:31:24.621Z"
+              "WhenOpened": "2024-11-28T23:31:24.621Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 40,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Create.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\Equipos\\Create.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Create.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\Equipos\\Create.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAC0AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T23:15:56.528Z"
+              "WhenOpened": "2024-11-28T23:15:56.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 41,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Edit.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\Equipos\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Edit.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\Equipos\\Edit.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAAC0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T23:15:20.059Z"
+              "WhenOpened": "2024-11-28T23:15:20.059Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 42,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Delete.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\Equipos\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Delete.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\Equipos\\Delete.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T23:11:59.1Z"
+              "WhenOpened": "2024-11-28T23:11:59.1Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 50,
               "Title": "20241128225624_Inicial.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Migrations\\20241128225624_Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Migrations\\20241128225624_Inicial.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\Migrations\\20241128225624_Inicial.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Migrations\\20241128225624_Inicial.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Migrations\\20241128225624_Inicial.cs",
               "RelativeToolTip": "MvcSoporte\\Migrations\\20241128225624_Inicial.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwCUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T22:56:24.911Z"
+              "WhenOpened": "2024-11-28T22:56:24.911Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 43,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\appsettings.json",
               "RelativeDocumentMoniker": "MvcSoporte\\appsettings.json",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\appsettings.json",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\appsettings.json",
               "RelativeToolTip": "MvcSoporte\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-28T22:54:09.763Z"
+              "WhenOpened": "2024-11-28T22:54:09.763Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 44,
               "Title": "MvcSoporteContexto.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Data\\MvcSoporteContexto.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Data\\MvcSoporteContexto.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\Data\\MvcSoporteContexto.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Data\\MvcSoporteContexto.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Data\\MvcSoporteContexto.cs",
               "RelativeToolTip": "MvcSoporte\\Data\\MvcSoporteContexto.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwCEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T19:36:11.181Z"
+              "WhenOpened": "2024-11-28T19:36:11.181Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 45,
               "Title": "Aviso.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\Aviso.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\Aviso.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\Models\\Aviso.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\Aviso.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\Aviso.cs",
               "RelativeToolTip": "MvcSoporte\\Models\\Aviso.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T19:34:59.073Z"
+              "WhenOpened": "2024-11-28T19:34:59.073Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 46,
               "Title": "Equipo.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\Equipo.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\Equipo.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\Models\\Equipo.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\Equipo.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\Equipo.cs",
               "RelativeToolTip": "MvcSoporte\\Models\\Equipo.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAwwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T19:34:18.409Z"
+              "WhenOpened": "2024-11-28T19:34:18.409Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 47,
               "Title": "Localizacion.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\Localizacion.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\Localizacion.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\Models\\Localizacion.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\Localizacion.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\Localizacion.cs",
               "RelativeToolTip": "MvcSoporte\\Models\\Localizacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T19:33:34.025Z"
+              "WhenOpened": "2024-11-28T19:33:34.025Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 48,
               "Title": "TipoAveria.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\TipoAveria.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\TipoAveria.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\Models\\TipoAveria.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\TipoAveria.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\TipoAveria.cs",
               "RelativeToolTip": "MvcSoporte\\Models\\TipoAveria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T19:33:08.853Z"
+              "WhenOpened": "2024-11-28T19:33:08.853Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 49,
               "Title": "Empleado.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\Empleado.cs",
               "RelativeDocumentMoniker": "MvcSoporte\\Models\\Empleado.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\tema6\\MvcSoporte\\MvcSoporte\\Models\\Empleado.cs",
               "RelativeToolTip": "MvcSoporte\\Models\\Empleado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T19:32:31.726Z"
+              "WhenOpened": "2024-11-28T19:32:31.726Z",
+              "EditorCaption": ""
             }
           ]
         }
