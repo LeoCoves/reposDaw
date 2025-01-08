@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\2.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\sinImagen.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\sinImagen.jpg"
+    },
+    {
       "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
