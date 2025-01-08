@@ -11,11 +11,11 @@
 </head>
 <body>
 
-<h1 class="text-primary">Listado de Usuarios del Sistema</h1>
+<div class="container p-2">
+    <h1 class="text-primary mt-3">Listado de Usuarios del Sistema</h1>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-3">
+    <div class="row mt-3">
+        <div class="col-sm-3">
             Mostrar
             <select id="cars" name="cars">
                 <option value="5">5</option>
@@ -25,42 +25,91 @@
             </select>
             registros
         </div>
-        <div class="col-md-6"></div>
-        <div class="col-md-3">
-            Buscar
+        <div class="col-sm-5"></div>
+        <div class="col-sm-4">
+            Buscar:  
             <input type="search">
         </div>
     </div>
+    <div class="row mt-3">
+        <div class="col-sm-1 p-2 border"><h6>ID</h6></div>
+        <div class="col-sm-2 p-2 border"><h6>Usuario</h6></div>
+        <div class="col-sm-3 p-2 border"><h6>Sector</h6></div>
+        <div class="col-sm-3 p-2 border"><h6>Ultimo ingreso</h6></div>
+        <div class="col-sm-3 p-2 border"><h6>Accion</h6></div>
+    </div>
+    <div class="row bg-secondary">
+        <div class="col-sm-1 p-3 border">1</div>
+        <div class="col-sm-2 p-3 border">admin</div>
+        <div class="col-sm-3 p-3 border">Administracion</div>
+        <div class="col-sm-3 p-3 border">2018-01-17 12:49:56</div>
+        <div class="btn-group col-sm-3 p-3 border" role="group">
+            <i type="button" class="bi bi-eye-fill"></i>
+            <i type="button" class="bi bi-pencil-square"></i>
+            <i type="button" class="bi bi-trash-fill"></i>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1 p-3 border">2</div>
+        <div class="col-sm-2 p-3 border">marcelo</div>
+        <div class="col-sm-3 p-3 border">Administracion</div>
+        <div class="col-sm-3 p-3 border">2018-01-17 12:49:56</div>
+        <div class="col-sm-3 p-3 border"></div>
+    </div>
+    <div class="row bg-secondary">
+        <div class="col-sm-1 p-3 border">3</div>
+        <div class="col-sm-2 p-3 border">eduardo</div>
+        <div class="col-sm-3 p-3 border">Produccion</div>
+        <div class="col-sm-3 p-3 border">2018-01-17 12:49:56</div>
+        <div class="col-sm-3 p-3 border"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1 p-3 border">4</div>
+        <div class="col-sm-2 p-3 border">admin</div>
+        <div class="col-sm-3 p-3 border">Administracion</div>
+        <div class="col-sm-3 p-3 border">2018-01-17 12:49:56</div>
+        <div class="col-sm-3 p-3 border"></div>
+    </div>
+    <div class="row bg-secondary">
+        <div class="col-sm-1 p-3 border">5</div>
+        <div class="col-sm-2 p-3 border">marcelo</div>
+        <div class="col-sm-3 p-3 border">Administracion</div>
+        <div class="col-sm-3 p-3 border">2018-01-17 12:49:56</div>
+        <div class="col-sm-3 p-3 border"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1 p-3 border">6</div>
+        <div class="col-sm-2 p-3 border">eduardo</div>
+        <div class="col-sm-3 p-3 border">Produccion</div>
+        <div class="col-sm-3 p-3 border">2018-01-17 12:49:56</div>
+        <div class="col-sm-3 p-3 border"></div>
+    </div>
+    <div class="row bg-secondary">
+        <div class="col-sm-1 p-3 border">6</div>
+        <div class="col-sm-2 p-3 border">eduardo</div>
+        <div class="col-sm-3 p-3 border">Produccion</div>
+        <div class="col-sm-3 p-3 border">2018-01-17 12:49:56</div>
+        <div class="col-sm-3 p-3 border"></div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-sm-4">
+            Mostrando del 1 al 5 un total de 5 registros
+        </div>
+        <div class="col-sm-5"></div>
+        <div class="btn-group col-sm-3 border" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-light">Anterior</button>
+            <button type="button" class="btn btn-primary">1</button>
+            <button type="button" class="btn btn-light">Siguiente</button>
+        </div>
+    </div>
 
-    <div class="row font-weight-bold">
-        <div class="col-sm-1 border">ID</div>
-        <div class="col-sm-2 border">Usuario</div>
-        <div class="col-sm-3 border">Sector</div>
-        <div class="col-sm-3 border">Ultimo ingreso</div>
-        <div class="col-sm-3 border">Accion</div>
+    <div class="row text-center mt-2">
+        <div class="col-sm-3">
+            <button type="button" class="btn btn-primary">
+                Agregar Usuario
+            </button>
+        </div>
     </div>
-    <div class="row">
-        <div class="col-sm-1 font-weight-bold border">ID</div>
-        <div class="col-sm-2 border">Usuario</div>
-        <div class="col-sm-3 border">Sector</div>
-        <div class="col-sm-3 border">Ultimo ingreso</div>
-        <div class="col-sm-3 border">Accion</div>
-    </div>
-    <div class="row">
-        <div class="col-sm-1 font-weight-bold border">ID</div>
-        <div class="col-sm-2 border">Usuario</div>
-        <div class="col-sm-3 border">Sector</div>
-        <div class="col-sm-3 border">Ultimo ingreso</div>
-        <div class="col-sm-3 border">Accion</div>
-    </div>
-    <div class="row">
-        <div class="col-sm-1 font-weight-bold border">ID</div>
-        <div class="col-sm-2 border">Usuario</div>
-        <div class="col-sm-3 border">Sector</div>
-        <div class="col-sm-3 border">Ultimo ingreso</div>
-        <div class="col-sm-3 border">Accion</div>
-    </div>
-
 </div>
 
 </body>
