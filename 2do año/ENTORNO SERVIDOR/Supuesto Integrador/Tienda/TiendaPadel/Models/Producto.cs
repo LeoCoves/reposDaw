@@ -29,7 +29,7 @@ namespace TiendaPadel.Models
             }
         }
         public int? Stock { get; set; }
-        public bool? Escaparate { get; set; }
+        public bool Escaparate { get; set; } = false;
         public string? Imagen { get; set; }
         public int CategoriaId { get; set; }
 

@@ -19,6 +19,10 @@ namespace TiendaPadel.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
+            modelBuilder.Entity<Producto>()
+            .Property(p => p.Escaparate)
+            .HasDefaultValue(false);
+
             // Deshabilitar la eliminación en cascada en todas las relaciones
             base.OnModelCreating(modelBuilder);
             foreach (var relationship in
@@ -26,6 +30,8 @@ namespace TiendaPadel.Data
             {
                 relationship.DeleteBehavior = DeleteBehavior.Restrict;
             }
+
+            
         }
     }
 }
