@@ -42,17 +42,21 @@
 </div>*@
 
 
-<div class="container">
-    <div class="row m-1  justify-content-between">
+<div class="container px-4 px-lg-5 mt-5">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
         @foreach (var item in Model)
         {
-            <div class="col-sm-3">
-                <div class="card" style="width: 18rem;">
+            <div class="col mb-5">
+                <div class="card h-100">
                     <img src="~/imagenes/@item.Imagen" class="card-img-top" alt="Imagen de @item.Descripcion">
-                    <div class="card-body">
-                        <h5 class="card-title">@(item.Descripcion)</h5>
-                        <p class="card-text">@(item.Precio)€</p>
-                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <h5 class="card-title">@(item.Descripcion)</h5>
+                            <p class="card-text">@(item.Precio)€</p>
+                        </div>
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a href="#" class="btn btn-primary">Añadir al carrito</a></div>
+                        </div>
                     </div>
                 </div>
             </div>

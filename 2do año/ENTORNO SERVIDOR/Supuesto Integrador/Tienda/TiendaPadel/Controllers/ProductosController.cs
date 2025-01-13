@@ -64,6 +64,11 @@ namespace TiendaPadel.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Descripcion,Texto,Precio,PrecioCadena,Stock,Escaparate,Imagen,CategoriaId")] Producto producto)
         {
+            if (string.IsNullOrEmpty(producto.Imagen))
+            {
+                producto.Imagen = "2.jpg"; // Imagen predeterminada
+            }
+
             if (ModelState.IsValid)
             {
                 _context.Add(producto);
