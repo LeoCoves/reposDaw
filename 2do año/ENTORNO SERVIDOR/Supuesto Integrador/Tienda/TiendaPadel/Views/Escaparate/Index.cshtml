@@ -1,17 +1,54 @@
 ﻿@model IEnumerable<TiendaPadel.Models.Producto>
 @{
     ViewData["Title"] = "Escaparate";
+    var categorias = ViewData["Categorias"] as IEnumerable<TiendaPadel.Models.Categoria>;
 }
 
 <h1>Escaparate</h1>
 
+<div>
+    <h2>Categorias</h2>
+    <div class="navbar-collapse w-100">
+        <ul class="navbar-nav flex-row flex-wrap justify-content-between">
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-action="Index" asp-route-idCategoria="">
+                    Quitar filtros
+                </a>
+            </li>
+            @if (categorias != null)
+            {
+                foreach (var categoria in categorias)
+                {
+                    <li>|</li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-action="Index" asp-route-idCategoria="@categoria.Id">
+                            @categoria.Descripcion
+                        </a>
+                    </li>
+                }
+            }
+        </ul>
+    </div>
+</div>
+
+
+
+@*<div class="col-md">
+    <label class="control-label">Tipo de avería:</label>
+    <select name="idCategoria" asp-items="ViewBag.CategoriaId"
+            class="form-control">
+        <option value="">Todas</option>
+    </select>
+</div>*@
+
+
 <div class="container">
-   <div class="row">
+    <div class="row m-1  justify-content-between">
         @foreach (var item in Model)
         {
-            <div class="col-md-4">
+            <div class="col-sm-3">
                 <div class="card" style="width: 18rem;">
-                    <img src="~imagenes/@item.Imagen" class="card-img-top" alt="Imagen de @item.Descripcion">
+                    <img src="~/imagenes/@item.Imagen" class="card-img-top" alt="Imagen de @item.Descripcion">
                     <div class="card-body">
                         <h5 class="card-title">@(item.Descripcion)</h5>
                         <p class="card-text">@(item.Precio)€</p>

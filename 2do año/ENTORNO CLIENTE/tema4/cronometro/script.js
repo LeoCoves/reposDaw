@@ -9,28 +9,34 @@ let contador = 0;
 let corriendo = false;
 let temp;
 
-//Funcion de sumar el numero
-let miFuncion = function(){
-    document.getElementById("cont").innerHTML = contador;
-    contador++; 
-}
-
 //Evento de Iniciar
-btnIniciar.addEventListener("click", function(){
-    if(!corriendo)
+btnIniciar.addEventListener("click", () =>{
+    if(!corriendo){
         //setIterval realiza la funcion "miFuncion" cada 1000 milisegundos
-        temp = setInterval(miFuncion, 1000)
+        temp = setInterval(()=>{
+            document.getElementById("cont").innerHTML = contador;
+            contador++; 
+        }, 1000);
         corriendo = true;
+        btnIniciar.textContent = "Parar";
+    }
+    else{
+        clearInterval(temp);
+        btnIniciar.textContent = "Iniciar";
+        corriendo = false;
+    }
 })
 
 //Evento de Reset
-btnReset.addEventListener("click", function(){
+btnReset.addEventListener("click", () =>{
     if(corriendo)
         //Deja de realizar la funcion cada 1 segundo
-        clearInterval(temp)
-        contador = 0;
-        document.getElementById("cont").innerHTML = 0;
+        clearInterval(temp);
         corriendo = false;
+        btnIniciar.textContent = "Iniciar";
+
+    contador = 0;
+    document.getElementById("cont").innerHTML = 0;
 })
 
 
