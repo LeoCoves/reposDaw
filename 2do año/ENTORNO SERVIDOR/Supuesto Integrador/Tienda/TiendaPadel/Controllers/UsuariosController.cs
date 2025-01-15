@@ -59,40 +59,5 @@ namespace TiendaPadel.Controllers
             }
             return View(model);
         }
-
-        // GET: Clientes/Delete/5
-
-        //public async Task<IActionResult> Delete(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    var user = await _context.Users
-        //        .FirstOrDefaultAsync(m => m.Id == id);
-        //    if (cliente == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return View(cliente);
-        //}
-
-        //// POST: Clientes/Delete/5
-        //[HttpPost, ActionName("Delete")]
-        //[ValidateAntiForgeryToken]
-        //public async Task<IActionResult> DeleteConfirmed(int id)
-        //{
-        //    var cliente = await _context.Clientes.FindAsync(id);
-        //    if (cliente != null)
-        //    {
-        //        _context.Clientes.Remove(cliente);
-        //    }
-
-        //    await _context.SaveChangesAsync();
-        //    return RedirectToAction(nameof(Index));
-        //}
-
     }
 }

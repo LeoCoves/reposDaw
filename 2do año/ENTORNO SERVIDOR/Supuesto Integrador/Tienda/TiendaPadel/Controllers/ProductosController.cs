@@ -112,6 +112,9 @@ namespace TiendaPadel.Controllers
             {
                 try
                 {
+                    var productoOriginal = await _context.Productos.AsNoTracking().FirstOrDefaultAsync();
+                    if (productoOriginal == null) return NotFound();
+                    producto.Imagen = productoOriginal.Imagen;
                     _context.Update(producto);
                     await _context.SaveChangesAsync();
                 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -7,7 +8,7 @@ using TiendaPadel.Models;
 
 namespace TiendaPadel.Controllers
 {
-
+    
     public class EscaparateController : Controller
     {
         private readonly MvcTiendaContexto _context;
@@ -38,17 +39,18 @@ namespace TiendaPadel.Controllers
             return View(await productos.ToListAsync());
         }
 
+
         // GET: Escaparate/AgregarCarrito
-        public async Task<IActionResult> AgregarCarrito(int? idProducto)
+        public async Task<IActionResult> AgregarCarrito(int? id)
         {
-            if (idProducto == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
             var producto = await _context.Productos
-                .Include(p => p.Categoria)
-                .FirstOrDefaultAsync(m => m.Id == idProducto);
+               .Include(p => p.Categoria)
+               .FirstOrDefaultAsync(m => m.Id == id);
 
             if (producto == null)
             {
@@ -58,57 +60,70 @@ namespace TiendaPadel.Controllers
             return View(producto);
         }
 
+        //POST: Escaparate/Agregar Carrito
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AgregarCarrito(int idProducto)
+        public async Task<IActionResult> AgregarCarrito(int idProducto, int cantidad)
         {
-            // Cargar datos de producto a añadir al carrito
-            var producto = await _context.Productos
-            .FirstOrDefaultAsync(m => m.Id == idProducto);
-            if (producto == null)
+            // Obtener el cliente autenticado
+            var usuarioId = User.Identity?.Name; // Asume que el nombre de usuario está relacionado con el cliente
+            var cliente = await _context.Clientes.FirstOrDefaultAsync(c => c.Email == usuarioId);
+
+            if (cliente == null)
             {
                 return NotFound();
             }
-            // Crear nuevo pedido, si el carrito está vacío y, por tanto, no existe pedido actual
-            // La variable de sesión NumPedido almacena el número de pedido del carrito
-            //if (string.IsNullOrEmpty(HttpContext.Session.GetString("NumPedido")) )
-            if (HttpContext.Session.GetString("NumPedido") == null)
+
+            // Obtener el número de pedido desde la sesión
+            string? strNumPedido = HttpContext.Session.GetString("NumPedido");
+
+            // Si no hay un pedido en la sesión, creamos uno nuevo
+            if (string.IsNullOrEmpty(strNumPedido))
             {
-                // Crear objeto pedido a agregar
-                Pedido pedido = new Pedido();
-                pedido.Fecha = DateTime.Now;
-                pedido.Confirmado = null;
-                pedido.Preparado = null;
-                pedido.Enviado = null;
-                pedido.Cobrado = null;
-                pedido.Devuelto = null;
-                pedido.Anulado = null;
-                pedido.ClienteId = 2; // Asignar el cliente correspondiente al usuario actual
-                                      // Pruebas sobre el cliente Id=2
-                pedido.EstadoId = 1; // Estado: "Pendiente" (Sin confirmar)
-                if (ModelState.IsValid)
+                var nuevoPedido = new Pedido
                 {
-                    _context.Add(pedido);
-                    await _context.SaveChangesAsync();
-                }
-                // Se asigna el número de pedido a la variable de sesión
-                // que almacena el número de pedido del carrito
-                HttpContext.Session.SetString("NumPedido", pedido.Id.ToString());
-            }
-            // Crear objeto detalle para agregar el producto al detalle del pedido del carrito
-            Detalle detalle = new Detalle();
-            string strNumeroPedido = HttpContext.Session.GetString("NumPedido");
-            detalle.PedidoId = Convert.ToInt32(strNumeroPedido);
-            detalle.ProductoId = idProducto; // El valor id tiene el id del producto a agregar
-            detalle.Cantidad = 1;
-            detalle.Precio = producto.Precio;
-            detalle.Descuento = 0;
-            if (ModelState.IsValid)
-            {
-                _context.Add(detalle);
+                    ClienteId = cliente.Id, // Asigna el cliente autenticado
+                    EstadoId = 1,           // En proceso
+                    Fecha = DateTime.Now
+                };
+
+                _context.Pedidos.Add(nuevoPedido);
                 await _context.SaveChangesAsync();
+
+                // Guardamos el ID del nuevo pedido en la sesión
+                HttpContext.Session.SetString("NumPedido", nuevoPedido.Id.ToString());
+                strNumPedido = nuevoPedido.Id.ToString();
             }
-            return RedirectToAction(nameof(Index));
+
+            int numPedido = int.Parse(strNumPedido);
+
+            // Verificar si el producto ya está en el carrito
+            var detalleExistente = await _context.Detalles
+                .FirstOrDefaultAsync(d => d.PedidoId == numPedido && d.ProductoId == idProducto);
+
+            if (detalleExistente != null)
+            {
+                // Si el producto ya está en el carrito, aumentamos la cantidad
+                detalleExistente.Cantidad += cantidad;
+                _context.Update(detalleExistente);
+            }
+            else
+            {
+                // Si el producto no está en el carrito, lo agregamos como nuevo detalle
+                var detalle = new Detalle
+                {
+                    PedidoId = numPedido,
+                    ProductoId = idProducto,
+                    Cantidad = cantidad,
+                    Precio = (await _context.Productos.FindAsync(idProducto)).Precio
+                };
+
+                _context.Detalles.Add(detalle);
+            }
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("Index", "Carrito"); // Redirige al carrito para ver el contenido
         }
     }
 }

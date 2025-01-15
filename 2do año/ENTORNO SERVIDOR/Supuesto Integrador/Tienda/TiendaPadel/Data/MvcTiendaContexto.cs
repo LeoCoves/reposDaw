@@ -30,8 +30,6 @@ namespace TiendaPadel.Data
             {
                 relationship.DeleteBehavior = DeleteBehavior.Restrict;
             }
-
-            
         }
     }
 }

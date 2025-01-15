@@ -1,0 +1,112 @@
+﻿@model IEnumerable<TiendaPadel.Models.Detalle>
+
+@{
+    ViewData["Title"] = "Carrito de Compras";
+}
+
+<h2>Carrito de Compras</h2>
+
+@if (!Model.Any())
+{
+    <p>Tu carrito está vacío.</p>
+}
+else
+{
+    @*<div>
+        <h4>Producto</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Texto)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Texto)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Precio)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Precio)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Stock)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Stock)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Escaparate)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Escaparate)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Imagen)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Imagen)
+            </dd>
+            <dt class="col-sm-2">
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Categoria.Descripcion)
+            </dd>
+        </dl>
+    </div>*@
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Descripcion</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+                <th>Descuento</th>
+                <th>Total</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                decimal totalCompra = 0;
+            }
+            @foreach (var item in Model)
+            {
+                totalCompra += item.Cantidad * item.Precio;
+                <tr>
+                    <td><img src="~/imagenes/@item.Producto.Imagen" width="50px" height="50px"/></td>
+                    <td>@item.Producto.Descripcion</td>
+                    <td>
+                        <a asp-action="MenosCantidad" asp-route-id="@item.Id" class="btn btn-primary btn-sm">-</a>
+                        @item.Cantidad
+                        <a asp-action="MasCantidad" asp-route-id="@item.Id" class="btn btn-primary btn-sm">+</a>
+                    </td>
+                    <td>@item.Precio €</td>
+                    <td>@item.Descuento</td>
+                    <td>@(item.Cantidad * item.Precio) €</td>
+                    <td>
+                        <a asp-action="EliminarLinea" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                    </td>
+                </tr>
+                
+            }
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Total</td>
+                <td>@totalCompra €</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <a asp-action="ConfirmarPedido" asp-route-id="@ViewData["NumPedido"]" class="btn btn-primary">Confirmar Pedido</a>
+}
+<a asp-controller="Escaparate" asp-action="Index"  class="btn btn-primary">Seguir Comprando</a>

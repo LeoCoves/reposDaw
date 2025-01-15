@@ -186,6 +186,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/lcove/Desktop/repositorios/reposDaw/2do año/ENTORNO SERVIDOR/Supuesto Integrador/Tienda/TiendaPadel/Views/Carrito/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lcove/Desktop/repositorios/reposDaw/2do año/ENTORNO SERVIDOR/Supuesto Integrador/Tienda/TiendaPadel/Views/Categorias/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -244,6 +248,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/lcove/Desktop/repositorios/reposDaw/2do año/ENTORNO SERVIDOR/Supuesto Integrador/Tienda/TiendaPadel/Views/Detalles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lcove/Desktop/repositorios/reposDaw/2do año/ENTORNO SERVIDOR/Supuesto Integrador/Tienda/TiendaPadel/Views/Escaparate/AgregarCarrito.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNjYXBhcmF0ZVxBZ3JlZ2FyQ2Fycml0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lcove/Desktop/repositorios/reposDaw/2do año/ENTORNO SERVIDOR/Supuesto Integrador/Tienda/TiendaPadel/Views/Escaparate/Index.cshtml]

@@ -22,3 +22,10 @@ body {
   padding:0;
   margin: 0;
 }
+
+.custom-header {
+    background: url('../imagenes/backgroundpadel.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

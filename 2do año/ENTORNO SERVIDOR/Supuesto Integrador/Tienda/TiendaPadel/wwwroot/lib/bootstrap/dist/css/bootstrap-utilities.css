@@ -4,10 +4,15 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.bi bi-cart{
+    width: 1em;
+}
 .clearfix::after {
-  display: block;
-  clear: both;
-  content: "";
+    display: block;
+    clear: both;
+    content: "";
 }
 
 .link-primary {

@@ -1,0 +1,24 @@
+﻿@model TiendaPadel.Models.Producto
+
+@{
+    ViewData["Title"] = "Agregar al Carrito";
+}
+
+<h2>Agregar al Carrito</h2>
+
+<div>
+    <h3>@Model.Descripcion</h3>
+    <p>@Model.Texto</p>
+    <p>Precio: @Model.Precio €</p>
+</div>
+
+<form asp-action="AgregarCarrito" method="post">
+    <input type="hidden" name="idProducto" value="@Model.Id" />
+    <div class="form-group">
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" name="cantidad" class="form-control" value="1" min="1" />
+    </div>
+    <button type="submit" class="btn btn-primary">Comprar</button>
+</form>
+
+<a asp-action="Index" class="btn btn-secondary">Volver al Escaparate</a>

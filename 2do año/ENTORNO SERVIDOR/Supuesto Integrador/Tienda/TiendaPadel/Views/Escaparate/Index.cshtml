@@ -8,7 +8,7 @@
 
 <div>
     <h2>Categorias</h2>
-    <div class="navbar-collapse w-100">
+    <div class="navbar-collapse bg-primary opacity-50 rounded-2 mx-2 px-2 w-100">
         <ul class="navbar-nav flex-row flex-wrap justify-content-between">
             <li class="nav-item">
                 <a class="nav-link text-dark" asp-action="Index" asp-route-idCategoria="">
@@ -33,14 +33,6 @@
 
 
 
-@*<div class="col-md">
-    <label class="control-label">Tipo de avería:</label>
-    <select name="idCategoria" asp-items="ViewBag.CategoriaId"
-            class="form-control">
-        <option value="">Todas</option>
-    </select>
-</div>*@
-
 
 <div class="container px-4 px-lg-5 mt-5">
     <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
@@ -54,8 +46,10 @@
                             <h5 class="card-title">@(item.Descripcion)</h5>
                             <p class="card-text">@(item.Precio)€</p>
                         </div>
-                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a href="#" class="btn btn-primary">Añadir al carrito</a></div>
+                    </div>
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center">
+                            <a asp-action="AgregarCarrito" asp-route-id="@item.Id" class="btn btn-primary">Agregar al Carrito</a>
                         </div>
                     </div>
                 </div>

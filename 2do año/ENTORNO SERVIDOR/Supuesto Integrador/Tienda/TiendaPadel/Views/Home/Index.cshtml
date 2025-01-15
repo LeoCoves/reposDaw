@@ -1,17 +1,42 @@
 ﻿@model IEnumerable<TiendaPadel.Models.Producto>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 @{
     ViewData["Title"] = "Inicio";
 }
+<style>
+    .container {
+        margin: 0 !important; /* Elimina los márgenes */
+        padding: 0 !important; /* Opcional: elimina el relleno */
+        max-width: 100% !important; /* Asegúrate de que ocupe todo el ancho */
+    }
+</style>
 
-<header class="bg-dark py-5 rounded">
+<main class="py-5 h-50 custom-header">
     <div class="container px-4 px-lg-5 my-5">
         <div class="text-center text-white">
-            <h1 class="display-4 fw-bolder">Shop in style</h1>
-            <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
+            <h1 class="display-4 fw-bolder">Bienvenido a Xpadel</h1>
+            @if (SignInManager.IsSignedIn(User))
+            {
+                <p class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">@User.Identity?.Name!</p>
+            }
+            <p class="lead fw-normal text-white-50 mb-0">Comienza a ver nuestros productos</p>
+            <button type="button" class="btn btn-outline-light">
+                <a class="text-light" asp-area="Identity" asp-page="/Account/Register">Registrate</a>
+            </button>
+            <button type="button" class="btn btn-outline-light">
+                <a class="text-light" asp-area="Identity" asp-page="/Account/Login">Inicia Sesion</a>
+            </button>
+
+            @for(int i = 0; i < 25; i++)
+            {
+                <p class="lead fw-normal text-white-50 mb-0">Comienza a ver nuestros productos</p>
+            }
         </div>
     </div>
-</header>
+</main>
 
 <div>
    <h2>Escaparate</h2>
