@@ -1,4 +1,4 @@
-﻿@model IEnumerable<TiendaPadel.Models.Detalle>
+﻿@model TiendaPadel.Models.Pedido
 
 @{
     ViewData["Title"] = "Carrito de Compras";
@@ -6,59 +6,78 @@
 
 <h2>Carrito de Compras</h2>
 
-@if (!Model.Any())
+@if (!Model.Detalles.Any())
 {
     <p>Tu carrito está vacío.</p>
 }
 else
 {
-    @*<div>
+    <div>
         <h4>Producto</h4>
         <hr />
-        <dl class="row">
-            <dt class="col-sm-2">
-                @Html.DisplayNameFor(model => model)
-            </dt>
-            <dd class="col-sm-10">
-                @Html.DisplayFor(model => model.)
-            </dd>
-            <dt class="col-sm-2">
-                @Html.DisplayNameFor(model => model.Texto)
-            </dt>
-            <dd class="col-sm-10">
-                @Html.DisplayFor(model => model.Texto)
-            </dd>
-            <dt class="col-sm-2">
-                @Html.DisplayNameFor(model => model.Precio)
-            </dt>
-            <dd class="col-sm-10">
-                @Html.DisplayFor(model => model.Precio)
-            </dd>
-            <dt class="col-sm-2">
-                @Html.DisplayNameFor(model => model.Stock)
-            </dt>
-            <dd class="col-sm-10">
-                @Html.DisplayFor(model => model.Stock)
-            </dd>
-            <dt class="col-sm-2">
-                @Html.DisplayNameFor(model => model.Escaparate)
-            </dt>
-            <dd class="col-sm-10">
-                @Html.DisplayFor(model => model.Escaparate)
-            </dd>
-            <dt class="col-sm-2">
-                @Html.DisplayNameFor(model => model.Imagen)
-            </dt>
-            <dd class="col-sm-10">
-                @Html.DisplayFor(model => model.Imagen)
-            </dd>
-            <dt class="col-sm-2">
-            </dt>
-            <dd class="col-sm-10">
-                @Html.DisplayFor(model => model.Categoria.Descripcion)
-            </dd>
-        </dl>
-    </div>*@
+            <dl class="row">
+                <dt class="col-sm-2">
+                    Pedido
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.Id
+                </dd>
+                <dt class="col-sm-2">
+                    Fecha
+                </dt>
+                <dd class="col-sm-10">
+                @Model.Fecha.ToString("dd/MM/yyyy")
+                </dd>
+                <dt class="col-sm-2">
+                    Confirmado
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.Confirmado.ToString()
+                </dd>
+                <dt class="col-sm-2">
+                    Preparado
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.Preparado.ToString()
+                </dd>
+                <dt class="col-sm-2">
+                    Enviado
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.Enviado.ToString()
+                </dd>
+                <dt class="col-sm-2">
+                    Cobrado
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.Cobrado.ToString()
+                </dd>
+                <dt class="col-sm-2">
+                    Devuelto
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.Devuelto.ToString()
+                </dd>
+                <dt class="col-sm-2">
+                    Anulado
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.Anulado.ToString()
+                </dd>
+                <dt class="col-sm-2">
+                    Cliente
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.Cliente.Nombre
+                </dd>
+                <dt class="col-sm-2">
+                    Estado
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.Estado.Descripcion
+                </dd>
+            </dl>
+    </div>
 
     <table class="table">
         <thead>
@@ -76,7 +95,7 @@ else
             @{
                 decimal totalCompra = 0;
             }
-            @foreach (var item in Model)
+            @foreach (var item in Model.Detalles)
             {
                 totalCompra += item.Cantidad * item.Precio;
                 <tr>

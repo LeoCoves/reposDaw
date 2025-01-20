@@ -33,6 +33,8 @@ namespace TiendaPadel.Controllers
                 .Where(p => p.Id == numPedido)
                 .Include(p => p.Detalles)
                 .ThenInclude(d => d.Producto)
+                .Include(p => p.Cliente) // Incluye el cliente
+                .Include(p => p.Estado) // Incluye el estado del pedido
                 .FirstOrDefaultAsync();
 
             if (pedido == null)
@@ -42,7 +44,7 @@ namespace TiendaPadel.Controllers
 
             ViewData["NumPedido"] = numPedido;
 
-            return View(pedido.Detalles);
+            return View(pedido); // Pasa el modelo completo de Pedido a la vista
         }
 
         // Acción ConfirmarPedido
