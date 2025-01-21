@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 using TiendaPadel.Data;
 using TiendaPadel.Models;
@@ -18,7 +19,7 @@ namespace TiendaPadel.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index(int? idCategoria)
         {
             // Busca el empleado correspondiente al usuario actual. Si existe, activa la
             // vista (View) y en caso contrario, se redirige para crear el empleado.
@@ -31,7 +32,27 @@ namespace TiendaPadel.Controllers
             {
                 return RedirectToAction("Create", "MisDatos");
             }
-            return View();
+
+
+            var categorias = await _context.Categorias
+                .OrderBy(c => c.Descripcion)
+                .ToListAsync();
+
+            ViewData["Categorias"] = categorias;
+
+
+            // Cargar datos de los avisos
+            var productos = _context.Productos
+                .Include(p => p.Categoria)
+                .AsQueryable();
+
+
+            if (idCategoria.HasValue)
+            {
+                productos = productos.Where(p => p.CategoriaId == idCategoria.Value);
+            }
+
+            return View(await productos.ToListAsync());
         }
 
         [Authorize(Roles = "Usuario")]

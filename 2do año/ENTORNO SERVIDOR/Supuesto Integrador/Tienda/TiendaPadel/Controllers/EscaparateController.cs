@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using TiendaPadel.Data;
+using TiendaPadel.Migrations;
 using TiendaPadel.Models;
 
 namespace TiendaPadel.Controllers
@@ -39,7 +40,7 @@ namespace TiendaPadel.Controllers
             return View(await productos.ToListAsync());
         }
 
-
+        
         // GET: Escaparate/AgregarCarrito
         public async Task<IActionResult> AgregarCarrito(int? id)
         {
@@ -60,6 +61,7 @@ namespace TiendaPadel.Controllers
             return View(producto);
         }
 
+        [Authorize(Roles = "Usuario")]
         //POST: Escaparate/Agregar Carrito
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -71,7 +73,7 @@ namespace TiendaPadel.Controllers
 
             if (cliente == null)
             {
-                return NotFound();
+                return RedirectToPage("/Account/Login", new { area = "Identity" });
             }
 
             // Obtener el número de pedido desde la sesión

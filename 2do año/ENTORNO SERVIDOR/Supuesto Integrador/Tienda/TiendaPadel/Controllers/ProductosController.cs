@@ -66,7 +66,7 @@ namespace TiendaPadel.Controllers
         {
             if (string.IsNullOrEmpty(producto.Imagen))
             {
-                producto.Imagen = "2.jpg"; // Imagen predeterminada
+                producto.Imagen = "sinImagen.jpg"; // Imagen predeterminada
             }
 
             if (ModelState.IsValid)

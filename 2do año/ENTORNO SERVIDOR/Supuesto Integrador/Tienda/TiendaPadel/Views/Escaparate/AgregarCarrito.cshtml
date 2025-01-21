@@ -4,21 +4,200 @@
     ViewData["Title"] = "Agregar al Carrito";
 }
 
-<h2>Agregar al Carrito</h2>
+<div class="container my-4">
+    <div class="row">
+        <div class="col-md-7 col-12 scrollable">
+            
 
-<div>
-    <h3>@Model.Descripcion</h3>
-    <p>@Model.Texto</p>
-    <p>Precio: @Model.Precio €</p>
-</div>
+            <img src="~/imagenes/@(Model.Imagen)" class="rounded-2" width="400px" height="400px" />
 
-<form asp-action="AgregarCarrito" method="post">
-    <input type="hidden" name="idProducto" value="@Model.Id" />
-    <div class="form-group">
-        <label for="cantidad">Cantidad:</label>
-        <input type="number" id="cantidad" name="cantidad" class="form-control" value="1" min="1" />
+        </div>
+
+        <div class="col-md-5 col-12">
+            @if(Model.Stock < 10)
+            {
+                <p class="text-danger">POCAS UNIDADES</p>
+            }
+            <h3>@Model.Descripcion</h3>
+            <p>@Model.Texto</p>
+            <p>Precio: <strong>@Model.Precio €</strong></p>
+            <form asp-action="AgregarCarrito" method="post">
+                <input type="hidden" name="idProducto" value="@Model.Id" />
+                <div class="form-group">
+                    <label for="cantidad">Cantidad:</label>
+                    <input type="number" id="cantidad" name="cantidad" class="form-control" value="1" min="1" />
+                </div>
+                <button type="submit" class="btn btn-primary mt-4 w-100">Añadir a la Cesta</button>
+            </form>
+
+            <div class="accordion mt-3" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                            Detalles
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Por rellenar</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            Guia de tallas
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Por rellenar</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            Envio y Devoluciones
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>- España y Portugal pedidos 3-5 días laborables aproximadamente (7-10 para las Islas Canarias)</p>
+
+                            <p>- Resto de Europa pedidos 6-8 días laborables aproximadamente.</p>
+
+                            <p>- Pedidos internacionales 6-10 días laborables aproximadamente.</p>
+
+                            <p> Si tienes algún problema con tu pedido envíanos un email a help@nude-project.com y estaremos allí para ayudarte. Por favor, tenga en cuenta que los pedidos realizados después de las 2PM (CET) serán enviados el siguiente día laborable.</p>
+
+
+
+                            <p>Cambios y Devoluciones:</p>
+
+                            <p>Puedes tramitar tu cambio o devolución a través de nuestro portal de devoluciones.</p>
+
+                            <p>Tienes 30 días desde la fecha de envío.</p>
+
+                            <p>Por favor, tienes más información aquí.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <h3>PREGUNTAS FRECUENTES</h3>
+        <div class="container p-3 m-3 bg-white rounded-3">
+            
+            <div class="accordion mt-3" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                            ¿Es segura esta página web?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Si no nos conoces, somos XPadel, una de las tiendas online más grandes de pádel del mundo. Con nosotros, puedes estar tranquilo a la hora de pagar. Puedes hacerlo por diferentes métodos de pago, directos o a plazos. Todos ellos seguros. Puedes consultar más en este enlace: Métodos de pago.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                            He tenido un problema. ¿Como puedo contactaros?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>
+                                Puedes contactar con nosotros a través de estos canales:
+                            </p>
+                            <ul>
+                                <li>
+                                    A través del teléfono 968 976 394
+                                </li>
+                                <li>
+                                    Por email: contacto@padelnuestro.com
+                                </li>
+                                <li>
+                                    El horario de Atención Comercial es de Lunes a Viernes de 9:00 a 18:00 horas , ininterrumpidamente.
+                                </li>
+                            </ul>
+                                
+                            <p>
+                                Fuera de ese horario, realiza tus consultas a través de nuestro correo electrónico contacto@padelnuestro.com y nos pondremos en contacto contigo lo antes posible.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                            ¿Como puedo devolver un producto?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>
+                                Tienes 30 días naturales desde la compra para realizar una devolución. El proceso es sencillo y puedes consultarlo en el siguiente enlace: Envíos y devoluciones
+                            </p>
+                            <p>
+                                Importante: los productos comprados en web no se pueden devolver en tienda física.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+                            ¿Disponeis de tiendas Fisicas?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>
+                                Por rellenar
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h3>TE PUEDE INTERESAR TAMBIÉN</h3>
+            @*<div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col mb-5">
+                            <div class="card h-100">
+                                <img src="~/imagenes/@item.Imagen" class="card-img-top" alt="Imagen de @item.Descripcion">
+                                <div class="card-body p-4">
+                                    <div class="text-center">
+                                        <h5 class="card-title">@(item.Descripcion)</h5>
+                                        <p class="card-text">@(item.Precio)€</p>
+                                    </div>
+                                </div>
+                                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                    <div class="text-center">
+                                        <a asp-controller="Escaparate" asp-action="AgregarCarrito" asp-route-id="@item.Id" class="btn btn-primary">Agregar al Carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>*@
+        </div>
+
+        <div>
+            <a asp-action="Index" class="btn btn-secondary m-5">Volver al Escaparate</a>
+        </div>
+
     </div>
-    <button type="submit" class="btn btn-primary">Comprar</button>
-</form>
 
-<a asp-action="Index" class="btn btn-secondary">Volver al Escaparate</a>
+
+
