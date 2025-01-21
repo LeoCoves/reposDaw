@@ -58,7 +58,20 @@ namespace TiendaPadel.Controllers
                 return NotFound();
             }
 
-            return View(producto);
+            // Filtra productos de la misma categoría, excluyendo el producto actual
+            var productosRelacionados = _context.Productos
+                .Where(p => p.CategoriaId == producto.CategoriaId && p.Id != id)
+                .Take(12) // Limita a 12 productos
+                .ToList();
+
+            // Crear un ViewModel para enviar los datos necesarios a la vista
+            var viewModel = new AgregarCarritoViewModel
+            {
+                ProductoActual = producto,
+                ProductosRelacionados = productosRelacionados
+            };
+
+            return View(viewModel);
         }
 
         [Authorize(Roles = "Usuario")]

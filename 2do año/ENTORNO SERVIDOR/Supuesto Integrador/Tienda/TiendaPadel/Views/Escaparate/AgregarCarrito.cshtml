@@ -1,28 +1,28 @@
-﻿@model TiendaPadel.Models.Producto
+﻿@model TiendaPadel.Models.AgregarCarritoViewModel;
 
 @{
     ViewData["Title"] = "Agregar al Carrito";
 }
 
-<div class="container my-4">
+<div class="card my-4 p-5">
     <div class="row">
         <div class="col-md-7 col-12 scrollable">
             
 
-            <img src="~/imagenes/@(Model.Imagen)" class="rounded-2" width="400px" height="400px" />
+            <img src="~/imagenes/@(Model.ProductoActual.Imagen)" class="rounded-2" width="400px" height="400px" />
 
         </div>
 
         <div class="col-md-5 col-12">
-            @if(Model.Stock < 10)
+            @if(Model.ProductoActual.Stock < 10)
             {
                 <p class="text-danger">POCAS UNIDADES</p>
             }
-            <h3>@Model.Descripcion</h3>
-            <p>@Model.Texto</p>
-            <p>Precio: <strong>@Model.Precio €</strong></p>
+            <h3>@Model.ProductoActual.Descripcion</h3>
+            <p>@Model.ProductoActual.Texto</p>
+            <p>Precio: <strong>@Model.ProductoActual.Precio €</strong></p>
             <form asp-action="AgregarCarrito" method="post">
-                <input type="hidden" name="idProducto" value="@Model.Id" />
+                <input type="hidden" name="idProducto" value="@Model.ProductoActual.Id" />
                 <div class="form-group">
                     <label for="cantidad">Cantidad:</label>
                     <input type="number" id="cantidad" name="cantidad" class="form-control" value="1" min="1" />
@@ -168,9 +168,9 @@
 
         <div>
             <h3>TE PUEDE INTERESAR TAMBIÉN</h3>
-            @*<div class="container px-4 px-lg-5 mt-5">
+            <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                    @foreach (var item in Model)
+                    @foreach (var item in Model.ProductosRelacionados)
                     {
                         <div class="col mb-5">
                             <div class="card h-100">
@@ -190,7 +190,7 @@
                         </div>
                     }
                 </div>
-            </div>*@
+            </div>
         </div>
 
         <div>
