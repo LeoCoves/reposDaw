@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TiendaPadel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc207309c5075bcc2ef4f52d6bf7512227434044")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c98179f9fca8bc98d05c7acb144e7c467f307a58")]
 [assembly: System.Reflection.AssemblyProductAttribute("TiendaPadel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TiendaPadel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

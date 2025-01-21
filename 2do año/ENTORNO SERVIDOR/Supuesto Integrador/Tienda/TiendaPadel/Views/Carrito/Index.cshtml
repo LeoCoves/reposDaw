@@ -4,201 +4,246 @@
     ViewData["Title"] = "Carrito de Compras";
 }
 
-<h2>Carrito de Compras</h2>
+<style>
+.title{
+    margin-bottom: 5vh;
+}
+.card{
+    margin: auto;
+    max-width: 950px;
+    width: 90%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    border: transparent;
+}
+
+.cart{
+    background-color: #fff;
+    padding: 4vh 5vh;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.summary{
+    background-color: #ddd;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 4vh;
+    color: rgb(65, 65, 65);
+}
+.summary .col-2{
+    padding: 0;
+}
+.summary .col-10
+{
+    padding: 0;
+}.row{
+    margin: 0;
+}
+.title b{
+    font-size: 1.5rem;
+}
+.main{
+    margin: 0;
+    padding: 2vh 0;
+    width: 100%;
+}
+.col-2, .col{
+    padding: 0 1vh;
+}
+.close{
+    margin-left: auto;
+    font-size: 0.7rem;
+}
+img{
+    width: 3.5rem;
+}
+.back-to-shop{
+    margin-top: 4.5rem;
+}
+h5{
+    margin-top: 4vh;
+}
+hr{
+    margin-top: 1.25rem;
+}
+select{
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1.5vh 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+input{
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+input:focus::-webkit-input-placeholder
+{
+      color:transparent;
+}
+ #code{
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.253) , rgba(255, 255, 255, 0.185)), url("https://img.icons8.com/small/16/000000/long-arrow-right.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+}
+</style>
 
 @if (!Model.Detalles.Any())
 {
-    <p>Tu carrito está vacío.</p>
+    <div class="card mt-4">
+        <div class="row">
+            <div class="col-md-8 cart">
+                <div>
+                    <div class="title">
+                        <div class="row">
+                            <div class="col"><h4><b>Carrito de Compras</b></h4></div>
+                        </div>
+                    </div>
+                    <hr />
+                    <p>Tu carrito está vacío.</p>
+                </div>
+                <div class="back-to-shop"><a asp-controller="Escaparate" asp-action="Index" class="btn btn-primary">Seguir Comprando</a></div>
+            </div>
+        </div>
+    </div>
 }
 else
 {
-    <div>
-        <h4>Producto</h4>
-        <hr />
-            <dl class="row">
-                <dt class="col-sm-2">
-                    Pedido
-                </dt>
-                <dd class="col-sm-10">
-                    @Model.Id
-                </dd>
-                <dt class="col-sm-2">
-                    Fecha
-                </dt>
-                <dd class="col-sm-10">
-                @Model.Fecha.ToString("dd/MM/yyyy")
-                </dd>
-                <dt class="col-sm-2">
+    <div class="card mt-4">
+        <div class="row">
+            <div class="col-md-8 cart">
+                <div>
+                    <div class="title">
+                        <div class="row">
+                            <div class="col"><h4><b>Carrito de Compras</b></h4></div>
+                        </div>
+                    </div>
+                    <hr />
+                    <dl class="row">
+                        <dt class="col-sm-2">
+                            Pedido
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Model.Id
+                        </dd>
+                        <dt class="col-sm-2">
+                            Fecha
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Model.Fecha.ToString("dd/MM/yyyy")
+                        </dd>
+                        @*<dt class="col-sm-2">
                     Confirmado
-                </dt>
-                <dd class="col-sm-10">
+                    </dt>
+                    <dd class="col-sm-10">
                     @Model.Confirmado.ToString()
-                </dd>
-                <dt class="col-sm-2">
+                    </dd>
+                    <dt class="col-sm-2">
                     Preparado
-                </dt>
-                <dd class="col-sm-10">
+                    </dt>
+                    <dd class="col-sm-10">
                     @Model.Preparado.ToString()
-                </dd>
-                <dt class="col-sm-2">
+                    </dd>
+                    <dt class="col-sm-2">
                     Enviado
-                </dt>
-                <dd class="col-sm-10">
+                    </dt>
+                    <dd class="col-sm-10">
                     @Model.Enviado.ToString()
-                </dd>
-                <dt class="col-sm-2">
+                    </dd>
+                    <dt class="col-sm-2">
                     Cobrado
-                </dt>
-                <dd class="col-sm-10">
+                    </dt>
+                    <dd class="col-sm-10">
                     @Model.Cobrado.ToString()
-                </dd>
-                <dt class="col-sm-2">
+                    </dd>
+                    <dt class="col-sm-2">
                     Devuelto
-                </dt>
-                <dd class="col-sm-10">
+                    </dt>
+                    <dd class="col-sm-10">
                     @Model.Devuelto.ToString()
-                </dd>
-                <dt class="col-sm-2">
+                    </dd>
+                    <dt class="col-sm-2">
                     Anulado
-                </dt>
-                <dd class="col-sm-10">
+                    </dt>
+                    <dd class="col-sm-10">
                     @Model.Anulado.ToString()
-                </dd>
-                <dt class="col-sm-2">
-                    Cliente
-                </dt>
-                <dd class="col-sm-10">
-                    @Model.Cliente.Nombre
-                </dd>
-                <dt class="col-sm-2">
-                    Estado
-                </dt>
-                <dd class="col-sm-10">
-                    @Model.Estado.Descripcion
-                </dd>
-            </dl>
-    </div>
+                    </dd>*@
+                        <dt class="col-sm-2">
+                            Cliente
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Model.Cliente.Nombre
+                        </dd>
+                        <dt class="col-sm-2">
+                            Estado
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Model.Estado.Descripcion
+                        </dd>
+                    </dl>
+                </div>
+                <hr />
 
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Producto</th>
-                <th>Descripcion</th>
-                <th>Cantidad</th>
-                <th>Precio</th>
-                <th>Descuento</th>
-                <th>Total</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @{
-                decimal totalCompra = 0;
-            }
-            @foreach (var item in Model.Detalles)
-            {
-                totalCompra += item.Cantidad * item.Precio;
-                <tr>
-                    <td><img src="~/imagenes/@item.Producto.Imagen" width="50px" height="50px"/></td>
-                    <td>@item.Producto.Descripcion</td>
-                    <td>
-                        <a asp-action="MenosCantidad" asp-route-id="@item.Id" class="btn btn-primary btn-sm">-</a>
-                        @item.Cantidad
-                        <a asp-action="MasCantidad" asp-route-id="@item.Id" class="btn btn-primary btn-sm">+</a>
-                    </td>
-                    <td>@item.Precio €</td>
-                    <td>@item.Descuento</td>
-                    <td>@(item.Cantidad * item.Precio) €</td>
-                    <td>
-                        <a asp-action="EliminarLinea" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Eliminar</a>
-                    </td>
-                </tr>
-                
-            }
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>Total</td>
-                <td>@totalCompra €</td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
-    <a asp-action="ConfirmarPedido" asp-route-id="@ViewData["NumPedido"]" class="btn btn-primary">Confirmar Pedido</a>
+                @{
+                    decimal totalCompra = 0;
+                    int contador = 0;
+                }
+                @foreach (var item in Model.Detalles)
+                {
+                    contador++;
+                    totalCompra += item.Cantidad * item.Precio;
+
+                    <div class="row border-top border-bottom">
+                        <div class="row main align-items-center">
+                            <div class="col-2"><img src="~/imagenes/@item.Producto.Imagen" width="50px" height="50px" /></div>
+                            <div class="col">
+                                <div class="row text-muted">@item.Producto.Categoria</div>
+                                <div class="row">@item.Producto.Descripcion</div>
+                            </div>
+                            <div class="col">
+                                <a asp-action="MenosCantidad" asp-route-id="@item.Id" class="btn btn-primary btn-sm">-</a>
+                                @item.Cantidad
+                                <a asp-action="MasCantidad" asp-route-id="@item.Id" class="btn btn-primary btn-sm">+</a>
+                            </div>
+                            <div class="col">@(item.Cantidad * item.Precio) €</div>
+                            <div class="col"><a asp-action="EliminarLinea" asp-route-id="@item.Id" class="btn-close"><i class="bi bi-x"></i></a></div>
+                        </div>
+                    </div>
+                }
+
+                <div class="back-to-shop"><a asp-controller="Escaparate" asp-action="Index" class="btn btn-primary">Seguir Comprando</a></div>
+            </div>
+            <div class="col-md-4 summary">
+                <div><h5><b>Pagar</b></h5></div>
+                <hr>
+                <div class="row">
+                    <div class="col align-self-center text-right text-muted">@contador items</div>
+                    <div class="col text-right">@totalCompra €</div>
+                </div>
+                <form>
+                    <p>SHIPPING</p>
+                    <select><option class="text-muted">CARD VISA</option></select>
+                    <p>GIVE CODE</p>
+                    <input id="code" placeholder="Enter your code">
+                </form>
+                <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
+                    <div class="col">PRECIO TOTAL</div>
+                    <div class="col text-right">@totalCompra </div>
+                </div>
+                <a asp-action="ConfirmarPedido" asp-route-id="@ViewData["NumPedido"]" class="btn btn-primary">Confirmar Pedido</a>
+            </div>
+        </div>
+
+    </div>
 }
 
-@*<div class="card">
-    <div class="row">
-        <div class="col-md-8 cart">
-            <div class="title">
-                <div class="row">
-                    <div class="col"><h4><b>Shopping Cart</b></h4></div>
-                    <div class="col align-self-center text-right text-muted">3 items</div>
-                </div>
-            </div>
-            <div class="row border-top border-bottom">
-                <div class="row main align-items-center">
-                    <div class="col-2"><img class="img-fluid" src="https://i.imgur.com/1GrakTl.jpg"></div>
-                    <div class="col">
-                        <div class="row text-muted">Shirt</div>
-                        <div class="row">Cotton T-shirt</div>
-                    </div>
-                    <div class="col">
-                        <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a>
-                    </div>
-                    <div class="col">&euro; 44.00 <span class="close">&#10005;</span></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="row main align-items-center">
-                    <div class="col-2"><img class="img-fluid" src="https://i.imgur.com/ba3tvGm.jpg"></div>
-                    <div class="col">
-                        <div class="row text-muted">Shirt</div>
-                        <div class="row">Cotton T-shirt</div>
-                    </div>
-                    <div class="col">
-                        <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a>
-                    </div>
-                    <div class="col">&euro; 44.00 <span class="close">&#10005;</span></div>
-                </div>
-            </div>
-            <div class="row border-top border-bottom">
-                <div class="row main align-items-center">
-                    <div class="col-2"><img class="img-fluid" src="https://i.imgur.com/pHQ3xT3.jpg"></div>
-                    <div class="col">
-                        <div class="row text-muted">Shirt</div>
-                        <div class="row">Cotton T-shirt</div>
-                    </div>
-                    <div class="col">
-                        <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a>
-                    </div>
-                    <div class="col">&euro; 44.00 <span class="close">&#10005;</span></div>
-                </div>
-            </div>
-            <div class="back-to-shop"><a href="#">&leftarrow;</a><span class="text-muted">Back to shop</span></div>
-        </div>
-        <div class="col-md-4 summary">
-            <div><h5><b>Summary</b></h5></div>
-            <hr>
-            <div class="row">
-                <div class="col" style="padding-left:0;">ITEMS 3</div>
-                <div class="col text-right">&euro; 132.00</div>
-            </div>
-            <form>
-                <p>SHIPPING</p>
-                <select><option class="text-muted">Standard-Delivery- &euro;5.00</option></select>
-                <p>GIVE CODE</p>
-                <input id="code" placeholder="Enter your code">
-            </form>
-            <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
-                <div class="col">TOTAL PRICE</div>
-                <div class="col text-right">&euro; 137.00</div>
-            </div>
-            <button class="btn">CHECKOUT</button>
-        </div>
-    </div>
 
-</div>*@
-<a asp-controller="Escaparate" asp-action="Index"  class="btn btn-primary">Seguir Comprando</a>
+
+
