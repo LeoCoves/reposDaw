@@ -4,33 +4,41 @@
     var categorias = ViewData["Categorias"] as IEnumerable<TiendaPadel.Models.Categoria>;
 }
 
-<h1>Escaparate</h1>
+<style>
+    .btn-link.text-dark:hover {
+        color: white; /* Cambia el color del texto a blanco */
+    }
+</style>
+
+<div class="w-100">
+    <p class="tex-center">ESCAPARATE</p>
+</div>
 
 <div>
-    <h2>Categorias</h2>
-    <div class="navbar-collapse bg-primary opacity-50 rounded-2 mx-2 px-2 w-100">
-        <ul class="navbar-nav flex-row flex-wrap justify-content-between">
-            <li class="nav-item">
-                <a class="nav-link text-dark" asp-action="Index" asp-route-idCategoria="">
+    @if (User.IsInRole("Usuario"))
+    {
+        <div class="container">
+            <p>CATEGORIAS</p>
+            <button class="btn btn-outline-dark m-1">
+                <a class="btn-link text-dark text-decoration-none" asp-action="Index" asp-route-idCategoria="">
                     Quitar filtros
                 </a>
-            </li>
+            </button>
             @if (categorias != null)
             {
                 foreach (var categoria in categorias)
                 {
-                    <li>|</li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-action="Index" asp-route-idCategoria="@categoria.Id">
+
+                    <button class="btn btn-outline-dark m-1">
+                        <a class="btn-link text-dark text-decoration-none" asp-action="Index" asp-route-idCategoria="@categoria.Id">
                             @categoria.Descripcion
                         </a>
-                    </li>
+                    </button>
                 }
             }
-        </ul>
-    </div>
+        </div>
+    }
 </div>
-
 
 
 

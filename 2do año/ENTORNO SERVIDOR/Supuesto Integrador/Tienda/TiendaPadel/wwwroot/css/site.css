@@ -22,7 +22,9 @@ body {
   padding:0;
   margin: 0;
 }
-
+a{
+    text-decoration: none;
+}
 .custom-header {
     background: url('../imagenes/backgroundpadel.jpg');
     background-size: cover;
@@ -40,4 +42,7 @@ body {
         position: absolute;
         right: 0;
     }
+}
+footer{
+    margin-top: 400px;
 }

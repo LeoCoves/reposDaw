@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x3n+zb6L5RDJr6dENkTI/qj4THY4ATT27h1s+piJGYU=",
+  "Hash": "dpiDp7lLE1O/q03pvvM8QSj9oGUKcQNdPg673xfoyoQ=",
   "Source": "TiendaPadel",
   "BasePath": "_content/TiendaPadel",
   "Mode": "Default",
@@ -2504,6 +2504,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\videos\\videoPadelHome.mp4",
+      "SourceId": "TiendaPadel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\",
+      "BasePath": "_content/TiendaPadel",
+      "RelativePath": "videos/videoPadelHome.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\videoPadelHome.mp4"
     }
   ]
 }

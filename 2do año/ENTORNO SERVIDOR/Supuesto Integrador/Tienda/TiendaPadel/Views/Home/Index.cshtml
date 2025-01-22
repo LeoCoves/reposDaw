@@ -12,43 +12,145 @@
         padding: 0 !important; /* Opcional: elimina el relleno */
         max-width: 100% !important; /* Asegúrate de que ocupe todo el ancho */
     }
+    .video-container {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+        overflow: hidden;
+    }
+
+    .video-container video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .video-overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+
+    .video-container video {
+        z-index: 1;
+    }
 </style>
 
-<main class="py-5 h-50 custom-header">
-    <div class="container px-4 px-lg-5 my-5">
+
+
+<main class="h-50">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="video-container">
+                    <video autoplay muted loop class="w-100">
+                        <source src="~/videos/videoPadelHome.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de videos.
+
+                    </video>
+                    <div class="video-overlay text-center text-white">
+                        <br />
+                        <br />
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            <h2 class="lead fw-normal text-white-50 mt-5">BIENVENIDO</h2>
+                            <p class="nav-link text-light" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">@User.Identity?.Name!</p>
+                        }
+                        else
+                        {
+                            <h2 class="lead fw-normal text-white-50 my-5">UNETE A NOSOTROS</h2>
+                            <button type="button" class="btn btn-outline-light mx-3">
+                                <a class="text-light" asp-area="Identity" asp-page="/Account/Register">Registrate</a>
+                            </button>
+                            <button type="button" class="btn btn-outline-light mx-3">
+                                <a class="text-light" asp-area="Identity" asp-page="/Account/Login">Inicia Sesion</a>
+                            </button>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg-black">
+        <div class="row">
+            <div class="col-md-5">
+                <h2 class="text-light">DIFERENTES CATEGORIAS PARA TI</h2>
+            </div>
+            <div class="col-md-7">
+                <h5 class="text-light">Todo lo puedes encontrar aqui para asi si</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+            </div>
+            <div class="card">
+            </div>
+            <div class="card">
+            </div>
+            <div class="card">
+            </div>
+        </div>
+    </div>
+
+    <div class="container custom-header px-4 px-lg-5">
         <div class="text-center text-white">
             <h1 class="display-4 fw-bolder">Bienvenido a Xpadel</h1>
             @if (SignInManager.IsSignedIn(User))
             {
                 <p class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">@User.Identity?.Name!</p>
             }
-            <p class="lead fw-normal text-white-50 mb-0">Comienza a ver nuestros productos</p>
-            @*<button type="button" class="btn btn-outline-light">
+            @*
+            <p class="lead fw-normal text-white-50 mb-0">Unete a nosotros</p>
+            <button type="button" class="btn btn-outline-light">
                 <a class="text-light" asp-area="Identity" asp-page="/Account/Register">Registrate</a>
             </button>
             <button type="button" class="btn btn-outline-light">
                 <a class="text-light" asp-area="Identity" asp-page="/Account/Login">Inicia Sesion</a>
             </button>*@
+            
 
-            @for(int i = 0; i < 25; i++)
+            @for(int i = 0; i < 10; i++)
             {
-                <p class="lead fw-normal text-white-50 mb-0">Comienza a ver nuestros productos</p>
+                <br />
+            }
+            <p class="lead fw-normal text-white-50 mb-0">Comienza a ver nuestros productos</p>
+            <button type="button" class="btn btn-outline-light">
+                <a class="text-light" href="#Escaparate">SHOP NOW</a>
+            </button>
+
+            @for (int i = 0; i < 10; i++)
+            {
+                <br />
             }
         </div>
+    </div>
+
+    
+
+    <div class="m-3">
+        @if (!User.IsInRole("Administrador"))
+        {
+            <div id="Escaparate">
+                @Html.Partial("~/Views/Escaparate/Index.cshtml")
+            </div>
+        }
+        else
+        {
+            <p>Acceso Denegado al Escaparate</p>
+        }
     </div>
 </main>
 
 
-<div class="m-3">
-    @if (!User.IsInRole("Administrador"))
-    {
-        <div>
-            @Html.Partial("~/Views/Escaparate/Index.cshtml")
-        </div>
-    }
-    else
-    {
-        <p>Acceso Denegado al Escaparate</p>
-    }
-</div>
+
+
+
 
