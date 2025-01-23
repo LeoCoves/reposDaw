@@ -40,6 +40,10 @@
     .video-container video {
         z-index: 1;
     }
+
+    .btn-outline-light:hover{
+        color: black;
+    }
 </style>
 
 
@@ -80,53 +84,56 @@
     </div>
 
     <div class="container bg-black">
-        <div class="row">
-            <div class="col-md-5">
-                <h2 class="text-light">DIFERENTES CATEGORIAS PARA TI</h2>
+        <div class="mx-2">
+            <div class="row h-auto p-5">
+                <div class="col-md-4">
+                    <h2 class="text-light"><i class="bi bi-arrow-right"></i> CONSIGUE LO QUE ES TUYO</h2>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-light">Inspirate y comparte con nosotros tus mejores accesorios</p>
+                    <p class="text-light">en nuestras redes sociales @@xpadel</p>
+                </div>
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-outline-light">
+                        <a class="text-light" href="#Escaparate">Ver todo</a>
+                    </button>
+                </div>
             </div>
-            <div class="col-md-7">
-                <h5 class="text-light">Todo lo puedes encontrar aqui para asi si</h5>
-            </div>
-        </div>
-        <div class="row">
-            <div class="card">
-            </div>
-            <div class="card">
-            </div>
-            <div class="card">
-            </div>
-            <div class="card">
+            <div class="row h-auto justify-content-around p-5">
+                <a class="col-sm-4" asp-area="" asp-controller="Escaparate" asp-action="Index">
+                    <div class="card custom-cardPala my-1">
+                        <h2 class="text-light align-self-end p-1"><strong>PALAS</strong></h2>
+                    </div>
+                </a>
+
+                <a class="col-sm-4" asp-area="" asp-controller="Escaparate" asp-action="Index">
+                    <div class="card custom-cardPaletero my-1">
+                        <h2 class="text-light align-self-end p-1"><strong>PALETERO</strong></h2>
+                    </div>
+                </a>
+
+                <a class="col-sm-4" asp-area="" asp-controller="Escaparate" asp-action="Index">
+                    <div class="card custom-cardAccesorio my-1">
+                        <h2 class="text-light align-self-end p-1"><strong>ACCESORIOS</strong></h2>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
 
     <div class="container custom-header px-4 px-lg-5">
         <div class="text-center text-white">
-            <h1 class="display-4 fw-bolder">Bienvenido a Xpadel</h1>
-            @if (SignInManager.IsSignedIn(User))
-            {
-                <p class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">@User.Identity?.Name!</p>
-            }
-            @*
-            <p class="lead fw-normal text-white-50 mb-0">Unete a nosotros</p>
-            <button type="button" class="btn btn-outline-light">
-                <a class="text-light" asp-area="Identity" asp-page="/Account/Register">Registrate</a>
-            </button>
-            <button type="button" class="btn btn-outline-light">
-                <a class="text-light" asp-area="Identity" asp-page="/Account/Login">Inicia Sesion</a>
-            </button>*@
-            
 
-            @for(int i = 0; i < 10; i++)
+            @for(int i = 0; i < 15; i++)
             {
                 <br />
             }
-            <p class="lead fw-normal text-white-50 mb-0">Comienza a ver nuestros productos</p>
+            <p class="lead fw-normal text-white-50 mb-2">Comienza a ver nuestros productos</p>
             <button type="button" class="btn btn-outline-light">
                 <a class="text-light" href="#Escaparate">SHOP NOW</a>
             </button>
 
-            @for (int i = 0; i < 10; i++)
+            @for (int i = 0; i < 15; i++)
             {
                 <br />
             }
@@ -146,6 +153,31 @@
         {
             <p>Acceso Denegado al Escaparate</p>
         }
+    </div>
+
+    <div id="carouselExampleInterval" class="container carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="~/imagenes/tiendapadel1.jpg class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="~/imagenes/pistapadel1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="~/imagenes/tiendapadel2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="~/imagenes/pistapadel2.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 </main>
 

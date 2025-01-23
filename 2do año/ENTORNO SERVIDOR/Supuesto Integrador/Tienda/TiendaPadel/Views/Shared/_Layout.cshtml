@@ -88,111 +88,108 @@
             </div>
         </nav>
     </header>
-    <div class="container" style="margin-bottom: 600px">
-        <main role="main">
-            @RenderBody()
-        </main>
-        
-    </div>
-
-    @*<footer class="border-top footer text-muted mt-5">
-        <div class="container">
-            &copy; 2025 - TiendaPadel - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    
+    <div class="d-flex flex-column min-vh-100">
+        <div class="container flex-grow-1">
+            <main role="main">
+                @RenderBody()
+            </main>
         </div>
-    </footer>*@
-    <footer class="border-top footer text-center">
-        <!-- Section: Social media -->
-        <section class="d-flex justify-content-center justify-content-lg-between p-1 border-bottom">
-            <div class="justify-content-between w-100">
-                <a href="https://x.com/?lang=es" class="me-4 text-reset">
-                    <i class="bi bi-twitter-x"></i>
-                </a>
-                <a href="#Escaparate" class="me-4 text-reset">
-                    <i class="bi bi-google"></i>
-                </a>
-                <a href="#Escaparate" class="me-4 text-reset">
-                    <i class="bi bi-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/leo-coves-guzman-b68554281/" class="me-4 text-reset">
-                    <i class="bi bi-linkedin"></i>
-                </a>
-                <a href="https://github.com/LeoCoves/" class="me-4 text-reset">
-                    <i class="bi bi-github"></i>
-                </a>
-            </div>
-            <!-- Right -->
-        </section>
-        <section class="">
-            <div class="container text-center text-md-start mt-4">
-                <!-- Grid row -->
-                <div class="row mt-2">
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-2">
-                        <!-- Content -->
-                        <h6 class="text-uppercase fw-bold mb-2">
-                            Nombre de la compañia
-                        </h6>
-                        <a class="me-auto" asp-area="" asp-controller="Home" asp-action="Index">
-                            <img src="~/imagenes/logolight.png" width="130px" height="50px" />
-                        </a>
-                    </div>
-                    <!-- Grid column -->
-                    <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold mb-2">
-                            Productos
-                        </h6>
-                        <p>
-                            <a href="#Escaparate" class="text-reset">Palas</a>
-                        </p>
-                        <p>
-                            <a href="#Escaparate" class="text-reset">Accesorios</a>
-                        </p>
-                        <p>
-                            <a href="#Escaparate" class="text-reset">Pelotas</a>
-                        </p>
-                        <p>
-                            <a href="#Escaparate" class="text-reset">Mas</a>
-                        </p>
-                    </div>
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-2">
 
-                        <h6 class="text-uppercase fw-bold mb-2">
-                            Tecnologias
-                        </h6>
-                        <p>
-                            <a href="https://dotnet.microsoft.com/es-es/languages/csharp" class="text-reset">C#</a>
-                        </p>
-                        <p>
-                            <a href="https://dotnet.microsoft.com/es-es/" class="text-reset">.NET</a>
-                        </p>
-                        <p>
-                            <a href="https://dotnet.microsoft.com/es-es/apps/aspnet/mvc" class="text-reset">MVC</a>
-                        </p>
-                        <p>
-                            <a href="https://getbootstrap.com/" class="text-reset">Boostrap</a>
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-2">
-                        <h6 class="text-uppercase fw-bold mb-2">Contactanos</h6>
-                        <p><i class="bi bi-backpack"></i> IES Mare Nostrum, ES</p>
-                        <p>
-                            <i class="bi bi-envelope-at-fill"></i>
-                            leocovguz@alu.edu.gva.es
-                        </p>
-                        <p><i class="bi bi-telephone-fill"></i> 48847487847</p>
-                        <p><i class="bi bi-telephone-fill"></i> 34834758748</p>
+        <div class="border-top text-center">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-center justify-content-lg-between p-1 border-bottom">
+                <div class="justify-content-between w-100">
+                    <a href="https://x.com/?lang=es" class="me-4 text-reset">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+                    <a href="#Escaparate" class="me-4 text-reset">
+                        <i class="bi bi-google"></i>
+                    </a>
+                    <a href="#Escaparate" class="me-4 text-reset">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/leo-coves-guzman-b68554281/" class="me-4 text-reset">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/LeoCoves/" class="me-4 text-reset">
+                        <i class="bi bi-github"></i>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <section class="">
+                <div class="container text-center text-md-start mt-4">
+                    <!-- Grid row -->
+                    <div class="row mt-2">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-2">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-2">
+                                Nombre de la compañia
+                            </h6>
+                            <a class="me-auto" asp-area="" asp-controller="Home" asp-action="Index">
+                                <img src="~/imagenes/logolight.png" width="130px" height="50px" />
+                            </a>
+                        </div>
+                        <!-- Grid column -->
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-2">
+                                Productos
+                            </h6>
+                            <p>
+                                <a href="#Escaparate" class="text-reset">Palas</a>
+                            </p>
+                            <p>
+                                <a href="#Escaparate" class="text-reset">Accesorios</a>
+                            </p>
+                            <p>
+                                <a href="#Escaparate" class="text-reset">Pelotas</a>
+                            </p>
+                            <p>
+                                <a href="#Escaparate" class="text-reset">Mas</a>
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-2">
+
+                            <h6 class="text-uppercase fw-bold mb-2">
+                                Tecnologias
+                            </h6>
+                            <p>
+                                <a href="https://dotnet.microsoft.com/es-es/languages/csharp" class="text-reset">C#</a>
+                            </p>
+                            <p>
+                                <a href="https://dotnet.microsoft.com/es-es/" class="text-reset">.NET</a>
+                            </p>
+                            <p>
+                                <a href="https://dotnet.microsoft.com/es-es/apps/aspnet/mvc" class="text-reset">MVC</a>
+                            </p>
+                            <p>
+                                <a href="https://getbootstrap.com/" class="text-reset">Boostrap</a>
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-2">
+                            <h6 class="text-uppercase fw-bold mb-2">Contactanos</h6>
+                            <p><i class="bi bi-backpack"></i> IES Mare Nostrum, ES</p>
+                            <p>
+                                <i class="bi bi-envelope-at-fill"></i>
+                                leocovguz@alu.edu.gva.es
+                            </p>
+                            <p><i class="bi bi-telephone-fill"></i> 48847487847</p>
+                            <p><i class="bi bi-telephone-fill"></i> 34834758748</p>
+                        </div>
                     </div>
                 </div>
+            </section>
+            <div class="text-center p-1" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2021 Copyright:
+                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
             </div>
-        </section>
-        <div class="text-center p-1" style="background-color: rgba(0, 0, 0, 0.05);">
-            © 2021 Copyright:
-            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            <!-- Copyright -->
         </div>
-        <!-- Copyright -->
-    </footer>
+    </div>
     
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

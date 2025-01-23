@@ -13,8 +13,8 @@ html {
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100vh;
 }
 
 body {
@@ -31,6 +31,39 @@ a{
     background-position: center;
     background-repeat: no-repeat;
 }
+.custom-cardPala {
+    background: url('../imagenes/categoriaPalas.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+    .custom-cardPala:hover {
+        transform: scale(1.05);
+        transition-duration: 0.5s;
+    }
+.custom-cardPaletero {
+    background: url('../imagenes/categoriasPaletero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+    .custom-cardPaletero:hover {
+        transform: scale(1.05);
+        transition-duration: 0.5s;
+    }
+.custom-cardAccesorio {
+    background: url('../imagenes/categoriaAccesorios.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+    .custom-cardAccesorio:hover {
+        transform: scale(1.05);
+        transition-duration: 0.5s;
+    }
 @media (min-width: 576px) {
     .navbar-brand {
         position: absolute;
@@ -42,7 +75,4 @@ a{
         position: absolute;
         right: 0;
     }
-}
-footer{
-    margin-top: 400px;
 }
