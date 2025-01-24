@@ -8,6 +8,9 @@
 {
     @if (User.IsInRole("Usuario"))
     {
+            <li class="nav-item">
+                <a class="nav-link text-dark text-center" asp-area="" asp-controller="MisPedidos" asp-action="Index">Mis Pedidos</a>
+            </li>
         <li class="nav-item">
                 <a class="nav-link text-dark text-center" asp-area="" asp-controller="MisDatos" asp-action="Edit">Mis Datos</a>
         </li>

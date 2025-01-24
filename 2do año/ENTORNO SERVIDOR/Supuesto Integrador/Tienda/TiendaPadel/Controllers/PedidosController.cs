@@ -37,9 +37,11 @@ namespace TiendaPadel.Controllers
             }
 
             var pedido = await _context.Pedidos
-                .Include(p => p.Cliente)
-                .Include(p => p.Estado)
-                .FirstOrDefaultAsync(m => m.Id == id);
+            .Include(p => p.Estado)
+            .Include(p => p.Detalles)
+            .ThenInclude(d => d.Producto) // Incluir Producto en los Detalles
+            .FirstOrDefaultAsync(p => p.Id == id);
+
             if (pedido == null)
             {
                 return NotFound();

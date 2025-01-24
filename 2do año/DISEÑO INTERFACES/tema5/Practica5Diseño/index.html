@@ -13,43 +13,49 @@
 </head>
 <body>
     <style>
-        .bg{
-            background-color: #FFA500;
+        .h15 {
+            height: 15vh;
         }
-        .bg2{
-            background-color: #CA6624;
+        .h50 {
+            height: 50vh;
+        }
+        .border-between {
+            border-right: 4px solid black; /* Borde negro en el lado derecho */
         }
     </style>
-
-        <header class="row bg-warning text-center my-2 ">
-            <p class="p-3">CABECERA</p>
-        </header>
-    
-        <nav class="row bg-warning text-center my-2">
-            <p class="p-3">MENU</p>
-        </nav>
-    
-        <main class="text-center row">
-            <section class="col-lg-8 col-md-12">
-                <nav class="bg-warning my-2">
-                    <p class="p-3">NAV1</p>
-                </nav>
-                <article class="row">
-                    <nav class="col-lg-6 col-md-6 col-sm-12 bg-warning">
-                        <p class="py-5">NAV2</p>
-                    </nav>
-                    <section class="col-lg-6 col-md-6 col-sm-12 bg-warning">
-                       <p class="py-5">CUERPO</p>
-                    </section>
-                </article>
-            </section>
-            <aside class="col-lg-4 col-md-12 bg-warning mt-2">
-                <p class="p-3">BANNER</p>
-            </aside>
-        </main>
+        <main class="text-center container-fuild">
+            <header class="col pb-5 bg-warning my-2">
+                <p class="col">CABECERA</p>
+            </header>
         
-        <footer class="col-12 bg-warning text-center my-2">
-            <p class="p-3">PIE</p>
-        </footer>
+            <nav class="col pb-5 bg-warning my-2">
+                <p class="col">MENU</p>
+            </nav>
+        
+            <main class="row p-0 gap-2">
+                <section class="col p-0">
+                    <nav class="col-lg h15 bg-warning">
+                        <p class="col">
+                            NAV1
+                        </p>
+                    </nav>
+                    <article class="row m-0 border-top border-3 column-gap-1">
+                        <nav class="col-sm-5 bg-warning border-top border-4 border-dark border-between">
+                            <p class="col">NAV2</p>
+                            </nav>
+                        <section class="col-sm h50 bg-warning border-top border-4 border-dark">
+                           <p class="col">CUERPO</p>
+                        </section>
+                    </article>
+                </section>
+                <aside class="col-md-4 bg-warning ">
+                    <p class="col">BANNER</p>
+                </aside>
+            </main>
+            
+            <footer class="col bg-warning my-2 pb-4">
+                <p class="col">PIE</p>
+            </footer>
+        </main>
 </body>
 </html>
