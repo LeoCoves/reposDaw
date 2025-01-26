@@ -119,8 +119,10 @@
 @if (Model.Estado.Descripcion == "Pendiente")
 {
     <div class=" text-center">
-        <a class="btn btn-success" asp-action="ConfirmarPedido" asp-route-id="@ViewData["NumPedido"]" class="btn btn-primary">Confirmar Pedido</a>
+        <a asp-controller="Carrito" asp-action="Index" asp-route-id="@Model.Id" class="btn btn-primary">Volver a Comprar</a> |
+        <a asp-action="Delete" asp-route-id="@Model.Id">Eliminar</a>
     </div>
+
 }
 <div class="d-print-none">
     <a asp-action="Index">Volver</a>

@@ -17,8 +17,25 @@ namespace TiendaPadel.Controllers
         }
 
         //Get Carrito
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? id)
         {
+            // Si se proporciona un ID, configuramos este pedido como el actual en la sesión
+            if (id.HasValue)
+            {
+                // Verificar si el pedido existe en la base de datos
+                var pedidoExistente = await _context.Pedidos
+                    .Include(p => p.Detalles)
+                    .FirstOrDefaultAsync(p => p.Id == id.Value);
+
+                if (pedidoExistente == null)
+                {
+                    return NotFound(); // Si el pedido no existe, mostramos un error
+                }
+
+                // Actualizar el número de pedido en la sesión
+                HttpContext.Session.SetString("NumPedido", id.Value.ToString());
+            }
+
             string? strNumPedido = HttpContext.Session.GetString("NumPedido");
 
             if (string.IsNullOrEmpty(strNumPedido))

@@ -20,9 +20,9 @@ namespace TiendaPadel.Controllers
         // GET: MisPedidosController
         public async Task<IActionResult> Index()
         {
-            var user = User.Identity.Name; 
+            var user = User.Identity.Name;
 
-            if(user == null)
+            if (user == null)
             {
                 return Unauthorized();
             }
@@ -61,24 +61,76 @@ namespace TiendaPadel.Controllers
 
 
         // GET: MisPedidosController/Delete/5
-        public ActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int? id)
         {
-            return View();
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var pedido = await _context.Pedidos
+                .Include(p => p.Cliente)
+                .Include(p => p.Estado)
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (pedido == null)
+            {
+                return NotFound();
+            }
+
+            return View(pedido);
         }
 
-        // POST: MisPedidosController/Delete/5
-        [HttpPost]
+        // POST: Pedidos/Delete/5
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            try
+            // Obtener los detalles relacionados con el pedido
+            var detalles = _context.Detalles.Where(d => d.PedidoId == id);
+
+            // Eliminar los detalles
+            _context.Detalles.RemoveRange(detalles);
+
+            // Obtener el pedido
+            var pedido = await _context.Pedidos.FindAsync(id);
+
+            if (pedido != null)
             {
-                return RedirectToAction(nameof(Index));
+                // Eliminar el pedido
+                _context.Pedidos.Remove(pedido);
             }
-            catch
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        // Acción para volver a agregar un pedido al carrito
+        public async Task<IActionResult> VolverACarrito(int id)
+        {
+            // Buscar el pedido y sus detalles
+            var pedido = await _context.Pedidos
+                .Include(p => p.Detalles) // Incluir los detalles del pedido
+                .ThenInclude(d => d.Producto) // Si necesitas incluir información del producto
+                .FirstOrDefaultAsync(p => p.Id == id);
+
+            if (pedido == null)
             {
-                return View();
+                return NotFound(); // Si el pedido no existe, devolvemos un error
             }
+
+            // Crear una lista para pasar los productos al carrito
+            var productosCarrito = pedido.Detalles.Select(detalle => new
+            {
+                ProductoId = detalle.ProductoId,
+                Cantidad = detalle.Cantidad,
+                Precio = detalle.Precio
+            }).ToList();
+
+            // Guardar la lista en TempData para enviarla al controlador del carrito
+            TempData["ProductosCarrito"] = System.Text.Json.JsonSerializer.Serialize(productosCarrito);
+
+            // Redirigir al controlador del carrito para procesar los productos
+            return RedirectToAction("Index", "Carrito");
         }
     }
 }
