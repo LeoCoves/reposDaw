@@ -17,10 +17,16 @@ html {
     min-height: 100vh;
 }
 
+.container {
+    margin: 0; /* Elimina los márgenes */
+    padding: 2em !important; /* Opcional: elimina el relleno */
+    max-width: 100% !important; /* Asegúrate de que ocupe todo el ancho */
+}
+
 body {
-  margin-bottom: 60px;
-  padding:0;
-  margin: 0;
+    margin-bottom: 60px;
+    padding: 0;
+    margin: 0;
 }
 a{
     text-decoration: none;
@@ -75,4 +81,16 @@ a{
         position: absolute;
         right: 0;
     }
+}
+
+a.btn-outline-light.text-light:hover {
+    color: black !important;
+    background-color: white !important;
+    border-color: white !important;
+}
+
+a.btn-outline-light.text-dark:hover {
+    color: black !important;
+    background-color: white !important;
+    border-color: white !important;
 }

@@ -19,20 +19,16 @@ namespace TiendaPadel.Controllers
         //Get Carrito
         public async Task<IActionResult> Index(int? id)
         {
-            // Si se proporciona un ID, configuramos este pedido como el actual en la sesión
             if (id.HasValue)
             {
-                // Verificar si el pedido existe en la base de datos
                 var pedidoExistente = await _context.Pedidos
                     .Include(p => p.Detalles)
                     .FirstOrDefaultAsync(p => p.Id == id.Value);
 
                 if (pedidoExistente == null)
                 {
-                    return NotFound(); // Si el pedido no existe, mostramos un error
+                    return NotFound(); 
                 }
-
-                // Actualizar el número de pedido en la sesión
                 HttpContext.Session.SetString("NumPedido", id.Value.ToString());
             }
 
@@ -40,7 +36,6 @@ namespace TiendaPadel.Controllers
 
             if (string.IsNullOrEmpty(strNumPedido))
             {
-                // Si no hay un pedido en la sesión, redirige a una vista que indique que el carrito está vacío
                 return RedirectToAction("CarritoVacio");
             }
 
@@ -50,8 +45,8 @@ namespace TiendaPadel.Controllers
                 .Where(p => p.Id == numPedido)
                 .Include(p => p.Detalles)
                 .ThenInclude(d => d.Producto)
-                .Include(p => p.Cliente) // Incluye el cliente
-                .Include(p => p.Estado) // Incluye el estado del pedido
+                .Include(p => p.Cliente) 
+                .Include(p => p.Estado) 
                 .FirstOrDefaultAsync();
 
             if (pedido == null)
@@ -61,7 +56,7 @@ namespace TiendaPadel.Controllers
 
             ViewData["NumPedido"] = numPedido;
 
-            return View(pedido); // Pasa el modelo completo de Pedido a la vista
+            return View(pedido); 
         }
 
         // Acción ConfirmarPedido
@@ -83,12 +78,13 @@ namespace TiendaPadel.Controllers
 
             pedido.EstadoId = 2;
             pedido.Confirmado = DateTime.Now;
+            pedido.Cobrado = DateTime.Now;
 
             _context.Update(pedido);
             await _context.SaveChangesAsync();
 
             HttpContext.Session.Remove("NumPedido");
-
+            TempData["PedidoConfirmado"] = "El pedido se ha realizado con éxito";
             return RedirectToAction("Index", "Escaparate");
         }
 

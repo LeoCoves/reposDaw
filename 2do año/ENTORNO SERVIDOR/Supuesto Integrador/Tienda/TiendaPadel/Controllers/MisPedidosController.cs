@@ -48,7 +48,7 @@ namespace TiendaPadel.Controllers
             var pedido = await _context.Pedidos
             .Include(p => p.Estado)
             .Include(p => p.Detalles)
-            .ThenInclude(d => d.Producto) // Incluir Producto en los Detalles
+            .ThenInclude(d => d.Producto) 
             .FirstOrDefaultAsync(p => p.Id == id);
 
             if (pedido == null)

@@ -3,17 +3,14 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<h1>Usuarios</h1>
-
-<br />
-
-<p>
-    <a asp-action="Create">Nuevo Administrador</a>
-</p>
+<div class="text-center my-3">
+    <h1>Usuarios</h1>
+    <a class="btn btn-outline-success my-3" asp-action="Create">Nuevo Administrador</a>
+</div>
 
 
-<table class="table">
-    <tr>
+<table class="table table-striped">
+    <tr class="bg-dark text-light">
         <th>
             Usuario
         </th>

@@ -22,10 +22,15 @@ namespace TiendaPadel.Controllers
         }
 
         // GET: Pedidos
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? pageNumber)
         {
-            var mvcTiendaContexto = _context.Pedidos.Include(p => p.Cliente).Include(p => p.Estado);
-            return View(await mvcTiendaContexto.ToListAsync());
+            // Cargar datos de Pedidos
+            var pedidos = from s in _context.Pedidos.Include(p => p.Cliente).Include(p => p.Estado)
+                          select s;
+
+            int pageSize = 8;
+            return View(await PaginatedList<Pedido>.CreateAsync(pedidos.AsNoTracking(),
+            pageNumber ?? 1, pageSize));
         }
 
         // GET: Pedidos/Details/5

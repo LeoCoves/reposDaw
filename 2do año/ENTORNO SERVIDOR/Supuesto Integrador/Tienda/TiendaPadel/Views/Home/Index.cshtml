@@ -70,12 +70,8 @@
                         else
                         {
                             <h2 class="lead fw-normal text-white-50 my-5">UNETE A NOSOTROS</h2>
-                            <button type="button" class="btn btn-outline-light mx-3">
-                                <a class="text-light" asp-area="Identity" asp-page="/Account/Register">Registrate</a>
-                            </button>
-                            <button type="button" class="btn btn-outline-light mx-3">
-                                <a class="text-light" asp-area="Identity" asp-page="/Account/Login">Inicia Sesion</a>
-                            </button>
+                                <a class="btn btn-outline-light mx-3" asp-area="Identity" asp-page="/Account/Register">Registrate</a>
+                                <a class="btn btn-outline-light mx-3" asp-area="Identity" asp-page="/Account/Login">Inicia Sesion</a>
                         }
                     </div>
                 </div>
@@ -94,9 +90,7 @@
                     <p class="text-light">en nuestras redes sociales @@xpadel</p>
                 </div>
                 <div class="col-md-2">
-                    <button type="button" class="btn btn-outline-light">
-                        <a class="text-light" href="#Escaparate">Ver todo</a>
-                    </button>
+                    <a class="btn btn-outline-light" href="#Escaparate">Ver todo</a>
                 </div>
             </div>
             <div class="row h-auto justify-content-around p-5">
@@ -129,9 +123,7 @@
                 <br />
             }
             <p class="lead fw-normal text-white-50 mb-2">Comienza a ver nuestros productos</p>
-            <button type="button" class="btn btn-outline-light">
-                <a class="text-light" href="#Escaparate">SHOP NOW</a>
-            </button>
+            <a class="btn btn-outline-light" href="#Escaparate">SHOP NOW</a>
 
             @for (int i = 0; i < 15; i++)
             {

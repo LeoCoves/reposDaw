@@ -1,43 +1,45 @@
-﻿@model IEnumerable<TiendaPadel.Models.Pedido>
+﻿@model PaginatedList<TiendaPadel.Models.Pedido>
 
 @{
     ViewData["Title"] = "Pedidos";
 }
 
-<h1>Pedidos</h1>
 
-<p>
-    <a asp-action="Create">Nuevo</a>
-</p>
-<table class="table">
-    <thead>
+
+<div class="text-center my-3">
+    <h1>Estados</h1>
+    <a class="btn btn-outline-success my-3" asp-action="Create">Nuevos Estados</a>
+</div>
+
+<table class="table table-striped">
+    <thead class="bg-dark text-light">
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Fecha)
+                Fecha
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Confirmado)
+                Confirmado
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Preparado)
+                Preparado
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Enviado)
+                Enviado
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Cobrado)
+                Cobrado
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Devuelto)
+                Devuelto
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Anulado)
+                Anulado
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Cliente)
+                Cliente
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Estado)
+                Estado
             </th>
             <th></th>
         </tr>
@@ -73,12 +75,32 @@
                 @Html.DisplayFor(modelItem => item.Estado.Descripcion)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                    <a class="btn btn-outline-dark" asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil-square"></i></a>
+                    <a class="btn btn-outline-dark" asp-action="Details" asp-route-id="@item.Id"><i class="bi bi-eye"></i></a>
+                    <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id"><i class="bi bi-x-lg"></i></a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+
+@* Poner botones de página Siguiente y Anterior *@
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+<div class="text-center">
+    <p>Numero de páginas: @Model.TotalPages</p>
+</div>
+<div class="btn-group text-center w-20 justify-content-center" role="group">
+    <a asp-action="Index" asp-route-pageNumber="@(Model.PageIndex - 1)"
+       class="btn btn-outline-secondary @prevDisabled">
+        Anterior
+    </a>
+    <button class="btn btn-dark text-light">@Model.PageIndex</button>
+    <a asp-action="Index" asp-route-pageNumber="@(Model.PageIndex + 1)"
+       class="btn btn-outline-secondary @nextDisabled">
+        Siguiente
+    </a>
+</div>
 

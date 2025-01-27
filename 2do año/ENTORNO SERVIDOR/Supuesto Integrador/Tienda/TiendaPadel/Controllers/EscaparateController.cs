@@ -26,7 +26,6 @@ namespace TiendaPadel.Controllers
             ViewData["Categorias"] = categorias;
 
 
-            // Cargar datos de los avisos
             var productos = _context.Productos
                 .Include(p => p.Categoria)
                 .AsQueryable();
@@ -58,13 +57,11 @@ namespace TiendaPadel.Controllers
                 return NotFound();
             }
 
-            // Filtra productos de la misma categoría, excluyendo el producto actual
             var productosRelacionados = _context.Productos
                 .Where(p => p.CategoriaId == producto.CategoriaId && p.Id != id)
-                .Take(12) // Limita a 12 productos
+                .Take(12) 
                 .ToList();
 
-            // Crear un ViewModel para enviar los datos necesarios a la vista
             var viewModel = new AgregarCarritoViewModel
             {
                 ProductoActual = producto,
@@ -80,8 +77,7 @@ namespace TiendaPadel.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> AgregarCarrito(int idProducto, int cantidad)
         {
-            // Obtener el cliente autenticado
-            var usuarioId = User.Identity?.Name; // Asume que el nombre de usuario está relacionado con el cliente
+            var usuarioId = User.Identity?.Name; 
             var cliente = await _context.Clientes.FirstOrDefaultAsync(c => c.Email == usuarioId);
 
             if (cliente == null)
@@ -89,42 +85,40 @@ namespace TiendaPadel.Controllers
                 return RedirectToPage("/Account/Login", new { area = "Identity" });
             }
 
-            // Obtener el número de pedido desde la sesión
+            
             string? strNumPedido = HttpContext.Session.GetString("NumPedido");
 
-            // Si no hay un pedido en la sesión, creamos uno nuevo
+            
             if (string.IsNullOrEmpty(strNumPedido))
             {
                 var nuevoPedido = new Pedido
                 {
-                    ClienteId = cliente.Id, // Asigna el cliente autenticado
-                    EstadoId = 1,           // En proceso
+                    ClienteId = cliente.Id, 
+                    EstadoId = 1,           
                     Fecha = DateTime.Now
                 };
 
                 _context.Pedidos.Add(nuevoPedido);
                 await _context.SaveChangesAsync();
 
-                // Guardamos el ID del nuevo pedido en la sesión
+                
                 HttpContext.Session.SetString("NumPedido", nuevoPedido.Id.ToString());
                 strNumPedido = nuevoPedido.Id.ToString();
             }
 
             int numPedido = int.Parse(strNumPedido);
 
-            // Verificar si el producto ya está en el carrito
+           
             var detalleExistente = await _context.Detalles
                 .FirstOrDefaultAsync(d => d.PedidoId == numPedido && d.ProductoId == idProducto);
 
             if (detalleExistente != null)
             {
-                // Si el producto ya está en el carrito, aumentamos la cantidad
                 detalleExistente.Cantidad += cantidad;
                 _context.Update(detalleExistente);
             }
             else
             {
-                // Si el producto no está en el carrito, lo agregamos como nuevo detalle
                 var detalle = new Detalle
                 {
                     PedidoId = numPedido,
@@ -138,7 +132,7 @@ namespace TiendaPadel.Controllers
 
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("Index", "Carrito"); // Redirige al carrito para ver el contenido
+            return RedirectToAction("Index", "Carrito"); 
         }
     }
 }
