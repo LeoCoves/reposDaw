@@ -17,26 +17,30 @@ namespace TiendaPadel.Controllers
         {
             _context = context;
         }
-        public async Task<IActionResult> Index(int? idCategoria)
+        public async Task<IActionResult> Index(int? idCategoria, int? pageNumber)
         {
+
+            // Cargar datos de Pedidos
+            var productos = from s in _context.Productos
+                            .Include(p => p.Categoria)
+                            .AsQueryable()
+                          select s;
+
             var categorias = await _context.Categorias
                 .OrderBy(c => c.Descripcion)
                 .ToListAsync();
 
             ViewData["Categorias"] = categorias;
 
-
-            var productos = _context.Productos
-                .Include(p => p.Categoria)
-                .AsQueryable();
-
-
             if (idCategoria.HasValue)
             {
                 productos = productos.Where(p => p.CategoriaId == idCategoria.Value);
             }
 
-            return View(await productos.ToListAsync());
+
+            int pageSize = 4;
+            return View(await PaginatedList<Producto>.CreateAsync(productos.AsNoTracking(),
+            pageNumber ?? 1, pageSize));
         }
 
         

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<TiendaPadel.Models.Producto>
+﻿@model PaginatedList<TiendaPadel.Models.Producto>
 @{
     ViewData["Title"] = "Escaparate";
     var categorias = ViewData["Categorias"] as IEnumerable<TiendaPadel.Models.Categoria>;
@@ -89,5 +89,25 @@
             </div>
         }
    </div>
+</div>
+
+@* Poner botones de página Siguiente y Anterior *@
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+<div class="text-center">
+    <p>Numero de páginas: @Model.TotalPages</p>
+</div>
+<div class="btn-group text-center w-20 justify-content-center" role="group">
+    <a asp-action="Index" asp-route-pageNumber="@(Model.PageIndex - 1)"
+       class="btn btn-outline-secondary @prevDisabled">
+        Anterior
+    </a>
+    <button class="btn btn-dark text-light">@Model.PageIndex</button>
+    <a asp-action="Index" asp-route-pageNumber="@(Model.PageIndex + 1)"
+       class="btn btn-outline-secondary @nextDisabled">
+        Siguiente
+    </a>
 </div>
 

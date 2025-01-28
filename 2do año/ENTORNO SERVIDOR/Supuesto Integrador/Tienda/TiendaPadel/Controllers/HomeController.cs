@@ -34,25 +34,13 @@ namespace TiendaPadel.Controllers
             }
 
 
-            var categorias = await _context.Categorias
-                .OrderBy(c => c.Descripcion)
+            // Obtener los 16 productos más recientes
+            var productosRecientes = await _context.Productos
+                .OrderByDescending(p => p.Id) // Ordenar por ID en orden descendente
+                .Take(16) // Tomar los 16 primeros
                 .ToListAsync();
 
-            ViewData["Categorias"] = categorias;
-
-
-            // Cargar datos de los avisos
-            var productos = _context.Productos
-                .Include(p => p.Categoria)
-                .AsQueryable();
-
-
-            if (idCategoria.HasValue)
-            {
-                productos = productos.Where(p => p.CategoriaId == idCategoria.Value);
-            }
-
-            return View(await productos.ToListAsync());
+            return View(productosRecientes); // Pasar los productos a la vista
         }
 
         [Authorize(Roles = "Usuario")]

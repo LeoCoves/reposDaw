@@ -134,17 +134,34 @@
 
     
 
-    <div class="m-3">
-        @if (!User.IsInRole("Administrador"))
-        {
-            <div id="Escaparate">
-                @Html.Partial("~/Views/Escaparate/Index.cshtml")
-            </div>
-        }
-        else
-        {
-            <p>Acceso Denegado al Escaparate</p>
-        }
+    <div class="px-4 px-lg-5 mt-5">
+        <h2>NEW</h2>
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            @foreach (var item in Model)
+            {
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <img src="~/imagenes/@item.Imagen" class="card-img-top" alt="Imagen de @item.Descripcion">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5 class="card-title">@(item.Descripcion)</h5>
+                                <p class="card-text">@(item.Precio)€</p>
+                            </div>
+                        </div>
+                    
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                @if (item.Stock < 10)
+                                {
+                                    <p class="text-danger">QUEDAN POCAS UNIDADES</p>
+                                }
+                                <a asp-controller="Escaparate" asp-action="AgregarCarrito" asp-route-id="@item.Id" class="btn btn-primary">Agregar al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+       </div>
     </div>
 
     <div id="carouselExampleInterval" class="container carousel slide" data-bs-ride="carousel">

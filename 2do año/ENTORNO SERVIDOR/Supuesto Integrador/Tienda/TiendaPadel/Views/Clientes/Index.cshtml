@@ -1,4 +1,4 @@
-﻿@model IEnumerable<TiendaPadel.Models.Cliente>
+﻿@model PaginatedList<TiendaPadel.Models.Cliente>
 
 @{
     ViewData["Title"] = "Clientes";
@@ -6,32 +6,32 @@
 
 <div class="text-center my-3">
     <h1>Clientes</h1>
-    <a class="btn btn-outline-success my-3" asp-action="Create">Nuevo Cliente/a</a>
+    <a class="btn btn-outline-success my-3" asp-action="Create">Nuevo Cliente/a <i class="bi bi-plus-lg"></i></a>
 </div>
 
 <table class="table table-striped">
     <thead class="bg-dark text-light">
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Nombre)
+                Nombre
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Nif)
+                NIF
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Email)
+                Email
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Telefono)
+                Teléfono
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Direccion)
+                Dirección
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Poblacion)
+                Población
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CodigoPostal)
+                Código Postal
             </th>
             <th></th>
         </tr>
@@ -69,3 +69,23 @@
 }
     </tbody>
 </table>
+
+@* Poner botones de página Siguiente y Anterior *@
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+<div class="text-center">
+    <p>Numero de páginas: @Model.TotalPages</p>
+</div>
+<div class="btn-group text-center w-20 justify-content-center" role="group">
+    <a asp-action="Index" asp-route-pageNumber="@(Model.PageIndex - 1)"
+       class="btn btn-outline-secondary @prevDisabled">
+        Anterior
+    </a>
+    <button class="btn btn-dark text-light">@Model.PageIndex</button>
+    <a asp-action="Index" asp-route-pageNumber="@(Model.PageIndex + 1)"
+       class="btn btn-outline-secondary @nextDisabled">
+        Siguiente
+    </a>
+</div>
