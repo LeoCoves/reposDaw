@@ -1,0 +1,63 @@
+//Crear variables
+$color1: rgb(24, 24, 56);
+$color2: rgb(255, 255, 255);
+$color3: rgb(153, 228, 153);
+$color4: rgb(28, 122, 0);
+$size_small: 0.8em;
+$size_medium: 1em;
+$size_large: 2em;
+
+body{
+    background-color: $color1;
+}
+
+h4{
+    margin: 1em;
+    color: $color2;
+}
+
+h5{
+    font-size: $size_medium;
+}
+
+p{
+    font-size: $size_small;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+
+    &:hover{
+        color: $color4;
+    }
+}
+
+
+// crear bloques de estilos SASS:
+@mixin card-1{
+    margin-left: 1em;
+    border: 5px solid $color4;
+    background-color: $color3;
+    text-align: center;
+}
+
+
+
+.card{
+    @include card-1();
+}
+
+
+
+.card:hover{background-color: chartreuse} 
+
+// antes( main:hover{background-color: chartreuse})
+// ahora el prefijo & aplica al elemento superior:
+.card{
+    @include card-1();  
+    &:hover{
+        background-color: cornflowerblue;
+     }
+}

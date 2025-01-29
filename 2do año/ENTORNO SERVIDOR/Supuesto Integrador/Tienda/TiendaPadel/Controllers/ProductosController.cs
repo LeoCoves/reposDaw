@@ -25,9 +25,11 @@ namespace TiendaPadel.Controllers
         }
 
         // GET: Productos
-        public async Task<IActionResult> Index(int? pageNumber, string strCadenaBusqueda)
+        public async Task<IActionResult> Index(int? pageNumber, string? strCadenaBusqueda, string? strCadenaCategoria, bool? cadenaEscaparate)
         {
             ViewData["BusquedaActual"] = strCadenaBusqueda;
+            ViewData["BusquedaCategoria"] = strCadenaCategoria;
+            ViewData["BusquedaEscaparate"] = cadenaEscaparate;
 
             // Cargar datos de Pedidos
             var productos = from s in _context.Productos.Include(p => p.Categoria).OrderByDescending(p => p.Id)
@@ -36,6 +38,16 @@ namespace TiendaPadel.Controllers
             if (!String.IsNullOrEmpty(strCadenaBusqueda))
             {
                 productos = productos.Where(s => s.Descripcion.Contains(strCadenaBusqueda));
+            }
+
+            if (!String.IsNullOrEmpty(strCadenaCategoria))
+            {
+                productos = productos.Where(s => s.Categoria.Descripcion.Contains(strCadenaCategoria));
+            }
+
+            if (cadenaEscaparate.HasValue)
+            {
+                productos = productos.Where(s => s.Escaparate == cadenaEscaparate.Value);
             }
 
             int pageSize = 8;

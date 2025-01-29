@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(24, 24, 56);
+}
+
+h4 {
+  margin: 1em;
+  color: rgb(255, 255, 255);
+}
+
+h5 {
+  font-size: 1em;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: rgb(28, 122, 0);
+}
+
+.card {
+  margin-left: 1em;
+  border: 5px solid rgb(28, 122, 0);
+  background-color: rgb(153, 228, 153);
+  text-align: center;
+}
+
+.card:hover {
+  background-color: chartreuse;
+}
+
+.card {
+  margin-left: 1em;
+  border: 5px solid rgb(28, 122, 0);
+  background-color: rgb(153, 228, 153);
+  text-align: center;
+}
+.card:hover {
+  background-color: cornflowerblue;
+}/*# sourceMappingURL=sass.css.map */

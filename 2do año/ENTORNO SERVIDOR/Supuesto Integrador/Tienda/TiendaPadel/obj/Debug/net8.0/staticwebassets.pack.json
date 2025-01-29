@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\imagenes\\categoriasPaletero.jpg"
     },
     {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\cestaVacia.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\cestaVacia.jpg"
+    },
+    {
       "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\logodark.png",
       "PackagePath": "staticwebassets\\imagenes\\logodark.png"
     },

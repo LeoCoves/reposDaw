@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W4yNcA+nYKL5BPQ18lgt31nSzYjZfGCjSuy8HYrRGEY=",
+  "Hash": "rGN0cT+HXq6AZ9zARhVAfLQxcS4ThxWe/GfD4VQp2qg=",
   "Source": "TiendaPadel",
   "BasePath": "_content/TiendaPadel",
   "Mode": "Default",
@@ -1402,6 +1402,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\categoriasPaletero.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\cestaVacia.jpg",
+      "SourceId": "TiendaPadel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\",
+      "BasePath": "_content/TiendaPadel",
+      "RelativePath": "imagenes/cestaVacia.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\cestaVacia.jpg"
     },
     {
       "Identity": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\logodark.png",
