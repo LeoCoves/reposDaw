@@ -18,7 +18,7 @@ namespace TiendaPadel.Controllers
             _context = context;
         }
         // GET: MisPedidosController
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? pageNumber, DateTime? fecha, string? strCadenaEstado)
         {
             var user = User.Identity.Name;
 
@@ -27,14 +27,41 @@ namespace TiendaPadel.Controllers
                 return Unauthorized();
             }
 
-            // Filtrar los pedidos del usuario actual e incluir relaciones necesarias
-            var pedidos = await _context.Pedidos
-            .Include(p => p.Cliente)
-            .Include(p => p.Estado)
-            .Where(p => p.Cliente.Email == user)
-            .ToListAsync();
+            ViewData["BusquedaFecha"] = fecha.HasValue ? fecha.Value.ToString("yyyy-MM-dd") : "";
+            ViewData["BusquedaEstado"] = strCadenaEstado;
 
-            return View(pedidos);
+            // Cargar datos de Pedidos
+            var pedidos = from s in _context.Pedidos
+                .OrderByDescending(p => p.Id)
+                .Include(p => p.Cliente)
+                .Include(p => p.Estado)
+                .Where(p => p.Cliente.Email == user)
+                          select s;
+
+            // Filtrar por fecha si se proporciona
+            if (fecha.HasValue)
+            {
+                pedidos = pedidos.Where(s => s.Fecha.Date == fecha.Value.Date);
+            }
+
+            if (strCadenaEstado != null)
+            {
+                switch (strCadenaEstado)
+                {
+                    case "Pendiente":
+                        pedidos = pedidos.Where(s => s.Estado.Descripcion == "Pendiente");
+                        break;
+                    case "Realizado":
+                        pedidos = pedidos.Where(s => s.Estado.Descripcion == "Realizado");
+                        break;
+                        // "Todos" no necesita filtro adicional
+                }
+            }
+            
+
+            int pageSize = 8;
+            return View(await PaginatedList<Pedido>.CreateAsync(pedidos.AsNoTracking(),
+            pageNumber ?? 1, pageSize));
         }
 
         // GET: MisPedidosController/Details/5
@@ -55,6 +82,7 @@ namespace TiendaPadel.Controllers
             {
                 return NotFound();
             }
+
 
             return View(pedido);
         }

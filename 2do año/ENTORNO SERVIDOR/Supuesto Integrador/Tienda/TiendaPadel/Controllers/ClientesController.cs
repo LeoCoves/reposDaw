@@ -22,11 +22,18 @@ namespace TiendaPadel.Controllers
         }
 
         // GET: Clientes
-        public async Task<IActionResult> Index(int? pageNumber)
+        public async Task<IActionResult> Index(int? pageNumber, string? strCadenaBusqueda)
         {
+            ViewData["BusquedaActual"] = strCadenaBusqueda;
+
             // Cargar datos de Pedidos
             var clientes = from s in _context.Clientes
                           select s;
+
+            if (!String.IsNullOrEmpty(strCadenaBusqueda))
+            {
+                clientes = clientes.Where(s => s.Nif.Contains(strCadenaBusqueda));
+            }
 
             int pageSize = 8;
             return View(await PaginatedList<Cliente>.CreateAsync(clientes.AsNoTracking(),

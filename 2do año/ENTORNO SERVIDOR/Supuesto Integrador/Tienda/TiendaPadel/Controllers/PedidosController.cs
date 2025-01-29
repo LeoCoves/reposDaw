@@ -22,11 +22,44 @@ namespace TiendaPadel.Controllers
         }
 
         // GET: Pedidos
-        public async Task<IActionResult> Index(int? pageNumber)
+        public async Task<IActionResult> Index(int? pageNumber, DateTime? fecha, string? strCadenaUsuario, string? strCadenaEstado)
         {
+            ViewData["BusquedaFecha"] = fecha.HasValue ? fecha.Value.ToString("yyyy-MM-dd") : "";
+            ViewData["BusquedaUsuario"] = strCadenaUsuario;
+            ViewData["BusquedaEstado"] = strCadenaEstado;
+
             // Cargar datos de Pedidos
-            var pedidos = from s in _context.Pedidos.Include(p => p.Cliente).Include(p => p.Estado)
+            var pedidos = from s in _context.Pedidos.Include(p => p.Cliente).Include(p => p.Estado).OrderByDescending(p => p.Id)
                           select s;
+
+            // Filtrar por fecha si se proporciona
+            if (fecha.HasValue)
+            {
+                pedidos = pedidos.Where(s => s.Fecha.Date == fecha.Value.Date);
+            }
+
+            // Para filtrar avisos por tipo de avería
+            if (strCadenaUsuario != null)
+            {
+                pedidos = pedidos.Where(s => s.Cliente.Nombre == strCadenaUsuario);
+            }
+
+            if (strCadenaEstado != null)
+            {
+                switch (strCadenaEstado)
+                {
+                    case "Pendiente":
+                        pedidos = pedidos.Where(s => s.Estado.Descripcion == "Pendiente");
+                        break;
+                    case "Realizado":
+                        pedidos = pedidos.Where(s => s.Estado.Descripcion == "Realizado");
+                        break;
+                        // "Todos" no necesita filtro adicional
+                }
+            }
+
+
+
 
             int pageSize = 8;
             return View(await PaginatedList<Pedido>.CreateAsync(pedidos.AsNoTracking(),

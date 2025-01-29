@@ -1,4 +1,4 @@
-﻿@model IEnumerable<TiendaPadel.Models.Pedido>
+﻿@model PaginatedList<TiendaPadel.Models.Pedido>
 
 @{
     ViewData["Title"] = "Mis Pedidos";
@@ -7,31 +7,55 @@
 <h1>Mis Pedidos</h1>
 
 <table class="table">
+    <form asp-action="Index">
+        <div class="container">
+            <div class="row align-items-start text-center">
+                <div class="col-md-4 my-1 form-floating">
+                    <input type="date" name="fecha" class="form-control" id="floatingInput"
+                           value="@ViewData["BusquedaFecha"]" />
+                    <label for="floatingInput">Fecha del Pedido</label>
+                </div>
+                <div class="col-md-4 my-1">
+                    <select name="strCadenaEstado" class="form-select">
+                        <option value="">Todos los Estados</option>
+                        <option value="Pendiente" selected='@(ViewData["strCadenaEstado"]?.ToString() == "Pendiente")'>Pendientes</option>
+                        <option value="Realizado" selected='@(ViewData["strCadenaEstado"]?.ToString() == "Realizado")'>Realizados</option>
+                    </select>
+                </div>
+
+                <div class="col-md-4 align-self-center my-1">
+                    <input type="submit" value="Buscar" class="btn btn-default" /> |
+                    <a asp-action="Index" class="btn btn-default">Lista completa</a>
+                </div>
+            </div>
+        </div>
+    </form>
+
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Fecha)
+                Fecha
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Confirmado)
+                Confirmado
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Preparado)
+                Preparado
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Enviado)
+                Enviado
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Cobrado)
+                Cobrado
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Devuelto)
+                Devuelto
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Anulado)
+                Anulado
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Estado)
+                Estado
             </th>
             <th></th>
         </tr>
@@ -65,7 +89,11 @@
                     @Html.DisplayFor(modelItem => item.Estado.Descripcion)
                 </td>
                 <td>
-                    <a asp-controller="Carrito" asp-action="Index" asp-route-id="@item.Id" class="btn btn-primary">Volver a Comprar</a> |
+                    @if (item.Estado.Descripcion == "Pendiente")
+                    {
+                        <a asp-controller="Carrito" asp-action="Index" asp-route-id="@item.Id" class="btn btn-primary">Volver a Comprar</a>
+                    }
+                    |
                     <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
                     <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
                 </td>
@@ -73,3 +101,23 @@
         }
     </tbody>
 </table>
+
+@* Poner botones de página Siguiente y Anterior *@
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+<div class="text-center">
+    <p>Numero de páginas: @Model.TotalPages</p>
+</div>
+<div class="btn-group text-center w-20 justify-content-center" role="group">
+    <a asp-action="Index" asp-route-pageNumber="@(Model.PageIndex - 1)"
+       class="btn btn-outline-secondary @prevDisabled">
+        Anterior
+    </a>
+    <button class="btn btn-dark text-light">@Model.PageIndex</button>
+    <a asp-action="Index" asp-route-pageNumber="@(Model.PageIndex + 1)"
+       class="btn btn-outline-secondary @nextDisabled">
+        Siguiente
+    </a>
+</div>

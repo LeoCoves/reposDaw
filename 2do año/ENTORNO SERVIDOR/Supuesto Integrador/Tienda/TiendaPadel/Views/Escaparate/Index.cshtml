@@ -34,8 +34,8 @@
     </script>
 }
 
-<div class="w-100">
-    <p class="tex-center">ESCAPARATE</p>
+<div class="container w-100">
+    <p class="text-center">ESCAPARATE</p>
 </div>
 
 <div>
@@ -96,9 +96,6 @@
     var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
     var nextDisabled = !Model.HasNextPage ? "disabled" : "";
 }
-<div class="text-center">
-    <p>Numero de páginas: @Model.TotalPages</p>
-</div>
 <div class="btn-group text-center w-20 justify-content-center" role="group">
     <a asp-action="Index" asp-route-pageNumber="@(Model.PageIndex - 1)"
        class="btn btn-outline-secondary @prevDisabled">

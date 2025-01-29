@@ -22,6 +22,7 @@ namespace TiendaPadel.Controllers
 
             // Cargar datos de Pedidos
             var productos = from s in _context.Productos
+                            .OrderByDescending(p => p.Id)
                             .Include(p => p.Categoria)
                             .AsQueryable()
                           select s;
@@ -38,7 +39,7 @@ namespace TiendaPadel.Controllers
             }
 
 
-            int pageSize = 4;
+            int pageSize = 20;
             return View(await PaginatedList<Producto>.CreateAsync(productos.AsNoTracking(),
             pageNumber ?? 1, pageSize));
         }

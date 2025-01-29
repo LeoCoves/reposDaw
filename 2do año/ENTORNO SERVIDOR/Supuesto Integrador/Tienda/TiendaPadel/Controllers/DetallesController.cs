@@ -24,7 +24,7 @@ namespace TiendaPadel.Controllers
         // GET: Detalles
         public async Task<IActionResult> Index()
         {
-            var mvcTiendaContexto = _context.Detalles.Include(d => d.Pedido).Include(d => d.Producto);
+            var mvcTiendaContexto = _context.Detalles.Include(d => d.Pedido).Include(d => d.Producto).OrderByDescending(p => p.Id);
             return View(await mvcTiendaContexto.ToListAsync());
         }
 

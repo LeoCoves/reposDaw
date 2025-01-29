@@ -11,7 +11,39 @@
     <a class="btn btn-outline-success my-3" asp-action="Create">Nuevos Pedidos <i class="bi bi-plus-lg"></i></a>
 </div>
 
+
+
 <table class="table table-striped">
+    @* Agregar un cuadro de búsqueda en la vista Index de Avisos *@
+    <form asp-action="Index">
+        <div class="container">
+            <div class="row align-items-start text-center">
+                <div class="col-md-3 my-1 form-floating">
+                    <input type="date" name="fecha" class="form-control" id="floatingInput"
+                           value="@ViewData["BusquedaFecha"]" />
+                    <label for="floatingInput">Fecha del Pedido</label>
+                </div>
+                <div class="col-md-3 form-floating my-1">
+                    <input type="text" name="strCadenaUsuario" id="floatingInput"
+                           value="@ViewData["BusquedaUsuario"]" class="form-control" />
+                    <label class="control-label">Usuario</label>
+                </div>
+                <div class="col-md-3 my-1">
+                    <select name="strCadenaEstado" class="form-select">
+                        <option value="">Todos los Estados</option>
+                        <option value="Pendiente" selected='@(ViewData["strCadenaEstado"]?.ToString() == "Pendiente")'>Pendientes</option>
+                        <option value="Realizado" selected='@(ViewData["strCadenaEstado"]?.ToString() == "Realizado")'>Realizados</option>
+                    </select>
+                </div>
+
+                <div class="col-md-3 align-self-center my-1">
+                    <input type="submit" value="Buscar" class="btn btn-default" /> |
+                    <a asp-action="Index" class="btn btn-default">Lista completa</a>
+                </div>
+            </div>
+        </div>
+    </form>
+
     <thead class="bg-dark text-light">
         <tr>
             <th>
