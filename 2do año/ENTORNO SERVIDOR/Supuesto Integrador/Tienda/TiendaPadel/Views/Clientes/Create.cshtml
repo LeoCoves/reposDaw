@@ -4,54 +4,57 @@
     ViewData["Title"] = "Crear";
 }
 
-<h1>Crear</h1>
+<div class="text-center">
+    <h1><i class="bi bi-people"></i> Crear Cliente</h1>
+</div>
 
-<h4>Cliente</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
+<div class="card bg-dark p-5 my-4">
+    <form class="row g-3" asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Nombre" class="control-label"></label>
-                <input asp-for="Nombre" class="form-control" />
+            <div class="col-md-6">
+                <label asp-for="Nombre" class="form-label text-light"></label>
+                <input asp-for="Nombre" type="text" class="form-control" />
                 <span asp-validation-for="Nombre" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Nif" class="control-label"></label>
+            <div class="col-md-6">
+                <label asp-for="Nif" class="form-label text-light"></label>
                 <input asp-for="Nif" class="form-control" />
                 <span asp-validation-for="Nif" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
+            <div class="col-12">
+                <label asp-for="Email" class="form-label text-light"></label>
+                <input asp-for="Email" type="email" class="form-control" />
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Telefono" class="control-label"></label>
+            <div class="col-md-3">
+                <label asp-for="Telefono" class="form-label text-light"></label>
                 <input asp-for="Telefono" class="form-control" />
                 <span asp-validation-for="Telefono" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Direccion" class="control-label"></label>
-                <input asp-for="Direccion" class="form-control" />
-                <span asp-validation-for="Direccion" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Poblacion" class="control-label"></label>
+
+            <div class="col-md-3">
+                <label asp-for="Poblacion" class="form-label text-light"></label>
                 <input asp-for="Poblacion" class="form-control" />
                 <span asp-validation-for="Poblacion" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="CodigoPostal" class="control-label"></label>
+            <div class="col-md-3">
+                <label asp-for="CodigoPostal" class="form-label text-light"></label>
                 <input asp-for="CodigoPostal" class="form-control" />
                 <span asp-validation-for="CodigoPostal" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="col-md-6">
+                <label asp-for="Direccion" class="form-label text-light"></label>
+                <input asp-for="Direccion" class="form-control" />
+                <span asp-validation-for="Direccion" class="text-danger"></span>
+            </div>
+
+        <div class="row my-4 d-flex justify-content-center">
+            <div class="btn-group col-4">
+                <a class="btn btn-outline-primary" asp-action="Index">Volver</a>
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
+        </div>
         </form>
-    </div>
 </div>
 
 
@@ -59,47 +62,6 @@
 <div>
     <a asp-action="Index">Volver</a>
 </div>
-
- @*<div class="card bg-dark p-4 my-4">
-     <form class="row g-3" asp-action="Create">
-         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-         <div class="col d-flex flex-wrap">
-             <label asp-for="Descripcion" class="form-label text-light"></label>
-             <input asp-for="Descripcion" type="email" class="form-control">
-             <span asp-validation-for="Descripcion" class="text-danger"></span>
-         </div>
-         <div class="col-md-6">
-             <label for="inputEmail4" class="form-label">Email</label>
-             <input type="email" class="form-control" id="inputEmail4">
-         </div>
-         <div class="col-md-6">
-             <label for="inputPassword4" class="form-label">Password</label>
-             <input type="password" class="form-control" id="inputPassword4">
-         </div>
-         <div class="col-12">
-             <label for="inputAddress" class="form-label">Address</label>
-             <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-         </div>
-         <div class="col-12">
-             <label for="inputAddress2" class="form-label">Address 2</label>
-             <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-         </div>
-         <div class="col-md-6">
-             <label for="inputCity" class="form-label">City</label>
-             <input type="text" class="form-control" id="inputCity">
-         </div>
-
-         <div class="row mt-3 d-flex justify-content-center">
-             <div class="col-2">
-                 <a class="btn btn-outline-primary" asp-action="Index">Volver</a>
-             </div>
-             <div class="form-group col-2">
-                 <input type="submit" value="Create" class="btn btn-primary" />
-             </div>
-
-         </div>
-     </form>
- </div>*@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

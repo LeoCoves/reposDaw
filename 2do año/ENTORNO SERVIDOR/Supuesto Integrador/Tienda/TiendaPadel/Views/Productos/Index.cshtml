@@ -105,12 +105,60 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Categoria.Descripcion)
             </td>
-            <td>
-                    <a class="btn btn-outline-dark" asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil-square"></i></a>
-                    <a class="btn btn-outline-dark" asp-action="CambiarImagen" asp-route-id="@item.Id"><i class="bi bi-images"></i></a>
-                    <a class="btn btn-outline-dark" asp-action="Details" asp-route-id="@item.Id"><i class="bi bi-eye"></i></a>
-                    <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id"><i class="bi bi-x-lg"></i></a>                    
-            </td>
+                <td>
+                    <!-- Botón Editar -->
+                    <a class="btn btn-outline-dark" asp-action="Edit" asp-route-id="@item.Id">
+                        <i class="bi bi-pencil-square"></i>
+                    </a>
+
+                    <!-- Botón para abrir el modal de cambio de imagen -->
+                    <a type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modalCambiarImagen-@item.Id">
+                        <i class="bi bi-images"></i>
+                    </a>
+
+                    <!-- MODAL con ID único por item.Id -->
+                    <div class="modal fade" id="modalCambiarImagen-@item.Id" tabindex="-1" aria-labelledby="modalCambiarImagenLabel-@item.Id" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modalCambiarImagenLabel-@item.Id">Actualizar Imagen</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form enctype="multipart/form-data" asp-action="CambiarImagen" method="post">
+                                        <!-- ID oculto para saber qué imagen actualizar -->
+                                        <input type="hidden" name="Id" value="@item.Id" />
+
+                                        <!-- Previsualización de la imagen -->
+                                        <div class="text-center mb-3">
+                                            <img id="preview-@item.Id" src="~/imagenes/@(item.Imagen ?? "sinImagen.jpg")" height="150" class="rounded shadow-sm border" />
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Selecciona una nueva imagen</label>
+                                            <input type="file" name="Imagen" class="form-control">
+                                        </div>
+
+                                        <div class="text-end">
+                                            <button type="button" class="btn btn-secondary btn-sm rounded-2" data-bs-dismiss="modal">Cancelar</button>
+                                            <button type="submit" class="btn btn-primary btn-sm rounded-2">Actualizar Imagen</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Botón Detalles -->
+                    <a class="btn btn-outline-dark" asp-action="Details" asp-route-id="@item.Id">
+                        <i class="bi bi-eye"></i>
+                    </a>
+
+                    <!-- Botón Eliminar -->
+                    <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id">
+                        <i class="bi bi-x-lg"></i>
+                    </a>
+                </td>
         </tr>
 }
     </tbody>

@@ -4,64 +4,34 @@
     ViewData["Title"] = "Detalles";
 }
 
-<h1>Detalles</h1>
 
-<div>
-    <h4>Producto</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Descripcion)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Descripcion)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Texto)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Texto)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Precio)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Precio)
-        </dd>
-        @*
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PrecioCadena)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PrecioCadena)
-        </dd>
-        *@
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Stock)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Stock)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Escaparate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Escaparate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Imagen)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Imagen)
-        </dd>
-        <dt class = "col-sm-2">
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Categoria.Descripcion)
-        </dd>
-    </dl>
+<div class="text-center">
+    <h1><i class="bi bi-box-seam"></i> Detalles del Producto</h1>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Editar</a> |
-    <a asp-action="Index">Volver</a>
+
+<div class="card bg-dark p-5 my-4">
+    <div class="card-body row g-3 text-light">
+        <div class="row">
+            <div class="col-md-5 col-12 scrollable">
+
+
+                <img src="~/imagenes/@(Model.Imagen)" class="rounded-2" width="450px" height="400px" />
+
+            </div>
+
+            <div class="col-md-7 col-12">
+                <h3 class="pb-3">@Model.Descripcion</h3>
+                <h4 class="pb-3">@Model.Texto</h4>
+                <h4 class="pb-3">Precio: <strong>@Model.Precio €</strong></h4>
+                <h4 class="pb-3">Stock: <strong>@Model.Stock ud</strong></h4>
+                <h4 class="pb-3">Categoria: @Model.Categoria.Descripcion</h4>
+            </div>
+        </div>
+    </div>                
+    <div class="card-footer d-flex justify-content-center">
+        <div class="btn-group col-4">
+            <a class="btn btn-outline-primary" asp-action="Index">Volver</a>
+            <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.Id">Editar</a>
+        </div>
+    </div>
 </div>

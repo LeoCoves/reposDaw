@@ -265,7 +265,7 @@ namespace TiendaPadel.Controllers
                     }
                 }
             }
-            return View(producto);
+            return RedirectToAction("Index", "Productos");
         }
 
     }

@@ -42,24 +42,6 @@
                 Fecha
             </th>
             <th>
-                Confirmado
-            </th>
-            <th>
-                Preparado
-            </th>
-            <th>
-                Enviado
-            </th>
-            <th>
-                Cobrado
-            </th>
-            <th>
-                Devuelto
-            </th>
-            <th>
-                Anulado
-            </th>
-            <th>
                 Estado
             </th>
             <th></th>
@@ -74,36 +56,19 @@
                     @Html.DisplayFor(modelItem => item.Fecha)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Confirmado)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Preparado)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Enviado)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Cobrado)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Devuelto)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Anulado)
-                </td>
-                <td>
                     @Html.DisplayFor(modelItem => item.Estado.Descripcion)
+                </td>
+                <td>
+                    <a class="btn btn-outline-dark" asp-action="Details" asp-route-id="@item.Id"><i class="bi bi-eye"></i></a>
                 </td>
                 <td>
                     @if (item.Estado.Descripcion == "Pendiente")
                     {
-                        <a asp-controller="Carrito" asp-action="Index" asp-route-id="@item.Id" class="btn btn-outline-success">Volver a Comprar</a>
+                        <a asp-controller="Carrito" asp-action="Index" asp-route-id="@item.Id" class="btn btn-outline-success"><i class="bi bi-bag"></i></a>
+                        <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id"><i class="bi bi-x-lg"></i></a>
                     }
                 </td>
-                <td>
-                    <a class="btn btn-outline-dark" asp-action="Details" asp-route-id="@item.Id"><i class="bi bi-eye"></i></a>
-                    <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id"><i class="bi bi-x-lg"></i></a>
-                </td>
+               
             </tr>
         }
     </tbody>

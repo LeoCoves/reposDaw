@@ -4,127 +4,120 @@
     ViewData["Title"] = "Detalles";
 }
 
-<div>
-    <h4>Pedido</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Fecha)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Fecha)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Confirmado)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Confirmado)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Preparado)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Preparado)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Enviado)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Enviado)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Cobrado)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Cobrado)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Devuelto)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Devuelto)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Anulado)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Anulado)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Estado)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Estado.Descripcion)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Volver</a>
+<div class="text-center">
+    <h1><i class="bi bi-mailbox-flag"></i> Detalles del Pedido</h1>
 </div>
 
-@*Se añade codigo para presentar la tabla de detalles maestro detalle*@
 
-@{
-    var contador = 0;
-}
-<div>
-    <h4>Detalles del pedido</h4>
-    <table class="table border-bottom">
-        <tr>
-            <th></th>
-            <th>Producto</th>
-            <th>Cantidad</th>
-            <th>Precio</th>
-            <th>Descuento</th>
-            <th></th>
-        </tr>
-        @if (Model.Detalles != null && Model.Detalles.Any())
+<div class="card box-shadow my-4">
+    <div class="card-body row g-3">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="col-12 text-center">
+            <span class="badge rounded-pill bg-dark text-light col-md-2 align-self-center p-2">Fecha</span>
+            <p>@Model.Fecha</p>
+        </div>
+        @if (Model.Estado.Descripcion != "Pendiente")
         {
-            foreach (var item in Model.Detalles)
-            {
-                <tr>
-                    <td>
-                        <img src="~/imagenes/@item.Producto.Imagen" width="100" height="100" alt="Imagen de @item.Producto.Descripcion">
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Producto.Descripcion)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Cantidad)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Descuento)
-                    </td>
-                    <td>
-                        <div class="d-print-none">
-                            <a asp-action="Delete" asp-controller="Detalles" asp-route-id="@item.Id">Eliminar</a>
-                        </div>
-                    </td>
-                </tr>
-                contador++;
-                <p class="text-center">Número de productos: @contador </p>
-            }
+            <div class="col-md-4 text-center">
+                <span class="badge rounded-pill bg-dark text-light col-md-2 align-self-center p-2">Confirmado</span>
+                <p>@Model.Confirmado</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <span class="badge rounded-pill bg-dark text-light col-md-2 align-self-center p-2">Preparado</span>
+                <p>@Model.Preparado</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <span class="badge rounded-pill bg-dark text-light col-md-2 align-self-center p-2">Enviado</span>
+                <p>@Model.Enviado</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <span class="badge rounded-pill bg-dark text-light col-md-2 align-self-center p-2">Cobrado</span>
+                <p>@Model.Cobrado</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <span class="badge rounded-pill bg-dark text-light col-md-2 align-self-center p-2">Devuelto</span>
+                <p>@Model.Devuelto</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <span class="badge rounded-pill bg-dark text-light col-md-2 align-self-center p-2">Estado</span>
+                <p>@Html.DisplayFor(model => model.Estado.Descripcion)</p>
+            </div>
         }
         else
         {
-            <tr>
-                <td colspan="5">No hay detalles disponibles.</td>
-            </tr>
+            <div class="col-12 text-center">
+                <span class="badge rounded-pill bg-dark text-light col-md-4 align-self-center p-2">Estado</span>
+                <p>@Html.DisplayFor(model => model.Estado.Descripcion)</p>
+            </div>
         }
-    </table>
-</div>
-
-
-@if (Model.Estado.Descripcion == "Pendiente")
-{
-    <div class=" text-center">
-        <a asp-controller="Carrito" asp-action="Index" asp-route-id="@Model.Id" class="btn btn-primary">Volver a Comprar</a> |
-        <a asp-action="Delete" asp-route-id="@Model.Id">Eliminar</a>
     </div>
+    <div class="card-footer bg-dark text-light">
+        @{
+            var contador = 0;
+        }
+        <h4 class="text-center">Productos</h4>
+        <div>
 
-}
-<div class="d-print-none">
-    <a asp-action="Index">Volver</a>
+            <div class="row ocultar-en-movil">
+                <div class="col-2"></div>
+                <div class="col-2"> <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2 w-100 m-3">Producto</span></div>
+                <div class="col-2"> <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2 w-100 m-3">Cantidad</span></div>
+                <div class="col-2"> <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2 w-100 m-3">Precio</span></div>
+                <div class="col-2"> <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2 w-100 m-3">Descuento</span></div>
+                <div class="col-2"></div>
+            </div>
+            @if (Model.Detalles != null && Model.Detalles.Any())
+            {
+                foreach (var item in Model.Detalles)
+                {
+                    <div class="card bg-light text-dark my-3">
+                        <div class="row">
+                            <div class="col-sm-2 col-12 p-4">
+                                <img src="~/imagenes/@item.Producto.Imagen" width="100%" height="100%" class="rounded" alt="Imagen de @item.Producto.Descripcion">
+                            </div>
+                            <div class="col-sm-2 col-12 text-center align-self-center">
+                                <p>@item.Producto.Descripcion</p>
+                            </div>
+                            <div class="col-sm-2 col-12 text-center align-self-center">
+                                <p>@item.Cantidad</p>
+                            </div>
+                            <div class="col-sm-2 col-12 text-center align-self-center">
+                                <p>@item.Precio €</p>
+                            </div>
+                            <div class="col-sm-2 col-12 text-center align-self-center">
+                                <p>@item.Descuento %</p>
+                            </div>
+                            <div class="col-sm-2 col-12 text-center align-self-center">
+                                <div class="d-print-none">
+                                    <a asp-action="AgregarCarrito" asp-controller="Escaparate" asp-route-id="@item.ProductoId" class="btn btn-outline-dark"><i class="bi bi-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    contador++;
+                }
+            }
+            else
+            {
+                <div class="row text-center">
+                    <p>No hay detalles disponibles.</p>
+                </div>
+            }
+        </div>
+
+        <div class="row my-4 d-flex justify-content-center">
+            <p class="text-center my-5">Número de productos: @contador </p>
+            <div class="btn-group col-sm-4">
+                <a class="btn btn-outline-primary" asp-action="Index">Volver</a>
+                @if (Model.Estado.Descripcion == "Pendiente")
+                {
+                    <a asp-controller="Carrito" asp-action="Index" asp-route-id="@Model.Id" class="btn btn-primary">Volver a Comprar</a> 
+                    <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-outline-danger">Eliminar</a>
+                }
+            </div>
+        </div>
+    </div>
 </div>
+
+
 

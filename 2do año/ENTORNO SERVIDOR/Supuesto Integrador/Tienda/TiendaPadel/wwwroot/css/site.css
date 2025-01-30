@@ -91,6 +91,11 @@ a{
         right: 0;
     }
 }
+@media (max-width: 768px) { /* Para móviles y tablets */
+    .ocultar-en-movil {
+        display: none !important;
+    }
+}
 
 a.btn-outline-light.text-light:hover {
     color: black !important;

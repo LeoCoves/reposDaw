@@ -4,57 +4,53 @@
     ViewData["Title"] = "Detalles";
 }
 
-<h1>Detalles</h1>
 
-<div>
-    <h4>Cliente</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nombre)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nombre)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nif)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nif)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Email)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Telefono)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Telefono)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Direccion)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Direccion)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Poblacion)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Poblacion)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CodigoPostal)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CodigoPostal)
-        </dd>
-    </dl>
+<div class="text-center">
+    <h1><i class="bi bi-people"></i> Detalles del Cliente</h1>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Editart</a> |
-    <a asp-action="Index">Volver</a>
+
+<div class="card bg-dark p-5 my-4">
+    <div class="card-body row g-3 text-light">
+        <div class="row">
+            <div class="col-md-6 col-12 scrollable">
+                <div class="d-flex justify-content-between my-1">
+                    <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2">Nombre</span>
+                    <p class="col-md-3">@Model.Nombre</p>
+                </div>
+                <div class="d-flex justify-content-between my-1">
+                    <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2">NIF</span>
+                    <p class="col-md-4">@Model.Nif</p>
+                </div>
+                <div class="d-flex justify-content-between my-1">
+                    <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2">Email</span>
+                    <p class="col-md-4">@Model.Email</p>
+                </div>
+                <div class="d-flex justify-content-between my-1">
+                    <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2">Telefono</span>
+                    <p class="col-md-4">@Model.Telefono</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-12">
+                <div class="d-flex justify-content-between my-1">
+                    <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2">Poblacion</span>
+                    <p class="col-md-4">@Model.Poblacion</p>
+                </div>
+                <div class="d-flex justify-content-between my-1">
+                    <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2">Codigo Postal</span>
+                    <p class="col-md-4">@Model.CodigoPostal</p>
+                </div>
+                <div class="d-flex justify-content-between my-1">
+                    <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2">Direccion</span>
+                    <p class="col-md-4">@Model.Direccion</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-footer d-flex justify-content-center">
+        <div class="btn-group col-4">
+            <a class="btn btn-outline-primary" asp-action="Index">Volver</a>
+            <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.Id">Editar</a>
+        </div>
+    </div>
 </div>

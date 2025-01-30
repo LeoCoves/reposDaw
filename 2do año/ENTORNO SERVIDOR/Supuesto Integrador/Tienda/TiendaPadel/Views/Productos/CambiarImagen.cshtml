@@ -7,85 +7,45 @@
     ViewData["Title"] = "CambiarImagen";
 }
 
-<h1>Cambiar imagen</h1>
-<div>
-    <h4>Producto</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Descripcion)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Descripcion)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Texto)
-        </dt>
-         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Texto)
-         </dd>
-         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Precio)
-         </dt>
-         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Precio)
-         </dd>
-         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Stock)
-         </dt>
-         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Stock)
-         </dd>
-         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Escaparate)
-         </dt>
-         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Escaparate)
-         </dd>
-         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Categoria)
-         </dt>
-         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Categoria.Descripcion)
-         </dd>
-         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Imagen)
-         </dt>
-         <dd class="col-sm-10">
-         <div>
-             <div>
-                 @{
-                     var nombreImagen = "sinImagen.jpg";
-                     if (Model.Imagen != null)
-                     {
-                     nombreImagen = Model.Imagen;
-                     }
-                 }
-                <img src="~/imagenes/@nombreImagen" height="250" width="250"
-                 asp-append-version="true" />
-             </div>
-             <br />
-         <div>
-             <form enctype="multipart/form-data"
-             asp-action="CambiarImagen">
-         <div class="form-group" hidden>
-             <label asp-for="Id" class="control-label"></label>
-             <input asp-for="Id" class="form-control" />
-         </div>
-         <div class="form-group">
-             <input type="file" asp-for="Imagen"
-             class="form-control-file">
-                        </div>
-                        <br />
-                         <div class="form-group">
-                             <input type="submit" value="Actualizar imagen"
-                             class="btn btn-sm btn-primary rounded-0" />
-                        </div>
-                    </form>
-                </div>
+<div class="text-center">
+    @{
+        var nombreImagen = Model.Imagen ?? "sinImagen.jpg";
+    }
+    <img src="~/imagenes/@nombreImagen" height="250" width="250" class="rounded shadow-sm"
+         asp-append-version="true" />
+
+    <br /><br />
+    <!-- Botón para abrir el modal -->
+    <button type="button" class="btn btn-primary btn-sm rounded-2" data-bs-toggle="modal" data-bs-target="#modalCambiarImagen">
+        Cambiar Imagen
+    </button>
+</div>
+
+<!-- MODAL -->
+<div class="modal fade" id="modalCambiarImagen" tabindex="-1" aria-labelledby="modalCambiarImagenLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalCambiarImagenLabel">Actualizar Imagen</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
             </div>
-        </dd>
-    </dl>
+            <div class="modal-body">
+                <form enctype="multipart/form-data" asp-action="CambiarImagen">
+                    <input type="hidden" asp-for="Id" />
+
+                    <div class="mb-3">
+                        <label class="form-label">Selecciona una nueva imagen</label>
+                        <input type="file" asp-for="Imagen" class="form-control">
+                    </div>
+
+                    <div class="text-end">
+                        <button type="button" class="btn btn-secondary btn-sm rounded-2" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="submit" class="btn btn-primary btn-sm rounded-2">Actualizar Imagen</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 <div>
     <a asp-action="Index">Volver</a>
