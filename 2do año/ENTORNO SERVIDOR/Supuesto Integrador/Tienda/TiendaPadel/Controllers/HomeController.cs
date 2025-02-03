@@ -36,6 +36,8 @@ namespace TiendaPadel.Controllers
 
             // Obtener los 16 productos más recientes
             var productosRecientes = await _context.Productos
+                .Include(e => e.Categoria)
+                .Include(e => e.Imagenes)
                 .OrderByDescending(p => p.Id) // Ordenar por ID en orden descendente
                 .Take(20) // Tomar los 16 primeros
                 .ToListAsync();

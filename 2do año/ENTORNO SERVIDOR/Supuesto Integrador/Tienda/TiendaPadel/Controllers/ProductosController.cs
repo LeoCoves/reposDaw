@@ -32,7 +32,7 @@ namespace TiendaPadel.Controllers
             ViewData["BusquedaEscaparate"] = cadenaEscaparate;
 
             // Cargar datos de Pedidos
-            var productos = from s in _context.Productos.Include(p => p.Categoria).OrderByDescending(p => p.Id)
+            var productos = from s in _context.Productos.Include(p => p.Categoria).Include(p => p.Imagenes).OrderByDescending(p => p.Id)
                             select s;
 
             if (!String.IsNullOrEmpty(strCadenaBusqueda))
@@ -87,15 +87,39 @@ namespace TiendaPadel.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Descripcion,Texto,Precio,PrecioCadena,Stock,Escaparate,Imagen,CategoriaId")] Producto producto)
+        public async Task<IActionResult> Create([Bind("Id,Descripcion,Texto,Precio,PrecioCadena,Stock,Escaparate,CategoriaId")] Producto producto, List<IFormFile> imagenes)
         {
-            if (string.IsNullOrEmpty(producto.Imagen))
-            {
-                producto.Imagen = "sinImagen.jpg"; // Imagen predeterminada
-            }
-
             if (ModelState.IsValid)
             {
+                producto.Imagenes = new List<ImagenProducto>();
+
+                // Procesar imágenes si se han subido
+                if (imagenes != null && imagenes.Any())
+                {
+                    foreach (var imagen in imagenes)
+                    {
+                        if (imagen.Length > 0)
+                        {
+                            // Guardar archivo en wwwroot/imagenes
+                            var nombreArchivo = Path.GetFileName(imagen.FileName);
+                            var ruta = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/imagenes", nombreArchivo);
+
+                            using (var stream = new FileStream(ruta, FileMode.Create))
+                            {
+                                await imagen.CopyToAsync(stream);
+                            }
+
+                            // Agregar la imagen a la lista
+                            producto.Imagenes.Add(new ImagenProducto { Url = nombreArchivo });
+                        }
+                    }
+                }
+                else
+                {
+                    // Si no hay imágenes, agregar una por defecto
+                    producto.Imagenes.Add(new ImagenProducto { Url = "sinImagen.jpg" });
+                }
+
                 _context.Add(producto);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -137,9 +161,19 @@ namespace TiendaPadel.Controllers
             {
                 try
                 {
-                    var productoOriginal = await _context.Productos.AsNoTracking().FirstOrDefaultAsync();
+                    var productoOriginal = await _context.Productos
+                        .Include(p => p.Imagenes) // Incluir las imágenes originales
+                        .AsNoTracking()
+                        .FirstOrDefaultAsync(p => p.Id == id);
+
                     if (productoOriginal == null) return NotFound();
-                    producto.Imagen = productoOriginal.Imagen;
+
+                    // Mantener las imágenes originales si no se han cambiado
+                    if (producto.Imagenes == null || !producto.Imagenes.Any())
+                    {
+                        producto.Imagenes = productoOriginal.Imagenes;
+                    }
+
                     _context.Update(producto);
                     await _context.SaveChangesAsync();
                 }
@@ -156,8 +190,10 @@ namespace TiendaPadel.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+
             ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Descripcion", producto.CategoriaId);
             return View(producto);
+
         }
 
         // GET: Productos/Delete/5
@@ -199,16 +235,18 @@ namespace TiendaPadel.Controllers
             return _context.Productos.Any(e => e.Id == id);
         }
 
-        // GET: Productos/CambiarImagen/5
         public async Task<IActionResult> CambiarImagen(int? id)
         {
             if (id == null || _context.Productos == null)
             {
                 return NotFound();
             }
+
             var producto = await _context.Productos
-            .Include(p => p.Categoria)
-            .FirstOrDefaultAsync(m => m.Id == id);
+                .Include(p => p.Categoria)
+                .Include(p => p.Imagenes)
+                .FirstOrDefaultAsync(m => m.Id == id);
+
             if (producto == null)
             {
                 return NotFound();
@@ -217,56 +255,92 @@ namespace TiendaPadel.Controllers
             return View(producto);
         }
 
-        // POST: Productos/CambiarImagen/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> CambiarImagen(int? id, IFormFile imagen)
+        public async Task<IActionResult> CambiarImagen(int? ProductoId, IFormFile[] Imagenes)
         {
-            if (id == null)
+            if (ProductoId == null || Imagenes == null || Imagenes.Length == 0)
             {
-                return NotFound();
+                return NotFound(); // Si no hay ID de producto o imágenes
             }
-            var producto = await _context.Productos.FindAsync(id);
+
+            var producto = await _context.Productos
+                .Include(p => p.Imagenes) // Incluimos las imágenes para poder modificarlas
+                .FirstOrDefaultAsync(m => m.Id == ProductoId);
+
             if (producto == null)
             {
-                return NotFound();
+                return NotFound(); // Si no encontramos el producto
             }
-            if (imagen == null)
-            {
-                return NotFound();
-            }
+
             if (ModelState.IsValid)
             {
-                // Copiar archivo de imagen
-                string strRutaImagenes = Path.Combine(_webHostEnvironment.WebRootPath, "imagenes");
-                string strExtension = Path.GetExtension(imagen.FileName);
-                string strNombreFichero = producto.Id.ToString() + strExtension;
-                string strRutaFichero = Path.Combine(strRutaImagenes, strNombreFichero);
-                using (var fileStream = new FileStream(strRutaFichero, FileMode.Create))
+                // Eliminar todas las imágenes anteriores
+                if (producto.Imagenes != null)
                 {
-                    imagen.CopyTo(fileStream);
+                    foreach (var img in producto.Imagenes)
+                    {
+                        string rutaImagen = Path.Combine(_webHostEnvironment.WebRootPath, "imagenes", img.Url);
+                        if (System.IO.File.Exists(rutaImagen))
+                        {
+                            System.IO.File.Delete(rutaImagen); // Eliminar la imagen del servidor
+                        }
+                    }
+
+                    // Limpiar la lista de imágenes
+                    producto.Imagenes.Clear();
                 }
-                // Actualizar producto con nueva imagen
-                producto.Imagen = strNombreFichero;
+
+                // Copiar archivos de las nuevas imágenes
+                string strRutaImagenes = Path.Combine(_webHostEnvironment.WebRootPath, "imagenes");
+
+                // Asegurarse de que la ruta exista, si no, crearla
+                if (!Directory.Exists(strRutaImagenes))
+                {
+                    Directory.CreateDirectory(strRutaImagenes);
+                }
+
+                foreach (var imagen in Imagenes)
+                {
+                    // Generar nombre único para cada imagen
+                    string extension = Path.GetExtension(imagen.FileName);
+                    string nombreFichero = $"{producto.Id}-{Guid.NewGuid()}{extension}";
+                    string rutaFichero = Path.Combine(strRutaImagenes, nombreFichero);
+
+                    // Guardar la nueva imagen en el servidor
+                    using (var fileStream = new FileStream(rutaFichero, FileMode.Create))
+                    {
+                        await imagen.CopyToAsync(fileStream);
+                    }
+
+                    // Crear un nuevo objeto ImagenProducto y agregarlo a la lista de imágenes
+                    producto.Imagenes.Add(new ImagenProducto
+                    {
+                        Url = nombreFichero // La URL es el nombre del archivo
+                    });
+                }
+
                 try
                 {
+                    // Guardar los cambios en la base de datos
                     _context.Update(producto);
                     await _context.SaveChangesAsync();
                 }
-                catch (DbUpdateConcurrencyException)
+                catch (Exception ex)
                 {
-                    if (!ProductoExists(producto.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    // Manejo de errores
+                    ModelState.AddModelError("", "Error al cargar las imágenes: " + ex.Message);
+                    return View(producto); // Regresar a la vista con el error
                 }
+
+                return RedirectToAction(nameof(Index)); // Redirigir a la lista de productos
             }
-            return RedirectToAction("Index", "Productos");
+
+            // Si hay errores en el modelo
+            ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Descripcion", producto.CategoriaId);
+            return View(producto);
         }
+
 
     }
 

@@ -100,8 +100,11 @@
                  @Html.DisplayFor(modelItem => item.Escaparate)
             </td>
             <td>
-                    <img class="rounded" src="~/imagenes/@(item.Imagen)" alt="Imagen de @item.Descripcion" height="100" width="100" />
-            </td>
+                    @foreach(var imagen in item.Imagenes)
+                    {
+                        <img class="rounded" src="~/imagenes/@(imagen.Url)" alt="Imagen de @item.Descripcion" height="100" width="100" />
+                    }
+                </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Categoria.Descripcion)
             </td>
@@ -116,38 +119,40 @@
                         <i class="bi bi-images"></i>
                     </a>
 
-                    <!-- MODAL con ID único por item.Id -->
+                    <!-- MODAL para cambiar imágenes del producto -->
                     <div class="modal fade" id="modalCambiarImagen-@item.Id" tabindex="-1" aria-labelledby="modalCambiarImagenLabel-@item.Id" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="modalCambiarImagenLabel-@item.Id">Actualizar Imagen</h5>
+                                    <h5 class="modal-title" id="modalCambiarImagenLabel-@item.Id">Actualizar Imágenes</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                                 </div>
                                 <div class="modal-body">
                                     <form enctype="multipart/form-data" asp-action="CambiarImagen" method="post">
-                                        <!-- ID oculto para saber qué imagen actualizar -->
-                                        <input type="hidden" name="Id" value="@item.Id" />
+                                        <!-- ID oculto para saber qué producto actualizar -->
+                                        <input type="hidden" name="ProductoId" value="@item.Id" />
 
-                                        <!-- Previsualización de la imagen -->
+                                        <!-- Previsualización de la primera imagen -->
                                         <div class="text-center mb-3">
-                                            <img id="preview-@item.Id" src="~/imagenes/@(item.Imagen ?? "sinImagen.jpg")" height="150" class="rounded shadow-sm border" />
+                                            <img id="preview-@item.Id" src="~/imagenes/@(item.Imagenes.FirstOrDefault()?.Url ?? "sinImagen.jpg")" height="150" class="rounded shadow-sm border" />
                                         </div>
 
+                                        <!-- Seleccionar múltiples imágenes -->
                                         <div class="mb-3">
-                                            <label class="form-label">Selecciona una nueva imagen</label>
-                                            <input type="file" name="Imagen" class="form-control">
+                                            <label class="form-label">Selecciona nuevas imágenes</label>
+                                            <input type="file" name="Imagenes" class="form-control" multiple />
                                         </div>
 
                                         <div class="text-end">
                                             <button type="button" class="btn btn-secondary btn-sm rounded-2" data-bs-dismiss="modal">Cancelar</button>
-                                            <button type="submit" class="btn btn-primary btn-sm rounded-2">Actualizar Imagen</button>
+                                            <button type="submit" class="btn btn-primary btn-sm rounded-2">Actualizar Imágenes</button>
                                         </div>
                                     </form>
                                 </div>
                             </div>
                         </div>
                     </div>
+
 
                     <!-- Botón Detalles -->
                     <a class="btn btn-outline-dark" asp-action="Details" asp-route-id="@item.Id">
@@ -172,7 +177,7 @@
 
                                     <!-- Previsualización de la imagen -->
                                     <div class="text-center mb-3">
-                                        <img id="preview-@item.Id" src="~/imagenes/@(item.Imagen ?? "sinImagen.jpg")" height="150" class="rounded shadow-sm border" />
+                                        <img id="preview-@item.Id" src="~/imagenes/@(item.Imagenes.First().Url ?? "sinImagen.jpg")" height="150" class="rounded shadow-sm border" />
                                     </div>
 
                                     <div class="mb-3">

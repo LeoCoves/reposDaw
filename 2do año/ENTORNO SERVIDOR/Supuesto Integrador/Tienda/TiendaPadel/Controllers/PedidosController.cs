@@ -28,9 +28,15 @@ namespace TiendaPadel.Controllers
             ViewData["BusquedaUsuario"] = strCadenaUsuario;
             ViewData["BusquedaEstado"] = strCadenaEstado;
 
-            // Cargar datos de Pedidos
-            var pedidos = from s in _context.Pedidos.Include(p => p.Cliente).Include(p => p.Estado).OrderByDescending(p => p.Id)
-                          select s;
+            // Cargar datos de Pedidos e incluir Detalles, Productos e Imagenes
+            var pedidos = _context.Pedidos
+                .Include(p => p.Cliente)
+                .Include(p => p.Estado)
+                .Include(p => p.Detalles)
+                    .ThenInclude(d => d.Producto) // Incluir el producto dentro del detalle
+                        .ThenInclude(prod => prod.Imagenes) // Incluir las imágenes del producto
+                .OrderByDescending(p => p.Id)
+                .AsQueryable();
 
             // Filtrar por fecha si se proporciona
             if (fecha.HasValue)
@@ -38,13 +44,14 @@ namespace TiendaPadel.Controllers
                 pedidos = pedidos.Where(s => s.Fecha.Date == fecha.Value.Date);
             }
 
-            // Para filtrar avisos por tipo de avería
-            if (strCadenaUsuario != null)
+            // Filtrar por usuario
+            if (!string.IsNullOrEmpty(strCadenaUsuario))
             {
                 pedidos = pedidos.Where(s => s.Cliente.Nombre == strCadenaUsuario);
             }
 
-            if (strCadenaEstado != null)
+            // Filtrar por estado
+            if (!string.IsNullOrEmpty(strCadenaEstado))
             {
                 switch (strCadenaEstado)
                 {
@@ -54,10 +61,8 @@ namespace TiendaPadel.Controllers
                     case "Realizado":
                         pedidos = pedidos.Where(s => s.Estado.Descripcion == "Realizado");
                         break;
-                        // "Todos" no necesita filtro adicional
                 }
             }
-
 
 
 

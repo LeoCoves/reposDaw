@@ -15,7 +15,10 @@
             <div class="col-md-5 col-12 scrollable">
 
 
-                <img src="~/imagenes/@(Model.Imagen)" class="rounded-2" width="450px" height="400px" />
+                @foreach (var imagen in Model.Imagenes)
+                {
+                    <img src="~/imagenes/@imagen.Url" alt="Imagen del producto" width="200px" height="200px" />
+                }
 
             </div>
 

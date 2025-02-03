@@ -7,10 +7,18 @@
 <div class="my-2 p-5">
     <div class="row">
         <div class="col-md-7 col-12 scrollable">
-            
-
-            <img src="~/imagenes/@(Model.ProductoActual.Imagen)" class="rounded-2" width="400px" height="400px" />
-
+            @if (Model.ProductoActual.Imagenes != null && Model.ProductoActual.Imagenes.Any())
+            {
+                foreach (var imagen in Model.ProductoActual.Imagenes)
+                {
+                    <img src="~/imagenes/@imagen.Url"
+                         class="rounded-2" width="400px" height="400px" />
+                }
+            }
+            else
+            {
+                <img src="~/imagenes/sinImagen.jpg" class="rounded-2" width="400px" height="400px" />
+            }
         </div>
 
         <div class="col-md-5 col-12">
@@ -174,7 +182,7 @@
                     {
                         <div class="col mb-5">
                             <div class="card h-100">
-                                <img src="~/imagenes/@item.Imagen" class="card-img-top" alt="Imagen de @item.Descripcion">
+                                <img src="~/imagenes/@item.Imagenes.First().Url" class="card-img-top" alt="Imagen de @item.Descripcion">
                                 <div class="card-body p-4">
                                     <div class="text-center">
                                         <h5 class="card-title">@(item.Descripcion)</h5>

@@ -100,7 +100,7 @@
                     <div class="card h-80 shadow-sm border-0">
                         <!-- Imagen del producto -->
                         <a asp-controller="Escaparate" asp-action="AgregarCarrito" asp-route-id="@item.Id" class="text-decoration-none">
-                            <img src="~/imagenes/@item.Imagen" class="card-img-top" alt="Imagen de @item.Descripcion">
+                            <img src="~/imagenes/@item.Imagenes.First().Url" class="card-img-top" alt="Imagen de @item.Descripcion">
                         </a>
 
                         <!-- Badge de "Quedan pocas unidades" -->

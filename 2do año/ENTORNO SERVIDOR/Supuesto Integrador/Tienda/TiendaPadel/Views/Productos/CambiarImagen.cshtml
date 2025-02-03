@@ -9,7 +9,7 @@
 
 <div class="text-center">
     @{
-        var nombreImagen = Model.Imagen ?? "sinImagen.jpg";
+        var nombreImagen = Model.Imagenes.First().Url ?? "sinImagen.jpg";
     }
     <img src="~/imagenes/@nombreImagen" height="250" width="250" class="rounded shadow-sm"
          asp-append-version="true" />
@@ -35,7 +35,7 @@
 
                     <div class="mb-3">
                         <label class="form-label">Selecciona una nueva imagen</label>
-                        <input type="file" asp-for="Imagen" class="form-control">
+                        <input type="file" asp-for="Imagenes" class="form-control">
                     </div>
 
                     <div class="text-end">

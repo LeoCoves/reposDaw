@@ -15,20 +15,27 @@ namespace TiendaPadel.Data
         public DbSet<Estado>? Estados { get; set; }
         public DbSet<Pedido>? Pedidos { get; set; }
         public DbSet<Detalle>? Detalles { get; set; }
+        public DbSet<ImagenProducto> ImagenesProducto { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
-            modelBuilder.Entity<Producto>()
-            .Property(p => p.Escaparate)
-            .HasDefaultValue(false);
+            // Configurar la relación uno a muchos entre Producto e ImagenProducto
+            modelBuilder.Entity<ImagenProducto>()
+                .HasOne(i => i.Producto)
+                .WithMany(p => p.Imagenes)
+                .HasForeignKey(i => i.ProductoId)
+                .OnDelete(DeleteBehavior.Cascade); // Si se borra un producto, sus imágenes también
 
-            // Deshabilitar la eliminación en cascada en todas las relaciones
-            base.OnModelCreating(modelBuilder);
-            foreach (var relationship in
-            modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
+            // Deshabilitar eliminación en cascada en todas las demás relaciones
+            foreach (var relationship in modelBuilder.Model.GetEntityTypes()
+                     .SelectMany(e => e.GetForeignKeys()))
             {
-                relationship.DeleteBehavior = DeleteBehavior.Restrict;
+                if (relationship.PrincipalEntityType.ClrType != typeof(Producto) ||
+                    relationship.DeclaringEntityType.ClrType != typeof(ImagenProducto))
+                {
+                    relationship.DeleteBehavior = DeleteBehavior.Restrict;
+                }
             }
         }
     }

@@ -30,7 +30,7 @@ namespace TiendaPadel.Models
         }
         public int? Stock { get; set; }
         public bool Escaparate { get; set; } = false;
-        public string? Imagen { get; set; }
+        public List<ImagenProducto> Imagenes { get; set; } = new List<ImagenProducto>();
         public int CategoriaId { get; set; }
 
         public Categoria? Categoria { get; set; }

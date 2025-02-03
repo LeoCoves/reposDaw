@@ -24,6 +24,7 @@ namespace TiendaPadel.Controllers
             var productos = from s in _context.Productos
                             .OrderByDescending(p => p.Id)
                             .Include(p => p.Categoria)
+                            .Include(p => p.Imagenes)
                             .AsQueryable()
                           select s;
 
@@ -55,6 +56,7 @@ namespace TiendaPadel.Controllers
 
             var producto = await _context.Productos
                .Include(p => p.Categoria)
+               .Include(p => p.Imagenes)
                .FirstOrDefaultAsync(m => m.Id == id);
 
             if (producto == null)

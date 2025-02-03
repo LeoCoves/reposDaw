@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TiendaPadel.Data;
 
@@ -11,9 +12,11 @@ using TiendaPadel.Data;
 namespace TiendaPadel.Migrations
 {
     [DbContext(typeof(MvcTiendaContexto))]
-    partial class MvcTiendaContextoModelSnapshot : ModelSnapshot
+    [Migration("20250203170834_AgregarTablaImagenProducto")]
+    partial class AgregarTablaImagenProducto
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -36,7 +39,7 @@ namespace TiendaPadel.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categorias", (string)null);
+                    b.ToTable("Categorias");
                 });
 
             modelBuilder.Entity("TiendaPadel.Models.Cliente", b =>
@@ -71,7 +74,7 @@ namespace TiendaPadel.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Clientes", (string)null);
+                    b.ToTable("Clientes");
                 });
 
             modelBuilder.Entity("TiendaPadel.Models.Detalle", b =>
@@ -103,7 +106,7 @@ namespace TiendaPadel.Migrations
 
                     b.HasIndex("ProductoId");
 
-                    b.ToTable("Detalles", (string)null);
+                    b.ToTable("Detalles");
                 });
 
             modelBuilder.Entity("TiendaPadel.Models.Estado", b =>
@@ -120,7 +123,7 @@ namespace TiendaPadel.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Estados", (string)null);
+                    b.ToTable("Estados");
                 });
 
             modelBuilder.Entity("TiendaPadel.Models.ImagenProducto", b =>
@@ -142,7 +145,7 @@ namespace TiendaPadel.Migrations
 
                     b.HasIndex("ProductoId");
 
-                    b.ToTable("ImagenesProducto", (string)null);
+                    b.ToTable("ImagenesProducto");
                 });
 
             modelBuilder.Entity("TiendaPadel.Models.Pedido", b =>
@@ -186,7 +189,7 @@ namespace TiendaPadel.Migrations
 
                     b.HasIndex("EstadoId");
 
-                    b.ToTable("Pedidos", (string)null);
+                    b.ToTable("Pedidos");
                 });
 
             modelBuilder.Entity("TiendaPadel.Models.Producto", b =>
@@ -224,7 +227,7 @@ namespace TiendaPadel.Migrations
 
                     b.HasIndex("CategoriaId");
 
-                    b.ToTable("Productos", (string)null);
+                    b.ToTable("Productos");
                 });
 
             modelBuilder.Entity("TiendaPadel.Models.Detalle", b =>

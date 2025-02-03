@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C4D04586-D2BB-4483-AD52-3F5CBFD11F20}|TiendaPadel\\TiendaPadel.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\supuesto integrador\\tienda\\tiendapadel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4D04586-D2BB-4483-AD52-3F5CBFD11F20}|TiendaPadel\\TiendaPadel.csproj|solutionrelative:tiendapadel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C4D04586-D2BB-4483-AD52-3F5CBFD11F20}|TiendaPadel\\TiendaPadel.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\supuesto integrador\\tienda\\tiendapadel\\views\\escaparate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C4D04586-D2BB-4483-AD52-3F5CBFD11F20}|TiendaPadel\\TiendaPadel.csproj|solutionrelative:tiendapadel\\views\\escaparate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4D04586-D2BB-4483-AD52-3F5CBFD11F20}|TiendaPadel\\TiendaPadel.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\supuesto integrador\\tienda\\tiendapadel\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4D04586-D2BB-4483-AD52-3F5CBFD11F20}|TiendaPadel\\TiendaPadel.csproj|solutionrelative:tiendapadel\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4D04586-D2BB-4483-AD52-3F5CBFD11F20}|TiendaPadel\\TiendaPadel.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\supuesto integrador\\tienda\\tiendapadel\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C4D04586-D2BB-4483-AD52-3F5CBFD11F20}|TiendaPadel\\TiendaPadel.csproj|solutionrelative:tiendapadel\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4D04586-D2BB-4483-AD52-3F5CBFD11F20}|TiendaPadel\\TiendaPadel.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\supuesto integrador\\tienda\\tiendapadel\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C4D04586-D2BB-4483-AD52-3F5CBFD11F20}|TiendaPadel\\TiendaPadel.csproj|solutionrelative:tiendapadel\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 255,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "TiendaPadel\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "TiendaPadel\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-30T22:56:37.446Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Productos\\Index.cshtml",
-              "RelativeDocumentMoniker": "TiendaPadel\\Views\\Productos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Productos\\Index.cshtml",
-              "RelativeToolTip": "TiendaPadel\\Views\\Productos\\Index.cshtml",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAkwLIAAABbAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TiendaPadel\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TiendaPadel\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAkwJ0AAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T22:34:15.964Z"
+              "WhenOpened": "2025-02-03T18:09:09.628Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Controllers\\ProductosController.cs",
-              "RelativeDocumentMoniker": "TiendaPadel\\Controllers\\ProductosController.cs",
-              "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Controllers\\ProductosController.cs",
-              "RelativeToolTip": "TiendaPadel\\Controllers\\ProductosController.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAADwv8IAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T22:33:29.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Escaparate\\Index.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Escaparate\\Index.cshtml",
               "ToolTip": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Escaparate\\Index.cshtml",
               "RelativeToolTip": "TiendaPadel\\Views\\Escaparate\\Index.cshtml",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGMAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAIMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T22:16:43.993Z",
+              "WhenOpened": "2025-02-03T18:57:34.666Z",
+              "IsPinned": true,
               "EditorCaption": ""
             }
           ]
