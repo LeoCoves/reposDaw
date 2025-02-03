@@ -155,9 +155,42 @@
                     </a>
 
                     <!-- Botón Eliminar -->
-                    <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id">
+                    <a type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#modalEliminar-@item.Id">
                         <i class="bi bi-x-lg"></i>
                     </a>
+
+                    
+                    <div class="modal fade" id="modalEliminar-@item.Id" tabindex="-1" aria-labelledby="modalEliminarLabel-@item.Id" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modalEliminarLabel-@item.Id">Confirmar Eliminación</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>¿Estás seguro de que deseas eliminar este elemento?</p>
+
+                                    <!-- Previsualización de la imagen -->
+                                    <div class="text-center mb-3">
+                                        <img id="preview-@item.Id" src="~/imagenes/@(item.Imagen ?? "sinImagen.jpg")" height="150" class="rounded shadow-sm border" />
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label class="form-label">@item.Descripcion</label>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <!-- Botón para cancelar -->
+                                    <button type="button" class="btn btn-secondary btn-sm rounded-2" data-bs-dismiss="modal">Cancelar</button>
+                                    <!-- Botón para confirmar la eliminación -->
+                                    <form asp-action="Delete" method="post">
+                                        <input type="hidden" name="id" value="@item.Id" />
+                                        <button type="submit" class="btn btn-danger btn-sm rounded-2">Eliminar</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </td>
         </tr>
 }

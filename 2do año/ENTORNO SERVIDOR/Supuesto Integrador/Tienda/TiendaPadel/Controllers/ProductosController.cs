@@ -191,7 +191,7 @@ namespace TiendaPadel.Controllers
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Index", "Productos");
         }
 
         private bool ProductoExists(int id)

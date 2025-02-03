@@ -8,10 +8,39 @@
     .btn-link.text-dark:hover {
         color: white; /* Cambia el color del texto a blanco */
     }
+    /* Estilos personalizados */
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+    .card-img-top {
+        object-fit: cover;
+        height: 300px; /* Ajusta la altura de la imagen */
+    }
+
+    .btn-dark {
+        background-color: #000;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-dark:hover {
+            background-color: #333;
+        }
+    .container-custom{
+        margin: 0 !important;
+        padding: 0 !important;
+        max-width: 100%;
+    }
 </style>
 
 @if(@TempData["PedidoConfirmado"] != null){
-    <div class="mt-3 alert alert-success w-40 float-end" role="alert">
+    <div class="mt-3 alert alert-success w-100" role="alert">
         <i class="bi bi-bag-check-fill"></i>
         @TempData["PedidoConfirmado"]
     </div>
@@ -34,13 +63,13 @@
     </script>
 }
 
-<div class="container w-100">
-    <p class="text-center">ESCAPARATE</p>
+<div class="row text-center">
+    <p>ESCAPARATE</p>
 </div>
 
 <div>
-    @if (User.IsInRole("Usuario"))
-    {
+    @*@if (User.IsInRole("Usuario"))
+    {*@
         <div class="container">
             <p>CATEGORIAS</p>
                 <a class="btn btn-outline-dark m-1" asp-action="Index" asp-route-idCategoria="">
@@ -50,45 +79,56 @@
             {
                 foreach (var categoria in categorias)
                 {
-
                         <a class="btn btn-outline-dark m-1" asp-action="Index" asp-route-idCategoria="@categoria.Id">
                             @categoria.Descripcion
                         </a>
                 }
             }
         </div>
-    }
+    @*}*@
 </div>
 
 
 
-<div class="container px-4 px-lg-5 mt-5">
-    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+<div class="container-custom mt-5">
+    <div class="row gx-2 gx-lg-3 row-cols-2 row-cols-sm-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-5 justify-content-center">
         @foreach (var item in Model)
         {
-            <div class="col mb-5">
-                <div class="card h-100">
-                    <img src="~/imagenes/@item.Imagen" class="card-img-top" alt="Imagen de @item.Descripcion">
-                    <div class="card-body p-4">
-                        <div class="text-center">
-                            <h5 class="card-title">@(item.Descripcion)</h5>
-                            <p class="card-text">@(item.Precio)€</p>
-                        </div>
-                    </div>
-                    
-                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center">
-                            @if (item.Stock < 10)
-                            {
-                                <p class="text-danger">QUEDAN POCAS UNIDADES</p>
-                            }
-                            <a asp-controller="Escaparate" asp-action="AgregarCarrito" asp-route-id="@item.Id" class="btn btn-primary">Agregar al Carrito</a>
+            @if (item.Escaparate == true)
+            {
+                <div class="col mb-5">
+                    <div class="card h-80 shadow-sm border-0">
+                        <!-- Imagen del producto -->
+                        <a asp-controller="Escaparate" asp-action="AgregarCarrito" asp-route-id="@item.Id" class="text-decoration-none">
+                            <img src="~/imagenes/@item.Imagen" class="card-img-top" alt="Imagen de @item.Descripcion">
+                        </a>
+
+                        <!-- Badge de "Quedan pocas unidades" -->
+                        @if (item.Stock < 10)
+                        {
+                            <div class="position-absolute top-0 start-0 m-2">
+                                <span class="badge bg-danger">QUEDAN POCAS UNIDADES</span>
+                            </div>
+                        }
+
+                        <!-- Detalles del producto -->
+                        <div class="card-body p-3">
+                            <div class="text-start">
+                                <!-- Nombre del producto -->
+                                <h5 class="card-title mb-1">@item.Descripcion</h5>
+                                <!-- Precio -->
+                                <p class="card-text mb-1 fw-bold">@item.Precio.ToString("0.00")€</p>
+                                <!-- Botón de "Añadir al carrito" -->
+                                <a asp-controller="Escaparate" asp-action="AgregarCarrito" asp-route-id="@item.Id" class="btn btn-dark w-100">
+                                    Añadir al carrito
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            }
         }
-   </div>
+    </div>
 </div>
 
 @* Poner botones de página Siguiente y Anterior *@

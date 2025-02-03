@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    border: 2pt solid black;
+    border-radius: 10px;
+    margin: 1em;
+    padding: 10px;
+    gap: 10px;
+    display: grid;
+    grid-template-areas: "item1 item1 item2 item3 item4"
+                        "item5 item6 item7 item7 item4"
+                        "item5 item8 item7 item7 item9"
+                        "item10 item8 item11 item12 item12";
+}
+
+section{
+    padding: 30%;
+    border-radius: 15px;
+}
+
+.item1{
+    grid-area: item1;
+    background-color: red;
+}
+
+.item2{
+    grid-area: item2;
+    background-color: blue;
+}
+
+.item3{
+    grid-area: item3;
+    background-color: green;
+}
+
+.item4{
+    grid-area: item4;
+    background-color: yellow;
+}
+
+.item5{
+    grid-area: item5;
+    background-color: orange;
+}
+
+.item6{
+    grid-area: item6;
+    background-color: purple;
+}
+
+.item7{
+    grid-area: item7;
+    background-color: pink;
+}
+
+.item8{
+    grid-area: item8;
+    background-color: brown;
+}
+
+.item9{
+    grid-area: item9;
+    background-color: tan;
+}
+
+.item10{
+    grid-area: item10;
+    background-color: gold;
+}
+
+.item11{
+    grid-area: item11;
+    background-color: grey;
+}
+
+.item12{
+    grid-area: item12;
+    background-color: cyan;
+}
+
