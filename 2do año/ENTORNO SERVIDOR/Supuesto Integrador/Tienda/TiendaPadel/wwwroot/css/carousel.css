@@ -1,0 +1,91 @@
+﻿/* Contenedor del carrusel */
+.carousel-container {
+    position: relative;
+    height: auto; /* Ajusta automáticamente al tamaño de las imágenes */
+    max-height: 30em; /* Opcional: ajusta esto según necesites */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto; /* Permite el scroll */
+    scrollbar-width: thin; /* Para navegadores compatibles */
+    scrollbar-color: #888 #f1f1f1; /* Personaliza colores */
+}
+
+@media(max-width: 450px) {
+    .carousel-container {
+        position: relative;
+        height: auto; /* Ajusta automáticamente al tamaño de las imágenes */
+        max-height: 22em; /* Opcional: ajusta esto según necesites */
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: auto; /* Permite el scroll */
+        scrollbar-width: thin; /* Para navegadores compatibles */
+        scrollbar-color: #888 #f1f1f1; /* Personaliza colores */
+    }
+}
+
+@media(max-width: 400px){
+    .carousel-container {
+        position: relative;
+        height: auto; /* Ajusta automáticamente al tamaño de las imágenes */
+        max-height: 18em; /* Opcional: ajusta esto según necesites */
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: auto; /* Permite el scroll */
+        scrollbar-width: thin; /* Para navegadores compatibles */
+        scrollbar-color: #888 #f1f1f1; /* Personaliza colores */
+    }
+}
+
+    /* Personalización de la barra de scroll en Chrome */
+    .carousel-container::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .carousel-container::-webkit-scrollbar-thumb {
+        background-color: #888;
+        border-radius: 10px;
+    }
+
+    .carousel-container::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+/* Pista del carrusel */
+.carousel-track {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.8s ease-in-out;
+}
+
+/* Cada imagen */
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 10px 0; /* Espacio entre imágenes, ajústalo si es necesario */
+}
+
+    .carousel-item img {
+        max-width: 100%;
+        max-height: 400px; /* Ajuste dinámico */
+        object-fit: contain;
+    }
+
+.scroll-indicator {
+    position: absolute;
+    bottom: 10px;
+    left: 90%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: #666;
+    animation: bounce 1s infinite alternate;
+    cursor: pointer;
+}
+

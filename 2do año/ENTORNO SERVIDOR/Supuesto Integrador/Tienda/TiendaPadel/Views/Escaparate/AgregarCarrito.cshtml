@@ -4,24 +4,56 @@
     ViewData["Title"] = "Agregar al Carrito";
 }
 
+<head>
+    <link rel="stylesheet" href="~/css/carousel.css" asp-append-version="true">
+</head>
+
 <div class="my-2 p-5">
     <div class="row">
-        <div class="col-md-7 col-12 scrollable">
+        <div class="col-12 mostrar-en-movil">
+            <div class="carousel-container" id="carouselContainer">
+                <div class="carousel-track" id="carouselTrack">
+                    @if (Model.ProductoActual.Imagenes != null && Model.ProductoActual.Imagenes.Any())
+                    {
+                        var first = true;
+                        foreach (var imagen in Model.ProductoActual.Imagenes)
+                        {
+                            <div class="carousel-item @(first ? "active" : "")">
+                                <img src="~/imagenes/@imagen.Url" class="d-block w-100" alt="Imagen del producto de @Model.ProductoActual.Descripcion">
+                            </div>
+                            first = false;
+                        }
+                    }
+                    else
+                    {
+                        <div class="carousel-item active">
+                            <img src="~/imagenes/sinImagen.jpg" class="d-block w-100" alt="Sin imagen disponible">
+                        </div>
+                    }
+                </div>
+                <div class="text-end justify-content-end scroll-indicator"><i class="bi bi-arrow-down"></i></div>
+            </div>
+        </div>
+
+        <div class="col-sm-8 col-12 d-flex flex-wrap ocultar-en-movil">
             @if (Model.ProductoActual.Imagenes != null && Model.ProductoActual.Imagenes.Any())
             {
                 foreach (var imagen in Model.ProductoActual.Imagenes)
                 {
-                    <img src="~/imagenes/@imagen.Url"
-                         class="rounded-2" width="400px" height="400px" />
+                    <div class="col-sm-6 p-2">
+                        <img src="~/imagenes/@imagen.Url" class="w-100" alt="Imagen del producto de @Model.ProductoActual.Descripcion">
+                    </div>
                 }
             }
             else
             {
-                <img src="~/imagenes/sinImagen.jpg" class="rounded-2" width="400px" height="400px" />
+                <div class="col-12">
+                    <img src="~/imagenes/sinImagen.jpg" class="rounded-2 w-100" alt="Sin imagen disponible" />
+                </div>
             }
         </div>
 
-        <div class="col-md-5 col-12">
+        <div class="col-sm-4 col-12">
             @if(Model.ProductoActual.Stock < 10)
             {
                 <p class="text-danger">POCAS UNIDADES</p>
@@ -37,6 +69,8 @@
                 </div>
                 <button type="submit" class="btn btn-primary mt-4 w-100">Añadir a la Cesta</button>
             </form>
+
+            
 
             <div class="accordion mt-3" id="accordionPanelsStayOpenExample">
                 <div class="accordion-item">
@@ -201,11 +235,25 @@
             </div>
         </div>
 
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling & backdrop</button>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p>Try scrolling the rest of the page to see this option in action.</p>
+            </div>
+        </div>
+
         <div>
             <a asp-action="Index" class="btn btn-secondary m-5">Volver al Escaparate</a>
         </div>
-
     </div>
 
-
+</div>
+<script src="~/js/carousel.js">
+    
+</script>
 

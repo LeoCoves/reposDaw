@@ -80,7 +80,9 @@ a{
         transform: scale(1.05);
         transition-duration: 0.5s;
     }
-@media (min-width: 576px) {
+
+
+@media (min-width: 476px) {
     .navbar-brand {
         position: absolute;
         left: 50%;
@@ -92,11 +94,25 @@ a{
         right: 0;
     }
 }
-@media (max-width: 768px) { /* Para móviles y tablets */
+.mostrar-en-movil {
+    display: none;
+}
+
+.ocultar-en-movil {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .mostrar-en-movil {
+        display: block;
+    }
+
     .ocultar-en-movil {
         display: none !important;
     }
 }
+
+
 
 a.btn-outline-light.text-light:hover {
     color: black !important;

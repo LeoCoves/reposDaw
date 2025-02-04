@@ -4,6 +4,9 @@
     ViewData["Title"] = "Detalles";
 }
 
+<head>
+    <link rel="stylesheet" href="~/css/carousel.css" asp-append-version="true">
+</head>
 
 <div class="text-center">
     <h1><i class="bi bi-box-seam"></i> Detalles del Producto</h1>
@@ -12,17 +15,25 @@
 <div class="card bg-dark p-5 my-4">
     <div class="card-body row g-3 text-light">
         <div class="row">
-            <div class="col-md-5 col-12 scrollable">
-
-
-                @foreach (var imagen in Model.Imagenes)
+            <div class="col-sm-8 d-flex flex-wrap">
+                @if (Model.Imagenes != null && Model.Imagenes.Any())
                 {
-                    <img src="~/imagenes/@imagen.Url" alt="Imagen del producto" width="200px" height="200px" />
+                    foreach (var imagen in Model.Imagenes)
+                    {
+                        <div class="col-sm-6 p-2">
+                            <img src="~/imagenes/@imagen.Url" class="w-100" alt="Imagen del producto de @Model.Descripcion">
+                        </div>
+                    }
                 }
-
+                else
+                {
+                    <div class="col-sm-8">
+                        <img src="~/imagenes/sinImagen.jpg" class="rounded-2 w-100" alt="Sin imagen disponible" />
+                    </div>
+                }
             </div>
 
-            <div class="col-md-7 col-12">
+            <div class="col-sm-4 col-12">
                 <h3 class="pb-3">@Model.Descripcion</h3>
                 <h4 class="pb-3">@Model.Texto</h4>
                 <h4 class="pb-3">Precio: <strong>@Model.Precio €</strong></h4>
@@ -38,3 +49,7 @@
         </div>
     </div>
 </div>
+
+<script src="~/js/carousel.js">
+
+</script>

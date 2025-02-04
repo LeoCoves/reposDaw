@@ -58,7 +58,7 @@
         <h4 class="text-center">Productos</h4>
         <div>
 
-            <div class="row ocultar-en-movil">
+            <div class="row d-flex gap-1 ocultar-en-movil">
                 <div class="col-2"></div>
                 <div class="col-2"> <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2 w-100 m-3">Producto</span></div>
                 <div class="col-2"> <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2 w-100 m-3">Cantidad</span></div>
@@ -72,8 +72,9 @@
                 {
                     <div class="card bg-light text-dark my-3">
                         <div class="row">
+                            
                             <div class="col-sm-2 col-12 p-4">
-                                <img src="~/imagenes/@item.Producto.Imagenes.First().Url" width="100%" height="100%" class="rounded" alt="Imagen de @item.Producto.Descripcion">
+                                <img src="~/imagenes/@item.Producto.Imagenes.First().Url" width="100%" height="100%" class="rounded" alt="Imagen de @item.Producto.Descripcion" />
                             </div>
                             <div class="col-sm-2 col-12 text-center align-self-center">
                                 <p>@item.Producto.Descripcion</p>

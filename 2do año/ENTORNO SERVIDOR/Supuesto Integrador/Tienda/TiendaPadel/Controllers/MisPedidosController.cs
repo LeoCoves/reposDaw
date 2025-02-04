@@ -30,9 +30,14 @@ namespace TiendaPadel.Controllers
             ViewData["BusquedaFecha"] = fecha.HasValue ? fecha.Value.ToString("yyyy-MM-dd") : "";
             ViewData["BusquedaEstado"] = strCadenaEstado;
 
+
+
             // Cargar datos de Pedidos
             var pedidos = from s in _context.Pedidos
                 .OrderByDescending(p => p.Id)
+                .Include(p => p.Detalles)
+                    .ThenInclude(d => d.Producto) // Incluir el producto dentro del detalle
+                        .ThenInclude(prod => prod.Imagenes)
                 .Include(p => p.Cliente)
                 .Include(p => p.Estado)
                 .Where(p => p.Cliente.Email == user)
@@ -73,16 +78,16 @@ namespace TiendaPadel.Controllers
             }
 
             var pedido = await _context.Pedidos
-            .Include(p => p.Estado)
-            .Include(p => p.Detalles)
-            .ThenInclude(d => d.Producto) 
-            .FirstOrDefaultAsync(p => p.Id == id);
+                .Include(p => p.Estado)
+                .Include(p => p.Detalles)
+                    .ThenInclude(d => d.Producto)
+                        .ThenInclude(prod => prod.Imagenes) // 🔹 Incluye las imágenes correctamente
+                .FirstOrDefaultAsync(p => p.Id == id);
 
             if (pedido == null)
             {
                 return NotFound();
             }
-
 
             return View(pedido);
         }

@@ -65,6 +65,7 @@ namespace TiendaPadel.Controllers
             }
 
             var producto = await _context.Productos
+                .Include(p => p.Imagenes)
                 .Include(p => p.Categoria)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (producto == null)
@@ -205,6 +206,7 @@ namespace TiendaPadel.Controllers
             }
 
             var producto = await _context.Productos
+                .Include(p => p.Imagenes)
                 .Include(p => p.Categoria)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (producto == null)

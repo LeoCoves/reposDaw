@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\TiendaPadel.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\css\\carousel.css",
+      "PackagePath": "staticwebassets\\css\\carousel.css"
+    },
+    {
       "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -69,20 +73,24 @@
       "PackagePath": "staticwebassets\\imagenes\\34.jpg"
     },
     {
-      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\36-08213e92-9891-41f1-87d8-7f6f13c9119d.jpg",
-      "PackagePath": "staticwebassets\\imagenes\\36-08213e92-9891-41f1-87d8-7f6f13c9119d.jpg"
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\36-272739f2-9b45-49be-a4ec-1c789483c5b4.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\36-272739f2-9b45-49be-a4ec-1c789483c5b4.jpg"
     },
     {
-      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\36-2f9dd40c-8e93-490f-ba85-80e50e34de40.jpg",
-      "PackagePath": "staticwebassets\\imagenes\\36-2f9dd40c-8e93-490f-ba85-80e50e34de40.jpg"
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\36-372693c4-daa0-489b-969a-de593b0f8c89.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\36-372693c4-daa0-489b-969a-de593b0f8c89.jpg"
     },
     {
-      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\36-71005aaa-de03-46bf-a866-3e0462136f68.jpg",
-      "PackagePath": "staticwebassets\\imagenes\\36-71005aaa-de03-46bf-a866-3e0462136f68.jpg"
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\36-47d9ca23-07b2-4ca4-a7c8-86675e26e109.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\36-47d9ca23-07b2-4ca4-a7c8-86675e26e109.jpg"
     },
     {
-      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\36-e07799c9-b9ef-4d17-a4b0-e5fbf0e52bd5.jpg",
-      "PackagePath": "staticwebassets\\imagenes\\36-e07799c9-b9ef-4d17-a4b0-e5fbf0e52bd5.jpg"
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\36-c2717bee-435b-4d17-8f2e-d4a0d143a48f.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\36-c2717bee-435b-4d17-8f2e-d4a0d143a48f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\36-d07d602a-a798-4ea9-9eab-1c53c268061b.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\36-d07d602a-a798-4ea9-9eab-1c53c268061b.jpg"
     },
     {
       "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\backgroundpadel.jpg",
@@ -131,6 +139,10 @@
     {
       "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\tiendapadel2.jpg",
       "PackagePath": "staticwebassets\\imagenes\\tiendapadel2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\js\\carousel.js",
+      "PackagePath": "staticwebassets\\js\\carousel.js"
     },
     {
       "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\js\\site.js",

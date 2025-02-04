@@ -100,10 +100,9 @@
                  @Html.DisplayFor(modelItem => item.Escaparate)
             </td>
             <td>
-                    @foreach(var imagen in item.Imagenes)
-                    {
-                        <img class="rounded" src="~/imagenes/@(imagen.Url)" alt="Imagen de @item.Descripcion" height="100" width="100" />
-                    }
+                       
+                    <img class="rounded" src="~/imagenes/@item.Imagenes.First().Url" alt="Imagen de @item.Descripcion" height="100" width="100" />
+                    
                 </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Categoria.Descripcion)

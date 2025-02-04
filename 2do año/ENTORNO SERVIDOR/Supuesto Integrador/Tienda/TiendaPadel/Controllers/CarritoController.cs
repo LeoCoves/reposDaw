@@ -42,12 +42,14 @@ namespace TiendaPadel.Controllers
             int numPedido = int.Parse(strNumPedido);
 
             var pedido = await _context.Pedidos
-                .Where(p => p.Id == numPedido)
-                .Include(p => p.Detalles)
-                .ThenInclude(d => d.Producto)
-                .Include(p => p.Cliente) 
-                .Include(p => p.Estado) 
-                .FirstOrDefaultAsync();
+             .Where(p => p.Id == numPedido)
+             .Include(p => p.Detalles)
+                 .ThenInclude(d => d.Producto)
+                     .ThenInclude(p => p.Imagenes) // 🔹 Agregamos las imágenes de cada producto
+             .Include(p => p.Cliente)
+             .Include(p => p.Estado)
+             .FirstOrDefaultAsync();
+
 
             if (pedido == null)
             {
