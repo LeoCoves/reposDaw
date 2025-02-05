@@ -33,11 +33,12 @@ a{
     text-decoration: none;
 }
 .cesta-vacia {
-    background-image: url('../imagenes/cestaVacia.jpg'); /* Asegúrate de que la ruta sea correcta */
-    background-size: contain; /* Ajusta la imagen para que quepa dentro */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    background-position: center; /* Centra la imagen */
-    padding: 10em;
+    background-image: url('../imagenes/cestaVacia.jpg'); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    padding-bottom: 40em;
+    text-align: center;
 }
 
 .custom-header {

@@ -61,6 +61,49 @@ namespace TiendaPadel.Controllers
             return View(pedido); 
         }
 
+        public async Task<IActionResult> VerCarrito(int? id)
+        {
+
+            if (id.HasValue)
+            {
+                var pedidoExistente = await _context.Pedidos
+                    .Include(p => p.Detalles)
+                    .FirstOrDefaultAsync(p => p.Id == id.Value);
+
+                if (pedidoExistente == null)
+                {
+                    return PartialView("CarritoVacio");
+                }
+                HttpContext.Session.SetString("NumPedido", id.Value.ToString());
+            }
+
+            string? strNumPedido = HttpContext.Session.GetString("NumPedido");
+
+            if (string.IsNullOrEmpty(strNumPedido))
+            {
+                return PartialView("CarritoVacio");
+            }
+
+            int numPedido = int.Parse(strNumPedido);
+
+            var pedido = await _context.Pedidos
+               .Where(p => p.Id == numPedido)
+               .Include(p => p.Detalles)
+                   .ThenInclude(d => d.Producto)
+                       .ThenInclude(p => p.Imagenes)
+               .Include(p => p.Cliente)
+               .Include(p => p.Estado)
+               .FirstOrDefaultAsync();
+
+            if (pedido == null || !pedido.Detalles.Any())
+            {
+                return PartialView("CarritoVacio");
+            }
+
+            return PartialView("VerCarrito", pedido);
+        }
+
+
         // Acción ConfirmarPedido
         public async Task<IActionResult> ConfirmarPedido(int? id)
         {
@@ -86,7 +129,6 @@ namespace TiendaPadel.Controllers
             await _context.SaveChangesAsync();
 
             HttpContext.Session.Remove("NumPedido");
-            TempData["PedidoConfirmado"] = "El pedido se ha realizado con éxito";
             return RedirectToAction("Index", "Escaparate");
         }
 
@@ -99,6 +141,27 @@ namespace TiendaPadel.Controllers
         // Acción EliminarLinea
         public async Task<IActionResult> EliminarLinea(int? id)
         {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            string? strNumPedido = HttpContext.Session.GetString("NumPedido");
+
+            if (string.IsNullOrEmpty(strNumPedido) || !int.TryParse(strNumPedido, out int numPedido))
+            {
+                return BadRequest("Número de pedido no válido.");
+            }
+
+            var pedido = await _context.Pedidos
+                .Include(p => p.Detalles) // Cargar los detalles del pedido
+                .FirstOrDefaultAsync(p => p.Id == numPedido);
+
+            if (pedido == null)
+            {
+                return NotFound();
+            }
+
             var detalle = await _context.Detalles.FindAsync(id);
 
             if (detalle != null)

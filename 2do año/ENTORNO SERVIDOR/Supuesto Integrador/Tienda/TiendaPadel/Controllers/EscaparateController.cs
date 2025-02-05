@@ -19,7 +19,6 @@ namespace TiendaPadel.Controllers
         }
         public async Task<IActionResult> Index(int? idCategoria, int? pageNumber)
         {
-
             // Cargar datos de Pedidos
             var productos = from s in _context.Productos
                             .OrderByDescending(p => p.Id)
@@ -139,7 +138,7 @@ namespace TiendaPadel.Controllers
 
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("Index", "Carrito"); 
+            return RedirectToAction("Index", "Escaparate", new { openCarrito = true });
         }
     }
 }

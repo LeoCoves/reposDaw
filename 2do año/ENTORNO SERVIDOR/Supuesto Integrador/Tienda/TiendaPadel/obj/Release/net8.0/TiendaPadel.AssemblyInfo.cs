@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-TiendaPadel-26265562-607c-4da3-b3be-415f36144b5c")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TiendaPadel")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+830c098ecaf6946be386cd4ab4ab6f079f6a07fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("TiendaPadel")]

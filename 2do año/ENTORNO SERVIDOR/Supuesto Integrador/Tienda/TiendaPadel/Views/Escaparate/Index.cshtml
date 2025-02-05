@@ -2,6 +2,7 @@
 @{
     ViewData["Title"] = "Escaparate";
     var categorias = ViewData["Categorias"] as IEnumerable<TiendaPadel.Models.Categoria>;
+    var openCarrito = ViewData["OpenCarrito"] != null && (bool)ViewData["OpenCarrito"];
 }
 
 <style>
@@ -61,6 +62,9 @@
             }
         });
     </script>
+
+ 
+
 }
 
 <div class="row text-center">
@@ -147,4 +151,7 @@
         Siguiente
     </a>
 </div>
+
+
+
 

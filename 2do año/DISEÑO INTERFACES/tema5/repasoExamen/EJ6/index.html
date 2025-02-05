@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+
+    <body>
+
+        <main>
+            <div class="container">
+                <h1 class="text-primary">Listado de Usuarios  del Sistema</h1>
+            
+                <div class="row d-flex justify-content-between">
+                    <div class="col-sm-4 d-flex my-1">
+                        <div class="mx-3">Mostrar</div> 
+                        <select>
+                            <option>10</option>
+                            <option>20</option>
+                            <option>30</option>
+                        </select>
+                        <div class="mx-3">registros</div>
+                    </div>
+                    <div class="col-sm-4 d-flex my-1">
+                        <div class="mx-3">Buscar: </div>
+                        <input type="text" class="form-control w-100" />
+                    </div>
+                </div>
+
+                <table class="table table-striped my-4">
+                    <thead>
+                        <tr>
+                            <th class="border-2">ID</th>
+                            <th class="border-2">Usuario</th>
+                            <th class="border-2">Sector</th>
+                            <th class="border-2">Ultimo Ingreso</th>
+                            <th class="border-2">Accion</th>
+                        </tr>
+                    </thead>
+                    <tbody  class="border-2">
+                        <tr>
+                            <td  class="border-2">1</td>
+                            <td  class="border-2">admin</td>
+                            <td  class="border-2">Administracion</td>
+                            <td  class="border-2">2018-01-17</td>
+                            <td  class="border-2">
+                                <div class="btn-group" role="group">
+                                    <button class="btn btn-primary">
+                                        <i class="bi bi-eye-fill"></i>
+                                    </button>
+                                    <button class="btn btn-success">
+                                        <i class="bi bi-pencil-square"></i>
+                                    </button>
+                                    <button class="btn btn-danger">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td  class="border-2">2</td>
+                            <td  class="border-2">admin</td>
+                            <td  class="border-2">Administracion</td>
+                            <td  class="border-2">2018-01-17</td>
+                            <td  class="border-2">
+                                <div class="btn-group" role="group">
+                                    <button class="btn btn-primary">
+                                        <i class="bi bi-eye-fill"></i>
+                                    </button>
+                                    <button class="btn btn-success">
+                                        <i class="bi bi-pencil-square"></i>
+                                    </button>
+                                    <button class="btn btn-danger">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td  class="border-2">3</td>
+                            <td  class="border-2">admin</td>
+                            <td  class="border-2">Administracion</td>
+                            <td  class="border-2">2018-01-17</td>
+                            <td  class="border-2">
+                                <div class="btn-group" role="group">
+                                    <button class="btn btn-primary">
+                                        <i class="bi bi-eye-fill"></i>
+                                    </button>
+                                    <button class="btn btn-success">
+                                        <i class="bi bi-pencil-square"></i>
+                                    </button>
+                                    <button class="btn btn-danger">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td  class="border-2">4</td>
+                            <td  class="border-2">admin</td>
+                            <td  class="border-2">Administracion</td>
+                            <td  class="border-2">2018-01-17</td>
+                            <td  class="border-2">
+                                <div class="btn-group" role="group">
+                                    <button class="btn btn-primary">
+                                        <i class="bi bi-eye-fill"></i>
+                                    </button>
+                                    <button class="btn btn-success">
+                                        <i class="bi bi-pencil-square"></i>
+                                    </button>
+                                    <button class="btn btn-danger">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td  class="border-2">5</td>
+                            <td  class="border-2">admin</td>
+                            <td  class="border-2">Administracion</td>
+                            <td  class="border-2">2018-01-17</td>
+                            <td  class="border-2">
+                                <div class="btn-group" role="group">
+                                    <button class="btn btn-primary">
+                                        <i class="bi bi-eye-fill"></i>
+                                    </button>
+                                    <button class="btn btn-success">
+                                        <i class="bi bi-pencil-square"></i>
+                                    </button>
+                                    <button class="btn btn-danger">
+                                        <i class="bi bi-trash-fill"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>    
+                </table>
+
+                <div class="row d-flex justify-content-between">
+                    <p class="col-sm-4">Mostrando del 1 al 5 un total de 5 registros</p>
+
+                    <div class="btn-group col-sm-4 border-1" role="group" >
+                        <button class="btn btn-outline-secondary">Anterior</button>
+                        <button class="btn btn-primary">1</button>
+                        <button class="btn btn-outline-secondary">Siguiente</button>
+                    </div>
+                </div>
+
+                <div class="row my-2">
+                    <button class="btn btn-primary col-sm-2">Agregar Usuario</button>
+                </div>
+                
+            </div>
+        </main>
+
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

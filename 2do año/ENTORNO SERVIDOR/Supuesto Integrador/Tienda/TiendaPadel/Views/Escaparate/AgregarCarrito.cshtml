@@ -67,7 +67,7 @@
                     <label for="cantidad">Cantidad:</label>
                     <input type="number" id="cantidad" name="cantidad" class="form-control" value="1" min="1" />
                 </div>
-                <button type="submit" class="btn btn-primary mt-4 w-100">Añadir a la Cesta</button>
+                <button id="btn-agregar-carrito" type="submit" class="btn btn-primary mt-4 w-100" data-id="@Model.ProductoActual.Id">Añadir a la Cesta</button>
             </form>
 
             
@@ -225,7 +225,7 @@
                                 </div>
                                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                                     <div class="text-center">
-                                        <a asp-controller="Escaparate" asp-action="AgregarCarrito" asp-route-id="@item.Id" class="btn btn-primary">Agregar al Carrito</a>
+                                        <a asp-controller="Escaparate" asp-action="AgregarCarrito" asp-route-id="@item.Id" data-id="@Model.ProductoActual.Id" class="btn-agregar-carrito">Agregar al Carrito</a>
                                     </div>
                                 </div>
                             </div>
@@ -235,7 +235,7 @@
             </div>
         </div>
 
-        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling & backdrop</button>
+
 
         <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
             <div class="offcanvas-header">

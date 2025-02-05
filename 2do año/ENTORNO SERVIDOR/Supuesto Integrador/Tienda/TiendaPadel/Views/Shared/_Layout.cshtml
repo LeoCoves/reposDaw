@@ -192,17 +192,86 @@
         </div>
     </div>
 
-    <div id="google_translate_element"></div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCarrito" aria-labelledby="offcanvasCarritoLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasCarritoLabel">Carrito de Compras</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" id="contenidoCarrito">
+            Cargando...
+        </div>
+    </div>
 
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({ pageLanguage: 'es', includedLanguages: 'es,en' }, 'google_translate_element');
-        }
-    </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    
+
+    
+    <script>
+        //Script sacado de foros para poder abrir un offcanvas despues de realizar un agregarAlCarrito
+        document.addEventListener("DOMContentLoaded", function () {
+
+            function loadAndOpenCart() {
+                fetch('/Carrito/VerCarrito')
+                    .then(response => response.text())
+                    .then(html => {
+
+                        document.getElementById("contenidoCarrito").innerHTML = html;
+  
+                        var carritoOffcanvas = new bootstrap.Offcanvas(document.getElementById("offcanvasCarrito"));
+                        carritoOffcanvas.show();
+                    })
+                    .catch(error => {
+                        console.error("Error al cargar el carrito:", error);
+                        document.getElementById("contenidoCarrito").innerHTML = "<p>Error al cargar el carrito</p>";
+                    });
+            }
+
+    
+            const urlParams = new URLSearchParams(window.location.search);
+            const openCarrito = urlParams.get('openCarrito');
+            if (openCarrito && openCarrito.toLowerCase() === 'true') {
+                console.log("openCarrito=true detectado en la URL. Se intentará abrir el offcanvas.");
+                loadAndOpenCart();
+            }
+
+            const carritoBtn = document.querySelector('[data-bs-target="#offcanvasCarrito"]');
+            if (carritoBtn) {
+                carritoBtn.addEventListener("click", function () {
+                    loadAndOpenCart();
+                });
+            }
+
+            $(document).on("click", ".btn-agregar-carrito", function (event) {
+                event.preventDefault();
+
+                var button = $(this);
+                var idProducto = button.data("id");
+                var cantidad = 1; 
+
+                $.ajax({
+                    url: "/Carrito/AgregarCarrito",
+                    type: "POST",
+                    data: { idProducto: idProducto, cantidad: cantidad },
+                    success: function () {
+                        console.log("Producto agregado correctamente. Cargando contenido del carrito...");
+                        loadAndOpenCart();
+                    },
+                    error: function () {
+                        alert("Error al agregar el producto al carrito.");
+                    }
+                });
+            });
+        });
+    </script>
+
+
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

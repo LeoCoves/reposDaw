@@ -1,0 +1,53 @@
+﻿@model TiendaPadel.Models.Pedido
+
+@{
+    ViewData["Title"] = "Ver Carrito";
+
+}
+
+
+<div class="col-md-12 cart">
+        <div class="title">
+            <div class="row">
+                <div class="col"><h4><b>Carrito de Compras</b></h4></div>
+            </div>
+        </div>
+        <hr />
+
+    @{
+        decimal totalCompra = 0;
+        int contador = 0;
+    }
+    @foreach (var item in Model.Detalles)
+    {
+        contador++;
+        totalCompra += item.Cantidad * item.Precio;
+
+        <div class="row border-bottom">
+            <div class="row main align-items-center">
+
+                <div class="col">
+                    <img src="~/imagenes/@item.Producto.Imagenes.First().Url" alt="Imagen de @item.Producto.Descripcion"
+                         style="width: 80px; height: 80px; margin: 5px; border-radius: 8px;">
+                </div>
+
+                <div class="col">
+                    <div class="row">@item.Producto.Descripcion</div>
+                </div>
+                <div class="col d-flex">
+                    <a asp-controller="Carrito" asp-action="MenosCantidad" asp-route-id="@item.Id" class="btn btn-primary btn-sm">-</a>
+                    @item.Cantidad
+                    <a asp-controller="Carrito" asp-action="MasCantidad" asp-route-id="@item.Id" class="btn btn-primary btn-sm">+</a>
+                </div>
+                <div class="col d-flex">@(item.Cantidad * item.Precio)€</div>
+                <div class="col"><a asp-controller="Carrito" asp-action="EliminarLinea" asp-route-id="@item.Id" class="btn-close"><i class="bi bi-x"></i></a></div>
+            </div>
+        </div>
+    }
+
+    <div class="back-to-shop my-4 text-center">
+        <a asp-area="" asp-controller="Carrito" asp-action="Index" class="btn btn-outline-dark">
+            TRAMITAR PEDIDO
+        </a>
+    </div>
+</div>
