@@ -9,6 +9,15 @@
     
 </div>
 
+<style>
+    .product-text {
+        width: 120px; /* Establece un ancho fijo para la celda */
+        white-space: nowrap; /* Evita que el texto se ajuste a varias líneas */
+        overflow: hidden; /* Oculta el texto que se desborda */
+        text-overflow: ellipsis; /* Muestra los puntos suspensivos (...) cuando el texto se corta */
+    }
+</style>
+
 @* Agregar un cuadro de búsqueda en la vista Index de Avisos *@
 <form asp-action="Index">
     <div class="card bg-dark my-5">
@@ -45,15 +54,15 @@
 
 
 <table class="table table-striped">
-    <thead class="bg-dark text-light">
+    <thead class="bg-dark ">
         <tr>
-            <th>
+            <th class="text-light">
                 Descripción
             </th>
-            <th>
+            <th class="text-light">
                 Texto
             </th>
-            <th>
+            <th class="text-light">
                 Precio
             </th>
             @*
@@ -61,16 +70,16 @@
                 @Html.DisplayNameFor(model => model.PrecioCadena)
             </th>
             *@
-            <th>
+            <th class="text-light">
                 Stock
             </th>
-            <th>
+            <th class="text-light">
                 Escaparate
             </th>
-            <th>
+            <th class="text-light">
                 Imagen
             </th>
-            <th>
+            <th class="text-light">
                 Categoria
             </th>
             <th></th>
@@ -80,10 +89,15 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Descripcion)
+                <div class="product-text">
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                </div>
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Texto)
+                <div class="product-text">
+                        @Html.DisplayFor(modelItem => item.Texto)
+                </div>
+                
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Precio)
@@ -96,8 +110,25 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Stock)
             </td>
-            <td>
+                <td>
+                    @*
                  @Html.DisplayFor(modelItem => item.Escaparate)
+                    *@
+                @if (item.Escaparate)
+                {
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckCheckedDisabled" checked disabled>
+
+                        </div>
+                }     
+                else
+                {
+                       <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" disabled>
+
+                       </div>
+                }
+                 
             </td>
             <td>
                        

@@ -65,6 +65,7 @@ namespace TiendaPadel.Controllers
 
             var productosRelacionados = _context.Productos
                 .Where(p => p.CategoriaId == producto.CategoriaId && p.Id != id)
+                .Include(p => p.Imagenes)
                 .Take(12) 
                 .ToList();
 
@@ -94,27 +95,49 @@ namespace TiendaPadel.Controllers
             
             string? strNumPedido = HttpContext.Session.GetString("NumPedido");
 
-            
-            if (string.IsNullOrEmpty(strNumPedido))
+
+            int numPedido;
+
+            if (string.IsNullOrEmpty(strNumPedido) || !int.TryParse(strNumPedido, out numPedido))
             {
+                // Si no hay pedido en sesión o el ID no es válido, crear uno nuevo
                 var nuevoPedido = new Pedido
                 {
-                    ClienteId = cliente.Id, 
-                    EstadoId = 1,           
+                    ClienteId = cliente.Id,
+                    EstadoId = 1,
                     Fecha = DateTime.Now
                 };
 
                 _context.Pedidos.Add(nuevoPedido);
                 await _context.SaveChangesAsync();
 
-                
-                HttpContext.Session.SetString("NumPedido", nuevoPedido.Id.ToString());
-                strNumPedido = nuevoPedido.Id.ToString();
+                // Guardar el nuevo número de pedido en la sesión
+                numPedido = nuevoPedido.Id;
+                HttpContext.Session.SetString("NumPedido", numPedido.ToString());
+            }
+            else
+            {
+                // Verificar si el pedido aún existe en la base de datos
+                var pedidoExistente = await _context.Pedidos.FindAsync(numPedido);
+                if (pedidoExistente == null)
+                {
+                    // Si el pedido fue eliminado, crear uno nuevo
+                    var nuevoPedido = new Pedido
+                    {
+                        ClienteId = cliente.Id,
+                        EstadoId = 1,
+                        Fecha = DateTime.Now
+                    };
+
+                    _context.Pedidos.Add(nuevoPedido);
+                    await _context.SaveChangesAsync();
+
+                    numPedido = nuevoPedido.Id;
+                    HttpContext.Session.SetString("NumPedido", numPedido.ToString());
+                }
             }
 
-            int numPedido = int.Parse(strNumPedido);
 
-           
             var detalleExistente = await _context.Detalles
                 .FirstOrDefaultAsync(d => d.PedidoId == numPedido && d.ProductoId == idProducto);
 
@@ -125,6 +148,12 @@ namespace TiendaPadel.Controllers
             }
             else
             {
+                var producto = await _context.Productos.FindAsync(idProducto);
+                if (producto == null)
+                {
+                    return NotFound();
+                }
+
                 var detalle = new Detalle
                 {
                     PedidoId = numPedido,

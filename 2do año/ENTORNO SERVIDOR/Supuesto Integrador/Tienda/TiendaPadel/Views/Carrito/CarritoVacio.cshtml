@@ -3,41 +3,12 @@
     ViewData["Title"] = "Carrito de Compras";
 }
 
-<style>
-    .title{
-        margin-bottom: 5vh;
-    }
-    .card{
-        margin: auto;
-        max-width: 950px;
-        width: 90%;
-        box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        border-radius: 1rem;
-        border: transparent;
-    }
-
-    .cart{
-        
-        padding: 4vh 5vh;
-        border-bottom-left-radius: 1rem;
-        border-top-left-radius: 1rem;
-    }
-
-    .back-to-shop{
-        margin-top: 4.5rem;
-    }
-    h5{
-        margin-top: 4vh;
-    }
-    hr{
-        margin-top: 1.25rem;
-    }
-</style>
-
 <div class="cesta-vacia">
 
-                <strong><p>Tu carrito está vacío.</p></strong>
-                <p class="pb-4">Aún no tienes ningún artículo en la cesta, descubre todo lo que tenemos para ti</p>
+   <div class="my-5">
+        <strong><p class="pb-4">Tu carrito está vacío.</p></strong>
+        <p class="pb-4">Aún no tienes ningún artículo en la cesta, descubre todo lo que tenemos para ti</p>
+   </div>
 
         <div class="back-to-shop"><a asp-controller="Escaparate" asp-action="Index" class="btn btn-primary">Descubrir</a></div>
 </div>

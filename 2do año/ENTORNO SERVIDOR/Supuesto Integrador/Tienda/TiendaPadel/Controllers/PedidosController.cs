@@ -203,9 +203,10 @@ namespace TiendaPadel.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var pedido = await _context.Pedidos.FindAsync(id);
+
             if (pedido != null)
             {
-                _context.Pedidos.Remove(pedido);
+                pedido.Anulado = DateTime.Now;
             }
 
             await _context.SaveChangesAsync();

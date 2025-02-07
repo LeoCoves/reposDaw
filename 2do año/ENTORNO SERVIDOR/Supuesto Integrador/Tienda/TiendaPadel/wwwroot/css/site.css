@@ -1,5 +1,6 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+    font-family: 'Roboto';
 }
 
 @media (min-width: 768px) {
@@ -24,6 +25,7 @@ html {
 }
 
 body {
+    font-family: 'Roboto';
     background-color: rgb(250, 250, 250);
     margin-bottom: 60px;
     padding: 0;
@@ -56,7 +58,7 @@ a{
     height: 300px;
 }
     .custom-cardPala:hover {
-        transform: scale(1.05);
+        opacity: 60%;
         transition-duration: 0.5s;
     }
 .custom-cardPaletero {
@@ -67,7 +69,7 @@ a{
     height: 300px;
 }
     .custom-cardPaletero:hover {
-        transform: scale(1.05);
+        opacity: 60%;
         transition-duration: 0.5s;
     }
 .custom-cardAccesorio {
@@ -78,9 +80,76 @@ a{
     height: 300px;
 }
     .custom-cardAccesorio:hover {
-        transform: scale(1.05);
+        opacity: 60%;
         transition-duration: 0.5s;
     }
+
+.custom-cardWomen {
+    background: url('../imagenes/pinktopwomen.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40em;
+}
+
+    .custom-cardWomen:hover {
+        opacity: 60%;
+        transition-duration: 0.5s;
+    }
+
+.custom-cardMen {
+    background: url('../imagenes/polomen.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40em;
+}
+
+    .custom-cardMen:hover {
+        opacity: 60%;
+        transition-duration: 0.5s;
+    }
+
+.custom-cardWater {
+    background: url('../imagenes/aguafoton.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40em;
+}
+
+    .custom-cardWater:hover {
+        opacity: 60%;
+        transition-duration: 0.5s;
+    }
+
+
+.custom-cardShoes {
+    background: url('../imagenes/greenshoes.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30em;
+}
+
+    .custom-cardShoes:hover {
+        opacity: 60%;
+        transition-duration: 0.5s;
+    }
+
+.custom-cardBag {
+    background: url('../imagenes/whitebag.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30em;
+}
+
+    .custom-cardBag:hover {
+        opacity: 60%;
+        transition-duration: 0.5s;
+    }
+
 
 
 @media (min-width: 476px) {
@@ -125,4 +194,110 @@ a.btn-outline-light.text-dark:hover {
     color: black !important;
     background-color: white !important;
     border-color: white !important;
+}
+
+
+.color-principal,
+.color-principal:link,
+.color-principal:visited {
+    color: #34495E !important;
+    text-decoration: none; /* Opcional: elimina el subrayado */
+}
+
+
+    .color-secundario,
+    .color-secundario:link,
+    .color-secundario:visited {
+        color: #171F27 !important;
+        text-decoration: none; /* Opcional: elimina el subrayado */
+    }
+
+.color-terciario,
+.color-terciario:link,
+.color-terciario:visited {
+    color: #179F6F !important;
+    text-decoration: none; /* Opcional: elimina el subrayado */
+}
+
+.color-amarillo,
+.color-amarillo:link,
+.color-amarillo:visited {
+    color: #F39C12 !important;
+    text-decoration: none; /* Opcional: elimina el subrayado */
+}
+
+.color-blanco,
+.color-blanco:link,
+.color-blanco:visited {
+    color: #ECF0F1 !important;
+    text-decoration: none; /* Opcional: elimina el subrayado */
+}
+
+.fuente-editorial {
+    font-family: 'Playfair';
+    font-weight: bold;  
+}
+
+.fuente-roboto {
+    font-family: 'Roboto';
+    font-weight: normal;
+}
+
+.fuente-logo {
+    font-family: 'Chonburi';
+}
+
+.border-nav {
+    border:1pt solid #179F6F !important;
+}
+
+.font-huge{
+    font-size: 4.5em;
+    font-weight: 100;
+}
+
+.btn-outline-custom {
+    color: #34495E;
+    border-color: #34495E;
+}
+
+    .btn-outline-custom:hover {
+        background-color: #34495E;
+        color: white;
+    }
+
+/*ESTO FORMA PARTE DEL HOME*/
+
+
+.btn-outline-light:hover {
+    color: black;
+}
+
+/* Estilo básico para los botones */
+.btn-square { /* Altura fija para hacerlo cuadrado */
+    border-radius: 0; 
+}
+
+    /* Hover */
+    .btn-square:hover {
+        background-color: rgba(255, 255, 255);
+        border-color: #ffffff;
+    }
+
+/* Para pantallas grandes, hacer los botones más grandes */
+
+/*FIN
+*/
+
+.card {
+    height: 450px; /* Establece una altura fija para todas las cards */
+}
+
+.card-img-top {
+    height: 300px; /* Establece una altura fija para la imagen */
+    object-fit: cover; /* Hace que la imagen se recorte proporcionalmente para llenar el contenedor */
+}
+
+.card-body {
+    height: calc(100% - 200px); /* Ajusta la altura del cuerpo de la card (restando la altura de la imagen) */
 }

@@ -228,14 +228,18 @@ else
                 <div><h5><b>Pagar</b></h5></div>
                 <hr>
                 <div class="row">
-                    <div class="col align-self-center text-right text-muted">@contador items</div>
+                    <div class="col align-self-center text-right text-muted my-2">@contador items</div>
                     <div class="col text-right">@totalCompra €</div>
                 </div>
-                <form>
+                <form class="py-2">
                     <p>SHIPPING</p>
-                    <select><option class="text-muted">CARD VISA</option></select>
-                    <p>GIVE CODE</p>
-                    <input id="code" placeholder="Enter your code">
+                    <select>
+                        <option selected class="text-muted">CARD VISA</option>
+                        <option class="text-muted">MASTERCARD</option>
+                    </select>
+                    <input class="col-12" id="codecard" placeholder="XXXX XXXX XXXX XXXX">
+                    <input class="col-4" id="datecard" placeholder="MM/YY">
+                    <input class="col-4" type="password" id="cvvcard" placeholder="CVV">
                 </form>
                 <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
                     <div class="col">PRECIO TOTAL</div>

@@ -36,7 +36,7 @@ namespace TiendaPadel.Controllers
 
             if (string.IsNullOrEmpty(strNumPedido))
             {
-                return RedirectToAction("CarritoVacio");
+                return RedirectToAction("Index", "Escaparate");
             }
 
             int numPedido = int.Parse(strNumPedido);
@@ -53,7 +53,7 @@ namespace TiendaPadel.Controllers
 
             if (pedido == null)
             {
-                return RedirectToAction("CarritoVacio");
+                return RedirectToAction("Index", "Escaparate");
             }
 
             ViewData["NumPedido"] = numPedido;
@@ -168,6 +168,18 @@ namespace TiendaPadel.Controllers
             {
                 _context.Detalles.Remove(detalle);
                 await _context.SaveChangesAsync();
+            }
+
+            // Recargar el pedido con los detalles actualizados desde la base de datos
+            pedido = await _context.Pedidos
+                .Include(p => p.Detalles)
+                .FirstOrDefaultAsync(p => p.Id == numPedido);
+
+            // Verificar si el pedido quedó sin detalles después de la eliminación
+            if (pedido != null && !pedido.Detalles.Any())
+            {
+                _context.Pedidos.Remove(pedido);
+                await _context.SaveChangesAsync(); // Guardar eliminación del pedido
             }
 
             return RedirectToAction("Index");

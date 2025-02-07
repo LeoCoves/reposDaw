@@ -40,7 +40,7 @@ namespace TiendaPadel.Controllers
                         .ThenInclude(prod => prod.Imagenes)
                 .Include(p => p.Cliente)
                 .Include(p => p.Estado)
-                .Where(p => p.Cliente.Email == user)
+                .Where(p => p.Cliente.Email == user && p.Anulado == null)
                           select s;
 
             // Filtrar por fecha si se proporciona
@@ -129,8 +129,7 @@ namespace TiendaPadel.Controllers
 
             if (pedido != null)
             {
-                // Eliminar el pedido
-                _context.Pedidos.Remove(pedido);
+                pedido.Anulado = DateTime.Now;
             }
 
             await _context.SaveChangesAsync();

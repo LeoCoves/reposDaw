@@ -10,11 +10,11 @@
     @if (User.IsInRole("Usuario"))
     {
             <li class="nav-item">
-                <a class="nav-link text-dark text-center" asp-area="" asp-controller="MisPedidos" asp-action="Index">ORDERS</a>
+                <a class="nav-link color-terciario fuente-editorial text-center" asp-area="" asp-controller="MisPedidos" asp-action="Index">ORDERS</a>
             </li>
         <li class="nav-item">
-                <a class="nav-link text-dark text-center" asp-area="" asp-controller="MisDatos" asp-action="Edit">
-                    <i class="bi bi-person-circle"></i>
+                <a class="nav-link color-terciario fuente-editorial text-center" asp-area="" asp-controller="MisDatos" asp-action="Edit">
+                    <strong><i class="bi bi-person-circle"></i></strong>
                 </a>
         </li>
         <li class="nav-item">
@@ -22,15 +22,15 @@
                 
             </a>*@
 
-                <button class="nav-link btn btn-link text-dark text-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCarrito">
-                    <i class="bi bi-cart"></i>
+                <button class="nav-link btn btn-link color-terciario fuente-editorial text-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCarrito">
+                    <strong><i class="bi bi-bag"></i></strong>
                 </button>
         </li>
     }
     <li class="nav-item">
         <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                <button type="submit" class="nav-link btn btn-link text-dark text-center">
-                    <i class="bi bi-box-arrow-right"></i>
+                <button type="submit" class="nav-link btn btn-link text-dark fuente-editorial text-center">
+                    <strong><i class="bi bi-box-arrow-right"></i></strong>
             </button>
                 
         </form>
@@ -45,8 +45,8 @@ else
             <a class="nav-link text-dark text-center" asp-area="Identity" asp-page="/Account/Login">Inicia Sesion</a>
     </li>*@
     <li class="nav-item">
-            <a class="nav-link text-dark text-center" asp-area="" asp-controller="Carrito" asp-action="Index" >
-                <strong><i class="bi bi-cart"></i></strong>
+            <a class="nav-link btn btn-link color-terciario  text-center" asp-area="" asp-controller="Carrito" asp-action="Index">
+                <strong><i class="bi bi-bag"></i></strong>
             </a>
     </li>
 

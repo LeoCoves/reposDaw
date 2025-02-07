@@ -4,11 +4,12 @@
     ViewData["Title"] = "Agregar al Carrito";
 }
 
+
 <head>
     <link rel="stylesheet" href="~/css/carousel.css" asp-append-version="true">
 </head>
 
-<div class="my-2 p-5">
+<div class="p-1">
     <div class="row">
         <div class="col-12 mostrar-en-movil">
             <div class="carousel-container" id="carouselContainer">
@@ -67,9 +68,9 @@
                     <label for="cantidad">Cantidad:</label>
                     <input type="number" id="cantidad" name="cantidad" class="form-control" value="1" min="1" />
                 </div>
-                <button id="btn-agregar-carrito" type="submit" class="btn btn-primary mt-4 w-100" data-id="@Model.ProductoActual.Id">Añadir a la Cesta</button>
+                <button id="btn-agregar-carrito" type="submit" class="btn btn-success mt-4 w-100" data-id="@Model.ProductoActual.Id">Añadir a la Cesta</button>
             </form>
-
+        
             
 
             <div class="accordion mt-3" id="accordionPanelsStayOpenExample">
@@ -103,6 +104,9 @@
                             Envio y Devoluciones
                         </button>
                     </h2>
+
+
+
                     <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
                         <div class="accordion-body">
                             <p>- España y Portugal pedidos 3-5 días laborables aproximadamente (7-10 para las Islas Canarias)</p>
@@ -215,17 +219,33 @@
                     @foreach (var item in Model.ProductosRelacionados)
                     {
                         <div class="col mb-5">
-                            <div class="card h-100">
-                                <img src="~/imagenes/@item.Imagenes.First().Url" class="card-img-top" alt="Imagen de @item.Descripcion">
-                                <div class="card-body p-4">
-                                    <div class="text-center">
-                                        <h5 class="card-title">@(item.Descripcion)</h5>
-                                        <p class="card-text">@(item.Precio)€</p>
+                            @{
+                                // Obtiene la URL de la primera imagen, o queda como cadena vacía si no hay ninguna
+                                var imagenUrl = item.Imagenes.FirstOrDefault()?.Url;
+                                // Si imagenUrl es nula o vacía, se usa "sinImagen.jpg"
+                                imagenUrl = string.IsNullOrEmpty(imagenUrl) ? "sinImagen.jpg" : imagenUrl;
+                            }
+                            <div class="card shadow-sm border-0">
+                                <img src="@Url.Content("~/imagenes/" + imagenUrl)" class="card-img-top" alt="Imagen de @item.Descripcion">
+
+                                @if (item.Stock < 10)
+                                {
+                                    <div class="position-absolute top-0 start-0 m-2">
+                                        <span class="badge bg-danger">QUEDAN POCAS UNIDADES</span>
                                     </div>
-                                </div>
-                                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div class="text-center">
-                                        <a asp-controller="Escaparate" asp-action="AgregarCarrito" asp-route-id="@item.Id" data-id="@Model.ProductoActual.Id" class="btn-agregar-carrito">Agregar al Carrito</a>
+                                }
+
+                                <!-- Detalles del producto -->
+                                <div class="card-body p-3">
+                                    <div class="text-start">
+                                        <!-- Nombre del producto -->
+                                        <h5 class="card-title mb-1">@item.Descripcion</h5>
+                                        <!-- Precio -->
+                                        <p class="card-text mb-1 fw-bold">@item.Precio.ToString("0.00")€</p>
+                                        <!-- Botón de "Añadir al carrito" -->
+                                        <a asp-controller="Escaparate" asp-action="AgregarCarrito" asp-route-id="@item.Id" class="btn btn-success w-100">
+                                            Añadir al carrito
+                                        </a>
                                     </div>
                                 </div>
                             </div>
