@@ -7,11 +7,11 @@
 
 <style>
     .card {
-        height: 450px; /* Establece una altura fija para todas las cards */
+        height: 500px; /* Establece una altura fija para todas las cards */
     }
 
     .card-img-top {
-        height: 300px; /* Establece una altura fija para la imagen */
+        height: 350px; /* Establece una altura fija para la imagen */
         object-fit: cover; /* Hace que la imagen se recorte proporcionalmente para llenar el contenedor */
     }
 
@@ -57,7 +57,7 @@
                         }
                         else
                         {
-                            <img src="~/imagenes/sinImagen.jpg" class="card-img-top" alt="Imagen no disponible">
+                            <img src="~/imagenes/sinImagen.webp" class="card-img-top" alt="Imagen no disponible">
                         }
 
                         <!-- Badge de "Quedan pocas unidades" -->
@@ -68,14 +68,11 @@
                             </div>
                         }
 
-                        <!-- Detalles del producto -->
+
                         <div class="card-body p-3">
                             <div class="text-start">
-                                <!-- Nombre del producto -->
                                 <h5 class="card-title mb-1">@item.Descripcion</h5>
-                                <!-- Precio -->
                                 <p class="card-text mb-1 fw-bold">@item.Precio.ToString("0.00")€</p>
-                                <!-- Botón de "Añadir al carrito" -->
                                 <a asp-controller="Escaparate" asp-action="AgregarCarrito" asp-route-id="@item.Id" class="btn btn-success w-100">
                                     Añadir al carrito
                                 </a>

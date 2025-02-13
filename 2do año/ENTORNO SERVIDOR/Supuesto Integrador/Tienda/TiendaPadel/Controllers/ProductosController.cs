@@ -118,7 +118,7 @@ namespace TiendaPadel.Controllers
                 else
                 {
                     // Si no hay imágenes, agregar una por defecto
-                    producto.Imagenes.Add(new ImagenProducto { Url = "sinImagen.jpg" });
+                    producto.Imagenes.Add(new ImagenProducto { Url = "sinImagen.webp" });
                 }
 
                 _context.Add(producto);
@@ -282,6 +282,11 @@ namespace TiendaPadel.Controllers
                 {
                     foreach (var img in producto.Imagenes)
                     {
+                        if (img.Url.Equals("sinImagen.webp", StringComparison.OrdinalIgnoreCase))
+                        {
+                            continue; // Si es "sinImagen.jpg", no la eliminamos y pasamos a la siguiente
+                        }
+
                         string rutaImagen = Path.Combine(_webHostEnvironment.WebRootPath, "imagenes", img.Url);
                         if (System.IO.File.Exists(rutaImagen))
                         {

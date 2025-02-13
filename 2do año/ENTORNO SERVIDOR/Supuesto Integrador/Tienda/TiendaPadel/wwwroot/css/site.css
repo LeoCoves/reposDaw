@@ -35,7 +35,7 @@ a{
     text-decoration: none;
 }
 .cesta-vacia {
-    background-image: url('../imagenes/cestaVacia.jpg'); 
+    background-image: url('../imagenes/cestaVacia.webp'); 
     background-size: contain; 
     background-repeat: no-repeat; 
     background-position: center; 
@@ -44,14 +44,14 @@ a{
 }
 
 .custom-header {
-    background: url('../imagenes/backgroundpadel.jpg');
+    background: url('../imagenes/backgroundpadel.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 600px;
 }
 .custom-cardPala {
-    background: url('../imagenes/categoriaPalas.jpg');
+    background: url('../imagenes/categoriaPalas.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@ a{
         transition-duration: 0.5s;
     }
 .custom-cardPaletero {
-    background: url('../imagenes/categoriasPaletero.jpg');
+    background: url('../imagenes/categoriasPaletero.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@ a{
     }
 
 .custom-cardWomen {
-    background: url('../imagenes/pinktopwomen.jpeg');
+    background: url('../imagenes/pinktopwomen.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@ a{
     }
 
 .custom-cardMen {
-    background: url('../imagenes/polomen.jpeg');
+    background: url('../imagenes/polomen.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -111,7 +111,7 @@ a{
     }
 
 .custom-cardWater {
-    background: url('../imagenes/aguafoton.jpeg');
+    background: url('../imagenes/aguafoton.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -125,7 +125,7 @@ a{
 
 
 .custom-cardShoes {
-    background: url('../imagenes/greenshoes.jpeg');
+    background: url('../imagenes/greenshoes.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -138,7 +138,7 @@ a{
     }
 
 .custom-cardBag {
-    background: url('../imagenes/whitebag.jpeg');
+    background: url('../imagenes/whitebag.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -289,15 +289,3 @@ a.btn-outline-light.text-dark:hover {
 /*FIN
 */
 
-.card {
-    height: 450px; /* Establece una altura fija para todas las cards */
-}
-
-.card-img-top {
-    height: 300px; /* Establece una altura fija para la imagen */
-    object-fit: cover; /* Hace que la imagen se recorte proporcionalmente para llenar el contenedor */
-}
-
-.card-body {
-    height: calc(100% - 200px); /* Ajusta la altura del cuerpo de la card (restando la altura de la imagen) */
-}

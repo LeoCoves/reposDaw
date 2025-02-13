@@ -159,15 +159,12 @@
                                 </div>
                                 <div class="modal-body">
                                     <form enctype="multipart/form-data" asp-action="CambiarImagen" method="post">
-                                        <!-- ID oculto para saber qué producto actualizar -->
                                         <input type="hidden" name="ProductoId" value="@item.Id" />
 
-                                        <!-- Previsualización de la primera imagen -->
                                         <div class="text-center mb-3">
                                             <img id="preview-@item.Id" src="~/imagenes/@(item.Imagenes.FirstOrDefault()?.Url ?? "sinImagen.jpg")" height="150" class="rounded shadow-sm border" />
                                         </div>
 
-                                        <!-- Seleccionar múltiples imágenes -->
                                         <div class="mb-3">
                                             <label class="form-label">Selecciona nuevas imágenes</label>
                                             <input type="file" name="Imagenes" class="form-control" multiple />
@@ -184,12 +181,10 @@
                     </div>
 
 
-                    <!-- Botón Detalles -->
                     <a class="btn btn-outline-dark" asp-action="Details" asp-route-id="@item.Id">
                         <i class="bi bi-eye"></i>
                     </a>
 
-                    <!-- Botón Eliminar -->
                     <a type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#modalEliminar-@item.Id">
                         <i class="bi bi-x-lg"></i>
                     </a>
@@ -205,9 +200,8 @@
                                 <div class="modal-body">
                                     <p>¿Estás seguro de que deseas eliminar este elemento?</p>
 
-                                    <!-- Previsualización de la imagen -->
                                     <div class="text-center mb-3">
-                                        <img id="preview-@item.Id" src="~/imagenes/@(item.Imagenes.First().Url ?? "sinImagen.jpg")" height="150" class="rounded shadow-sm border" />
+                                        <img id="preview-@item.Id" src="~/imagenes/@(item.Imagenes.First().Url ?? "sinImagen.webp")" height="150" class="rounded shadow-sm border" />
                                     </div>
 
                                     <div class="mb-3">
@@ -215,9 +209,7 @@
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <!-- Botón para cancelar -->
                                     <button type="button" class="btn btn-secondary btn-sm rounded-2" data-bs-dismiss="modal">Cancelar</button>
-                                    <!-- Botón para confirmar la eliminación -->
                                     <form asp-action="Delete" method="post">
                                         <input type="hidden" name="id" value="@item.Id" />
                                         <button type="submit" class="btn btn-danger btn-sm rounded-2">Eliminar</button>

@@ -1,0 +1,28 @@
+* body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    padding: 3em;
+
+    .cuadrado{
+        background-color: red;
+        width: 200px;
+        height: 200px;
+
+        .texto{
+            font-size: 12px;
+        }
+
+        .textoGrande{
+            font-size: 30px;
+            transition: 3s;
+        }
+    }
+
+    .cuadrado:hover{
+        width: 600px;
+        transition: 3s;
+    }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen de JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Ejercicio 1: Almacenamiento y Eventos</h2>
+        <p>Completa la función para guardar el nombre en LocalStorage y mostrarlo al recargar la página.</p>
+        <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+        <button onclick="guardarNombre()">Guardar</button>
+        <p id="mensaje"></p>
+
+        <h2>Ejercicio 2: Asincronía</h2>
+        <p>Completa la función para obtener datos ficticios de una API y mostrarlos.</p>
+        <button onclick="obtenerDatos()">Obtener Datos</button>
+        <pre id="resultado"></pre>
+
+        <h2>Ejercicio 3: Manejo de Eventos</h2>
+        <p>Agrega un evento de click que cambie el color del cuadro.</p>
+        <div id="cuadro" style="width:100px; height:100px; background:red;"></div>
+        <button onclick="cambiarColor()">Cambiar Color</button>
+
+        <h2>Ejercicio 4: Promesas</h2>
+        <p>Completa la función para simular una operación asincrónica usando una promesa.</p>
+        <button onclick="ejecutarPromesa()">Ejecutar Promesa</button>
+        <p id="promesaResultado"></p>
+    </div>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>

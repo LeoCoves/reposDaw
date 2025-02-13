@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EJ2</title>
+</head>
+<body>
+    <main>
+        <div class="cuadrado">
+            <p class="texto">Hola, soy leo</p>
+        </div>
+    </main>
+
+    <script>
+        let cuadrado = document.querySelector(".cuadrado");
+        
+        cuadrado.addEventListener("mouseover", function(){
+            let texto = cuadrado.querySelector(".texto");
+            setTimeout(function() {
+                texto.className = "textoGrande";
+            },3000);
+        })
+    </script>
+</body>
+</html>

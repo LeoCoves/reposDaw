@@ -20,7 +20,7 @@
 
 .cart{
     background-color: #fff;
-    padding: 4vh 5vh;
+    padding: 2vh 2vh;
     border-bottom-left-radius: 1rem;
     border-top-left-radius: 1rem;
 }
@@ -61,6 +61,7 @@ img{
 }
 .back-to-shop{
     margin-top: 4.5rem;
+    
 }
 h5{
     margin-top: 4vh;
@@ -109,7 +110,7 @@ input:focus::-webkit-input-placeholder
             <p>Aún no tienes ningún artículo en la cesta, descubre todo lo que tenemos para ti</p>
             <div class="cesta-vacia">
             </div>
-            <div class="back-to-shop"><a asp-controller="Escaparate" asp-action="Index" class="btn btn-primary">Descubrir</a></div>
+            <div class="back-to-shop"><a asp-controller="Escaparate" asp-action="Index" class="btn btn-outline-dark border-0">Descubrir</a></div>
         </div>
     </div>
 }
@@ -212,9 +213,9 @@ else
                                 <div class="row">@item.Producto.Descripcion</div>
                             </div>
                             <div class="col">
-                                <a asp-action="MenosCantidad" asp-route-id="@item.Id" class="btn btn-primary btn-sm">-</a>
+                                <a asp-action="MenosCantidad" asp-route-id="@item.Id" class="btn btn-outline-dark btn-sm">-</a>
                                 @item.Cantidad
-                                <a asp-action="MasCantidad" asp-route-id="@item.Id" class="btn btn-primary btn-sm">+</a>
+                                <a asp-action="MasCantidad" asp-route-id="@item.Id" class="btn btn-outline-dark btn-sm">+</a>
                             </div>
                             <div class="col">@(item.Cantidad * item.Precio) €</div>
                             <div class="col"><a asp-action="EliminarLinea" asp-route-id="@item.Id" class="btn-close"><i class="bi bi-x"></i></a></div>
@@ -222,7 +223,7 @@ else
                     </div>
                 }
 
-                <div class="back-to-shop"><a asp-controller="Escaparate" asp-action="Index" class="btn btn-primary">Seguir Comprando</a></div>
+                <div class="back-to-shop"><a asp-controller="Escaparate" asp-action="Index" class="btn btn-outline-dark">Seguir Comprando</a></div>
             </div>
             <div class="col-md-4 summary">
                 <div><h5><b>Pagar</b></h5></div>
@@ -245,7 +246,9 @@ else
                     <div class="col">PRECIO TOTAL</div>
                     <div class="col text-right">@totalCompra </div>
                 </div>
-                <a asp-action="ConfirmarPedido" asp-route-id="@ViewData["NumPedido"]" class="btn btn-primary">Confirmar Pedido</a>
+                <div class="row">
+                    <a asp-action="ConfirmarPedido" asp-route-id="@ViewData["NumPedido"]" class="btn btn-success border-0">Confirmar Pedido</a>
+                </div>
             </div>
         </div>
 

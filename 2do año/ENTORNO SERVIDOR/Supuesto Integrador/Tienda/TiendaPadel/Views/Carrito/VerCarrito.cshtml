@@ -35,9 +35,9 @@
                     <div class="row">@item.Producto.Descripcion</div>
                 </div>
                 <div class="col d-flex">
-                    <a asp-controller="Carrito" asp-action="MenosCantidad" asp-route-id="@item.Id" class="btn btn-primary btn-sm">-</a>
+                    <a asp-controller="Carrito" asp-action="MenosCantidad" asp-route-id="@item.Id" class="btn btn-outline-dark btn-sm">-</a>
                     @item.Cantidad
-                    <a asp-controller="Carrito" asp-action="MasCantidad" asp-route-id="@item.Id" class="btn btn-primary btn-sm">+</a>
+                    <a asp-controller="Carrito" asp-action="MasCantidad" asp-route-id="@item.Id" class="btn btn-outline-dark btn-sm">+</a>
                 </div>
                 <div class="col d-flex">@(item.Cantidad * item.Precio)€</div>
                 <div class="col"><a asp-controller="Carrito" asp-action="EliminarLinea" asp-route-id="@item.Id" class="btn-close"><i class="bi bi-x"></i></a></div>

@@ -1,0 +1,23 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(210, 205, 205);
+}
+
+main{
+    padding: 4em;
+
+    .input{
+        width: 200px;
+        height: 40px;
+        border-radius: 0px;
+        background-color: white;
+    }
+
+    .input:hover{
+        border-radius: 15px;
+        background-color: aquamarine;
+        box-shadow: 5px 14px 57px 0px rgba(65,43,204,1);
+        transition: 1s;
+    }
+}

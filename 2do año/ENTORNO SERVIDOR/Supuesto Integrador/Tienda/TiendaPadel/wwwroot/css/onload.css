@@ -1,0 +1,24 @@
+﻿.typewriter {
+    display: inline-block;
+    border-right: 2px solid #000; /* Cursor estilo máquina de escribir */
+    white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
+    overflow: hidden; /* Oculta el contenido sobrante */
+    width: 0; /* Empieza desde un ancho de 0 */
+    animation: typing 2s steps(9, end) forwards, blink-caret 0.5s step-end infinite; /* 9 pasos para 9 caracteres */
+}
+
+@keyframes typing {
+    from {
+        width: 0; /* Comienza desde un ancho de 0 */
+    }
+
+    to {
+        width: 9ch; /* Muestra 9 caracteres (1ch por cada carácter) */
+    }
+}
+
+@keyframes blink-caret {
+    50% {
+        border-color: transparent; /* Parpadeo del cursor */
+    }
+}

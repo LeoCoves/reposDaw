@@ -7,6 +7,22 @@
 
 <head>
     <link rel="stylesheet" href="~/css/carousel.css" asp-append-version="true">
+    <style>
+        .card {
+            height: 500px; /* Establece una altura fija para todas las cards */
+        }
+
+        .card-img-top {
+            height: 350px; /* Establece una altura fija para la imagen */
+            object-fit: cover; /* Hace que la imagen se recorte proporcionalmente para llenar el contenedor */
+        }
+
+        .card-body {
+            height: calc(100% - 200px); /* Ajusta la altura del cuerpo de la card (restando la altura de la imagen) */
+        }
+
+    </style>
+
 </head>
 
 <div class="p-1">
@@ -28,7 +44,7 @@
                     else
                     {
                         <div class="carousel-item active">
-                            <img src="~/imagenes/sinImagen.jpg" class="d-block w-100" alt="Sin imagen disponible">
+                            <img src="~/imagenes/sinImagen.webp" class="d-block w-100" alt="Sin imagen disponible">
                         </div>
                     }
                 </div>
@@ -49,7 +65,7 @@
             else
             {
                 <div class="col-12">
-                    <img src="~/imagenes/sinImagen.jpg" class="rounded-2 w-100" alt="Sin imagen disponible" />
+                    <img src="~/imagenes/sinImagen.webp" class="rounded-2 w-100" alt="Sin imagen disponible" />
                 </div>
             }
         </div>
