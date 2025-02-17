@@ -28,7 +28,6 @@ namespace TiendaPadel.Controllers
                           select s;
 
             var categorias = await _context.Categorias
-                .OrderBy(c => c.Descripcion)
                 .ToListAsync();
 
             ViewData["Categorias"] = categorias;

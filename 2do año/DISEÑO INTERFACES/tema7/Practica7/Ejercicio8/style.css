@@ -1,0 +1,37 @@
+body{
+    background: url(img/carretera.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+}
+
+
+img{
+    width: 6em;
+    margin-top: 26em;
+}
+
+.b-avanzar {
+    animation-name: animacion-avanzarFrenar;
+    animation-duration: 5s;
+    animation-timing-function: cubic-bezier(0.1, 0.7, 0.1, 1); 
+  }
+  
+  /* Dentro de @keyframes definimos cada uno de los "fotogramas" que queremos que tenga la animación. */
+   
+  @keyframes animacion-avanzarFrenar {
+    0% {
+        transform: translate3d(0);
+    }
+     
+    100% {
+      transform: translate3d(1400px,0px,100px);
+    }  
+     
+  }

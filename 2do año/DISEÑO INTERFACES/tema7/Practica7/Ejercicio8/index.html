@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EJ8</title>
+</head>
+<body>
+
+    <div>
+        <button id="animar" type="button">Boton</button>
+    </div>
+
+    <img id="coche" class="coche"  src="img/coche.png" alt="Coche">
+    <script>
+        document.getElementById("animar").addEventListener("click", function(){
+            var coche = document.getElementById("coche");
+            coche.classList.add("b-avanzar");
+            setTimeout(function() {
+                coche.classList.remove("b-avanzar");
+            },5000);
+        })
+        
+    </script>
+</body>
+</html>
