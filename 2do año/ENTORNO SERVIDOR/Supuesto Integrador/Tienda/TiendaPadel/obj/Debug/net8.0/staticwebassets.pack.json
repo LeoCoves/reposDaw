@@ -21,22 +21,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\43-05578dce-5a28-4336-8473-5ed88998dc13.webp",
-      "PackagePath": "staticwebassets\\imagenes\\43-05578dce-5a28-4336-8473-5ed88998dc13.webp"
-    },
-    {
-      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\43-979bac04-3cdc-4196-a46c-9f3684ba84ff.webp",
-      "PackagePath": "staticwebassets\\imagenes\\43-979bac04-3cdc-4196-a46c-9f3684ba84ff.webp"
-    },
-    {
-      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\43-e3d9ff53-9721-4784-81ee-7520e9722535.webp",
-      "PackagePath": "staticwebassets\\imagenes\\43-e3d9ff53-9721-4784-81ee-7520e9722535.webp"
-    },
-    {
-      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\43-fe455e0f-045b-40ab-9517-2fe80866b37f.webp",
-      "PackagePath": "staticwebassets\\imagenes\\43-fe455e0f-045b-40ab-9517-2fe80866b37f.webp"
-    },
-    {
       "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\accesoriosAgua.webp",
       "PackagePath": "staticwebassets\\imagenes\\accesoriosAgua.webp"
     },
@@ -51,14 +35,6 @@
     {
       "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\blackbag.webp",
       "PackagePath": "staticwebassets\\imagenes\\blackbag.webp"
-    },
-    {
-      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\blacktopwomen.webp",
-      "PackagePath": "staticwebassets\\imagenes\\blacktopwomen.webp"
-    },
-    {
-      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\brownshoes.webp",
-      "PackagePath": "staticwebassets\\imagenes\\brownshoes.webp"
     },
     {
       "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\categoriaAccesorios.webp",
@@ -85,20 +61,680 @@
       "PackagePath": "staticwebassets\\imagenes\\greenshoes.webp"
     },
     {
-      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\pinkshoes.webp",
-      "PackagePath": "staticwebassets\\imagenes\\pinkshoes.webp"
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila1-1.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila1-1.webp"
     },
     {
-      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\pinktopwomen.webp",
-      "PackagePath": "staticwebassets\\imagenes\\pinktopwomen.webp"
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila1-2.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila1-2.webp"
     },
     {
-      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\polomen.webp",
-      "PackagePath": "staticwebassets\\imagenes\\polomen.webp"
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila1-3.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila1-3.webp"
     },
     {
-      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\redshoes.webp",
-      "PackagePath": "staticwebassets\\imagenes\\redshoes.webp"
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila1-4.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila1-4.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila2-1.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila2-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila2-2.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila2-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila2-3.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila2-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila2-4.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila2-4.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila3-1.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila3-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila3-2.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila3-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila3-3.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila3-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila3-4.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila3-4.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila4-1.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila4-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila4-2.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila4-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila4-3.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila4-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila4-4.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila4-4.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila5-1.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila5-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila5-2.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila5-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila5-3.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila5-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila5-4.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila5-4.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila6-1.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila6-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila6-2.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila6-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\mochila6-3.webp",
+      "PackagePath": "staticwebassets\\imagenes\\mochila6-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod1-1INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod1-1INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod1-1PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod1-1PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod1-1PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod1-1PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod1-2INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod1-2INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod1-2PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod1-2PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod1-2PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod1-2PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod1-3INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod1-3INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod1-3PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod1-3PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod1-3PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod1-3PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod1-4INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod1-4INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod1-4PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod1-4PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod10-1INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod10-1INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod10-1PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod10-1PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod10-2INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod10-2INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod10-3INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod10-3INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod10-4INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod10-4INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod11-1INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod11-1INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod11-1PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod11-1PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod11-2INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod11-2INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod11-2PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod11-2PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod11-3INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod11-3INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod11-3PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod11-3PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod11-4PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod11-4PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod12-1PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod12-1PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod12-2PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod12-2PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod12-3PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod12-3PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod12-4PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod12-4PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod13-1PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod13-1PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod13-2PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod13-2PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod13-3PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod13-3PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod13-4PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod13-4PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod14-1PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod14-1PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod14-2PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod14-2PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod14-3PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod14-3PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod14-4PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod14-4PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod15-1PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod15-1PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod15-2PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod15-2PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod15-3PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod15-3PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod16-1PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod16-1PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod16-2PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod16-2PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod16-3PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod16-3PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod16-4PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod16-4PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod17-1PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod17-1PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod17-2PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod17-2PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod17-3PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod17-3PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod17-4PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod17-4PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod18-1PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod18-1PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod18-2PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod18-2PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod18-3PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod18-3PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod18-4PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod18-4PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod19-1PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod19-1PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod19-2PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod19-2PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod19-3PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod19-3PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod19-4PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod19-4PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod2-1INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod2-1INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod2-1PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod2-1PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod2-1PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod2-1PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod2-2INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod2-2INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod2-2PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod2-2PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod2-2PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod2-2PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod2-3INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod2-3INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod2-3PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod2-3PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod2-3PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod2-3PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod2-4INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod2-4INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod2-4PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod2-4PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod20-1PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod20-1PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod20-2PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod20-2PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod20-3PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod20-3PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod20-4PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod20-4PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod3-1INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod3-1INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod3-1PRIN.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod3-1PRIN.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod3-1PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod3-1PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod3-2INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod3-2INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod3-2PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod3-2PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod3-2PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod3-2PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod3-3INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod3-3INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod3-3PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod3-3PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod3-3PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod3-3PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod3-4INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod3-4INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod3-4PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod3-4PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod3-4PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod3-4PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod4-1INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod4-1INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod4-1PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod4-1PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod4-1PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod4-1PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod4-2INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod4-2INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod4-2PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod4-2PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod4-2PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod4-2PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod4-3INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod4-3INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod4-3PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod4-3PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod4-3PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod4-3PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod4-4INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod4-4INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod4-4PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod4-4PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod4-4PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod4-4PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod5-1INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod5-1INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod5-1PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod5-1PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod5-1PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod5-1PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod5-2INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod5-2INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod5-2PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod5-2PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod5-2PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod5-2PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod5-3INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod5-3INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod5-3PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod5-3PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod5-3PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod5-3PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod5-4INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod5-4INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod5-4PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod5-4PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod5-4PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod5-4PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod6-1INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod6-1INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod6-1PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod6-1PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod6-1PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod6-1PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod6-2INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod6-2INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod6-2PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod6-2PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod6-2PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod6-2PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod6-3INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod6-3INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod6-3PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod6-3PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod6-3PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod6-3PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod6-4INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod6-4INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod7-1INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod7-1INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod7-1PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod7-1PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod7-1PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod7-1PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod7-2INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod7-2INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod7-2PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod7-2PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod7-3INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod7-3INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod7-3PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod7-3PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod7-4INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod7-4INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod7-4PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod7-4PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod8-1INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod8-1INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod8-1PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod8-1PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod8-1PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod8-1PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod8-2INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod8-2INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod8-2PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod8-2PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod8-2PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod8-2PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod8-3INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod8-3INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod8-3PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod8-3PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod8-3PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod8-3PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod8-4PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod8-4PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod9-1INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod9-1INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod9-1PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod9-1PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod9-1PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod9-1PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod9-2INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod9-2INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod9-2PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod9-2PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod9-2PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod9-2PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod9-3INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod9-3INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod9-3PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod9-3PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod9-3PRO.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod9-3PRO.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod9-4INTER.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod9-4INTER.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\prod9-4PRINC.webp",
+      "PackagePath": "staticwebassets\\imagenes\\prod9-4PRINC.webp"
+    },
+    {
+      "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\raquetaEspecial.webp",
+      "PackagePath": "staticwebassets\\imagenes\\raquetaEspecial.webp"
     },
     {
       "Id": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do año\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\imagenes\\sinImagen.webp",
