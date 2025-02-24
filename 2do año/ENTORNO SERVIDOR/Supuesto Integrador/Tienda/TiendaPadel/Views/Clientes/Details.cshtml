@@ -9,45 +9,48 @@
     <h1><i class="bi bi-people"></i> Detalles del Cliente</h1>
 </div>
 
-<div class="card bg-dark p-5 my-4">
-    <div class="card-body row g-3 text-light">
-        <div class="row">
-            <div class="col-md-6 col-12 scrollable">
-                <div class="d-flex justify-content-between my-1">
-                    <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2">Nombre</span>
-                    <p class="col-md-3">@Model.Nombre</p>
+<div class="rounded-3 bg-light shadow-sm p-5 my-4">
+    <div class="row g-3">
+        <h2 class="text-center">
+            <i class="bi bi-people text-center"></i>
+        </h2>
+        <div class="row justify-content-between">
+            <div class="col-sm-5 col-12 scrollable">
+                <div class="text-center my-4">
+                    <span class="w-100 badge rounded-pill bg-dark text-light col-md-2 align-self-center p-2">Nombre</span>
+                    <p class="my-2">@Model.Nombre</p>
                 </div>
-                <div class="d-flex justify-content-between my-1">
-                    <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2">NIF</span>
-                    <p class="col-md-4">@Model.Nif</p>
+                <div class="text-center my-4">
+                    <span class="w-100 badge rounded-pill bg-dark text-light col-md-2 align-self-center p-2">NIF</span>
+                    <p class="my-2">@Model.Nif</p>
                 </div>
-                <div class="d-flex justify-content-between my-1">
-                    <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2">Email</span>
-                    <p class="col-md-4">@Model.Email</p>
+                <div class="text-center my-4">
+                    <span class="w-100 badge rounded-pill bg-dark text-light col-md-2 align-self-center p-2">Email</span>
+                    <p class="my-2">@Model.Email</p>
                 </div>
-                <div class="d-flex justify-content-between my-1">
-                    <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2">Telefono</span>
-                    <p class="col-md-4">@Model.Telefono</p>
+                <div class="text-center my-4">
+                    <span class="w-100 badge rounded-pill bg-dark text-light col-md-2 align-self-center p-2">Telefono</span>
+                    <p class="my-2">@Model.Telefono</p>
                 </div>
             </div>
 
-            <div class="col-md-6 col-12">
-                <div class="d-flex justify-content-between my-1">
-                    <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2">Poblacion</span>
-                    <p class="col-md-4">@Model.Poblacion</p>
+            <div class="col-sm-5 col-12">
+                <div class="text-center my-4">
+                    <span class="w-100 badge rounded-pill bg-dark text-light col-md-2 align-self-center p-2">Poblacion</span>
+                    <p class="my-2">@Model.Poblacion</p>
                 </div>
-                <div class="d-flex justify-content-between my-1">
-                    <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2">Codigo Postal</span>
-                    <p class="col-md-4">@Model.CodigoPostal</p>
+                <div class="text-center my-4">
+                    <span class="w-100 badge rounded-pill bg-dark text-light col-md-2 align-self-center p-2">Codigo Postal</span>
+                    <p class="my-2" >@Model.CodigoPostal</p>
                 </div>
-                <div class="d-flex justify-content-between my-1">
-                    <span class="badge rounded-pill bg-light text-dark col-md-2 align-self-center p-2">Direccion</span>
-                    <p class="col-md-4">@Model.Direccion</p>
+                <div class="text-center my-4">
+                    <span class="w-100 badge rounded-pill bg-dark text-light col-md-2 align-self-center p-2">Direccion</span>
+                    <p class="my-2">@Model.Direccion</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="card-footer d-flex justify-content-center">
+    <div class="d-flex justify-content-center">
         <div class="btn-group col-4">
             <a class="btn btn-outline-primary" asp-action="Index">Volver</a>
             <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.Id">Editar</a>

@@ -20,8 +20,8 @@
 
 @* Agregar un cuadro de búsqueda en la vista Index de Avisos *@
 <form asp-action="Index">
-    <div class="card bg-dark my-5">
-        <div class="card-body text-center d-flex flex-wrap justify-content-around">
+    <div class="rounded-2 bg-dark my-5 p-3">
+        <div class="text-center d-flex flex-wrap justify-content-around">
             <div class="col-md-3 my-1 form-floating">
                 <input type="text" name="strCadenaBusqueda" id="floatingInput"
                        value="@ViewData["BusquedaActual"]" class="form-control" />
@@ -40,7 +40,7 @@
                 </select>
             </div>
         </div>
-        <div class="card-footer d-flex justify-content-end">
+        <div class="d-flex justify-content-end">
             <div class="col-md-2 btn-group mx-2">
                 <button type="submit" value="Buscar" class="btn btn-outline-light"><i class="bi bi-search"></i></button>
                 <a asp-action="Index" class="btn btn-outline-light">Ver todo</a>
@@ -140,12 +140,12 @@
             </td>
                 <td>
                     <!-- Botón Editar -->
-                    <a class="btn btn-outline-dark" asp-action="Edit" asp-route-id="@item.Id">
+                    <a class="btn btn-outline-dark m-1" asp-action="Edit" asp-route-id="@item.Id">
                         <i class="bi bi-pencil-square"></i>
                     </a>
 
                     <!-- Botón para abrir el modal de cambio de imagen -->
-                    <a type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modalCambiarImagen-@item.Id">
+                    <a type="button" class="btn btn-outline-dark m-1" data-bs-toggle="modal" data-bs-target="#modalCambiarImagen-@item.Id">
                         <i class="bi bi-images"></i>
                     </a>
 
@@ -181,11 +181,11 @@
                     </div>
 
 
-                    <a class="btn btn-outline-dark" asp-action="Details" asp-route-id="@item.Id">
+                    <a class="btn btn-outline-dark m-1" asp-action="Details" asp-route-id="@item.Id">
                         <i class="bi bi-eye"></i>
                     </a>
 
-                    <a type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#modalEliminar-@item.Id">
+                    <a type="button" class="btn btn-outline-danger m-1" data-bs-toggle="modal" data-bs-target="#modalEliminar-@item.Id">
                         <i class="bi bi-x-lg"></i>
                     </a>
 
@@ -245,3 +245,4 @@
         </a>
     </div>
 </div>
+

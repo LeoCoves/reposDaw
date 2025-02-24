@@ -3,41 +3,56 @@
     ViewData["Title"] = "Escaparate";
     var categorias = ViewData["Categorias"] as IEnumerable<TiendaPadel.Models.Categoria>;
     var openCarrito = ViewData["OpenCarrito"] != null && (bool)ViewData["OpenCarrito"];
+    var selectedCategory = ViewData["SelectedCategory"] as string;  // Tomar la categoría seleccionada desde ViewData
+    var selectedOrderBy = ViewData["SelectedOrderBy"] as string;  // Tomar el valor de "orderBy"
 }
 
-<style>
-    .card {
-        height: 500px; /* Establece una altura fija para todas las cards */
-    }
-
-    .card-img-top {
-        height: 350px; /* Establece una altura fija para la imagen */
-        object-fit: cover; /* Hace que la imagen se recorte proporcionalmente para llenar el contenedor */
-    }
-
-    .card-body {
-        height: calc(100% - 200px); /* Ajusta la altura del cuerpo de la card (restando la altura de la imagen) */
-    }
-
-</style>
 
 
 
-        <div class="container">
-    <h3 class="fuente-editorial">CATEGORIAS</h3>
-                <a class="btn btn-outline-dark m-1" asp-action="Index" asp-route-idCategoria="">
-                    Quitar filtros
-                </a>
-            @if (categorias != null)
+@if (TempData["PedidoRealizado"] != null)
+{
+    <div id="alerta" class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["PedidoRealizado"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="container d-flex justify-content-between flex-wrap">
+    <div class="col-sm-8 col-12">
+        <h3 class="fuente-editorial">CATEGORIAS</h3>
+        <a class="btn btn-outline-dark m-1" asp-action="Index" asp-route-idCategoria="">
+            Quitar filtros
+        </a>
+        @if (categorias != null)
+        {
+            foreach (var categoria in categorias)
             {
-                foreach (var categoria in categorias)
-                {
-                        <a class="btn btn-outline-dark m-1" asp-action="Index" asp-route-idCategoria="@categoria.Id">
-                            @categoria.Descripcion
-                        </a>
-                }
+                <a class="btn btn-outline-dark m-1" href="/Escaparate/Index?idCategoria=@categoria.Id"
+                   class="@(selectedCategory == categoria.Id.ToString() ? "btn btn-dark" : "")">
+                    @categoria.Descripcion
+                </a>
             }
-        </div>
+        }
+    </div>
+
+    <div class="col-sm-2 col-4 align-self-end my-4">
+        <form method="get" action="/Escaparate/Index">
+            <label for="orderBy">Ordenar por:</label>
+            <select name="orderBy" id="orderBy" onchange="this.form.submit()" class="form-select">
+                <option value="" selected>Relevancia</option>
+                <option value="nombre">Nombre</option>
+                <option value="precioAsc">Precio (de menor a mayor)</option>
+                <option value="precioDesc">Precio (de mayor a menor)</option>
+                <option value="stock">Ultimas unidades</option>
+            </select>
+            @if (!string.IsNullOrEmpty(selectedCategory))
+            {
+                <input type="hidden" name="idCategoria" value="@selectedCategory" />
+            }
+        </form>
+    </div>
+</div>
 
 
 <div class="container-custom mt-5">
@@ -69,10 +84,13 @@
                         }
 
 
-                        <div class="card-body p-3">
+                        <div class="card-body d-flex flex-column p-3">
                             <div class="text-start">
-                                <h5 class="card-title mb-1">@item.Descripcion</h5>
+                                <p class="card-title mb-1">@item.Descripcion</p>
                                 <p class="card-text mb-1 fw-bold">@item.Precio.ToString("0.00")€</p>
+
+                            </div>
+                            <div class="mt-auto">
                                 <a asp-controller="Escaparate" asp-action="AgregarCarrito" asp-route-id="@item.Id" class="btn btn-success w-100">
                                     Añadir al carrito
                                 </a>
@@ -92,16 +110,19 @@
     var nextDisabled = !Model.HasNextPage ? "disabled" : "";
 }
 <div class="btn-group text-center w-20 justify-content-center" role="group">
-    <a asp-action="Index" asp-route-pageNumber="@(Model.PageIndex - 1)"
-       class="btn btn-outline-secondary @prevDisabled">
-        Anterior
-    </a>
+    <a class="btn btn-outline-secondary @prevDisabled" href="/Escaparate/Index?idCategoria=@selectedCategory&orderBy=@selectedOrderBy&pageNumber=@(Model.PageIndex - 1)">Anterior</a>
     <button class="btn btn-dark text-light">@Model.PageIndex</button>
-    <a asp-action="Index" asp-route-pageNumber="@(Model.PageIndex + 1)"
-       class="btn btn-outline-secondary @nextDisabled">
-        Siguiente
-    </a>
+    <a class="btn btn-outline-secondary @nextDisabled" href="/Escaparate/Index?idCategoria=@selectedCategory&orderBy=@selectedOrderBy&pageNumber=@(Model.PageIndex + 1)">Siguiente</a>
 </div>
+
+<script>
+    setTimeout(function () {
+        var alerta = document.getElementById("alerta");
+        if (alerta) {
+            alerta.style.display = "none";
+        }
+    }, 3000);
+</script>
 
 
 

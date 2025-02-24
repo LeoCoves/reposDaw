@@ -118,13 +118,7 @@ namespace TiendaPadel.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            // Obtener los detalles relacionados con el pedido
-            var detalles = _context.Detalles.Where(d => d.PedidoId == id);
-
-            // Eliminar los detalles
-            _context.Detalles.RemoveRange(detalles);
-
-            // Obtener el pedido
+            
             var pedido = await _context.Pedidos.FindAsync(id);
 
             if (pedido != null)
@@ -136,21 +130,19 @@ namespace TiendaPadel.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        // Acción para volver a agregar un pedido al carrito
+        
         public async Task<IActionResult> VolverACarrito(int id)
         {
-            // Buscar el pedido y sus detalles
             var pedido = await _context.Pedidos
-                .Include(p => p.Detalles) // Incluir los detalles del pedido
-                .ThenInclude(d => d.Producto) // Si necesitas incluir información del producto
+                .Include(p => p.Detalles) 
+                .ThenInclude(d => d.Producto) 
                 .FirstOrDefaultAsync(p => p.Id == id);
 
             if (pedido == null)
             {
-                return NotFound(); // Si el pedido no existe, devolvemos un error
+                return NotFound(); 
             }
 
-            // Crear una lista para pasar los productos al carrito
             var productosCarrito = pedido.Detalles.Select(detalle => new
             {
                 ProductoId = detalle.ProductoId,

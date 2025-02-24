@@ -9,8 +9,8 @@
 </div>
 
 
-<div class="card box-shadow my-4">
-    <div class="card-body row g-3">
+<div class="rounded-2 box-shadow my-4 p-3">
+    <div class="row g-3">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <div class="col-12 text-center">
             <span class="badge rounded-pill bg-dark text-light col-md-2 align-self-center p-2">Fecha</span>
@@ -51,7 +51,7 @@
             </div>
         }
     </div>
-    <div class="card-footer bg-dark text-light">
+    <div class="rounded-2 my-2 p-2 bg-dark text-light">
         @{
             var contador = 0;
         }
@@ -70,7 +70,7 @@
             {
                 foreach (var item in Model.Detalles)
                 {
-                    <div class="card bg-light text-dark my-3">
+                    <div class="rounded-2 bg-light text-dark m-3 p-3">
                         <div class="row">
                             
                             <div class="col-sm-2 col-12 p-4">
@@ -89,8 +89,8 @@
                                 <p>@item.Descuento %</p>
                             </div>
                             <div class="col-sm-2 col-12 text-center align-self-center">
-                                <div class="d-print-none">
-                                    <a asp-action="AgregarCarrito" asp-controller="Escaparate" asp-route-id="@item.ProductoId" class="btn btn-outline-dark"><i class="bi bi-eye"></i></a>
+                                <div class="d-print-none m-3">
+                                    <a asp-action="AgregarCarrito" asp-controller="Escaparate" asp-route-id="@item.ProductoId" class="btn btn-dark w-100">Ver</a>
                                 </div>
                             </div>
                         </div>
@@ -106,9 +106,9 @@
             }
         </div>
 
-        <div class="row my-4 d-flex justify-content-center">
+        <div class="row p-4 d-flex justify-content-center">
             <p class="text-center my-5">Número de productos: @contador </p>
-            <div class="btn-group col-sm-4">
+            <div class="btn-group col-sm-4 p-5 m-3">
                 <a class="btn btn-outline-primary" asp-action="Index">Volver</a>
                 @if (Model.Estado.Descripcion == "Pendiente")
                 {

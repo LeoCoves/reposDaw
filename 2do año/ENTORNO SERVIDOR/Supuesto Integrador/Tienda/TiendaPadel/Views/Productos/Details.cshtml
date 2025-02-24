@@ -12,10 +12,35 @@
     <h1><i class="bi bi-box-seam"></i> Detalles del Producto</h1>
 </div>
 
-<div class="card bg-dark p-5 my-4">
-    <div class="card-body row g-3 text-light">
+<div class="rounded-2 p-5 my-4">
+    <div class="row g-3">
         <div class="row">
-            <div class="col-sm-8 d-flex flex-wrap">
+            <div class="col-12 mostrar-en-movil">
+                <div class="carousel-container" id="carouselContainer">
+                    <div class="carousel-track" id="carouselTrack">
+                        @if (Model.Imagenes != null && Model.Imagenes.Any())
+                        {
+                            var first = true;
+                            foreach (var imagen in Model.Imagenes)
+                            {
+                                <div class="carousel-item @(first ? "active" : "")">
+                                    <img src="~/imagenes/@imagen.Url" class="d-block w-100" alt="Imagen del producto de @Model.Descripcion">
+                                </div>
+                                first = false;
+                            }
+                        }
+                        else
+                        {
+                            <div class="carousel-item active">
+                                <img src="~/imagenes/sinImagen.webp" class="d-block w-100" alt="Sin imagen disponible">
+                            </div>
+                        }
+                    </div>
+                    <div class="text-end justify-content-end scroll-indicator"><i class="bi bi-arrow-down"></i></div>
+                </div>
+            </div>
+
+            <div class="col-sm-8 col-12 d-flex flex-wrap ocultar-en-movil">
                 @if (Model.Imagenes != null && Model.Imagenes.Any())
                 {
                     foreach (var imagen in Model.Imagenes)
@@ -27,22 +52,22 @@
                 }
                 else
                 {
-                    <div class="col-sm-8">
+                    <div class="col-12">
                         <img src="~/imagenes/sinImagen.webp" class="rounded-2 w-100" alt="Sin imagen disponible" />
                     </div>
                 }
             </div>
 
-            <div class="col-sm-4 col-12">
+            <div class="rounded-2 shadow-sm col-sm-4 col-12 p-5">
                 <h3 class="pb-3">@Model.Descripcion</h3>
-                <h4 class="pb-3">@Model.Texto</h4>
-                <h4 class="pb-3">Precio: <strong>@Model.Precio €</strong></h4>
-                <h4 class="pb-3">Stock: <strong>@Model.Stock ud</strong></h4>
-                <h4 class="pb-3">Categoria: @Model.Categoria.Descripcion</h4>
+                <p class="pb-3">@Model.Texto</p>
+                <p class="pb-3">Precio: <strong>@Model.Precio €</strong></p>
+                <p class="pb-3">Stock: <strong>@Model.Stock ud</strong></p>
+                <p class="pb-3">Categoria: @Model.Categoria.Descripcion</p>
             </div>
         </div>
     </div>                
-    <div class="card-footer d-flex justify-content-center">
+    <div class=" my-2 d-flex justify-content-center">
         <div class="btn-group col-4">
             <a class="btn btn-outline-primary" asp-action="Index">Volver</a>
             <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.Id">Editar</a>

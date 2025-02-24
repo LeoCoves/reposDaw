@@ -12,8 +12,8 @@
 
 @* Agregar un cuadro de búsqueda en la vista Index de Avisos *@
 <form asp-action="Index">
-    <div class="card bg-dark my-5 ">
-        <div class="card-body text-center d-flex flex-wrap justify-content-around">
+    <div class="rounded-2 bg-dark my-5 p-3">
+        <div class="text-center d-flex flex-wrap justify-content-around">
             <div class="col-md-3 my-1 form-floating">
                 <input type="date" name="fecha" class="form-control" id="floatingInput"
                        value="@ViewData["BusquedaFecha"]" />
@@ -33,7 +33,7 @@
             </div>
         </div>
 
-        <div class="card-footer d-flex justify-content-end">
+        <div class=" d-flex justify-content-end">
             <div class="col-md-2 btn-group mx-2">
                 <button type="submit" value="Buscar" class="btn btn-outline-light"><i class="bi bi-search"></i></button>
                 <a asp-action="Index" class="btn btn-outline-light">Ver todo</a>
@@ -85,10 +85,11 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Fecha)
+                <span class="badge rounded-pill bg-dark text-light align-self-center p-2 w-100">@Html.DisplayFor(modelItem => item.Fecha)</span>
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Confirmado)
+                <span class="badge rounded-pill bg-success text-dark align-self-center p-2 w-100">@Html.DisplayFor(modelItem => item.Confirmado)</span>
+                
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Preparado)
@@ -103,7 +104,7 @@
                 @Html.DisplayFor(modelItem => item.Devuelto)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Anulado)
+                <span class="badge rounded-pill bg-danger text-dark  align-self-center p-2 w-100">@Html.DisplayFor(modelItem => item.Anulado)</span
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Cliente.Nombre)
@@ -112,9 +113,9 @@
                 @Html.DisplayFor(modelItem => item.Estado.Descripcion)
             </td>
             <td>
-                    <a class="btn btn-outline-dark" asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil-square"></i></a>
-                    <a class="btn btn-outline-dark" asp-action="Details" asp-route-id="@item.Id"><i class="bi bi-eye"></i></a>
-                    <a type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#modalEliminar-@item.Id">
+                    <a class="btn btn-outline-dark m-1" asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil-square"></i></a>
+                    <a class="btn btn-outline-dark m-1" asp-action="Details" asp-route-id="@item.Id"><i class="bi bi-eye"></i></a>
+                    <a type="button" class="btn btn-outline-danger m-1" data-bs-toggle="modal" data-bs-target="#modalEliminar-@item.Id">
                         <i class="bi bi-x-lg"></i>
                     </a>
 

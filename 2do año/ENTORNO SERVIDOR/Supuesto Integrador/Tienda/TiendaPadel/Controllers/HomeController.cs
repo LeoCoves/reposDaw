@@ -39,7 +39,7 @@ namespace TiendaPadel.Controllers
                 .Include(e => e.Categoria)
                 .Include(e => e.Imagenes)
                 .OrderByDescending(p => p.Id) // Ordenar por ID en orden descendente
-                .Take(20) // Tomar los 16 primeros
+                .Take(15) // Tomar los 15 primeros
                 .ToListAsync();
 
             return View(productosRecientes); // Pasar los productos a la vista

@@ -8,8 +8,8 @@
 
 @* Agregar un cuadro de búsqueda en la vista Index de Avisos *@
 <form asp-action="Index">
-    <div class="card bg-dark my-5 ">
-        <div class="card-body text-center d-flex flex-wrap justify-content-around">
+    <div class="rounded-2 bg-dark my-5 p-3">
+        <div class="text-center d-flex flex-wrap justify-content-around">
             <div class="col-md-3 my-1 form-floating">
                 <input type="date" name="fecha" class="form-control" id="floatingInput"
                        value="@ViewData["BusquedaFecha"]" />
@@ -25,7 +25,7 @@
 
 
         </div>
-        <div class="card-footer d-flex justify-content-end">
+        <div class="d-flex justify-content-end">
             <div class="col-md-2 btn-group text-end">
                 <button type="submit" value="Buscar" class="btn btn-outline-light"><i class="bi bi-search"></i></button>
                 <a asp-action="Index" class="btn btn-outline-light">Ver todo</a>
@@ -45,7 +45,6 @@
                 Estado
             </th>
             <th></th>
-            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -58,15 +57,48 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Estado.Descripcion)
                 </td>
-                <td>
-                    <a class="btn btn-outline-dark" asp-action="Details" asp-route-id="@item.Id"><i class="bi bi-eye"></i></a>
-                </td>
-                <td>
+                <td class="text-end">
+                    
                     @if (item.Estado.Descripcion == "Pendiente")
                     {
-                        <a asp-controller="Carrito" asp-action="Index" asp-route-id="@item.Id" class="btn btn-outline-success"><i class="bi bi-bag"></i></a>
-                        <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id"><i class="bi bi-x-lg"></i></a>
+
+                        <a asp-controller="Carrito" asp-action="Index" asp-route-id="@item.Id" class="btn btn-success m-1">Comprar</a>
+                        <a type="button" class="btn btn-danger m-1" data-bs-toggle="modal" data-bs-target="#modalEliminar-@item.Id">
+                            Anular
+                        </a>
+
+
+                        <div class="modal fade" id="modalEliminar-@item.Id" tabindex="-1" aria-labelledby="modalEliminarLabel-@item.Id" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="modalEliminarLabel-@item.Id">Confirmar Anulacion</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>¿Estás seguro de que deseas anular este pedido?</p>
+
+                                        <div class="text-center mb-3">
+                                            <h4>Pedido nº @item.Id</h4>
+                                            <hr />
+                                            <div>
+                                                <p>Usuario @item.Cliente.Nombre</p>
+                                                <p>@item.Cliente.Email</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary btn-sm rounded-2" data-bs-dismiss="modal">Cancelar</button>
+                                        <form asp-action="Delete" method="post">
+                                            <input type="hidden" name="id" value="@item.Id" />
+                                            <button type="submit" class="btn btn-danger btn-sm rounded-2">Eliminar</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     }
+                    <a class="btn btn-dark m-1" asp-action="Details" asp-route-id="@item.Id">Detalles</a>
                 </td>
                
             </tr>

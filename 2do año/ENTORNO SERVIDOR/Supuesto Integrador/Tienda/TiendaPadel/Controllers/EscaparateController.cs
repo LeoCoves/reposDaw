@@ -17,7 +17,7 @@ namespace TiendaPadel.Controllers
         {
             _context = context;
         }
-        public async Task<IActionResult> Index(int? idCategoria, int? pageNumber)
+        public async Task<IActionResult> Index(int? idCategoria, int? pageNumber, string? orderBy)
         {
             // Cargar datos de Pedidos
             var productos = from s in _context.Productos
@@ -32,11 +32,35 @@ namespace TiendaPadel.Controllers
 
             ViewData["Categorias"] = categorias;
 
+            ViewData["SelectedCategory"] = idCategoria?.ToString();
+            ViewData["SelectedOrderBy"] = orderBy;
+
+            // Filtrar por una sola categoría si se pasa el parámetro idCategoria
             if (idCategoria.HasValue)
             {
                 productos = productos.Where(p => p.CategoriaId == idCategoria.Value);
             }
 
+            // Ordenar según el valor de "orderBy"
+            switch (orderBy)
+            {
+                case "":
+                    productos = productos.OrderByDescending(p => p.Id); 
+                    break;
+                case "nombre":
+                    productos = productos.OrderBy(p => p.Descripcion);
+                    break;
+                case "precioAsc":
+                    productos = productos.OrderBy(p => p.Precio);
+                    break;
+                case "precioDesc":
+                    productos = productos.OrderByDescending(p => p.Precio);
+                    break;
+                case "stock":
+                    productos = productos.OrderBy(p => p.Stock);
+                    break;
+                
+            }
 
             int pageSize = 20;
             return View(await PaginatedList<Producto>.CreateAsync(productos.AsNoTracking(),

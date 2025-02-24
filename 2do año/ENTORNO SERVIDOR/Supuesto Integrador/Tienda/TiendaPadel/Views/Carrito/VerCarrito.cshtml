@@ -24,26 +24,31 @@
         totalCompra += item.Cantidad * item.Precio;
 
         <div class="row border-bottom">
-            <div class="row main align-items-center">
+            <div class="row align-items-center">
 
-                <div class="col">
+                <div class="col-3">
                     <img src="~/imagenes/@item.Producto.Imagenes.First().Url" alt="Imagen de @item.Producto.Descripcion"
-                         style="width: 80px; height: 80px; margin: 5px; border-radius: 8px;">
+                         style="width: 70px; height: 80px; margin: 5px; border-radius: 8px;">
                 </div>
 
-                <div class="col">
+                <div class="col-3">
                     <div class="row">@item.Producto.Descripcion</div>
                 </div>
-                <div class="col d-flex">
+                <div class="col-3 d-flex justify-content-between">
                     <a asp-controller="Carrito" asp-action="MenosCantidad" asp-route-id="@item.Id" class="btn btn-outline-dark btn-sm">-</a>
                     @item.Cantidad
                     <a asp-controller="Carrito" asp-action="MasCantidad" asp-route-id="@item.Id" class="btn btn-outline-dark btn-sm">+</a>
                 </div>
-                <div class="col d-flex">@(item.Cantidad * item.Precio)€</div>
-                <div class="col"><a asp-controller="Carrito" asp-action="EliminarLinea" asp-route-id="@item.Id" class="btn-close"><i class="bi bi-x"></i></a></div>
+                <div class="col-2 d-flex">@(item.Cantidad * item.Precio)€</div>
+                <div class="col-1 text-end"><a asp-controller="Carrito" asp-action="EliminarLinea" asp-route-id="@item.Id" class="btn-close"><i class="bi bi-x"></i></a></div>
             </div>
         </div>
     }
+    <hr />
+    <div class="row d-flex justify-content-between">
+        <div class="col align-self-center text-right text-muted my-2">@contador items</div>
+        <div class="col-7 text-right">Total a pagar: <strong>@totalCompra €</strong></div>
+    </div>
 
     <div class="back-to-shop my-4 text-center">
         <a asp-area="" asp-controller="Carrito" asp-action="Index" class="btn btn-outline-dark">

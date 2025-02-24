@@ -16,7 +16,7 @@
     .carousel-container {
         position: relative;
         height: auto; /* Ajusta automáticamente al tamaño de las imágenes */
-        max-height: 22em; /* Opcional: ajusta esto según necesites */
+        max-height: 28em; /* Opcional: ajusta esto según necesites */
         overflow: hidden;
         display: flex;
         flex-direction: column;
@@ -31,7 +31,7 @@
     .carousel-container {
         position: relative;
         height: auto; /* Ajusta automáticamente al tamaño de las imágenes */
-        max-height: 18em; /* Opcional: ajusta esto según necesites */
+        max-height: 24em; /* Opcional: ajusta esto según necesites */
         overflow: hidden;
         display: flex;
         flex-direction: column;

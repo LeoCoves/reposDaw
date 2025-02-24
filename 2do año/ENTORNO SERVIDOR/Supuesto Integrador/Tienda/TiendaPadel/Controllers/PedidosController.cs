@@ -82,6 +82,7 @@ namespace TiendaPadel.Controllers
 
 
             var pedido = await _context.Pedidos
+                .Include(p => p.Cliente)
                 .Include(p => p.Estado)
                 .Include(p => p.Detalles)
                     .ThenInclude(d => d.Producto)

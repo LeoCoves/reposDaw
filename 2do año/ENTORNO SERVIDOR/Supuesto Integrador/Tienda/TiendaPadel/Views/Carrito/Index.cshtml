@@ -9,7 +9,7 @@
 .title{
     margin-bottom: 5vh;
 }
-.card{
+.cardCarrito{
     margin: auto;
     max-width: 950px;
     width: 90%;
@@ -60,7 +60,7 @@ img{
     width: 3.5rem;
 }
 .back-to-shop{
-    margin-top: 4.5rem;
+    margin: 2.5rem;
     
 }
 h5{
@@ -95,11 +95,19 @@ input:focus::-webkit-input-placeholder
     background-position-x: 95%;
     background-position-y: center;
 }
+
+
+    .scroll-container {
+        height: 600px;
+        overflow-y: auto; 
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
 </style>
 
 @if (!Model.Detalles.Any())
 {
-    <div class="card my-4">
+    <div class="cardCarrito my-4">
         <div class="row cart text-center">
             <div class="title">
                 <div class="row">
@@ -117,9 +125,9 @@ input:focus::-webkit-input-placeholder
 else
 {
     <div class="card mt-4">
-        <div class="row">
-            <div class="col-md-8 cart">
-                <div>
+        <div class="row shadow-lg">
+            <div class="scroll-container col-md-8 cart">
+                <div >
                     <div class="title">
                         <div class="row">
                             <div class="col"><h4><b>Carrito de Compras</b></h4></div>
@@ -200,25 +208,25 @@ else
                     contador++;
                     totalCompra += item.Cantidad * item.Precio;
 
-                    <div class="row border-top border-bottom">
+                    <div class="row border-top border-bottom" >
                         <div class="row main align-items-center">
 
-                            <div class="col">
+                            <div class="col-3">
                                 <img src="~/imagenes/@item.Producto.Imagenes.First().Url" alt="Imagen de @item.Producto.Descripcion"
                                      style="width: 80px; height: 80px; margin: 5px; border-radius: 8px;">
                             </div>
 
-                            <div class="col">
+                            <div class="col-3">
                                 <div class="row text-muted">@item.Producto.Categoria</div>
                                 <div class="row">@item.Producto.Descripcion</div>
                             </div>
-                            <div class="col">
+                            <div class="col-3 d-flex justify-content-between">
                                 <a asp-action="MenosCantidad" asp-route-id="@item.Id" class="btn btn-outline-dark btn-sm">-</a>
                                 @item.Cantidad
                                 <a asp-action="MasCantidad" asp-route-id="@item.Id" class="btn btn-outline-dark btn-sm">+</a>
                             </div>
-                            <div class="col">@(item.Cantidad * item.Precio) €</div>
-                            <div class="col"><a asp-action="EliminarLinea" asp-route-id="@item.Id" class="btn-close"><i class="bi bi-x"></i></a></div>
+                            <div class="col-2">@(item.Cantidad * item.Precio) €</div>
+                            <div class="col-1"><a asp-action="EliminarLinea" asp-route-id="@item.Id" class="btn-close"><i class="bi bi-x"></i></a></div>
                         </div>
                     </div>
                 }

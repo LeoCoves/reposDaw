@@ -4,6 +4,15 @@
     ViewData["Title"] = "Clientes";
 }
 
+<style>
+    .address-text {
+        width: 120px; /* Establece un ancho fijo para la celda */
+        white-space: nowrap; /* Evita que el texto se ajuste a varias líneas */
+        overflow: hidden; /* Oculta el texto que se desborda */
+        text-overflow: ellipsis; /* Muestra los puntos suspensivos (...) cuando el texto se corta */
+    }
+</style>
+
 <div class="text-center my-3">
     <h1>Clientes</h1>
    
@@ -11,8 +20,8 @@
 
 @* Agregar un cuadro de búsqueda en la vista Index de Avisos *@
 <form asp-action="Index">
-    <div class="card bg-dark my-5">
-        <div class="card-body text-center d-flex flex-wrap justify-content-around">
+    <div class="rounded-2 bg-dark my-5 p-3">
+        <div class="text-center d-flex flex-wrap justify-content-around">
             <div class="col-md-3 my-1 form-floating">
                 <input type="text" name="strCadenaBusqueda" id="floatingInput"
                        value="@ViewData["BusquedaActual"]" class="form-control" />
@@ -29,7 +38,7 @@
                 <label for="floatingInput">Poblacion</label>
             </div>
         </div>
-        <div class="card-footer  d-flex justify-content-end">
+        <div class="mt-2 d-flex justify-content-end">
                 <div class="col-md-2 btn-group mx-2">
                     <button type="submit" value="Buscar" class="btn btn-outline-light"><i class="bi bi-search"></i></button>
                     <a asp-action="Index" class="btn btn-outline-light">Ver todo</a>
@@ -84,7 +93,9 @@
                 @Html.DisplayFor(modelItem => item.Telefono)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Direccion)
+               <div class="adress-text">
+                    @Html.DisplayFor(modelItem => item.Direccion)
+               </div>
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Poblacion)

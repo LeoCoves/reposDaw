@@ -129,6 +129,15 @@ namespace TiendaPadel.Controllers
             await _context.SaveChangesAsync();
 
             HttpContext.Session.Remove("NumPedido");
+
+
+                bool pedidoExitoso = true;
+
+                if (pedidoExitoso)
+                {
+                    TempData["PedidoRealizado"] = "¡Pedido realizado con éxito!";
+                }
+
             return RedirectToAction("Index", "Escaparate");
         }
 

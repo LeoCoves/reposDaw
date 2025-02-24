@@ -125,7 +125,7 @@ a{
 
 
 .custom-cardShoes {
-    background: url('../imagenes/greenshoes.webp');
+    background: url('../imagenes/palaBlanca.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -152,7 +152,7 @@ a{
 
 
 
-@media (min-width: 476px) {
+@media (min-width: 570px) {
     .navbar-brand {
         position: absolute;
         left: 50%;
@@ -163,6 +163,7 @@ a{
         position: absolute;
         right: 0;
     }
+    
 }
 .mostrar-en-movil {
     display: none;
@@ -172,6 +173,20 @@ a{
     display: block;
 }
 
+.card {
+    height: 500px;
+}
+
+.card-img-top {
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-body {
+    height: calc(100% - 200px);
+}
+
+
 @media (max-width: 768px) {
     .mostrar-en-movil {
         display: block;
@@ -179,6 +194,19 @@ a{
 
     .ocultar-en-movil {
         display: none !important;
+    }
+    .card {
+        height: 350px;
+    }
+
+    .card-img-top {
+        max-height: 200px;
+    }
+}
+
+@media (max-width: 450px) {
+    .card-img-top {
+        max-height: 130px !important;
     }
 }
 
@@ -284,8 +312,4 @@ a.btn-outline-light.text-dark:hover {
         border-color: #ffffff;
     }
 
-/* Para pantallas grandes, hacer los botones más grandes */
-
-/*FIN
-*/
 

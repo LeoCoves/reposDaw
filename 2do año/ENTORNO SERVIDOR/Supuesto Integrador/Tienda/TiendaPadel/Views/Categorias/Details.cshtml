@@ -8,8 +8,8 @@
     <h1><i class="bi bi-inboxes"></i> Detalles de Categoria</h1>
 </div>
 
-<div class="card bg-dark p-5 my-4">
-        <div class="card-body row g-3 text-light text-center">
+<div class="rounded-2 bg-dark p-5 my-4">
+        <div class="row g-3 text-light text-center">
             <div class="col-12 justify-content-center">
                 <span class="badge rounded-pill bg-light text-dark col-1">Descripción</span>
             </div>
@@ -17,7 +17,7 @@
                 @Html.DisplayFor(model => model.Descripcion)
             </div>
         </div>
-        <div class="card-footer d-flex justify-content-center">
+        <div class="my-2 d-flex justify-content-center">
             <div class="btn-group col-4">
                 <a class="btn btn-outline-primary" asp-action="Index">Volver</a>
                 <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.Id">Editar</a>
