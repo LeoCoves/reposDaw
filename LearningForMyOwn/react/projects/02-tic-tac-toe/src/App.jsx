@@ -7,8 +7,18 @@ import confetti from 'canvas-confetti'
 
 
 function App() {
-  const [board, setBoard] = useState(Array(9).fill(null))
-  const [turn, setTurn] = useState(TURNS.X)
+  const [board, setBoard] = useState(() => {
+    const boardFromStorage = localStorage.getItem('board')
+    return boardFromStorage 
+    ? JSON.parse(boardFromStorage) // Si es true el boardFromStorage
+    : Array(9).fill(null) // Si no hay nada en el local storage
+  })
+
+  const [turn, setTurn] = useState(() => {
+    const turnFromStorage = localStorage.getItem('board-turn')
+    return turnFromStorage
+    ?? TURNS.X // Si es null o undefined el localStorage
+  })
   const [winner, setWinner] = useState(null)
 
   const checkWinner = (boardToCheck) => {
@@ -31,6 +41,9 @@ function App() {
     setBoard(Array(9).fill(null))
     setTurn(TURNS.X)
     setWinner(null)
+
+    localStorage.removeItem('board')
+    localStorage.removeItem('board-turn')
   }
 
   const checkEndGame = (boardToCheck) => {
@@ -49,6 +62,10 @@ function App() {
     //Actualizar el turno
     const newTurn = turn === TURNS.X ? TURNS.O : TURNS.X
     setTurn(newTurn)
+
+    //Guardar la partida en el local storage
+    localStorage.setItem('board', JSON.stringify(newBoard))
+    localStorage.setItem('board-turn', newTurn)
 
     //Revisar si hay ganador
     const newWinner = checkWinner(newBoard)
