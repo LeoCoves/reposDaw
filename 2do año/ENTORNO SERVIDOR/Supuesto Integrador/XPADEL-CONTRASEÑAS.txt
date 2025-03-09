@@ -1,0 +1,11 @@
+XPADEL-CONTRASEÑAS
+
+ADMINISTRADOR
+User -> admin@empresa.com
+Password -> Admin-123
+
+USUARIO
+User -> usuario1@empresa.com
+Password -> Usuario1123
+
+

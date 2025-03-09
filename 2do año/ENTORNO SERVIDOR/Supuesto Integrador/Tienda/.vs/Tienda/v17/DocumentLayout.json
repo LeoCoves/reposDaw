@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQL15/aspnet_TiendaPadel_26265562_607c_4da3_b3be_415f36144b5c/True/SqlTable/dbo.ImagenesProducto.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C4D04586-D2BB-4483-AD52-3F5CBFD11F20}|TiendaPadel\\TiendaPadel.csproj|c:\\users\\lcove\\desktop\\repositorios\\reposdaw\\2do a\u00F1o\\entorno servidor\\supuesto integrador\\tienda\\tiendapadel\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{C4D04586-D2BB-4483-AD52-3F5CBFD11F20}|TiendaPadel\\TiendaPadel.csproj|solutionrelative:tiendapadel\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -242,7 +245,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductosController.cs",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Controllers\\ProductosController.cs",
               "RelativeDocumentMoniker": "TiendaPadel\\Controllers\\ProductosController.cs",
@@ -255,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -268,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\MisDatos\\Edit.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\MisDatos\\Edit.cshtml",
@@ -281,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Escaparate\\Index.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Escaparate\\Index.cshtml",
@@ -295,6 +298,16 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "dbo.ImagenesProducto [Datos]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQL15/aspnet_TiendaPadel_26265562_607c_4da3_b3be_415f36144b5c/True/SqlTable/dbo.ImagenesProducto.sql",
+              "ToolTip": "dbo.ImagenesProducto [Datos]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-25T17:50:50.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "TiendaPadel\\wwwroot\\css\\site.css",
@@ -307,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PedidosController.cs",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Controllers\\PedidosController.cs",
               "RelativeDocumentMoniker": "TiendaPadel\\Controllers\\PedidosController.cs",
@@ -319,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Shared\\_Layout.cshtml",
@@ -331,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EscaparateController.cs",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Controllers\\EscaparateController.cs",
               "RelativeDocumentMoniker": "TiendaPadel\\Controllers\\EscaparateController.cs",
@@ -343,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Productos\\Index.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Productos\\Index.cshtml",
@@ -355,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Carrito\\Index.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Carrito\\Index.cshtml",
@@ -367,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Pedidos\\Details.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Pedidos\\Details.cshtml",
@@ -379,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CarritoController.cs",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Controllers\\CarritoController.cs",
               "RelativeDocumentMoniker": "TiendaPadel\\Controllers\\CarritoController.cs",
@@ -391,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "carousel.css",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\css\\carousel.css",
               "RelativeDocumentMoniker": "TiendaPadel\\wwwroot\\css\\carousel.css",
@@ -403,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "TiendaPadel\\Controllers\\HomeController.cs",
@@ -415,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Home\\Index.cshtml",
@@ -427,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Home\\Privacy.cshtml",
@@ -439,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Productos\\Edit.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Productos\\Edit.cshtml",
@@ -451,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Productos\\Details.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Productos\\Details.cshtml",
@@ -463,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Clientes\\Details.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Clientes\\Details.cshtml",
@@ -475,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "MisPedidosController.cs",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Controllers\\MisPedidosController.cs",
               "RelativeDocumentMoniker": "TiendaPadel\\Controllers\\MisPedidosController.cs",
@@ -487,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Estados\\Edit.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Estados\\Edit.cshtml",
@@ -499,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Pedidos\\Edit.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Pedidos\\Edit.cshtml",
@@ -511,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Clientes\\Edit.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Clientes\\Edit.cshtml",
@@ -523,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Categorias\\Details.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Categorias\\Details.cshtml",
@@ -535,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Categorias\\Edit.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Categorias\\Edit.cshtml",
@@ -547,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\MisPedidos\\Index.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\MisPedidos\\Index.cshtml",
@@ -559,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Pedidos\\Index.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Pedidos\\Index.cshtml",
@@ -571,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Estados\\Create.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Estados\\Create.cshtml",
@@ -583,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Categorias\\Create.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Categorias\\Create.cshtml",
@@ -595,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Categorias\\Delete.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Categorias\\Delete.cshtml",
@@ -607,7 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Estados\\Delete.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Estados\\Delete.cshtml",
@@ -619,7 +632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Estados\\Details.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Estados\\Details.cshtml",
@@ -631,7 +644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\MisPedidos\\Details.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\MisPedidos\\Details.cshtml",
@@ -643,7 +656,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "VerCarrito.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Carrito\\VerCarrito.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Carrito\\VerCarrito.cshtml",
@@ -655,7 +668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Clientes\\Index.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Clientes\\Index.cshtml",
@@ -667,7 +680,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Usuarios\\Index.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Usuarios\\Index.cshtml",
@@ -679,7 +692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Estados\\Index.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Estados\\Index.cshtml",
@@ -691,7 +704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Categorias\\Index.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Categorias\\Index.cshtml",
@@ -703,7 +716,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Pedidos\\Create.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Pedidos\\Create.cshtml",
@@ -715,7 +728,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Pedidos\\Delete.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Pedidos\\Delete.cshtml",
@@ -727,7 +740,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Lockout.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
@@ -739,7 +752,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Areas\\Identity\\Pages\\Error.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Areas\\Identity\\Pages\\Error.cshtml",
@@ -751,7 +764,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "onload.css",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\css\\onload.css",
               "RelativeDocumentMoniker": "TiendaPadel\\wwwroot\\css\\onload.css",
@@ -763,7 +776,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
@@ -775,7 +788,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "ConfirmEmail.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
@@ -787,7 +800,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
@@ -799,7 +812,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "ConfirmEmailChange.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
@@ -811,7 +824,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "RegisterConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
@@ -823,7 +836,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "ResetPasswordConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
@@ -835,7 +848,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "ResendEmailConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
@@ -847,7 +860,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
@@ -859,7 +872,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -871,7 +884,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "CambiarImagen.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Productos\\CambiarImagen.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Productos\\CambiarImagen.cshtml",
@@ -883,7 +896,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "TiendaPadel\\Models\\Producto.cs",
@@ -895,7 +908,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Productos\\Delete.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Productos\\Delete.cshtml",
@@ -907,7 +920,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "TiendaPadel\\Views\\Shared\\_LoginPartial.cshtml",
@@ -919,7 +932,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "bootstrap.css",
               "DocumentMoniker": "C:\\Users\\lcove\\Desktop\\repositorios\\reposDaw\\2do a\u00F1o\\ENTORNO SERVIDOR\\Supuesto Integrador\\Tienda\\TiendaPadel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
               "RelativeDocumentMoniker": "TiendaPadel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
